@@ -1,104 +1,69 @@
-import Link from "next/link";
-import QuickAnswerBox from "@/components/QuickAnswerBox";
-import OutfitTable from "@/components/OutfitTable";
+import React from "react";
 import FAQAccordion from "@/components/FAQAccordion";
 import ColorSwatch from "@/components/ColorSwatch";
-import { POSTS, type PostContent, type Section } from "@/lib/posts";
-
-type Bullet = { label: string; text: string };
-
-function toBullet(item: unknown): Bullet {
-  if (typeof item === "string") {
-    const i = item.indexOf(":");
-    return i > 0
-      ? { label: item.slice(0, i).trim(), text: item.slice(i + 1).trim() }
-      : { label: item.slice(0, 30), text: item };
-  }
-  const b = item as Partial<Bullet>;
-  return { label: String(b.label ?? ""), text: String(b.text ?? "") };
-}
+import { POSTS, type PostContent, type Section, type PostMeta } from "@/lib/posts";
 
 function SectionBlock({ section }: { section: Section }) {
-  const bullets = ((section.bullets ?? []) as unknown[]).map(toBullet);
-
   return (
-    <>
-      <h2>{section.heading}</h2>
-      {(section.paragraphs ?? []).map((p: string) => (
-        <p key={p.slice(0, 40)}>{p}</p>
-      ))}
-      {bullets.length > 0 && (
-        <ul>
-          {bullets.map((b) => (
-            <li key={b.label}>
-              <strong>{b.label}:</strong> {b.text}
-            </li>
-          ))}
-        </ul>
+    <div className="my-8">
+      {section.heading && (
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4 tracking-tight">
+          {section.heading}
+        </h2>
       )}
-    </>
-  );
-}
-
-export default function PostBody({ slug, content }: { slug: string; content: PostContent }) {
-  const related = POSTS.filter((p) => p.slug !== slug);
-  const introParagraphs: string[] = Array.isArray(content.intro)
-    ? content.intro
-    : content.intro
-      ? [content.intro]
-      : [];
-
-  return (
-    <div>
-      <div className="prose prose-slate max-w-none prose-headings:font-bold prose-h2:mt-10 prose-a:text-blue-600">
-        <QuickAnswerBox title={content.quickAnswerTitle ?? ""}>
-          {content.quickAnswer ?? ""}
-        </QuickAnswerBox>
-
-        {introParagraphs.map((p) => (
-          <p key={p.slice(0, 40)} className="text-lg">
+      {Array.isArray(section.paragraphs) &&
+        section.paragraphs.map((p: any, idx: number) => (
+          <p key={idx} className="my-4 text-slate-700 leading-relaxed">
             {p}
           </p>
         ))}
+      {Array.isArray(section.bullets) && section.bullets.length > 0 && (
+        <ul className="my-4 list-disc list-inside space-y-2 text-slate-700">
+          {section.bullets.map((b: any, idx: number) => (
+            <li key={idx}>{b}</li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
 
-        <div className="not-prose my-6">
-          <h3 className="mb-2 text-sm font-bold uppercase tracking-wider text-slate-500">
-            {content.swatchHeading ?? "Color Palette"}
+export default function PostBody({
+  content,
+  post,
+}: {
+  content?: PostContent;
+  post?: PostMeta;
+}) {
+  const sections = content?.sections || post?.sections || [];
+  const faqs = content?.faqs || post?.faqs || [];
+  const swatches = content?.swatches || (post as any)?.swatches || [];
+
+  return (
+    <div className="prose prose-slate max-w-none text-slate-800 leading-relaxed">
+      {swatches.length > 0 && (
+        <div className="my-6 not-prose">
+          <h3 className="text-sm font-bold uppercase tracking-wider text-slate-500 mb-2">
+            Recommended Color Swatches
           </h3>
           <div className="flex flex-wrap gap-2">
-            {(content.swatches ?? []).map((s) => (
-              <ColorSwatch key={s.name} colorName={s.name} hex={s.hex} role={s.role} />
+            {swatches.map((s: any, idx: number) => (
+              <ColorSwatch
+                key={idx}
+                colorName={s.name || s.colorName}
+                hex={s.hex}
+                role={s.role}
+              />
             ))}
           </div>
         </div>
+      )}
 
-        {content.sections.map((s) => (
-          <SectionBlock key={s.heading} section={s} />
-        ))}
+      {sections.map((section: any, idx: number) => (
+        <SectionBlock key={idx} section={section} />
+      ))}
 
-        <OutfitTable caption={content.tableCaption ?? ""} rows={content.tableRows ?? []} />
-
-        {(content.afterTable ?? []).map((s) => (
-          <SectionBlock key={s.heading} section={s} />
-        ))}
-
-        <div className="not-prose my-8 rounded-lg border border-slate-200 bg-slate-50 p-5">
-          <h3 className="mb-2 text-sm font-bold uppercase tracking-wide text-slate-900">
-            Related Trouser Color Guides
-          </h3>
-          <ul className="space-y-1 text-sm">
-            {related.map((p) => (
-              <li key={p.slug}>
-                <Link href={`/blog/${p.slug}`} className="font-medium text-blue-600 hover:underline">
-                  {p.title}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
-
-      <FAQAccordion items={content.faqs ?? []} />
+      {faqs && faqs.length > 0 && <FAQAccordion items={faqs} />}
     </div>
   );
 }
