@@ -4,11 +4,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { getPostBySlug, getPostSlugs, getRelatedPosts } from "@/lib/posts";
+import PostBody from "@/components/PostBody";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
 import OutfitTable from "@/components/OutfitTable";
 import ColorSwatch from "@/components/ColorSwatch";
 import FAQAccordion from "@/components/FAQAccordion";
-import { ArticleJsonLd, BreadcrumbJsonLd, FAQPageJsonLd } from "@/components/JsonLd";
+import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/JsonLd";
 import { Calendar, Clock, ChevronRight } from "lucide-react";
 
 interface Props {
@@ -133,7 +134,6 @@ export default async function BlogPostPage({ params }: Props) {
   if (!post) notFound();
 
   const frontmatter = post.frontmatter || {};
-  const content = post.content || "";
   const relatedSlugs = Array.isArray(frontmatter.related) ? frontmatter.related : [];
   const relatedPosts = getRelatedPosts(slug, relatedSlugs);
 
@@ -152,7 +152,7 @@ export default async function BlogPostPage({ params }: Props) {
 
   return (
     <article className="max-w-4xl mx-auto px-4 sm:px-6 py-10 md:py-14">
-      {/* Schema Markup */}
+      {/* Schema Markup for Google SEO */}
       <ArticleJsonLd
         title={frontmatter.title || "Men's Styling Guide"}
         description={frontmatter.description || ""}
@@ -161,9 +161,6 @@ export default async function BlogPostPage({ params }: Props) {
         image={activeImage.url}
       />
       <BreadcrumbJsonLd items={breadcrumbs} />
-      {frontmatter.faqs && frontmatter.faqs.length > 0 && (
-        <FAQPageJsonLd items={frontmatter.faqs} />
-      )}
 
       {/* Breadcrumb Navigation */}
       <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 text-xs text-slate-500 mb-6">
@@ -180,7 +177,7 @@ export default async function BlogPostPage({ params }: Props) {
         </span>
       </nav>
 
-      {/* Article Header (US Searches ko hata kar Verified Style Guide kar diya gaya hai) */}
+      {/* Article Header (Clean Professional Badge) */}
       <header className="border-b border-slate-200 pb-8 mb-8">
         <div className="flex flex-wrap items-center gap-4 text-xs text-slate-500 mb-3">
           <span className="flex items-center gap-1">
@@ -198,7 +195,7 @@ export default async function BlogPostPage({ params }: Props) {
         </h1>
       </header>
 
-      {/* UPSCALE FEATURED HEADER IMAGE */}
+      {/* Featured Header Image */}
       <div className="relative w-full aspect-[16/9] sm:aspect-[21/9] mb-10 overflow-hidden rounded-2xl border border-slate-200 shadow-md">
         <Image
           src={activeImage.url}
@@ -211,10 +208,17 @@ export default async function BlogPostPage({ params }: Props) {
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950/20 via-transparent to-transparent pointer-events-none" />
       </div>
 
-      {/* Render MDX Body */}
-      <div className="prose prose-slate max-w-none text-slate-800 leading-relaxed">
-        <MDXRemote source={content} components={mdxComponents} />
-      </div>
+      {/* 1. IF POST HAS JSON (Brown, Navy, Khaki, Olive) -> RENDER VIA POSTBODY */}
+      {post.contentData && (
+        <PostBody content={post.contentData} post={frontmatter} />
+      )}
+
+      {/* 2. IF POST HAS MDX (Grey Pants) -> RENDER VIA MDXREMOTE */}
+      {post.content && !post.contentData && (
+        <div className="prose prose-slate max-w-none text-slate-800 leading-relaxed">
+          <MDXRemote source={post.content} components={mdxComponents} />
+        </div>
+      )}
 
       {/* Related Posts */}
       {relatedPosts.length > 0 && (
