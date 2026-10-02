@@ -1,0 +1,54 @@
+{
+  "quickAnswerTitle": "Quick Answer: Which Shirt Collar Style Is Best?",
+  "quickAnswer": "The Semi-Spread collar is the most versatile dress collar for 90% of men, balancing medium-width suit lapels with or without a tie. If you have a round face, choose a Classic Point collar to lengthen your features. If you have a narrow or angular face, choose an English Spread or Cutaway collar to add horizontal width.",
+  "intro": "The collar is the most important anatomical component of any shirt. Because it sits directly beneath your chin, it frames your facial structure, dictates your necktie knot choice, and determines whether an outfit leans formal or casual. Choosing the wrong collar can widen an already broad face or make an expensive tailored suit look mismatched.",
+  "swatchHeading": "Classic Collar Color Foundations",
+  "swatches": [
+    { "name": "Crisp White Spread", "hex": "#FFFFFF", "role": "Formal Suiting" },
+    { "name": "Sky Blue Button-Down", "hex": "#87CEEB", "role": "Ivy Business Casual" },
+    { "name": "Ecru Camp Collar", "hex": "#F5F5DC", "role": "Warm-Weather Casual" }
+  ],
+  "sections": [
+    {
+      "heading": "1. The Semi-Spread Collar: The Modern Corporate Benchmark",
+      "paragraphs": [
+        "A semi-spread collar features point tips positioned approximately 3.5 to 4 inches apart. It strikes a balance between conservative point collars and dramatic British cutaways.",
+        "It effortlessly accommodates medium-sized tie knots—such as the Four-in-Hand and Half-Windsor—while maintaining enough structure to stand upright when worn open-collar under a blazer."
+      ],
+      "bullets": [
+        { "label": "Best Face Shape", "text": "Universally flattering on oval, angular, and rectangular face profiles." },
+        { "label": "Optimal Knot", "text": "Half-Windsor or double four-in-hand knot." }
+      ]
+    },
+    {
+      "heading": "2. The Classic Point Collar: The Face-Lengthening Traditionalist",
+      "paragraphs": [
+        "Classic point collars feature narrow spreads (less than 3 inches between points). The vertical direction of the points creates an optical illusion that draws the eye downward.",
+        "Men with rounder faces or shorter necks benefit significantly from point collars, as the sharp downward angle creates a slimming, vertical elongation."
+      ]
+    },
+    {
+      "heading": "3. The Button-Down Collar (OCBD): The Ivy League Icon",
+      "paragraphs": [
+        "Originally borrowed from polo players who needed to keep their collars from flapping in the wind, the Oxford Cloth Button-Down features small button holes that secure the points to the shirt body.",
+        "A quality button-down collar features an unlined, soft construction that forms a relaxed S-shaped curve (the famous collar roll). Pair it with tailored chinos for quintessential business casual."
+      ]
+    },
+    {
+      "heading": "4. The Cuban / Camp Collar: The Retro Resort Staple",
+      "paragraphs": [
+        "Unlike formal folded neckbands, the camp collar lays completely flat against your clavicle, creating a continuous open V-neck notch lapel. It contains zero interior stiffeners and is strictly designed for casual warm-weather tailoring."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can you wear a tie with a button-down collar?",
+      "answer": "Yes. An Oxford cloth button-down with a knit silk tie or repp-stripe collegiate tie is a foundational staple of classic American business casual."
+    },
+    {
+      "question": "What is the difference between spread and cutaway collars?",
+      "answer": "Spread collars feature points angled outward at roughly 45 degrees. Cutaway collars feature extreme horizontal spread (nearly 180 degrees), revealing the entire tie knot and shirt band."
+    }
+  ]
+}
