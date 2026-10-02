@@ -5,16 +5,32 @@ import FAQAccordion from "@/components/FAQAccordion";
 import ColorSwatch from "@/components/ColorSwatch";
 import { POSTS, type PostContent, type Section } from "@/lib/posts";
 
+type Bullet = { label: string; text: string };
+
+// Accepts either {label, text} objects or plain "Label: text" strings.
+function toBullet(item: unknown): Bullet {
+  if (typeof item === "string") {
+    const i = item.indexOf(":");
+    return i > 0
+      ? { label: item.slice(0, i).trim(), text: item.slice(i + 1).trim() }
+      : { label: item.slice(0, 30), text: item };
+  }
+  const b = item as Partial<Bullet>;
+  return { label: String(b.label ?? ""), text: String(b.text ?? "") };
+}
+
 function SectionBlock({ section }: { section: Section }) {
+  const bullets = ((section.bullets ?? []) as unknown[]).map(toBullet);
+
   return (
     <>
       <h2>{section.heading}</h2>
       {section.paragraphs.map((p) => (
         <p key={p.slice(0, 40)}>{p}</p>
       ))}
-      {section.bullets && (
+      {bullets.length > 0 && (
         <ul>
-          {section.bullets.map((b) => (
+          {bullets.map((b) => (
             <li key={b.label}>
               <strong>{b.label}:</strong> {b.text}
             </li>
