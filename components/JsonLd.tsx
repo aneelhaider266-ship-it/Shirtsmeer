@@ -119,7 +119,13 @@ export function FAQPageJsonLd({ items }: { items: { question: string; answer: st
   );
 }
 
-// Default export safeguard
-export default function JsonLd() {
-  return null;
+// Default export jo layout.tsx ke <JsonLd data={...} /> ko 100% support karega
+export default function JsonLd({ data }: { data?: any } = {}) {
+  if (!data) return null;
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
 }
