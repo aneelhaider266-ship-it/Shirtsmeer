@@ -22,6 +22,7 @@ export interface PostMeta {
   primaryKeyword: string;
   searchVolume: number;
   publishedDate: string;
+  updatedDate?: string | Date;
   date?: string;
   readTime: string;
   image?: string;
@@ -47,6 +48,7 @@ export const POSTS: PostMeta[] = [
     primaryKeyword: "grey pants",
     searchVolume: 2900,
     publishedDate: "2026-03-15",
+    updatedDate: "2026-03-15",
     date: "2026-03-15",
     readTime: "7 min read",
     image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80",
@@ -64,6 +66,7 @@ export const POSTS: PostMeta[] = [
     primaryKeyword: "brown pants",
     searchVolume: 2900,
     publishedDate: "2026-03-16",
+    updatedDate: "2026-03-16",
     date: "2026-03-16",
     readTime: "7 min read",
     image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=1200&q=80",
@@ -81,6 +84,7 @@ export const POSTS: PostMeta[] = [
     primaryKeyword: "navy blue pants",
     searchVolume: 1600,
     publishedDate: "2026-03-17",
+    updatedDate: "2026-03-17",
     date: "2026-03-17",
     readTime: "7 min read",
     image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
@@ -98,6 +102,7 @@ export const POSTS: PostMeta[] = [
     primaryKeyword: "khaki pants",
     searchVolume: 1300,
     publishedDate: "2026-03-18",
+    updatedDate: "2026-03-18",
     date: "2026-03-18",
     readTime: "7 min read",
     image: "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?auto=format&fit=crop&w=1200&q=80",
@@ -115,6 +120,7 @@ export const POSTS: PostMeta[] = [
     primaryKeyword: "olive green pants",
     searchVolume: 1600,
     publishedDate: "2026-03-19",
+    updatedDate: "2026-03-19",
     date: "2026-03-19",
     readTime: "7 min read",
     image: "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=1200&q=80",
@@ -150,6 +156,7 @@ export function getPostBySlug(slug: string): PostData | null {
         excerpt: String(data.excerpt || data.description || ""),
         date: String(data.date || "2026-03-15"),
         publishedDate: String(data.date || "2026-03-15"),
+        updatedDate: String(data.updatedDate || data.date || "2026-03-15"),
         readTime: "7 min read",
         primaryKeyword: String(data.primaryKeyword || "Menswear"),
         searchVolume: Number(data.searchVolume || 1600),
