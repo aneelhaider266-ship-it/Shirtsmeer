@@ -1,0 +1,48 @@
+{
+  "quickAnswerTitle": "Quick Answer: Poplin vs Twill vs Oxford Cloth?",
+  "quickAnswer": "Choose Poplin for formal business meetings and hot summer days: it is lightweight, breathable, and smooth. Choose Twill for daily corporate durability: its diagonal ribbing resists wrinkles, drapes heavily, and is easy to iron. Choose Oxford Cloth (OCBD) for smart casual: its heavy basketweave texture is durable and looks best open-collar.",
+  "intro": "When shopping for dress shirts, men frequently focus on color while completely overlooking the weave. Yet the weave determines how warm the shirt feels, how easily it wrinkles, how it drapes over your torso, and what level of formality it conveys. We break down the physics and dress codes of the three foundational shirting weaves.",
+  "swatchHeading": "Essential Weave Colors",
+  "swatches": [
+    { "name": "Crisp White Poplin", "hex": "#FFFFFF", "role": "Maximum Formal Sheen" },
+    { "name": "French Blue Twill", "hex": "#3B82F6", "role": "Wrinkle-Resistant Depth" },
+    { "name": "Heavy Blue Oxford", "hex": "#5B84B1", "role": "Textured Smart Casual" }
+  ],
+  "sections": [
+    {
+      "heading": "1. Poplin (Broadcloth): The Formal Plain-Weave Standard",
+      "paragraphs": [
+        "Poplin is woven using a simple over-under plain weave with fine horizontal ribs. It produces a thin, smooth, and lightweight surface with zero texture.",
+        "Because poplin is woven tightly from fine yarns, it feels cool against the skin and breathes exceptionally well in warm climates. However, because it lacks diagonal elasticity, it wrinkles more readily than heavier weaves."
+      ],
+      "bullets": [
+        { "label": "Formality", "text": "10/10 — The formal choice for black-tie affairs, executive meetings, and weddings." },
+        { "label": "Weight", "text": "Lightweight (100–120 GSM) with a crisp, cool hand-feel." }
+      ]
+    },
+    {
+      "heading": "2. Twill: The Wrinkle-Resistant Daily Workhorse",
+      "paragraphs": [
+        "Twill is easily recognized by its diagonal parallel ridges. Common variations include herringbone, cavalry twill, and royal twill.",
+        "The diagonal weave gives twill substantial weight and natural flexibility. It drapes smoothly over the torso, masking minor body imperfections, and is significantly more resistant to creasing throughout an 8-hour workday."
+      ]
+    },
+    {
+      "heading": "3. Oxford Cloth (OCBD): The Casual Basketweave",
+      "paragraphs": [
+        "Oxford cloth uses a basketweave technique where multiple warp threads cross over equal numbers of weft threads. Traditional Oxford combines dyed warp yarns with bleached white weft yarns, creating a subtle cross-hatch texture.",
+        "It is heavier, sturdier, and softens with every wash cycle. Oxford cloth pairs naturally with textured trousers. See our guide on What Color Shirt Goes with Khaki Pants to pair Oxford shirts perfectly."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is Poplin see-through?",
+      "answer": "Lightweight white poplin can sometimes be translucent under bright sunlight. Choose a higher-thread-count broadcloth (100s two-ply) or wear a heather grey undershirt to prevent transparency."
+    },
+    {
+      "question": "Which shirt fabric is easiest to iron?",
+      "answer": "Twill is the easiest to iron because its diagonal structure naturally releases wrinkles with moderate steam. Poplin requires hotter iron temperatures."
+    }
+  ]
+}
