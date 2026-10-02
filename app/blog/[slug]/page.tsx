@@ -21,39 +21,46 @@ const mdxComponents = {
   OutfitTable,
   ColorSwatch,
   FAQAccordion,
-  Image: (props: any) => (
-    <Image
-      {...props}
-      className="rounded-xl border border-slate-200 my-6 shadow-sm"
-      loading={props.priority ? undefined : "lazy"}
-    />
-  ),
-  a: ({ href, children, ...props }: any) => {
-    const isInternal = href && (href.startsWith("/") || href.startsWith("#"));
-    if (isInternal) {
+  Image: (props: any) => {
+    if (!props.width && !props.height && !props.fill) {
       return (
-        <Link href={href} className="text-blue-600 underline hover:text-blue-800 transition-colors" {...props}>
-          {children}
-        </Link>
+        <img
+          {...props}
+          className="rounded-xl border border-slate-200 my-6 shadow-sm w-full h-auto object-cover"
+          loading="lazy"
+        />
       );
     }
     return (
-      <a
-        href={href}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-600 underline hover:text-blue-800 transition-colors"
+      <Image
         {...props}
-      >
-        {children}
-      </a>
+        className={`rounded-xl border border-slate-200 my-6 shadow-sm ${props.className || ""}`}
+        loading={props.priority ? undefined : "lazy"}
+      />
     );
+  },
+  img: (props: any) => (
+    <img
+      {...props}
+      className="rounded-xl border border-slate-200 my-6 shadow-sm w-full h-auto object-cover"
+      loading="lazy"
+    />
+  ),
+  a: ({ href, children, className = "", ...props }: any) => {
+    const isInternal = href && (href.startsWith("/") || href.startsWith("#"));
+    const linkClasses = `text-blue-600 underline font-medium hover:text-blue-800 transition-colors ${className}`;
+    if (isInternal) {
+      return <Link href={href} className={linkClasses} {...props}>{children}</Link>;
+    }
+    return <a href={href} target="_blank" rel="noopener noreferrer" className={linkClasses} {...props}>{children}</a>;
   },
 };
 
 const DEFAULT_FALLBACK_IMAGE = "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80";
 
+// 14 ARTICLES KI HIGH-RES MENSWEAR IMAGES MAPPING
 const ARTICLE_IMAGES: Record<string, { url: string; alt: string }> = {
+  // --- Trouser Guides ---
   "what-color-shirt-goes-with-grey-pants": {
     url: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80",
     alt: "Tailored grey trousers neatly paired with crisp white and blue dress shirts",
@@ -73,6 +80,46 @@ const ARTICLE_IMAGES: Record<string, { url: string; alt: string }> = {
   "what-color-shirt-goes-with-olive-green-pants": {
     url: "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=1200&q=80",
     alt: "Olive green cotton chinos paired with white, black, and denim shirts",
+  },
+
+  // --- Brand Reviews ---
+  "collars-and-co-dress-collar-polo-review": {
+    url: "https://images.unsplash.com/photo-1620012253295-c15c429fbb3e?auto=format&fit=crop&w=1200&q=80",
+    alt: "Collars and Co dress collar polo layered neatly under a navy sweater",
+  },
+  "charles-tyrwhitt-vs-kamakura-dress-shirts": {
+    url: "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=1200&q=80",
+    alt: "Crisp white and light blue business dress shirts folded side by side",
+  },
+  "untuckit-shirts-sizing-and-fit-guide": {
+    url: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1200&q=80",
+    alt: "Casual button down shirt worn untucked with classic chinos",
+  },
+  "criquet-shirts-retro-polo-review": {
+    url: "https://images.unsplash.com/photo-1581655353564-df123a1eb820?auto=format&fit=crop&w=1200&q=80",
+    alt: "Vintage retro golf polo shirt laid flat with casual chinos",
+  },
+  "comfort-colors-1717-vs-gildan-5000-review": {
+    url: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1200&q=80",
+    alt: "Heavyweight ringspun cotton t-shirts folded in neutral pastel colors",
+  },
+
+  // --- Technical Shirt Guides ---
+  "mens-shirt-collar-types-guide": {
+    url: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=1200&q=80",
+    alt: "Different men's dress shirt collar styles arranged in studio flat lay",
+  },
+  "poplin-vs-twill-vs-oxford-shirt-fabrics": {
+    url: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80",
+    alt: "Close up macro texture of woven poplin, diagonal twill, and Oxford cloth",
+  },
+  "how-to-style-cuban-camp-collar-shirts": {
+    url: "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=1200&q=80",
+    alt: "Man wearing a relaxed linen Cuban collar shirt open over a white undershirt",
+  },
+  "how-a-dress-shirt-should-fit-guide": {
+    url: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
+    alt: "Tailored slim-fit dress shirt fitting cleanly across shoulders and chest",
   },
 };
 
@@ -208,7 +255,7 @@ export default async function BlogPostPage({ params }: Props) {
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950/20 via-transparent to-transparent pointer-events-none" />
       </div>
 
-      {/* 1. IF POST HAS JSON (Brown, Navy, Khaki, Olive) -> RENDER VIA POSTBODY */}
+      {/* 1. IF POST HAS JSON (13 Posts) -> RENDER VIA POSTBODY */}
       {post.contentData && (
         <PostBody content={post.contentData} post={frontmatter} />
       )}
