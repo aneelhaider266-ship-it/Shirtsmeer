@@ -15,7 +15,6 @@ interface Props {
   params: Promise<{ slug: string }>;
 }
 
-// Inlined MDX Components to prevent "Module Not Found" errors
 const mdxComponents = {
   QuickAnswerBox,
   OutfitTable,
@@ -181,7 +180,7 @@ export default async function BlogPostPage({ params }: Props) {
         </span>
       </nav>
 
-      {/* Article Header */}
+      {/* Article Header (US Searches ko hata kar Verified Style Guide kar diya gaya hai) */}
       <header className="border-b border-slate-200 pb-8 mb-8">
         <div className="flex flex-wrap items-center gap-4 text-xs text-slate-500 mb-3">
           <span className="flex items-center gap-1">
@@ -191,7 +190,7 @@ export default async function BlogPostPage({ params }: Props) {
             <Clock className="w-3.5 h-3.5" /> 7 min read
           </span>
           <span className="bg-blue-50 text-blue-700 px-2.5 py-0.5 rounded-full font-semibold">
-            US Searches: {(frontmatter.searchVolume || 1600).toLocaleString()} /mo
+            Verified Style Guide
           </span>
         </div>
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
