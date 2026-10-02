@@ -23,42 +23,24 @@ export interface Section {
   [key: string]: any;
 }
 
+export interface Swatch {
+  name: string;
+  hex: string;
+  role?: string;
+}
+
 export interface PostContent {
   quickAnswer?: string;
+  quickAnswerTitle?: string;
   intro?: string[] | string;
+  swatchHeading?: string;
+  swatches?: Swatch[];
   sections: Section[];
+  afterTable?: Section[];
+  tableCaption?: string;
+  tableRows?: any;
   table?: any;
   faqs?: FAQItem[];
-  [key: string]: any;
-}
-
-export interface PostMeta {
-  slug: string;
-  title: string;
-  metaTitle: string;
-  metaDescription: string;
-  description?: string;
-  excerpt?: string;
-  leadExcerpt?: string;
-  shortLabel?: string;
-  primaryKeyword: string;
-  searchVolume: number;
-  publishedDate: string;
-  updatedDate?: string | Date;
-  date?: string;
-  readTime: string;
-  image?: string;
-  imageAlt?: string;
-  related?: string[];
-  faqs?: FAQItem[];
-  sections?: Section[];
-  content?: any;
-  [key: string]: any;
-}
-
-export interface PostData {
-  frontmatter: PostMeta;
-  content: string;
   [key: string]: any;
 }
 
