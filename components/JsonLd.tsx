@@ -118,3 +118,8 @@ export function FAQPageJsonLd({ items }: { items: { question: string; answer: st
     />
   );
 }
+
+// Default export safeguard
+export default function JsonLd() {
+  return null;
+}
