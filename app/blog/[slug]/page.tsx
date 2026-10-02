@@ -4,13 +4,52 @@ import Link from "next/link";
 import Image from "next/image";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { getPostBySlug, getPostSlugs, getRelatedPosts } from "@/lib/posts";
-import { mdxComponents } from "@/components/mdx-components";
+import QuickAnswerBox from "@/components/QuickAnswerBox";
+import OutfitTable from "@/components/OutfitTable";
+import ColorSwatch from "@/components/ColorSwatch";
+import FAQAccordion from "@/components/FAQAccordion";
 import { ArticleJsonLd, BreadcrumbJsonLd, FAQPageJsonLd } from "@/components/JsonLd";
 import { Calendar, Clock, ChevronRight } from "lucide-react";
 
 interface Props {
   params: Promise<{ slug: string }>;
 }
+
+// Inlined MDX Components to prevent "Module Not Found" errors
+const mdxComponents = {
+  QuickAnswerBox,
+  OutfitTable,
+  ColorSwatch,
+  FAQAccordion,
+  Image: (props: any) => (
+    <Image
+      {...props}
+      className="rounded-xl border border-slate-200 my-6 shadow-sm"
+      loading={props.priority ? undefined : "lazy"}
+    />
+  ),
+  a: ({ href, children, ...props }: any) => {
+    const isInternal = href && (href.startsWith("/") || href.startsWith("#"));
+    if (isInternal) {
+      return (
+        <Link href={href} className="text-blue-600 underline hover:text-blue-800 transition-colors" {...props}>
+          {children}
+        </Link>
+      );
+    }
+    return (
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 underline hover:text-blue-800 transition-colors"
+        {...props}
+      >
+        {children}
+      </a>
+    );
+  },
+};
 
 const DEFAULT_FALLBACK_IMAGE = "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80";
 
@@ -52,7 +91,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const metaDesc = frontmatter.description || "Expert styling guide for men.";
   const fullTitle = `${metaTitle} | ShirtsMeer`;
   
-  // Safe Image URL (Never undefined)
   const featuredImageUrl: string = 
     ARTICLE_IMAGES[slug]?.url || 
     (typeof frontmatter.image === "string" && frontmatter.image.startsWith("http") ? frontmatter.image : DEFAULT_FALLBACK_IMAGE);
