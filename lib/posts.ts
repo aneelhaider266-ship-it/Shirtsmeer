@@ -23,22 +23,10 @@ export interface Section {
   [key: string]: any;
 }
 
-export interface Swatch {
-  name: string;
-  hex: string;
-  role?: string;
-}
-
 export interface PostContent {
   quickAnswer?: string;
-  quickAnswerTitle?: string;
   intro?: string[] | string;
-  swatchHeading?: string;
-  swatches?: Swatch[];
   sections: Section[];
-  afterTable?: Section[];
-  tableCaption?: string;
-  tableRows?: any;
   table?: any;
   faqs?: FAQItem[];
   [key: string]: any;
@@ -192,8 +180,19 @@ export function getPostBySlug(slug: string): PostData | null {
   const fullPath = path.join(POSTS_DIRECTORY, `${realSlug}.mdx`);
 
   if (fs.existsSync(fullPath)) {
-    const fileContents = fs.readFileSync(fullPath, "utf8");
-    const { data, content } = matter(fileContents);
+    const rawContents = fs.readFileSync(fullPath, "utf8");
+    const cleanContents = rawContents.replace(/^```[a-z]*\r?\n/, "").trimStart();
+    const { data, content } = matter(cleanContents);
+
+    // ACORN CRASH PROTECTION:
+    // 1. Frontmatter strip
+    let cleanBody = content.replace(/^---[\s\S]*?---\r?\n?/, "");
+    // 2. Kisi bhi stray import ya export line ko khatam karein taake Acorn parser crash na ho
+    cleanBody = cleanBody.replace(/^import\s+.*?;?\r?\n?/gm, "");
+    cleanBody = cleanBody.replace(/^export\s+default\s+.*$/gm, "");
+    cleanBody = cleanBody.replace(/^export\s+const\s+.*?=.*?;?\r?\n?/gm, "");
+    cleanBody = cleanBody.trim();
+
     return {
       frontmatter: {
         slug: realSlug,
@@ -215,7 +214,7 @@ export function getPostBySlug(slug: string): PostData | null {
         faqs: Array.isArray(data.faqs) ? data.faqs : [],
         sections: Array.isArray(data.sections) ? data.sections : [],
       },
-      content,
+      content: cleanBody,
     };
   }
 
