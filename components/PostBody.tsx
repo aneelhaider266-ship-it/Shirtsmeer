@@ -53,8 +53,8 @@ export default function PostBody({ slug, content }: { slug: string; content: Pos
 
         <div className="not-prose my-6">
           <h3 className="mb-2 text-sm font-bold uppercase tracking-wider text-slate-500">
-            {content.swatchHeading}
-          </h3>
+  {content.swatchHeading ?? "Color Palette"}
+</h3>
           <div className="flex flex-wrap gap-2">
             {(content.swatches ?? []).map((s) => (
               <ColorSwatch key={s.name} colorName={s.name} hex={s.hex} role={s.role} />
@@ -66,7 +66,7 @@ export default function PostBody({ slug, content }: { slug: string; content: Pos
           <SectionBlock key={s.heading} section={s} />
         ))}
 
-        <OutfitTable caption={content.tableCaption} rows={content.tableRows} />
+        <OutfitTable caption={content.tableCaption ?? ""} rows={content.tableRows ?? []} />
 
         {(content.afterTable ?? []).map((s) => (
           <SectionBlock key={s.heading} section={s} />
