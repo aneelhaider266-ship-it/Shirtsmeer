@@ -1,0 +1,183 @@
+{
+  "quickAnswerTitle": "Quick Answer: What Color Shirt Goes with Olive Green Pants?",
+  "quickAnswer": "The best shirt colors for olive green pants are crisp white, cream, navy, black, and light chambray blue. White and cream give a clean, fresh contrast, while navy and black create a darker, more modern look. Finish the outfit with brown suede boots, tan loafers, or clean white leather sneakers.",
+  "intro": "Olive green pants are the wildcard of modern menswear. They look more interesting than khaki, softer than black and more relaxed than navy, and they work in both smart and casual outfits. Many men avoid olive because they are not sure what to wear on top. The answer is simpler than it looks. Olive is a muted, earthy green with warm undertones, so it pairs best with clean neutrals and deep, cool colors that give it contrast. This guide shows which shirts work with olive chinos and trousers, how different shades of olive change your choices, and which shoes finish the look.",
+  "swatchHeading": "Recommended Shirt Colors for Olive Green Pants",
+  "swatches": [
+    {
+      "name": "Crisp White",
+      "hex": "#FFFFFF",
+      "role": "Clean Contrast"
+    },
+    {
+      "name": "Warm Cream",
+      "hex": "#F3EBD3",
+      "role": "Soft Neutral"
+    },
+    {
+      "name": "Navy Blue",
+      "hex": "#1B2A47",
+      "role": "Deep Partner"
+    },
+    {
+      "name": "Matte Black",
+      "hex": "#1A1A1A",
+      "role": "Modern Edge"
+    },
+    {
+      "name": "Chambray Blue",
+      "hex": "#8FA9C4",
+      "role": "Casual Texture"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Know Your Olive: Army Green, Moss and Dark Olive",
+      "paragraphs": [
+        "Olive covers several shades, and each one changes how your shirt will look. Hold your pants in natural light and decide which of these groups they fall into."
+      ],
+      "bullets": [
+        {
+          "label": "Light olive and sage",
+          "text": "Soft, dusty greens with grey undertones. They look best with crisp white, navy and soft blue shirts."
+        },
+        {
+          "label": "Classic army olive",
+          "text": "The standard military shade, a warm mid-tone green. It pairs with white, cream, navy, black and chambray."
+        },
+        {
+          "label": "Dark olive and forest",
+          "text": "Deep green that nearly reads as black in low light. It needs lighter shirts, such as white, cream or pale blue, so the outfit does not become too dark."
+        }
+      ]
+    },
+    {
+      "heading": "1. The White Shirt: Crisp and Simple",
+      "paragraphs": [
+        "A white shirt is the simplest way to wear olive trousers. White is bright and clean, which makes the earthy green look richer and more deliberate. It works in nearly every setting, from a relaxed Sunday lunch to a smart casual office.",
+        "Choose a shirt with a little texture, such as Oxford or linen, rather than a very shiny dress fabric. Roll the sleeves, leave the collar open and add brown leather shoes for a balanced, confident outfit."
+      ]
+    },
+    {
+      "heading": "2. Cream and Ecru Shirts: A Softer Neutral",
+      "paragraphs": [
+        "If bright white feels too strong, a cream or ecru shirt makes a warmer, quieter pairing. The yellow tone in the cream shares the warmth in the olive, so the colors look related and calm.",
+        "This combination suits summer linen outfits and autumn knitwear. A cream fine-knit polo with olive trousers and tan suede shoes is a good example of a relaxed outfit that still looks put together."
+      ]
+    },
+    {
+      "heading": "3. The Navy Shirt: Deep and Grounded",
+      "paragraphs": [
+        "Navy and olive are both dark, grounded colors, and they work surprisingly well together. The cool blue contrasts with the warm green, which gives the outfit depth without needing a bright color.",
+        "Choose a navy shirt that is clearly darker than the olive pants, such as a deep navy Oxford or a knit polo. White sneakers or dark brown boots keep the outfit clean, and a light tan belt can add a touch of warmth."
+      ]
+    },
+    {
+      "heading": "4. The Black Shirt: A Modern and Sharp Look",
+      "paragraphs": [
+        "Black and olive give a strong, modern outfit that works in the evening. The black shirt makes the green look richer, and the combination feels sharper than a standard office outfit.",
+        "To avoid the colors blending, choose a classic olive that is not too dark, and wear a matte black shirt rather than a shiny one. Black leather boots or sleek dark sneakers finish the outfit, and a minimal silver watch adds contrast."
+      ]
+    },
+    {
+      "heading": "5. Chambray and Light Blue Shirts: Casual Weekend Style",
+      "paragraphs": [
+        "A chambray shirt gives olive trousers a relaxed, textured look suited to weekends, travel and casual dinners. The soft blue contrasts gently with the green and keeps the outfit from looking like military clothing.",
+        "Wear the shirt untucked or half-tucked and add suede boots or clean leather sneakers. A light blue Oxford is a smarter alternative if you need to dress up slightly."
+      ]
+    }
+  ],
+  "tableCaption": "Olive Green Pants and Shirt Combination Chart",
+  "tableRows": [
+    {
+      "shirtColor": "Crisp White",
+      "formality": "Smart Casual",
+      "contrast": "High",
+      "footwear": "Brown leather loafers or boots",
+      "occasion": "Lunches, office, casual dinners"
+    },
+    {
+      "shirtColor": "Cream or Ecru",
+      "formality": "Relaxed Smart",
+      "contrast": "Medium",
+      "footwear": "Tan suede shoes",
+      "occasion": "Summer events, weekends"
+    },
+    {
+      "shirtColor": "Navy Blue",
+      "formality": "Business Casual",
+      "contrast": "Medium",
+      "footwear": "Dark brown boots or white sneakers",
+      "occasion": "Workdays, evenings out"
+    },
+    {
+      "shirtColor": "Matte Black",
+      "formality": "Modern Evening",
+      "contrast": "High",
+      "footwear": "Black leather boots",
+      "occasion": "Dinners, bars, city events"
+    },
+    {
+      "shirtColor": "Chambray or Light Blue",
+      "formality": "Casual",
+      "contrast": "Medium",
+      "footwear": "Suede boots or clean sneakers",
+      "occasion": "Weekend outings, travel"
+    }
+  ],
+  "afterTable": [
+    {
+      "heading": "Footwear and Belt Rules for Olive Green Pants",
+      "paragraphs": [
+        "Olive is a warm color, so brown leather and suede are the most natural partners. They keep the outfit consistent and look more refined than mixed colors."
+      ],
+      "bullets": [
+        {
+          "label": "Brown leather and suede",
+          "text": "Medium brown, tan and chocolate shoes all work. They match the earthy tone of olive and look good with almost every shirt in this guide."
+        },
+        {
+          "label": "White leather sneakers",
+          "text": "A minimalist white sneaker gives a clean, modern casual look with navy, white and chambray shirts."
+        },
+        {
+          "label": "Black boots",
+          "text": "Best for evening outfits with a black shirt. Keep the boots simple and polished."
+        },
+        {
+          "label": "Belts",
+          "text": "Match your belt to your shoes. A tan or dark brown leather belt suits olive better than black."
+        }
+      ]
+    },
+    {
+      "heading": "Common Mistakes with Olive Green Pants",
+      "paragraphs": [
+        "The biggest risk is dressing head to toe in military-style clothing. An olive shirt, olive pants, tactical boots and a canvas jacket can look like a costume. If you want to wear green on both halves, vary the shades clearly and add a neutral such as white or cream.",
+        "Another mistake is wearing bright shirt colors, such as red, orange or purple, with olive. These clash with the muted green and look loud. Choose quieter shades like burgundy, mustard in small amounts or soft blue. Finally, avoid pants that fit too loosely, because baggy olive can look like workwear. A clean taper and a small break at the shoe keep the pants looking sharp."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can you wear a black shirt with olive green pants?",
+      "answer": "Yes. A matte black shirt with classic olive pants looks sharp and modern. Avoid very dark forest green pants with black, because the contrast is too low. Wear black boots or dark sneakers to complete the look."
+    },
+    {
+      "question": "What color shirt looks best with olive green chinos?",
+      "answer": "White is the safest and most flattering choice. Cream, navy, chambray and black are also good. The best choice depends on the shade of olive and the occasion."
+    },
+    {
+      "question": "What shoes go with olive green pants?",
+      "answer": "Brown leather or suede shoes are the best choice. White leather sneakers work well for casual outfits, and black boots suit evening looks."
+    },
+    {
+      "question": "Can you wear a grey shirt with olive green pants?",
+      "answer": "Yes, as long as the grey is clearly lighter or darker than the pants. A light heather grey works for a relaxed look. Avoid mid-grey that is close to the tone of the olive."
+    },
+    {
+      "question": "Are olive green pants business casual?",
+      "answer": "Yes. Well-fitted olive chinos or wool trousers are suitable for many business casual offices. Pair them with a white or light blue shirt, a navy knit or a blazer, and brown leather shoes."
+    }
+  ]
+}
