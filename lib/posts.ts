@@ -17,6 +17,10 @@ const SLUG_TO_JSON: Record<string, string> = {
   "untuckit-shirts-sizing-and-fit-guide": "untuckit.json",
   "criquet-shirts-retro-polo-review": "criquet-shirts.json",
   "comfort-colors-1717-vs-gildan-5000-review": "comfort-colors-vs-gildan.json",
+  "mens-shirt-collar-types-guide": "shirt-collars.json",
+  "poplin-vs-twill-vs-oxford-shirt-fabrics": "shirt-fabrics.json",
+  "how-to-style-cuban-camp-collar-shirts": "cuban-collar-styling.json",
+  "how-a-dress-shirt-should-fit-guide": "dress-shirt-fit-guide.json",
 };
 
 export interface FAQItem {
@@ -73,7 +77,7 @@ export interface PostData {
 }
 
 export const POSTS: PostMeta[] = [
-  // --- FOUNDATIONAL PANT GUIDES ---
+  // --- 1. TROUSER COLOR MATCHING PILLARS ---
   {
     slug: "what-color-shirt-goes-with-grey-pants",
     title: "What Color Shirt Goes with Grey Pants? Complete Men's Guide",
@@ -91,7 +95,7 @@ export const POSTS: PostMeta[] = [
     readTime: "7 min read",
     image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Tailored grey trousers neatly paired with crisp white and blue dress shirts",
-    related: ["what-color-shirt-goes-with-navy-pants", "what-color-shirt-goes-with-brown-pants", "charles-tyrwhitt-vs-kamakura-dress-shirts"],
+    related: ["what-color-shirt-goes-with-navy-pants", "charles-tyrwhitt-vs-kamakura-dress-shirts", "poplin-vs-twill-vs-oxford-shirt-fabrics"],
   },
   {
     slug: "what-color-shirt-goes-with-brown-pants",
@@ -110,7 +114,7 @@ export const POSTS: PostMeta[] = [
     readTime: "7 min read",
     image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Rich chocolate brown trousers laid flat with sky blue and ecru shirts",
-    related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-khaki-pants", "criquet-shirts-retro-polo-review"],
+    related: ["what-color-shirt-goes-with-khaki-pants", "how-to-style-cuban-camp-collar-shirts", "criquet-shirts-retro-polo-review"],
   },
   {
     slug: "what-color-shirt-goes-with-navy-pants",
@@ -129,7 +133,7 @@ export const POSTS: PostMeta[] = [
     readTime: "7 min read",
     image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Midnight navy blue tailored trousers styled with white and pastel shirts",
-    related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-khaki-pants", "collars-and-co-dress-collar-polo-review"],
+    related: ["what-color-shirt-goes-with-grey-pants", "collars-and-co-dress-collar-polo-review", "how-a-dress-shirt-should-fit-guide"],
   },
   {
     slug: "what-color-shirt-goes-with-khaki-pants",
@@ -148,7 +152,7 @@ export const POSTS: PostMeta[] = [
     readTime: "7 min read",
     image: "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Classic tan khaki chinos paired with deep navy and white shirts",
-    related: ["what-color-shirt-goes-with-navy-pants", "what-color-shirt-goes-with-olive-green-pants", "untuckit-shirts-sizing-and-fit-guide"],
+    related: ["what-color-shirt-goes-with-olive-green-pants", "untuckit-shirts-sizing-and-fit-guide", "poplin-vs-twill-vs-oxford-shirt-fabrics"],
   },
   {
     slug: "what-color-shirt-goes-with-olive-green-pants",
@@ -167,10 +171,10 @@ export const POSTS: PostMeta[] = [
     readTime: "7 min read",
     image: "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Olive green cotton chinos paired with white, black, and denim shirts",
-    related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-navy-pants", "comfort-colors-1717-vs-gildan-5000-review"],
+    related: ["what-color-shirt-goes-with-grey-pants", "how-to-style-cuban-camp-collar-shirts", "comfort-colors-1717-vs-gildan-5000-review"],
   },
 
-  // --- BRAND COMPARISONS & REVIEWS (CSV FAST-GROWTH CLUSTER) ---
+  // --- 2. BRAND REVIEWS & COMPARISONS (CSV CLUSTER) ---
   {
     slug: "collars-and-co-dress-collar-polo-review",
     title: "Collars & Co Review: Is the Dress Collar Polo Actually Worth It?",
@@ -188,7 +192,7 @@ export const POSTS: PostMeta[] = [
     readTime: "8 min read",
     image: "https://images.unsplash.com/photo-1620012253295-c15c429fbb3e?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Collars and Co dress collar polo layered neatly under a navy sweater",
-    related: ["what-color-shirt-goes-with-navy-pants", "charles-tyrwhitt-vs-kamakura-dress-shirts", "untuckit-shirts-sizing-and-fit-guide"],
+    related: ["mens-shirt-collar-types-guide", "what-color-shirt-goes-with-navy-pants", "charles-tyrwhitt-vs-kamakura-dress-shirts"],
   },
   {
     slug: "charles-tyrwhitt-vs-kamakura-dress-shirts",
@@ -207,7 +211,7 @@ export const POSTS: PostMeta[] = [
     readTime: "9 min read",
     image: "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Crisp white and light blue business dress shirts folded side by side",
-    related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-navy-pants", "collars-and-co-dress-collar-polo-review"],
+    related: ["mens-shirt-collar-types-guide", "poplin-vs-twill-vs-oxford-shirt-fabrics", "what-color-shirt-goes-with-grey-pants"],
   },
   {
     slug: "untuckit-shirts-sizing-and-fit-guide",
@@ -226,7 +230,7 @@ export const POSTS: PostMeta[] = [
     readTime: "8 min read",
     image: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Casual button down shirt worn untucked with classic chinos",
-    related: ["what-color-shirt-goes-with-khaki-pants", "what-color-shirt-goes-with-olive-green-pants", "criquet-shirts-retro-polo-review"],
+    related: ["how-a-dress-shirt-should-fit-guide", "what-color-shirt-goes-with-khaki-pants", "criquet-shirts-retro-polo-review"],
   },
   {
     slug: "criquet-shirts-retro-polo-review",
@@ -245,7 +249,7 @@ export const POSTS: PostMeta[] = [
     readTime: "7 min read",
     image: "https://images.unsplash.com/photo-1581655353564-df123a1eb820?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Vintage retro golf polo shirt laid flat with casual chinos",
-    related: ["what-color-shirt-goes-with-brown-pants", "what-color-shirt-goes-with-khaki-pants", "collars-and-co-dress-collar-polo-review"],
+    related: ["what-color-shirt-goes-with-brown-pants", "mens-shirt-collar-types-guide", "collars-and-co-dress-collar-polo-review"],
   },
   {
     slug: "comfort-colors-1717-vs-gildan-5000-review",
@@ -264,7 +268,85 @@ export const POSTS: PostMeta[] = [
     readTime: "8 min read",
     image: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Heavyweight ringspun cotton t-shirts folded in neutral pastel colors",
-    related: ["what-color-shirt-goes-with-olive-green-pants", "what-color-shirt-goes-with-grey-pants", "untuckit-shirts-sizing-and-fit-guide"],
+    related: ["poplin-vs-twill-vs-oxford-shirt-fabrics", "what-color-shirt-goes-with-olive-green-pants", "untuckit-shirts-sizing-and-fit-guide"],
+  },
+
+  // --- 3. TECHNICAL SHIRT GUIDES (AUTHORITY CLUSTER) ---
+  {
+    slug: "mens-shirt-collar-types-guide",
+    title: "10 Types of Men's Shirt Collars: Spread, Point & Cuban Guide",
+    metaTitle: "10 Men's Shirt Collar Types Explained: Style Guide",
+    metaDescription: "Visual guide to 10 men's shirt collar styles. Match spread, button-down, cutaway, and Cuban collars to your face shape, tie knots, and formal suits.",
+    description: "Visual guide to 10 men's shirt collar styles. Match spread, button-down, cutaway, and Cuban collars to your face shape, tie knots, and formal suits.",
+    excerpt: "A shirt collar defines your face proportions and suit formality. Learn the differences between semi-spread, point, cutaway, and camp collars.",
+    leadExcerpt: "A shirt collar defines your face proportions and suit formality. Learn the differences between semi-spread, point, cutaway, and camp collars.",
+    shortLabel: "Shirt Collar Guide",
+    primaryKeyword: "shirt collar types for men",
+    searchVolume: 2400,
+    publishedDate: "2026-03-25",
+    updatedDate: "2026-03-25",
+    date: "2026-03-25",
+    readTime: "9 min read",
+    image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=1200&q=80",
+    imageAlt: "Different men's dress shirt collar styles arranged in studio flat lay",
+    related: ["charles-tyrwhitt-vs-kamakura-dress-shirts", "collars-and-co-dress-collar-polo-review", "how-a-dress-shirt-should-fit-guide"],
+  },
+  {
+    slug: "poplin-vs-twill-vs-oxford-shirt-fabrics",
+    title: "Poplin vs Twill vs Oxford Cloth: The Ultimate Fabric Breakdown",
+    metaTitle: "Poplin vs Twill vs Oxford Cloth: Fabric Guide",
+    metaDescription: "Poplin vs Twill vs Oxford cloth (OCBD) shirt fabrics compared. Learn which weave is best for office work, breathability, summer heat, and wrinkle resistance.",
+    description: "Poplin vs Twill vs Oxford cloth (OCBD) shirt fabrics compared. Learn which weave is best for office work, breathability, summer heat, and wrinkle resistance.",
+    excerpt: "Should you choose crisp poplin, silky diagonal twill, or rugged basketweave Oxford? We compare weight, formality, breathability, and ease of ironing.",
+    leadExcerpt: "Should you choose crisp poplin, silky diagonal twill, or rugged basketweave Oxford? We compare weight, formality, breathability, and ease of ironing.",
+    shortLabel: "Shirt Fabric Breakdown",
+    primaryKeyword: "poplin vs twill vs oxford",
+    searchVolume: 1900,
+    publishedDate: "2026-03-26",
+    updatedDate: "2026-03-26",
+    date: "2026-03-26",
+    readTime: "8 min read",
+    image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80",
+    imageAlt: "Close up macro texture of woven poplin, diagonal twill, and Oxford cloth",
+    related: ["charles-tyrwhitt-vs-kamakura-dress-shirts", "what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-khaki-pants"],
+  },
+  {
+    slug: "how-to-style-cuban-camp-collar-shirts",
+    title: "How to Wear a Cuban Collar (Camp Collar) Shirt in 2026",
+    metaTitle: "How to Style Cuban Collar Shirts: Men's Guide",
+    metaDescription: "Master the Cuban collar (camp collar) shirt trend. How to wear open notch lapels with pleated trousers, linen shorts, loafers, and summer layering.",
+    description: "Master the Cuban collar (camp collar) shirt trend. How to wear open notch lapels with pleated trousers, linen shorts, loafers, and summer layering.",
+    excerpt: "Camp collar shirts are the ultimate warm-weather statement. Learn how to style retro open collars with chinos and trousers without looking like a tourist.",
+    leadExcerpt: "Camp collar shirts are the ultimate warm-weather statement. Learn how to style retro open collars with chinos and trousers without looking like a tourist.",
+    shortLabel: "Cuban Collar Styling",
+    primaryKeyword: "camp collar shirt styling",
+    searchVolume: 1600,
+    publishedDate: "2026-03-27",
+    updatedDate: "2026-03-27",
+    date: "2026-03-27",
+    readTime: "8 min read",
+    image: "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=1200&q=80",
+    imageAlt: "Man wearing a relaxed linen Cuban collar shirt open over a white undershirt",
+    related: ["what-color-shirt-goes-with-olive-green-pants", "what-color-shirt-goes-with-brown-pants", "mens-shirt-collar-types-guide"],
+  },
+  {
+    slug: "how-a-dress-shirt-should-fit-guide",
+    title: "How a Dress Shirt Should Fit: Slim vs Classic vs Athletic Fit",
+    metaTitle: "How a Dress Shirt Should Actually Fit: Men's Guide",
+    metaDescription: "Complete dress shirt fit guide. Master the 2-finger collar rule, shoulder seam placement, sleeve length at wrist bone, and eliminating muffin tops.",
+    description: "Complete dress shirt fit guide. Master the 2-finger collar rule, shoulder seam placement, sleeve length at wrist bone, and eliminating muffin tops.",
+    excerpt: "Even an expensive bespoke shirt looks cheap if the fit is off. Learn the 5 exact anatomical checkpoints for a perfect dress shirt fit.",
+    leadExcerpt: "Even an expensive bespoke shirt looks cheap if the fit is off. Learn the 5 exact anatomical checkpoints for a perfect dress shirt fit.",
+    shortLabel: "Dress Shirt Fit Guide",
+    primaryKeyword: "how should a dress shirt fit",
+    searchVolume: 2900,
+    publishedDate: "2026-03-28",
+    updatedDate: "2026-03-28",
+    date: "2026-03-28",
+    readTime: "9 min read",
+    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
+    imageAlt: "Tailored slim-fit dress shirt fitting cleanly across shoulders and chest",
+    related: ["untuckit-shirts-sizing-and-fit-guide", "charles-tyrwhitt-vs-kamakura-dress-shirts", "what-color-shirt-goes-with-navy-pants"],
   },
 ];
 
