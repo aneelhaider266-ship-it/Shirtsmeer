@@ -1,40 +1,40 @@
-import JsonLd from "@/components/JsonLd";
+import React from "react";
 
 export interface FAQItem {
   question: string;
   answer: string;
 }
 
-export default function FAQAccordion({ items }: { items: FAQItem[] }) {
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: items.map((item) => ({
-      "@type": "Question",
-      name: item.question,
-      acceptedAnswer: { "@type": "Answer", text: item.answer },
-    })),
-  };
+interface FAQAccordionProps {
+  items: FAQItem[];
+}
+
+export default function FAQAccordion({ items }: FAQAccordionProps) {
+  if (!items || items.length === 0) return null;
 
   return (
-    <section className="not-prose my-10">
-      <JsonLd data={faqSchema} />
-      <h2 className="mb-6 text-2xl font-bold text-slate-900">Frequently Asked Questions</h2>
+    <section className="my-10" aria-labelledby="faq-heading">
+      <h2 id="faq-heading" className="text-2xl font-bold text-slate-900 mb-6 tracking-tight">
+        Frequently Asked Questions
+      </h2>
       <div className="space-y-4">
-        {items.map((item) => (
+        {items.map((item, idx) => (
           <details
-            key={item.question}
-            className="group rounded-lg border border-slate-200 bg-white p-4 open:bg-slate-50"
+            key={idx}
+            className="group rounded-lg border border-slate-200 bg-white p-4 transition-colors open:bg-slate-50 open:border-slate-300"
           >
-            <summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-slate-900 group-open:text-blue-700">
-              <span>{item.question}</span>
-              <span aria-hidden="true" className="ml-4 flex-shrink-0 text-slate-400 transition-transform group-open:rotate-180">
-                ↓
+            <summary className="flex cursor-pointer items-center justify-between font-semibold text-slate-900 group-open:text-blue-600 list-none">
+              <span className="text-base md:text-lg">{item.question}</span>
+              <span
+                className="ml-4 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full border border-slate-200 text-xs text-slate-500 transition-transform group-open:rotate-180"
+                aria-hidden="true"
+              >
+                ▼
               </span>
             </summary>
-            <p className="mt-3 border-t border-slate-100 pt-3 text-sm leading-relaxed text-slate-700 md:text-base">
-              {item.answer}
-            </p>
+            <div className="mt-3 border-t border-slate-200 pt-3 text-sm md:text-base leading-relaxed text-slate-700">
+              <p>{item.answer}</p>
+            </div>
           </details>
         ))}
       </div>
