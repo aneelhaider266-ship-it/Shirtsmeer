@@ -1,0 +1,56 @@
+{
+  "quickAnswerTitle": "Quick Answer: Charles Tyrwhitt vs Kamakura?",
+  "quickAnswer": "Choose Charles Tyrwhitt for everyday office rotation: their 4-for-$199 non-iron cotton shirts offer unbeatable value, stain resistance, and low-maintenance care. Choose Kamakura for true sartorial connoisseurs: their Japanese single-needle tailoring, genuine mother-of-pearl buttons, and iconic Oxford cloth button-down collar roll are in a completely different league of craftsmanship.",
+  "intro": "When building a sharp professional wardrobe, two names dominate the classic shirting discourse. On one side sits British titan Charles Tyrwhitt (frequently abbreviated as CT Shirts), renowned for outfitting corporate districts worldwide with wrinkle-resistant convenience. On the other sits Kamakura Shirts, the revered Japanese brand celebrated by menswear purists for reviving vintage Ivy League tailoring standards. We compare both brands across cotton quality, collar construction, and cost per wear.",
+  "swatchHeading": "Classic Business Shirt Shades",
+  "swatches": [
+    { "name": "Twilled Pure White", "hex": "#FFFFFF", "role": "Maximum Contrast" },
+    { "name": "Sky Blue End-on-End", "hex": "#87CEEB", "role": "Daily Office" },
+    { "name": "French Blue Bengal Stripe", "hex": "#4682B4", "role": "Executive Depth" },
+    { "name": "Soft Pastel Pink", "hex": "#FADADD", "role": "Warm Neutral" }
+  ],
+  "sections": [
+    {
+      "heading": "1. Fabric & Finishing: Non-Iron Coating vs. Natural Cotton",
+      "paragraphs": [
+        "The primary philosophical divide between these two makers lies in textile treatment. Charles Tyrwhitt built its empire on non-iron finishing. Their 100% cotton fabrics are dipped in a proprietary resin that locks the fibers in place, allowing you to wash the shirt, hang it, and wear it with virtually zero ironing required.",
+        "Kamakura adamantly refuses chemical non-iron coatings. They believe synthetic resins stiffen the yarn and stifle cotton's natural breathability. Instead, Kamakura utilizes ultra-long staple cotton (like Xinjiang and Suvin Gold) woven at microscopic densities, producing a silky natural drape that feels luxurious against bare skin."
+      ]
+    },
+    {
+      "heading": "2. Collar Roll and Spread Architecture",
+      "paragraphs": [
+        "A shirt's character is defined by its collar. Charles Tyrwhitt excels in modern British cutaway and semi-spread collars designed for formal business ties. Their collars are structured, stiff, and feature brass collar stays that hold the points firmly in place.",
+        "Kamakura is world-famous for its unlined Oxford Cloth Button-Down (OCBD) collar roll. Rather than lying flat against the collarbone, Kamakura collars form an elegant, sweeping S-shaped curve that frames a necktie with relaxed mid-century sophistication."
+      ]
+    },
+    {
+      "heading": "3. Tailoring Details & Stitching Precision",
+      "paragraphs": [
+        "Kamakura utilizes authentic single-needle tailoring, meaning both sides of the side seams are sewn in two separate passes. This eliminates seam puckering and allows for 18 to 21 stitches per inch. Additionally, Kamakura includes genuine Australian mother-of-pearl buttons that have an unmistakable iridescent gleam.",
+        "Charles Tyrwhitt utilizes standard industrial lockstitching and plastic buttons. While perfectly durable for weekly office rotations, they lack the artisanal tactile finish found on Kamakura shirts."
+      ]
+    },
+    {
+      "heading": "4. Price, Longevity & The Bottom Line",
+      "paragraphs": [
+        "Charles Tyrwhitt shirts cost approximately $50 to $65 each when purchased through their multi-buy promotions. They are the undisputed champions of corporate durability. Kamakura shirts retail between $110 and $180, representing an investment in timeless craft.",
+        "For boardroom versatility, pair a white Charles Tyrwhitt twill shirt with charcoal dress pants. Check our guide on What Color Shirt Goes with Grey Pants for complete footwear and tie formulas."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do Charles Tyrwhitt shirts shrink in the wash?",
+      "answer": "Minimal shrinkage occurs (around 1-2%) due to the resin non-iron finish. Always wash in cold water and tumble dry on low or hang dry to maintain cuff and collar dimensions."
+    },
+    {
+      "question": "Are Kamakura shirts slim fit?",
+      "answer": "Kamakura offers two distinct cuts: the Tokyo Slim Fit (narrow shoulders, tapered waist suited for lean frames) and the New York Classic Fit (roomier chest and armholes designed for Western builds)."
+    },
+    {
+      "question": "Where are Charles Tyrwhitt and Kamakura shirts made?",
+      "answer": "Charles Tyrwhitt manufactures primarily in Vietnam, India, and China. Kamakura manufactures 100% of their dress shirts in specialized artisanal workshops across Japan."
+    }
+  ]
+}
