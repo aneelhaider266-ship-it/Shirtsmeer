@@ -78,7 +78,7 @@ export default function HomePage() {
                   <span className="font-semibold uppercase tracking-wider text-blue-600">
                     Primary: {post.primaryKeyword}
                   </span>
-                  <span>{post.readTime}</span>
+                  <span>{(post as any).readTime || "7 min read"}</span>
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3 leading-snug">
                   <Link
@@ -89,7 +89,7 @@ export default function HomePage() {
                   </Link>
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed mb-4">
-                  {post.leadExcerpt}
+                  {(post as any).leadExcerpt || (post as any).description || (post as any).metaDescription}
                 </p>
               </div>
               <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
