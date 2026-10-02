@@ -1,0 +1,65 @@
+{
+  "quickAnswerTitle": "Quick Answer: Is Collars & Co Worth It?",
+  "quickAnswer": "Collars & Co dress collar polos are worth the price if you frequently layer shirts under sweaters, zip-ups, or blazers. The stiff, reinforced spread collar never flops or wrinkles, giving the sharp look of an executive dress shirt with the breathable stretch of athletic pique cotton.",
+  "intro": "The modern workplace dress code has permanently shifted away from stiff suits toward smart casual layers. However, wearing a traditional cotton dress shirt under a sweater often creates bulky bunching around the waist, while standard soft-collar polos collapse into an unflattering mess under the neckline. Collars & Co gained viral popularity on Shark Tank by engineering a polo shirt featuring an authentic, firm dress shirt collar attached to a 4-way stretch body.",
+  "swatchHeading": "Best Collars & Co Color Combinations",
+  "swatches": [
+    { "name": "Classic White Dress Collar", "hex": "#FFFFFF", "role": "Boardroom Layer" },
+    { "name": "Light Blue Semi-Spread", "hex": "#A0C4E2", "role": "Office Standard" },
+    { "name": "Heather Grey Jersey", "hex": "#D1D5DB", "role": "Casual Friday" },
+    { "name": "Midnight Black Collar", "hex": "#111827", "role": "Modern Evening" }
+  ],
+  "sections": [
+    {
+      "heading": "1. The Proprietary Collar Architecture: Why It Never Flops",
+      "paragraphs": [
+        "Traditional polo shirts use ribbed knit collars that curl up (the dreaded 'bacon collar') after three cycles in the washing machine. Collars & Co solves this by sewing an authentic fused dress shirt collar onto the polo. It includes built-in collar stay pockets that keep the points razor-sharp all day.",
+        "When layered under a merino wool V-neck, cashmere crewneck, or unstructured travel blazer, the collar stands tall and maintains professional framing around your face without needing starch or ironing."
+      ],
+      "bullets": [
+        { "label": "Collar Stays", "text": "Reinforced slots accept metal or plastic stays for structured presentation." },
+        { "label": "No Bulky Torso", "text": "Eliminates the excess fabric and billowing caused by tucking in standard woven shirts." },
+        { "label": "Neck Comfort", "text": "Features a soft interior neckband that prevents chafing during long work days." }
+      ]
+    },
+    {
+      "heading": "2. Fabric & Breathability: Performance Pique vs. Cotton",
+      "paragraphs": [
+        "The body of the shirt is engineered from a proprietary 95% polyester and 5% spandex performance pique blend. Unlike heavyweight cotton Oxford shirts that trap heat, this textile actively wicks moisture and provides 4-way stretch for unrestricted shoulder movement.",
+        "For men who commute or work in climate-controlled offices where temperatures fluctuate, the fabric keeps you cool without sacrificing the professional look expected on video conference calls or client presentations."
+      ]
+    },
+    {
+      "heading": "3. Sizing & Fit Guide: How Does Collars & Co Cut Fit?",
+      "paragraphs": [
+        "Collars & Co designs their polos with a tapered athletic fit. The chest and arms are trim, while the waist tapers slightly to prevent muffin-topping over your trousers.",
+        "If you have an athletic or slim build, order your standard shirt size. If you carry weight in your midsection or prefer a traditional relaxed cut, we strongly recommend sizing up by one size."
+      ]
+    },
+    {
+      "heading": "4. How to Style Collars & Co Polos with Trousers",
+      "paragraphs": [
+        "The dress collar polo bridges the gap between formal tailoring and casual comfort. Pair a crisp white Collars & Co polo under a navy crewneck sweater, anchored by tailored trousers. For perfect pants matching rules, see our detailed guide on What Color Shirt to Wear with Navy Pants.",
+        "For casual Fridays, wear a light blue polo open-collar over slim-fit charcoal chinos with brown leather loafers."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can you wear a tie with a Collars & Co polo?",
+      "answer": "Yes. Because the collar is constructed like a formal dress shirt with a reinforced placket and stiff spread, it comfortably accommodates slim knit ties and silk business ties."
+    },
+    {
+      "question": "How do you wash Collars & Co shirts without ruining the collar?",
+      "answer": "Machine wash cold on a gentle cycle inside out. Remove the collar stays prior to washing, and hang to dry. Avoid high heat in the dryer to protect the elastane stretch fibers."
+    },
+    {
+      "question": "Are Collars & Co shirts made in the USA?",
+      "answer": "No. The company is headquartered in Bethesda, Maryland, while the technical garment manufacturing takes place across specialized facilities in Turkey and China."
+    },
+    {
+      "question": "Is Collars & Co better than Mizzen+Main or Rhone?",
+      "answer": "Collars & Co is specifically superior if you want a firm, stiff collar that mimics executive formal shirts. Mizzen+Main offers better full-button dress shirts, but Collars & Co wins on layered sweater polos."
+    }
+  ]
+}
