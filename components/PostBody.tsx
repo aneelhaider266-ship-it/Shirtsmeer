@@ -47,7 +47,7 @@ export default function PostBody({ slug, content }: { slug: string; content: Pos
   return (
     <div>
       <div className="prose prose-slate max-w-none prose-headings:font-bold prose-h2:mt-10 prose-a:text-blue-600">
-        <QuickAnswerBox title={content.quickAnswerTitle}>{content.quickAnswer}</QuickAnswerBox>
+        <QuickAnswerBox title={content.quickAnswerTitle ?? ""}>{content.quickAnswer ?? ""}</QuickAnswerBox>
 
         <p className="text-lg">{content.intro}</p>
 
