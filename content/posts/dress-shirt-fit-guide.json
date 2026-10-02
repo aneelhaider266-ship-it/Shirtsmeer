@@ -1,0 +1,55 @@
+{
+  "quickAnswerTitle": "Quick Answer: How Should a Dress Shirt Fit?",
+  "quickAnswer": "A dress shirt fits correctly when you can comfortably slide two fingers inside the buttoned collar, the shoulder seam sits squarely on your shoulder bone, the cuffs hit the base of your thumb (showing 0.5 inches under a suit jacket), and there is no excess billowing around the waist when tucked.",
+  "intro": "A $300 bespoke dress shirt tailored from Swiss cotton will look cheap and sloppy if the fit is incorrect. Conversely, an inexpensive $40 shirt that fits your proportions with precision will look custom-made. Most men buy shirts one or two sizes too large out of a mistaken desire for comfort. We outline the 5 critical anatomical checkpoints of a properly fitted dress shirt.",
+  "swatchHeading": "Essential Formal Solids",
+  "swatches": [
+    { "name": "Optical White", "hex": "#FFFFFF", "role": "Formal Benchmark" },
+    { "name": "Ice Blue Pinpoint", "hex": "#B0E0E6", "role": "Office Precision" },
+    { "name": "French Cuff Navy", "hex": "#1B2A47", "role": "Evening Authority" }
+  ],
+  "sections": [
+    {
+      "heading": "1. The Collar: The Two-Finger Rule",
+      "paragraphs": [
+        "When the top collar button is fully fastened, the collar should rest lightly against your neck without pressing into your skin. You should be able to slide your index and middle fingers between your neck and the collar comfortably.",
+        "If your fingers cannot slide in, the collar is choking you and will cause skin irritation. If you can fit three fingers, the collar will buckle and gap awkwardly once you tie a necktie."
+      ]
+    },
+    {
+      "heading": "2. Shoulders: The Acromion Bone Alignment",
+      "paragraphs": [
+        "The seam where the shirt sleeve joins the shoulder yoke must sit precisely at the point where your horizontal shoulder bone meets your vertical arm (the acromion).",
+        "If the seam droops down onto your triceps, the shirt is too large and will create excess fabric bunching under your armpits. If it pulls upward toward your neck, the shirt is too tight and will restrict arm mobility."
+      ]
+    },
+    {
+      "heading": "3. Torso: Slim vs. Classic vs. Athletic Fit",
+      "paragraphs": [
+        "Slim Fit features gentle side seam tapering and back darts that follow the natural curve of your spine, eliminating the 'flying squirrel' billowing effect when tucked into trousers.",
+        "Athletic Fit is engineered for men with broader chests and narrow waists (V-taper), offering extra room through the lats while maintaining a trim waist."
+      ],
+      "bullets": [
+        { "label": "The Pinch Test", "text": "When sitting down, you should be able to pinch roughly 2 to 3 inches of fabric on either side of your torso." },
+        { "label": "Button Placket", "text": "The chest buttons must close flat without pulling open or creating diamond-shaped gaps." }
+      ]
+    },
+    {
+      "heading": "4. Sleeve Length & Cuff Tightness",
+      "paragraphs": [
+        "When your arms hang naturally at your sides, the shirt cuff should end at the base of your thumb. When wearing a tailored suit jacket, exactly 0.5 inches (1.2 cm) of shirt cuff should be visible past the jacket sleeve.",
+        "Pair your fitted shirt with tailored navy trousers for corporate presentations. Review What Color Shirt to Wear with Navy Pants for complete leather and tie coordination."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Why do dress shirts puff out in the back when tucked?",
+      "answer": "This happens when the shirt torso is cut too wide for your waist. Have a local tailor add two vertical back darts (cost is typically $10-$15) to pull in the excess lower fabric."
+    },
+    {
+      "question": "How much should a 100% cotton shirt shrink after washing?",
+      "answer": "Quality preshrunk cotton shrinks approximately 1 to 2% over its lifespan. Cheaper untreated cotton can shrink up to half a collar size if washed in hot water."
+    }
+  ]
+}
