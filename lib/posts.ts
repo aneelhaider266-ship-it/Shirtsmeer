@@ -154,7 +154,6 @@ export function getPostBySlug(slug: string): PostData | null {
     };
   }
 
-  // Fallback if file not on disk
   const fallback = POSTS.find((p) => p.slug === realSlug);
   if (!fallback) return null;
 
