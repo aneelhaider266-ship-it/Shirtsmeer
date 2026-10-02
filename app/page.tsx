@@ -68,43 +68,53 @@ export default function HomePage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {POSTS.map((post) => (
-            <article
-              key={post.slug}
-              className="p-6 rounded-xl border border-slate-200 bg-white hover:border-blue-400 hover:shadow-md transition-all flex flex-col justify-between"
-            >
-              <div>
-                <div className="flex items-center justify-between text-xs text-slate-500 mb-3">
-                  <span className="font-semibold uppercase tracking-wider text-blue-600">
-                    Primary: {post.primaryKeyword}
-                  </span>
-                  <span>{(post as any).readTime || "7 min read"}</span>
+          {POSTS.map((item) => {
+            const post = item as any;
+            const slug = post.slug || "";
+            const title = post.title || "";
+            const keyword = post.primaryKeyword || "Menswear";
+            const time = post.readTime || "7 min read";
+            const excerpt = post.leadExcerpt || post.description || post.metaDescription || "";
+            const volume = post.searchVolume ? post.searchVolume.toLocaleString() : "1,600";
+
+            return (
+              <article
+                key={slug}
+                className="p-6 rounded-xl border border-slate-200 bg-white hover:border-blue-400 hover:shadow-md transition-all flex flex-col justify-between"
+              >
+                <div>
+                  <div className="flex items-center justify-between text-xs text-slate-500 mb-3">
+                    <span className="font-semibold uppercase tracking-wider text-blue-600">
+                      Primary: {keyword}
+                    </span>
+                    <span>{time}</span>
+                  </div>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3 leading-snug">
+                    <Link
+                      href={`/blog/${slug}`}
+                      className="hover:text-blue-600 transition-colors"
+                    >
+                      {title}
+                    </Link>
+                  </h3>
+                  <p className="text-sm text-slate-600 leading-relaxed mb-4">
+                    {excerpt}
+                  </p>
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3 leading-snug">
+                <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
+                  <span className="text-xs text-slate-500 font-medium">
+                    US Searches: {volume} /mo
+                  </span>
                   <Link
-                    href={`/blog/${post.slug}`}
-                    className="hover:text-blue-600 transition-colors"
+                    href={`/blog/${slug}`}
+                    className="text-sm font-semibold text-blue-600 hover:underline flex items-center gap-1"
                   >
-                    {post.title}
+                    Read Matrix <ArrowRight className="w-4 h-4" />
                   </Link>
-                </h3>
-                <p className="text-sm text-slate-600 leading-relaxed mb-4">
-                  {(post as any).leadExcerpt || (post as any).description || (post as any).metaDescription}
-                </p>
-              </div>
-              <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
-                <span className="text-xs text-slate-500 font-medium">
-                  US Searches: {post.searchVolume.toLocaleString()} /mo
-                </span>
-                <Link
-                  href={`/blog/${post.slug}`}
-                  className="text-sm font-semibold text-blue-600 hover:underline flex items-center gap-1"
-                >
-                  Read Matrix <ArrowRight className="w-4 h-4" />
-                </Link>
-              </div>
-            </article>
-          ))}
+                </div>
+              </article>
+            );
+          })}
         </div>
       </section>
 
