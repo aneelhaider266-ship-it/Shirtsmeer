@@ -1,0 +1,49 @@
+{
+  "quickAnswerTitle": "Quick Answer: How to Style a Cuban Collar Shirt?",
+  "quickAnswer": "Style a Cuban collar (camp collar) shirt with tapered linen trousers, pleated chinos, or Gurkha pants. Always wear it untucked with a hem hitting mid-zipper, or tucked loosely with a woven leather belt. Complete the look with suede loafers, espadrilles, or minimalist leather sneakers without socks.",
+  "intro": "Few garments capture warm-weather sartorial swagger like the Cuban collar shirt. Originating in 19th-century Caribbean workwear (known historically as the Guayabera) and popularized in mid-century Havana, Miami, and the French Riviera, the camp collar shirt has re-emerged as the king of modern summer tailoring.",
+  "swatchHeading": "Resort Summer Palette",
+  "swatches": [
+    { "name": "Ecru Slub Linen", "hex": "#F5F2EB", "role": "Riviera Neutral" },
+    { "name": "Sage Green Tencel", "hex": "#9CAF88", "role": "Modern Earth" },
+    { "name": "Terracotta Silk-Cotton", "hex": "#C86D51", "role": "Warm Accent" },
+    { "name": "Midnight Navy", "hex": "#1B2A47", "role": "Evening Casual" }
+  ],
+  "sections": [
+    {
+      "heading": "1. The Anatomy: What Makes It Different from a Standard Shirt?",
+      "paragraphs": [
+        "A Cuban collar lacks a rigid interior collar band. Instead, the collar points are cut as a direct extension of the front placket, allowing the collar to lay flat across your shoulders.",
+        "This creates a relaxed, open notch lapel that frames your neck and collarbone. It conveys relaxed confidence and should never be buttoned to the throat or worn with a tie."
+      ]
+    },
+    {
+      "heading": "2. Fabric Selection: Linen vs. Tencel vs. Rayon",
+      "paragraphs": [
+        "Pure Linen provides unmatched airflow and slubby texture that embraces natural wrinkling. Tencel and modal blends provide a silky, liquid drape that swishes elegantly as you walk.",
+        "Avoid stiff 100% poplin cotton; Cuban collars require supple, draping textiles to lay correctly against your chest."
+      ],
+      "bullets": [
+        { "label": "Linen", "text": "Crisp, breezy, and tactile — ideal for high heat and beachside dining." },
+        { "label": "Tencel / Lyocell", "text": "Ultra-soft with an elegant liquid sheen for evening lounge events." }
+      ]
+    },
+    {
+      "heading": "3. How to Pair with Trousers & Footwear",
+      "paragraphs": [
+        "Pair an ecru or sage green Cuban collar shirt with olive utility chinos or relaxed pleated trousers. Review our detailed styling rules on What Color Shirt with Olive Green Pants for complete outfit balance.",
+        "Ground the outfit with tobacco suede penny loafers, Belgian slip-ons, or clean white leather tennis shoes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should you wear an undershirt with a Cuban collar?",
+      "answer": "Traditionally no; the shirt is designed to be worn against bare skin. However, wearing an open Cuban collar shirt over a ribbed white tank top is a modern, stylish look."
+    },
+    {
+      "question": "Can you wear a Cuban collar shirt with a suit?",
+      "answer": "Yes! Pairing an open Cuban collar shirt with an unstructured linen or cotton suit creates a sophisticated Mediterranean look favored at summer cocktail parties."
+    }
+  ]
+}
