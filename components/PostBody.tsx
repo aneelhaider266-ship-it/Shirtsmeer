@@ -43,18 +43,29 @@ function SectionBlock({ section }: { section: Section }) {
 
 export default function PostBody({ slug, content }: { slug: string; content: PostContent }) {
   const related = POSTS.filter((p) => p.slug !== slug);
+  const introParagraphs: string[] = Array.isArray(content.intro)
+    ? content.intro
+    : content.intro
+      ? [content.intro]
+      : [];
 
   return (
     <div>
       <div className="prose prose-slate max-w-none prose-headings:font-bold prose-h2:mt-10 prose-a:text-blue-600">
-        <QuickAnswerBox title={content.quickAnswerTitle ?? ""}>{content.quickAnswer ?? ""}</QuickAnswerBox>
+        <QuickAnswerBox title={content.quickAnswerTitle ?? ""}>
+          {content.quickAnswer ?? ""}
+        </QuickAnswerBox>
 
-        <p className="text-lg">{content.intro}</p>
+        {introParagraphs.map((p) => (
+          <p key={p.slice(0, 40)} className="text-lg">
+            {p}
+          </p>
+        ))}
 
         <div className="not-prose my-6">
           <h3 className="mb-2 text-sm font-bold uppercase tracking-wider text-slate-500">
-  {content.swatchHeading ?? "Color Palette"}
-</h3>
+            {content.swatchHeading ?? "Color Palette"}
+          </h3>
           <div className="flex flex-wrap gap-2">
             {(content.swatches ?? []).map((s) => (
               <ColorSwatch key={s.name} colorName={s.name} hex={s.hex} role={s.role} />
