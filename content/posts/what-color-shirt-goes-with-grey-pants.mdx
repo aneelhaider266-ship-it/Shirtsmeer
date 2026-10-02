@@ -1,245 +1,85 @@
-import fs from "node:fs";
-import path from "node:path";
-import matter from "gray-matter";
+---
+title: "What Color Shirt Goes with Grey Pants? Complete Men's Guide"
+metaTitle: "What Color Shirt with Grey Pants? Style Guide"
+description: "Wondering what color shirt goes with grey pants? Style grey trousers with white, light blue, black, or navy shirts using our complete outfit matrix."
+date: "2026-03-15"
+slug: "what-color-shirt-goes-with-grey-pants"
+image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80"
+imageAlt: "Tailored grey trousers neatly paired with crisp white and blue dress shirts"
+primaryKeyword: "grey pants"
+searchVolume: 2900
+related:
+  - "what-color-shirt-goes-with-navy-pants"
+  - "what-color-shirt-goes-with-brown-pants"
+  - "what-color-shirt-goes-with-olive-green-pants"
+---
 
-export const SITE_URL = "https://shirtsmeer.com";
+<QuickAnswerBox title="Quick Answer: What Color Shirt with Grey Pants?">
+The best shirt colors to pair with grey pants are crisp white, light powder blue, jet black, and midnight navy. For light grey trousers, dark shirts provide striking contrast; for dark charcoal pants, light shirts balance visual weight. Complete the look with black or dark brown leather dress shoes.
+</QuickAnswerBox>
 
-const POSTS_DIRECTORY = path.join(process.cwd(), "content", "posts");
+Grey pants represent the ultimate neutral foundation in menswear. While black trousers can feel overly solemn and navy chinos lean decidedly casual or corporate, grey trousers occupy the perfect middle ground. Whether cut from heavy wool flannel, breathable tropical wool, or structured cotton twill, grey pants provide an anchor that allows a man to adjust his formality and visual temperature with total control.
 
-export interface FAQItem {
-  question: string;
-  answer: string;
-  [key: string]: any;
-}
+To understand why grey trousers work so effortlessly, one must look at color theory. Pure grey is achromatic, meaning it has zero saturation and reflects all wavelengths of light evenly. Because grey possesses no competing chromatic undertones, it cannot clash with any hue on the color wheel. However, the secret to a great outfit lies not merely in avoiding clashes, but in establishing deliberate value contrast, textural harmony, and balanced footwear coordination.
 
-export interface Section {
-  heading: string;
-  paragraphs: string[];
-  bullets?: string[];
-  subsections?: Section[];
-  swatch?: any;
-  table?: any;
-  callout?: any;
-  [key: string]: any;
-}
+## Understanding Tonal Values: Charcoal vs. Mid-Grey vs. Light Grey
 
-export interface PostContent {
-  quickAnswer?: string;
-  intro?: string[] | string;
-  sections: Section[];
-  table?: any;
-  faqs?: FAQItem[];
-  [key: string]: any;
-}
+Before pulling a shirt from your closet, you must determine where your grey pants sit on the greyscale spectrum. A shirt that looks brilliant with light dove grey chinos can fall completely flat when paired with dark charcoal wool trousers.
 
-export interface PostMeta {
-  slug: string;
-  title: string;
-  metaTitle: string;
-  metaDescription: string;
-  description?: string;
-  excerpt?: string;
-  leadExcerpt?: string;
-  shortLabel?: string;
-  primaryKeyword: string;
-  searchVolume: number;
-  publishedDate: string;
-  updatedDate?: string | Date;
-  date?: string;
-  readTime: string;
-  image?: string;
-  imageAlt?: string;
-  related?: string[];
-  faqs?: FAQItem[];
-  sections?: Section[];
-  content?: any;
-  [key: string]: any;
-}
+### Light Grey and Silver Trousers
+Light grey trousers reflect substantial ambient light and carry lower visual density. As a result, they serve as a striking canvas for deep, saturated shirt colors. When you wear light grey pants with a dark navy, forest green, or jet black shirt, you create an inverted contrast profile where the top half commands attention while the trousers provide a bright, clean foundation. Light grey is particularly well-suited for warm spring and summer days, garden events, and creative business settings.
 
-export interface PostData {
-  frontmatter: PostMeta;
-  content: string;
-  [key: string]: any;
-}
+### Mid-Grey and Slate Trousers
+Mid-grey is the workhorse of the business wardrobe. Often seen in worsted wool suit separates and flannel trousers, mid-grey has sufficient depth to pair with pale pastel shirts without washing out, yet remains light enough to create distinct separation against dark shirts. If you are building a capsule wardrobe, mid-grey trousers should be your first acquisition.
 
-export const POSTS: PostMeta[] = [
-  {
-    slug: "what-color-shirt-goes-with-grey-pants",
-    title: "What Color Shirt Goes with Grey Pants? Complete Men's Guide",
-    metaTitle: "What Color Shirt with Grey Pants? Style Guide",
-    metaDescription: "Wondering what color shirt goes with grey pants? Style grey trousers with white, light blue, black, or navy shirts using our complete outfit matrix.",
-    description: "Wondering what color shirt goes with grey pants? Style grey trousers with white, light blue, black, or navy shirts using our complete outfit matrix.",
-    excerpt: "Grey pants offer the most versatile neutral foundation in menswear. Discover the exact shirt colors, contrast ratios, and leather pairings that create foolproof outfits.",
-    leadExcerpt: "Grey pants offer the most versatile neutral foundation in menswear. Discover the exact shirt colors, contrast ratios, and leather pairings that create foolproof outfits.",
-    shortLabel: "Grey Pants Combinations",
-    primaryKeyword: "grey pants",
-    searchVolume: 2900,
-    publishedDate: "2026-03-15",
-    updatedDate: "2026-03-15",
-    date: "2026-03-15",
-    readTime: "7 min read",
-    image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Tailored grey trousers neatly paired with crisp white and blue dress shirts",
-    related: ["what-color-shirt-goes-with-navy-pants", "what-color-shirt-goes-with-brown-pants", "what-color-shirt-goes-with-olive-green-pants"],
-    sections: [],
-  },
-  {
-    slug: "what-color-shirt-goes-with-brown-pants",
-    title: "What Color Shirt Goes with Brown Pants? Complete Men's Guide",
-    metaTitle: "What Color Shirt with Brown Pants? Style Guide",
-    metaDescription: "Discover what color shirt to wear with brown pants. Match dark brown and tan trousers with blue, white, pink, or black shirts and leather shoes.",
-    description: "Discover what color shirt to wear with brown pants. Match dark brown and tan trousers with blue, white, pink, or black shirts and leather shoes.",
-    excerpt: "Brown pants provide a rich, earthy alternative to black and grey. Learn how to pair chocolate, tobacco, and chestnut trousers with precision shirt choices.",
-    leadExcerpt: "Brown pants provide a rich, earthy alternative to black and grey. Learn how to pair chocolate, tobacco, and chestnut trousers with precision shirt choices.",
-    shortLabel: "Brown Pants Styling",
-    primaryKeyword: "brown pants",
-    searchVolume: 2900,
-    publishedDate: "2026-03-16",
-    updatedDate: "2026-03-16",
-    date: "2026-03-16",
-    readTime: "7 min read",
-    image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Rich chocolate brown trousers laid flat with sky blue and ecru shirts",
-    related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-khaki-pants", "what-color-shirt-goes-with-olive-green-pants"],
-    sections: [],
-  },
-  {
-    slug: "what-color-shirt-goes-with-navy-pants",
-    title: "What Color Shirt to Wear with Navy Pants? Men's Outfit Rules",
-    metaTitle: "What Color Shirt with Navy Pants? Style Guide",
-    metaDescription: "Learn what color shirt to wear with navy pants. Pair dark navy trousers with crisp white, pink, light grey, or patterned shirts for sharp outfits.",
-    description: "Learn what color shirt to wear with navy pants. Pair dark navy trousers with crisp white, pink, light grey, or patterned shirts for sharp outfits.",
-    excerpt: "Navy pants form the bedrock of business casual and tailored menswear. Master tonal contrasts, pastel balances, and shoe coordination effortlessly.",
-    leadExcerpt: "Navy pants form the bedrock of business casual and tailored menswear. Master tonal contrasts, pastel balances, and shoe coordination effortlessly.",
-    shortLabel: "Navy Pants Pairing",
-    primaryKeyword: "navy blue pants",
-    searchVolume: 1600,
-    publishedDate: "2026-03-17",
-    updatedDate: "2026-03-17",
-    date: "2026-03-17",
-    readTime: "7 min read",
-    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Midnight navy blue tailored trousers styled with white and pastel shirts",
-    related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-khaki-pants", "what-color-shirt-goes-with-brown-pants"],
-    sections: [],
-  },
-  {
-    slug: "what-color-shirt-goes-with-khaki-pants",
-    title: "What Color Shirt Goes with Khaki Pants? Men's Style Rules",
-    metaTitle: "What Color Shirt with Khaki Pants? Style Guide",
-    metaDescription: "Find out what color shirt goes with khaki pants. Discover the best combinations with navy, white, olive, and denim shirts plus shoe recommendations.",
-    description: "Find out what color shirt goes with khaki pants. Discover the best combinations with navy, white, olive, and denim shirts plus shoe recommendations.",
-    excerpt: "Khaki pants are a staple that frequently gets styled wrong. Learn how to break away from dull office looks using high-contrast shirts and modern textures.",
-    leadExcerpt: "Khaki pants are a staple that frequently gets styled wrong. Learn how to break away from dull office looks using high-contrast shirts and modern textures.",
-    shortLabel: "Khaki Pants Rules",
-    primaryKeyword: "khaki pants",
-    searchVolume: 1300,
-    publishedDate: "2026-03-18",
-    updatedDate: "2026-03-18",
-    date: "2026-03-18",
-    readTime: "7 min read",
-    image: "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Classic tan khaki chinos paired with deep navy and white shirts",
-    related: ["what-color-shirt-goes-with-navy-pants", "what-color-shirt-goes-with-olive-green-pants", "what-color-shirt-goes-with-grey-pants"],
-    sections: [],
-  },
-  {
-    slug: "what-color-shirt-goes-with-olive-green-pants",
-    title: "What Color Shirt with Olive Green Pants? Top Men's Outfits",
-    metaTitle: "What Color Shirt with Olive Pants? Style Guide",
-    metaDescription: "Find what color shirt goes with olive green pants. Pair olive chinos with white, black, navy, or chambray shirts using our visual color matrix.",
-    description: "Find what color shirt goes with olive green pants. Pair olive chinos with white, black, navy, or chambray shirts using our visual color matrix.",
-    excerpt: "Olive green pants are the modern sartorial wildcard. Learn how to style green chinos and military trousers with clean, sharp shirt combinations.",
-    leadExcerpt: "Olive green pants are the modern sartorial wildcard. Learn how to style green chinos and military trousers with clean, sharp shirt combinations.",
-    shortLabel: "Olive Green Chinos",
-    primaryKeyword: "olive green pants",
-    searchVolume: 1600,
-    publishedDate: "2026-03-19",
-    updatedDate: "2026-03-19",
-    date: "2026-03-19",
-    readTime: "7 min read",
-    image: "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Olive green cotton chinos paired with white, black, and denim shirts",
-    related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-navy-pants", "what-color-shirt-goes-with-khaki-pants"],
-    sections: [],
-  },
-];
+### Dark Grey and Charcoal Trousers
+Charcoal trousers function almost identically to black pants in modern tailoring, yet they possess subtle textural character that prevents them from looking severe. Charcoal absorbs light and adds significant formal weight to an outfit. Consequently, charcoal demands high-value light shirts—such as pure white, ice blue, or pale ecru—to maintain balance. Pairing charcoal trousers with a dark shirt requires layering or meticulous accessory choices to avoid looking murky.
 
-export function getPostSlugs(): string[] {
-  if (fs.existsSync(POSTS_DIRECTORY)) {
-    const files = fs.readdirSync(POSTS_DIRECTORY).filter((file) => file.endsWith(".mdx"));
-    if (files.length > 0) {
-      return files.map((file) => file.replace(/\.mdx$/, ""));
-    }
-  }
-  return POSTS.map((post) => post.slug);
-}
+## 1. The Crisp White Shirt: Timeless Boardroom Authority
 
-export function getPostBySlug(slug: string): PostData | null {
-  const realSlug = slug.replace(/\.mdx$/, "");
-  const fullPath = path.join(POSTS_DIRECTORY, `${realSlug}.mdx`);
+The white dress shirt paired with grey pants is the foundational uniform of executive menswear. This combination delivers maximum value contrast against charcoal and mid-grey trousers without introducing clashing color temperatures.
 
-  if (fs.existsSync(fullPath)) {
-    const rawContents = fs.readFileSync(fullPath, "utf8");
-    
-    // AUTO-CLEAN: Agar kisi ne ```mdx ya ghalti se spaces copy kar liye hon to auto-strip karein
-    const cleanContents = rawContents.replace(/^```[a-z]*\r?\n/, "").trimStart();
-    const { data, content } = matter(cleanContents);
+For executive boardrooms and formal presentations, select a high-thread-count cotton broadcloth or fine twill shirt with a structured semi-spread collar. The smooth, lustrous finish of broadcloth complements the clean lines of tailored wool. When transitioning to business casual, switch to a heavyweight Oxford Cloth Button-Down (OCBD). The cross-hatch basketweave texture of an Oxford shirt softens the formality of grey trousers, allowing you to leave the collar unbuttoned with total confidence.
 
-    // AUTO-STRIP FRONTMATTER FROM BODY: Frontmatter screen par kabhi text ban kar nahi aayega
-    const cleanBody = content.replace(/^---[\s\S]*?---\r?\n?/, "").trim();
+## 2. The Light Powder Blue Shirt: Everyday Professional Elegance
 
-    return {
-      frontmatter: {
-        slug: realSlug,
-        title: String(data.title || ""),
-        metaTitle: String(data.metaTitle || data.title || ""),
-        metaDescription: String(data.description || ""),
-        description: String(data.description || ""),
-        excerpt: String(data.excerpt || data.description || ""),
-        shortLabel: String(data.shortLabel || data.title || ""),
-        date: String(data.date || "2026-03-15"),
-        publishedDate: String(data.date || "2026-03-15"),
-        updatedDate: String(data.updatedDate || data.date || "2026-03-15"),
-        readTime: "7 min read",
-        primaryKeyword: String(data.primaryKeyword || "Menswear"),
-        searchVolume: Number(data.searchVolume || 1600),
-        image: String(data.image || ""),
-        imageAlt: String(data.imageAlt || ""),
-        related: Array.isArray(data.related) ? data.related.map(String) : [],
-        faqs: Array.isArray(data.faqs) ? data.faqs : [],
-        sections: Array.isArray(data.sections) ? data.sections : [],
-      },
-      content: cleanBody,
-    };
-  }
+If a stark white shirt feels too formal or sterile for your daily office environment, light powder blue is the premier choice. Blue and grey share naturally cool undertones, creating an effortless chromatic synergy that flatters every skin tone and looks balanced under office lighting.
 
-  const fallback = POSTS.find((p) => p.slug === realSlug);
-  if (!fallback) return null;
+A solid light blue pinpoint or end-on-end dress shirt provides subtle depth when worn with charcoal trousers. If your grey pants are a flat mid-grey, introduce visual interest through a micro-gingham, end-on-end, or subtle Bengal stripe pattern. The pale blue stripes break up the monochromatic field without overpowering the clean lines of your trousers. Pair this combination with rich cognac or dark burgundy leather shoes to inject warm character into an otherwise cool palette.
 
-  return {
-    frontmatter: fallback,
-    content: fallback.leadExcerpt || "",
-  };
-}
+## 3. The Jet Black Shirt: Modern Evening Sophistication
 
-export function getAllPosts(): PostData[] {
-  const slugs = getPostSlugs();
-  return slugs
-    .map((slug) => getPostBySlug(slug))
-    .filter((post): post is PostData => post !== null);
-}
+Wearing a black dress shirt requires deliberate styling. Done poorly, it can look like catering staff uniform; done correctly, it projects sleek, contemporary sophistication ideal for evening dinners, art openings, and nightlife.
 
-export function getRelatedPosts(currentSlug: string, relatedSlugs: string[]): PostMeta[] {
-  const targetSlugs = relatedSlugs && relatedSlugs.length > 0 
-    ? relatedSlugs 
-    : POSTS.filter(p => p.slug !== currentSlug).map(p => p.slug).slice(0, 3);
+The absolute golden rule of wearing a black shirt with grey pants is contrast. Never pair a black shirt with dark charcoal trousers unless you break up the torso with a contrasting grey or camel coat. Instead, pair a slim-fitting matte black poplin or modal shirt with light grey or dove grey trousers. The stark tonal separation gives the outfit intentional structure. Finish the ensemble with polished black leather Chelsea boots or minimalist black dress loafers, keeping accessories minimal and sharp.
 
-  return targetSlugs
-    .filter((slug) => slug !== currentSlug)
-    .map((slug) => {
-      const post = getPostBySlug(slug);
-      return post ? post.frontmatter : null;
-    })
-    .filter((post): post is PostMeta => post !== null);
-}
+## 4. Soft Pastel Pink and Lilac: Sartorial Warmth
+
+Pastel shirts provide a brilliant counterpoint to the cool neutrality of grey pants. A pale pink twill dress shirt introduces subtle warmth into mid-grey flannel or textured wool trousers, making it a perennial favorite for spring daytime weddings and networking lunches.
+
+The key to mastering pink is saturation control. Avoid vibrant magenta, bubblegum, or neon pinks, which overpower the understated sophistication of grey. Instead, look for blush, dusty rose, or washed pastel pink. Similarly, a pale lilac or lavender shirt pairs exceptionally well with charcoal pants, drawing out the cool undertones of both garments. Complete this look with medium brown suede penny loafers to keep the outfit grounded.
+
+## 5. The Midnight Navy Shirt: Understated Visual Weight
+
+While a light blue shirt provides traditional corporate elegance, a midnight navy shirt offers modern masculine presence. Pairing a dark navy shirt with light grey trousers reverses traditional contrast conventions by placing the dark visual weight on top.
+
+This combination works exceptionally well in transitional autumn months. A dark navy spread-collar linen shirt or a fine-gauge merino wool knit polo worn tucked into light grey pleated trousers creates an elevated European look. Because navy and grey are both foundational menswear neutrals, this outfit feels balanced and cohesive. Anchor the look with dark oxblood brogues or dark chocolate leather dress shoes.
+
+## Footwear and Leather Coordination for Grey Pants
+
+Because grey contains no inherent red, yellow, or blue undertones, your footwear dictates the overall temperature and formality of the outfit.
+
+### Black Leather (Oxfords, Monk Straps, Chelsea Boots)
+Black leather represents the formal gold standard. When you are wearing charcoal trousers with a white or pale blue shirt for corporate affairs, black calfskin dress shoes are mandatory. Black maintains the crisp, non-distracting formality required in conservative business environments.
+
+### Dark Brown and Espresso Leather
+Dark brown leather introduces welcome warmth to grey trousers. An espresso brown cap-toe Oxford or dark chocolate suede loafer softens the coldness of grey wool, making the entire ensemble feel approachable and stylish. Always ensure your dress belt matches your shoe leather in both shade and finish.
+
+### Burgundy, Oxblood, and Color 8 Shell Cordovan
+Burgundy leather is arguably the most sophisticated footwear choice for grey trousers. The deep reddish-purple undertones of oxblood cut through the neutrality of grey, creating subtle visual interest without violating business dress codes. Burgundy Derbies paired with mid-grey flannel trousers is a timeless combination favored by tailoring aficionados worldwide.
+
+## Common Styling Mistakes to Avoid with Grey Pants
+
+* **Wearing Mismatched Grey Separates:** Never attempt to wear a grey shirt that is nearly identical to your grey pants unless they are made from the exact same fabric cut. Wearing two slightly different greys looks like an accidental, failed attempt at a suit.
+* **Overly Saturated Jewel Tones:** Saturated bright yellow, electric green, and bright purple shirts clash aggressively against grey. Stick to muted pastels, deep jewel tones, or clean neutrals.
+* **Ignoring Belt and Shoe Cohesion:** A black belt with brown shoes instantly ruins a tailored grey pants outfit. Ensure all visible leathers align perfectly.
