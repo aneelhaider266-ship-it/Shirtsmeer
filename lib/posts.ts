@@ -6,6 +6,14 @@ export const SITE_URL = "https://shirtsmeer.com";
 
 const POSTS_DIRECTORY = path.join(process.cwd(), "content", "posts");
 
+const SLUG_TO_JSON: Record<string, string> = {
+  "what-color-shirt-goes-with-grey-pants": "grey-pants.json",
+  "what-color-shirt-goes-with-brown-pants": "brown-pants.json",
+  "what-color-shirt-goes-with-navy-pants": "navy-pants.json",
+  "what-color-shirt-goes-with-khaki-pants": "khaki-pants.json",
+  "what-color-shirt-goes-with-olive-green-pants": "olive-green-pants.json",
+};
+
 export interface FAQItem {
   question: string;
   answer: string;
@@ -15,19 +23,17 @@ export interface FAQItem {
 export interface Section {
   heading: string;
   paragraphs: string[];
-  bullets?: string[];
-  subsections?: Section[];
-  swatch?: any;
-  table?: any;
-  callout?: any;
+  bullets?: any[];
   [key: string]: any;
 }
 
 export interface PostContent {
+  quickAnswerTitle?: string;
   quickAnswer?: string;
-  intro?: string[] | string;
+  intro?: string;
+  swatchHeading?: string;
+  swatches?: any[];
   sections: Section[];
-  table?: any;
   faqs?: FAQItem[];
   [key: string]: any;
 }
@@ -51,14 +57,13 @@ export interface PostMeta {
   imageAlt?: string;
   related?: string[];
   faqs?: FAQItem[];
-  sections?: Section[];
-  content?: any;
   [key: string]: any;
 }
 
 export interface PostData {
   frontmatter: PostMeta;
   content: string;
+  contentData: PostContent | null;
   [key: string]: any;
 }
 
@@ -81,7 +86,6 @@ export const POSTS: PostMeta[] = [
     image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Tailored grey trousers neatly paired with crisp white and blue dress shirts",
     related: ["what-color-shirt-goes-with-navy-pants", "what-color-shirt-goes-with-brown-pants", "what-color-shirt-goes-with-olive-green-pants"],
-    sections: [],
   },
   {
     slug: "what-color-shirt-goes-with-brown-pants",
@@ -101,7 +105,6 @@ export const POSTS: PostMeta[] = [
     image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Rich chocolate brown trousers laid flat with sky blue and ecru shirts",
     related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-khaki-pants", "what-color-shirt-goes-with-olive-green-pants"],
-    sections: [],
   },
   {
     slug: "what-color-shirt-goes-with-navy-pants",
@@ -121,7 +124,6 @@ export const POSTS: PostMeta[] = [
     image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Midnight navy blue tailored trousers styled with white and pastel shirts",
     related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-khaki-pants", "what-color-shirt-goes-with-brown-pants"],
-    sections: [],
   },
   {
     slug: "what-color-shirt-goes-with-khaki-pants",
@@ -141,7 +143,6 @@ export const POSTS: PostMeta[] = [
     image: "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Classic tan khaki chinos paired with deep navy and white shirts",
     related: ["what-color-shirt-goes-with-navy-pants", "what-color-shirt-goes-with-olive-green-pants", "what-color-shirt-goes-with-grey-pants"],
-    sections: [],
   },
   {
     slug: "what-color-shirt-goes-with-olive-green-pants",
@@ -161,69 +162,50 @@ export const POSTS: PostMeta[] = [
     image: "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Olive green cotton chinos paired with white, black, and denim shirts",
     related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-navy-pants", "what-color-shirt-goes-with-khaki-pants"],
-    sections: [],
   },
 ];
 
 export function getPostSlugs(): string[] {
-  if (fs.existsSync(POSTS_DIRECTORY)) {
-    const files = fs.readdirSync(POSTS_DIRECTORY).filter((file) => file.endsWith(".mdx"));
-    if (files.length > 0) {
-      return files.map((file) => file.replace(/\.mdx$/, ""));
-    }
-  }
   return POSTS.map((post) => post.slug);
 }
 
 export function getPostBySlug(slug: string): PostData | null {
-  const realSlug = slug.replace(/\.mdx$/, "");
-  const fullPath = path.join(POSTS_DIRECTORY, `${realSlug}.mdx`);
+  const fallback = POSTS.find((p) => p.slug === slug);
+  if (!fallback) return null;
 
-  if (fs.existsSync(fullPath)) {
-    const rawContents = fs.readFileSync(fullPath, "utf8");
-    const cleanContents = rawContents.replace(/^```[a-z]*\r?\n/, "").trimStart();
-    const { data, content } = matter(cleanContents);
-
-    // ACORN CRASH PROTECTION:
-    // 1. Frontmatter strip
-    let cleanBody = content.replace(/^---[\s\S]*?---\r?\n?/, "");
-    // 2. Kisi bhi stray import ya export line ko khatam karein taake Acorn parser crash na ho
-    cleanBody = cleanBody.replace(/^import\s+.*?;?\r?\n?/gm, "");
-    cleanBody = cleanBody.replace(/^export\s+default\s+.*$/gm, "");
-    cleanBody = cleanBody.replace(/^export\s+const\s+.*?=.*?;?\r?\n?/gm, "");
-    cleanBody = cleanBody.trim();
-
-    return {
-      frontmatter: {
-        slug: realSlug,
-        title: String(data.title || ""),
-        metaTitle: String(data.metaTitle || data.title || ""),
-        metaDescription: String(data.description || ""),
-        description: String(data.description || ""),
-        excerpt: String(data.excerpt || data.description || ""),
-        shortLabel: String(data.shortLabel || data.title || ""),
-        date: String(data.date || "2026-03-15"),
-        publishedDate: String(data.date || "2026-03-15"),
-        updatedDate: String(data.updatedDate || data.date || "2026-03-15"),
-        readTime: "7 min read",
-        primaryKeyword: String(data.primaryKeyword || "Menswear"),
-        searchVolume: Number(data.searchVolume || 1600),
-        image: String(data.image || ""),
-        imageAlt: String(data.imageAlt || ""),
-        related: Array.isArray(data.related) ? data.related.map(String) : [],
-        faqs: Array.isArray(data.faqs) ? data.faqs : [],
-        sections: Array.isArray(data.sections) ? data.sections : [],
-      },
-      content: cleanBody,
-    };
+  // 1. Check if .mdx file exists (Grey Pants)
+  const mdxPath = path.join(POSTS_DIRECTORY, `${slug}.mdx`);
+  let mdxContent = "";
+  if (fs.existsSync(mdxPath)) {
+    try {
+      const raw = fs.readFileSync(mdxPath, "utf8");
+      const clean = raw.replace(/^```[a-z]*\r?\n/, "").trimStart();
+      const { content } = matter(clean);
+      mdxContent = content.replace(/^---[\s\S]*?---\r?\n?/, "").trim();
+    } catch (err) {
+      console.error("MDX Read Error:", err);
+    }
   }
 
-  const fallback = POSTS.find((p) => p.slug === realSlug);
-  if (!fallback) return null;
+  // 2. Check if .json file exists (Brown, Navy, Khaki, Olive)
+  const jsonFileName = SLUG_TO_JSON[slug];
+  let contentData: PostContent | null = null;
+  if (jsonFileName) {
+    const jsonPath = path.join(POSTS_DIRECTORY, jsonFileName);
+    if (fs.existsSync(jsonPath)) {
+      try {
+        const rawJson = fs.readFileSync(jsonPath, "utf8");
+        contentData = JSON.parse(rawJson);
+      } catch (err) {
+        console.error("JSON Read Error:", err);
+      }
+    }
+  }
 
   return {
     frontmatter: fallback,
-    content: fallback.leadExcerpt || "",
+    content: mdxContent,
+    contentData,
   };
 }
 
