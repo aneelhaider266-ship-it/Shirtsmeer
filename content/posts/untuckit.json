@@ -1,0 +1,55 @@
+{
+  "quickAnswerTitle": "Quick Answer: Does Untuckit Solve Shirt Proportions?",
+  "quickAnswer": "Yes. Standard dress shirts feature long tails (around 31 to 33 inches) intended to stay tucked into dress pants, creating an unflattering nightgown look when left loose. Untuckit shirts feature engineered curved hems that fall precisely at mid-zipper (the halfway point between your belt and trouser crotch), providing a clean, masculine silhouette without tailoring.",
+  "intro": "Tucking in your shirt has long been a requirement of traditional menswear. Yet in weekend settings, beachside venues, and modern creative offices, keeping a shirt tucked can feel overly formal and restrictive. The problem? Taking a standard dress shirt and leaving it untucked invariably results in excess fabric that swallows your legs and makes you appear shorter. Untuckit built a global brand around solving this exact proportional problem.",
+  "swatchHeading": "Untuckit Shirt Styling Palette",
+  "swatches": [
+    { "name": "Classic Navy Chambray", "hex": "#1B2A47", "role": "Casual Friday" },
+    { "name": "Washed White Linen", "hex": "#FFFFFF", "role": "Summer Essential" },
+    { "name": "Gingham Blue Plaid", "hex": "#5B84B1", "role": "Weekend Layer" },
+    { "name": "Olive Utility Twill", "hex": "#556B2F", "role": "Rugged Style" }
+  ],
+  "sections": [
+    {
+      "heading": "1. The Exact Hem Formula: Mid-Zipper Measurement",
+      "paragraphs": [
+        "The golden rule of wearing an untucked shirt states that the bottom hem must fall halfway down your trouser zipper—leaving the front trouser pockets accessible while fully covering your belt line.",
+        "Untuckit engineers their shirts with curved side vents and shortened plackets that hit this exact proportional mark on 90% of men without requiring custom tailoring alterations."
+      ]
+    },
+    {
+      "heading": "2. Sizing Categories: Slim vs. Regular vs. Relaxed",
+      "paragraphs": [
+        "Untuckit offers three distinct fit profiles across standard, tall, and short torso lengths:",
+        "Slim Fit features higher armholes and tapers aggressively through the waist, eliminating ballooning fabric along your lower back. Regular Fit offers two extra inches through the chest and torso for men with broader builds."
+      ],
+      "bullets": [
+        { "label": "Short Torso Cut", "text": "Designed specifically for men under 5'8 to prevent the hem from drooping past the fly." },
+        { "label": "Tall Cut", "text": "Adds 2 inches to sleeve length and 1.5 inches to hem for men 6'2 and above." }
+      ]
+    },
+    {
+      "heading": "3. Fabric Quality & Wrinkle Resistance",
+      "paragraphs": [
+        "Untuckit uses 100% two-ply cotton across their wrinkle-free collections. The fabric possesses substantial body that resists creasing even after hours of sitting in flights or driving.",
+        "For summer, their washed linen and cotton-linen blends provide excellent airflow while retaining enough collar structure to prevent the lapels from folding flat."
+      ]
+    },
+    {
+      "heading": "4. How to Pair Untucked Shirts with Chinos",
+      "paragraphs": [
+        "Because an untucked shirt creates a casual silhouette, it pairs naturally with tapered flat-front chinos and clean leather sneakers. Pair a navy Untuckit button-down with classic tan chinos. See our styling breakdown on What Color Shirt Goes with Khaki Pants for complete outfit balance."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can you tuck in an Untuckit shirt if needed?",
+      "answer": "Technically yes, but because the hem is shortened to hit mid-fly, the tails may pull out of your waistband whenever you raise your arms or bend over."
+    },
+    {
+      "question": "Are Untuckit shirts true to size?",
+      "answer": "Yes, they fit true to size. If you normally wear a Medium Slim in J.Crew or Banana Republic, an Untuckit Medium Slim will fit almost identically in the chest."
+    }
+  ]
+}
