@@ -9,6 +9,26 @@ const POSTS_DIRECTORY = path.join(process.cwd(), "content", "posts");
 export interface FAQItem {
   question: string;
   answer: string;
+  [key: string]: any;
+}
+
+export interface Section {
+  title?: string;
+  heading?: string;
+  content?: string;
+  text?: string;
+  paragraphs?: string[];
+  items?: string[];
+  [key: string]: any;
+}
+
+export interface PostContent {
+  quickAnswer?: string;
+  intro?: string;
+  sections?: Section[];
+  table?: any;
+  faqs?: FAQItem[];
+  [key: string]: any;
 }
 
 export interface PostMeta {
@@ -30,11 +50,15 @@ export interface PostMeta {
   imageAlt?: string;
   related?: string[];
   faqs?: FAQItem[];
+  sections?: Section[];
+  content?: any;
+  [key: string]: any;
 }
 
 export interface PostData {
   frontmatter: PostMeta;
   content: string;
+  [key: string]: any;
 }
 
 export const POSTS: PostMeta[] = [
@@ -56,6 +80,7 @@ export const POSTS: PostMeta[] = [
     image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Tailored grey trousers neatly paired with crisp white and blue dress shirts",
     related: ["what-color-shirt-goes-with-navy-pants", "what-color-shirt-goes-with-brown-pants", "what-color-shirt-goes-with-olive-green-pants"],
+    sections: [],
   },
   {
     slug: "what-color-shirt-goes-with-brown-pants",
@@ -75,6 +100,7 @@ export const POSTS: PostMeta[] = [
     image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Rich chocolate brown trousers laid flat with sky blue and ecru shirts",
     related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-khaki-pants", "what-color-shirt-goes-with-olive-green-pants"],
+    sections: [],
   },
   {
     slug: "what-color-shirt-goes-with-navy-pants",
@@ -94,6 +120,7 @@ export const POSTS: PostMeta[] = [
     image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Midnight navy blue tailored trousers styled with white and pastel shirts",
     related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-khaki-pants", "what-color-shirt-goes-with-brown-pants"],
+    sections: [],
   },
   {
     slug: "what-color-shirt-goes-with-khaki-pants",
@@ -113,6 +140,7 @@ export const POSTS: PostMeta[] = [
     image: "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Classic tan khaki chinos paired with deep navy and white shirts",
     related: ["what-color-shirt-goes-with-navy-pants", "what-color-shirt-goes-with-olive-green-pants", "what-color-shirt-goes-with-grey-pants"],
+    sections: [],
   },
   {
     slug: "what-color-shirt-goes-with-olive-green-pants",
@@ -132,6 +160,7 @@ export const POSTS: PostMeta[] = [
     image: "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Olive green cotton chinos paired with white, black, and denim shirts",
     related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-navy-pants", "what-color-shirt-goes-with-khaki-pants"],
+    sections: [],
   },
 ];
 
@@ -171,6 +200,7 @@ export function getPostBySlug(slug: string): PostData | null {
         imageAlt: String(data.imageAlt || ""),
         related: Array.isArray(data.related) ? data.related.map(String) : [],
         faqs: Array.isArray(data.faqs) ? data.faqs : [],
+        sections: Array.isArray(data.sections) ? data.sections : [],
       },
       content,
     };
