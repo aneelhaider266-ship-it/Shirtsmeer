@@ -13,19 +13,20 @@ export interface FAQItem {
 }
 
 export interface Section {
-  title?: string;
-  heading?: string;
-  content?: string;
-  text?: string;
-  paragraphs?: string[];
-  items?: string[];
+  heading: string;
+  paragraphs: string[];
+  bullets?: string[];
+  subsections?: Section[];
+  swatch?: any;
+  table?: any;
+  callout?: any;
   [key: string]: any;
 }
 
 export interface PostContent {
   quickAnswer?: string;
-  intro?: string;
-  sections?: Section[];
+  intro?: string[] | string;
+  sections: Section[];
   table?: any;
   faqs?: FAQItem[];
   [key: string]: any;
