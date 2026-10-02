@@ -25,7 +25,7 @@ function SectionBlock({ section }: { section: Section }) {
   return (
     <>
       <h2>{section.heading}</h2>
-      {section.paragraphs.map((p) => (
+      {(section.paragraphs ?? []).map((p: string) => (
         <p key={p.slice(0, 40)}>{p}</p>
       ))}
       {bullets.length > 0 && (
@@ -56,7 +56,7 @@ export default function PostBody({ slug, content }: { slug: string; content: Pos
             {content.swatchHeading}
           </h3>
           <div className="flex flex-wrap gap-2">
-            {content.swatches.map((s) => (
+            {(content.swatches ?? []).map((s) => (
               <ColorSwatch key={s.name} colorName={s.name} hex={s.hex} role={s.role} />
             ))}
           </div>
@@ -68,7 +68,7 @@ export default function PostBody({ slug, content }: { slug: string; content: Pos
 
         <OutfitTable caption={content.tableCaption} rows={content.tableRows} />
 
-        {content.afterTable.map((s) => (
+        {(content.afterTable ?? []).map((s) => (
           <SectionBlock key={s.heading} section={s} />
         ))}
 
@@ -88,7 +88,7 @@ export default function PostBody({ slug, content }: { slug: string; content: Pos
         </div>
       </div>
 
-      <FAQAccordion items={content.faqs} />
+      <FAQAccordion items={content.faqs ?? []} />
     </div>
   );
 }
