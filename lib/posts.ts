@@ -12,6 +12,11 @@ const SLUG_TO_JSON: Record<string, string> = {
   "what-color-shirt-goes-with-navy-pants": "navy-pants.json",
   "what-color-shirt-goes-with-khaki-pants": "khaki-pants.json",
   "what-color-shirt-goes-with-olive-green-pants": "olive-green-pants.json",
+  "collars-and-co-dress-collar-polo-review": "collars-and-co.json",
+  "charles-tyrwhitt-vs-kamakura-dress-shirts": "charles-tyrwhitt-vs-kamakura.json",
+  "untuckit-shirts-sizing-and-fit-guide": "untuckit.json",
+  "criquet-shirts-retro-polo-review": "criquet-shirts.json",
+  "comfort-colors-1717-vs-gildan-5000-review": "comfort-colors-vs-gildan.json",
 };
 
 export interface FAQItem {
@@ -68,6 +73,7 @@ export interface PostData {
 }
 
 export const POSTS: PostMeta[] = [
+  // --- FOUNDATIONAL PANT GUIDES ---
   {
     slug: "what-color-shirt-goes-with-grey-pants",
     title: "What Color Shirt Goes with Grey Pants? Complete Men's Guide",
@@ -85,7 +91,7 @@ export const POSTS: PostMeta[] = [
     readTime: "7 min read",
     image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Tailored grey trousers neatly paired with crisp white and blue dress shirts",
-    related: ["what-color-shirt-goes-with-navy-pants", "what-color-shirt-goes-with-brown-pants", "what-color-shirt-goes-with-olive-green-pants"],
+    related: ["what-color-shirt-goes-with-navy-pants", "what-color-shirt-goes-with-brown-pants", "charles-tyrwhitt-vs-kamakura-dress-shirts"],
   },
   {
     slug: "what-color-shirt-goes-with-brown-pants",
@@ -104,7 +110,7 @@ export const POSTS: PostMeta[] = [
     readTime: "7 min read",
     image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Rich chocolate brown trousers laid flat with sky blue and ecru shirts",
-    related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-khaki-pants", "what-color-shirt-goes-with-olive-green-pants"],
+    related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-khaki-pants", "criquet-shirts-retro-polo-review"],
   },
   {
     slug: "what-color-shirt-goes-with-navy-pants",
@@ -123,7 +129,7 @@ export const POSTS: PostMeta[] = [
     readTime: "7 min read",
     image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Midnight navy blue tailored trousers styled with white and pastel shirts",
-    related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-khaki-pants", "what-color-shirt-goes-with-brown-pants"],
+    related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-khaki-pants", "collars-and-co-dress-collar-polo-review"],
   },
   {
     slug: "what-color-shirt-goes-with-khaki-pants",
@@ -142,7 +148,7 @@ export const POSTS: PostMeta[] = [
     readTime: "7 min read",
     image: "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Classic tan khaki chinos paired with deep navy and white shirts",
-    related: ["what-color-shirt-goes-with-navy-pants", "what-color-shirt-goes-with-olive-green-pants", "what-color-shirt-goes-with-grey-pants"],
+    related: ["what-color-shirt-goes-with-navy-pants", "what-color-shirt-goes-with-olive-green-pants", "untuckit-shirts-sizing-and-fit-guide"],
   },
   {
     slug: "what-color-shirt-goes-with-olive-green-pants",
@@ -161,7 +167,104 @@ export const POSTS: PostMeta[] = [
     readTime: "7 min read",
     image: "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Olive green cotton chinos paired with white, black, and denim shirts",
-    related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-navy-pants", "what-color-shirt-goes-with-khaki-pants"],
+    related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-navy-pants", "comfort-colors-1717-vs-gildan-5000-review"],
+  },
+
+  // --- BRAND COMPARISONS & REVIEWS (CSV FAST-GROWTH CLUSTER) ---
+  {
+    slug: "collars-and-co-dress-collar-polo-review",
+    title: "Collars & Co Review: Is the Dress Collar Polo Actually Worth It?",
+    metaTitle: "Collars & Co Review: Dress Collar Polo Guide",
+    metaDescription: "Honest Collars & Co dress collar polo review. Learn how the firm structured collar holds up under sweaters, office comfort, sizing, and styling rules.",
+    description: "Honest Collars & Co dress collar polo review. Learn how the firm structured collar holds up under sweaters, office comfort, sizing, and styling rules.",
+    excerpt: "Collars & Co solved the floppy collar problem for business casual. Here is an honest review of the fabric, collar firmness, durability, and fit.",
+    leadExcerpt: "Collars & Co solved the floppy collar problem for business casual. Here is an honest review of the fabric, collar firmness, durability, and fit.",
+    shortLabel: "Collars & Co Review",
+    primaryKeyword: "collars and co men's shirts",
+    searchVolume: 872,
+    publishedDate: "2026-03-20",
+    updatedDate: "2026-03-20",
+    date: "2026-03-20",
+    readTime: "8 min read",
+    image: "https://images.unsplash.com/photo-1620012253295-c15c429fbb3e?auto=format&fit=crop&w=1200&q=80",
+    imageAlt: "Collars and Co dress collar polo layered neatly under a navy sweater",
+    related: ["what-color-shirt-goes-with-navy-pants", "charles-tyrwhitt-vs-kamakura-dress-shirts", "untuckit-shirts-sizing-and-fit-guide"],
+  },
+  {
+    slug: "charles-tyrwhitt-vs-kamakura-dress-shirts",
+    title: "Charles Tyrwhitt vs. Kamakura: Which Dress Shirt Fits Best?",
+    metaTitle: "Charles Tyrwhitt vs Kamakura: Shirt Guide",
+    metaDescription: "Charles Tyrwhitt vs Kamakura dress shirts compared. Compare non-iron twill vs Japanese single-needle tailoring, collar rolls, longevity, and price.",
+    description: "Charles Tyrwhitt vs Kamakura dress shirts compared. Compare non-iron twill vs Japanese single-needle tailoring, collar rolls, longevity, and price.",
+    excerpt: "Can affordable British tailoring beat authentic Japanese Oxford cloth? We compare Charles Tyrwhitt and Kamakura on fabric quality, collar roll, and fit.",
+    leadExcerpt: "Can affordable British tailoring beat authentic Japanese Oxford cloth? We compare Charles Tyrwhitt and Kamakura on fabric quality, collar roll, and fit.",
+    shortLabel: "CT vs Kamakura",
+    primaryKeyword: "charles tyrwhitt shirts",
+    searchVolume: 946,
+    publishedDate: "2026-03-21",
+    updatedDate: "2026-03-21",
+    date: "2026-03-21",
+    readTime: "9 min read",
+    image: "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=1200&q=80",
+    imageAlt: "Crisp white and light blue business dress shirts folded side by side",
+    related: ["what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-navy-pants", "collars-and-co-dress-collar-polo-review"],
+  },
+  {
+    slug: "untuckit-shirts-sizing-and-fit-guide",
+    title: "Untuckit Shirts Review: Sizing, Fit, and How to Wear Untucked",
+    metaTitle: "Untuckit Shirts Review: Sizing & Fit Guide",
+    metaDescription: "Untuckit shirts review and sizing breakdown. Learn the right hem length for your height, slim vs regular fit, and pairing untucked shirts with chinos.",
+    description: "Untuckit shirts review and sizing breakdown. Learn the right hem length for your height, slim vs regular fit, and pairing untucked shirts with chinos.",
+    excerpt: "Wearing dress shirts untucked often looks messy. Does Untuckit's contoured hem really fix the proportions? We break down the exact sizing formula.",
+    leadExcerpt: "Wearing dress shirts untucked often looks messy. Does Untuckit's contoured hem really fix the proportions? We break down the exact sizing formula.",
+    shortLabel: "Untuckit Fit Review",
+    primaryKeyword: "untuckit shirts for men",
+    searchVolume: 1877,
+    publishedDate: "2026-03-22",
+    updatedDate: "2026-03-22",
+    date: "2026-03-22",
+    readTime: "8 min read",
+    image: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1200&q=80",
+    imageAlt: "Casual button down shirt worn untucked with classic chinos",
+    related: ["what-color-shirt-goes-with-khaki-pants", "what-color-shirt-goes-with-olive-green-pants", "criquet-shirts-retro-polo-review"],
+  },
+  {
+    slug: "criquet-shirts-retro-polo-review",
+    title: "Criquet Shirts Review: The Cult-Favorite Players Polo Examined",
+    metaTitle: "Criquet Shirts Review: The Players Polo Guide",
+    metaDescription: "Criquet Shirts in-depth review. Explore the deep 4-button placket, removable collar stays, organic cotton pique weave, and country club styling.",
+    description: "Criquet Shirts in-depth review. Explore the deep 4-button placket, removable collar stays, organic cotton pique weave, and country club styling.",
+    excerpt: "Criquet brought vintage golf style back into menswear. We test the iconic Players Polo on fabric breathability, collar firmness, and longevity.",
+    leadExcerpt: "Criquet brought vintage golf style back into menswear. We test the iconic Players Polo on fabric breathability, collar firmness, and longevity.",
+    shortLabel: "Criquet Polo Review",
+    primaryKeyword: "criquet shirts",
+    searchVolume: 1044,
+    publishedDate: "2026-03-23",
+    updatedDate: "2026-03-23",
+    date: "2026-03-23",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1581655353564-df123a1eb820?auto=format&fit=crop&w=1200&q=80",
+    imageAlt: "Vintage retro golf polo shirt laid flat with casual chinos",
+    related: ["what-color-shirt-goes-with-brown-pants", "what-color-shirt-goes-with-khaki-pants", "collars-and-co-dress-collar-polo-review"],
+  },
+  {
+    slug: "comfort-colors-1717-vs-gildan-5000-review",
+    title: "Comfort Colors 1717 vs Gildan 5000: Which Blank T-Shirt Is Best?",
+    metaTitle: "Comfort Colors 1717 vs Gildan 5000 Review",
+    metaDescription: "Comfort Colors 1717 vs Gildan 5000 compared. Discover differences in garment dye, cotton softness, shrinkage, durability, and streetwear fit.",
+    description: "Comfort Colors 1717 vs Gildan 5000 compared. Discover differences in garment dye, cotton softness, shrinkage, durability, and streetwear fit.",
+    excerpt: "Which blank t-shirt should you buy for casual wear or merch? We compare heavyweight ringspun Comfort Colors with budget champion Gildan 5000.",
+    leadExcerpt: "Which blank t-shirt should you buy for casual wear or merch? We compare heavyweight ringspun Comfort Colors with budget champion Gildan 5000.",
+    shortLabel: "Comfort Colors vs Gildan",
+    primaryKeyword: "comfort colors t shirts",
+    searchVolume: 1225,
+    publishedDate: "2026-03-24",
+    updatedDate: "2026-03-24",
+    date: "2026-03-24",
+    readTime: "8 min read",
+    image: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1200&q=80",
+    imageAlt: "Heavyweight ringspun cotton t-shirts folded in neutral pastel colors",
+    related: ["what-color-shirt-goes-with-olive-green-pants", "what-color-shirt-goes-with-grey-pants", "untuckit-shirts-sizing-and-fit-guide"],
   },
 ];
 
@@ -187,7 +290,7 @@ export function getPostBySlug(slug: string): PostData | null {
     }
   }
 
-  // 2. Check if .json file exists (Brown, Navy, Khaki, Olive)
+  // 2. Check if .json file exists
   const jsonFileName = SLUG_TO_JSON[slug];
   let contentData: PostContent | null = null;
   if (jsonFileName) {
