@@ -19,6 +19,7 @@ export interface PostMeta {
   description?: string;
   excerpt?: string;
   leadExcerpt?: string;
+  shortLabel?: string;
   primaryKeyword: string;
   searchVolume: number;
   publishedDate: string;
@@ -45,6 +46,7 @@ export const POSTS: PostMeta[] = [
     description: "Wondering what color shirt goes with grey pants? Style grey trousers with white, light blue, black, or navy shirts using our complete outfit matrix.",
     excerpt: "Grey pants offer the most versatile neutral foundation in menswear. Discover the exact shirt colors, contrast ratios, and leather pairings that create foolproof outfits.",
     leadExcerpt: "Grey pants offer the most versatile neutral foundation in menswear. Discover the exact shirt colors, contrast ratios, and leather pairings that create foolproof outfits.",
+    shortLabel: "Grey Pants Combinations",
     primaryKeyword: "grey pants",
     searchVolume: 2900,
     publishedDate: "2026-03-15",
@@ -63,6 +65,7 @@ export const POSTS: PostMeta[] = [
     description: "Discover what color shirt to wear with brown pants. Match dark brown and tan trousers with blue, white, pink, or black shirts and leather shoes.",
     excerpt: "Brown pants provide a rich, earthy alternative to black and grey. Learn how to pair chocolate, tobacco, and chestnut trousers with precision shirt choices.",
     leadExcerpt: "Brown pants provide a rich, earthy alternative to black and grey. Learn how to pair chocolate, tobacco, and chestnut trousers with precision shirt choices.",
+    shortLabel: "Brown Pants Styling",
     primaryKeyword: "brown pants",
     searchVolume: 2900,
     publishedDate: "2026-03-16",
@@ -81,6 +84,7 @@ export const POSTS: PostMeta[] = [
     description: "Learn what color shirt to wear with navy pants. Pair dark navy trousers with crisp white, pink, light grey, or patterned shirts for sharp outfits.",
     excerpt: "Navy pants form the bedrock of business casual and tailored menswear. Master tonal contrasts, pastel balances, and shoe coordination effortlessly.",
     leadExcerpt: "Navy pants form the bedrock of business casual and tailored menswear. Master tonal contrasts, pastel balances, and shoe coordination effortlessly.",
+    shortLabel: "Navy Pants Pairing",
     primaryKeyword: "navy blue pants",
     searchVolume: 1600,
     publishedDate: "2026-03-17",
@@ -99,6 +103,7 @@ export const POSTS: PostMeta[] = [
     description: "Find out what color shirt goes with khaki pants. Discover the best combinations with navy, white, olive, and denim shirts plus shoe recommendations.",
     excerpt: "Khaki pants are a staple that frequently gets styled wrong. Learn how to break away from dull office looks using high-contrast shirts and modern textures.",
     leadExcerpt: "Khaki pants are a staple that frequently gets styled wrong. Learn how to break away from dull office looks using high-contrast shirts and modern textures.",
+    shortLabel: "Khaki Pants Rules",
     primaryKeyword: "khaki pants",
     searchVolume: 1300,
     publishedDate: "2026-03-18",
@@ -117,6 +122,7 @@ export const POSTS: PostMeta[] = [
     description: "Find what color shirt goes with olive green pants. Pair olive chinos with white, black, navy, or chambray shirts using our visual color matrix.",
     excerpt: "Olive green pants are the modern sartorial wildcard. Learn how to style green chinos and military trousers with clean, sharp shirt combinations.",
     leadExcerpt: "Olive green pants are the modern sartorial wildcard. Learn how to style green chinos and military trousers with clean, sharp shirt combinations.",
+    shortLabel: "Olive Green Chinos",
     primaryKeyword: "olive green pants",
     searchVolume: 1600,
     publishedDate: "2026-03-19",
@@ -154,6 +160,7 @@ export function getPostBySlug(slug: string): PostData | null {
         metaDescription: String(data.description || ""),
         description: String(data.description || ""),
         excerpt: String(data.excerpt || data.description || ""),
+        shortLabel: String(data.shortLabel || data.title || ""),
         date: String(data.date || "2026-03-15"),
         publishedDate: String(data.date || "2026-03-15"),
         updatedDate: String(data.updatedDate || data.date || "2026-03-15"),
