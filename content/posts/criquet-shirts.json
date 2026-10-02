@@ -1,0 +1,43 @@
+{
+  "quickAnswerTitle": "Quick Answer: What Makes Criquet Shirts Unique?",
+  "quickAnswer": "Criquet Shirts are famous for their vintage-inspired Players Polo, featuring an unusually deep 4-button placket and built-in collar stay slots. This retro structure prevents the collar from curling up under blazers, giving you country-club heritage style with ultra-soft organic Peruvian Pima cotton.",
+  "intro": "In a menswear landscape saturated with synthetic gym-polos, Austin-based Criquet Shirts took the opposite path. Founded by childhood friends seeking to revive the iconic, relaxed golf shirts worn by Arnold Palmer and Chevy Chase in 1970s country clubs, Criquet engineered the 'Players Polo'—a design that balances vintage sporting swagger with modern tailoring details.",
+  "swatchHeading": "Classic Criquet Colorways",
+  "swatches": [
+    { "name": "Augusta Green", "hex": "#2E5834", "role": "Heritage Fairway" },
+    { "name": "Oatmeal Heather", "hex": "#D8D0C5", "role": "Subtle Neutral" },
+    { "name": "Classic Navy Pique", "hex": "#1B2A47", "role": "Sartorial Anchor" }
+  ],
+  "sections": [
+    {
+      "heading": "1. The Signature 4-Button Placket & Removable Stays",
+      "paragraphs": [
+        "Standard modern polos feature two or three buttons that open shallowly across the chest. Criquet utilizes a deep 4-button placket that extends down toward the solar plexus.",
+        "Crucially, the collar features hidden interior pockets designed to hold removable collar stays—a feature almost unheard of in casual knitwear. This keeps the collar upright and structured, allowing you to throw an unstructured cotton blazer directly over the polo without the lapels flattening the collar."
+      ]
+    },
+    {
+      "heading": "2. Peruvian Pima Cotton vs. Technical Synthetics",
+      "paragraphs": [
+        "Criquet crafts their core line from 100% certified organic Peruvian Pima cotton. Pima cotton fibers are 35% longer than standard upland cotton, resulting in superior tensile strength, exceptional softness, and resistance to surface pilling.",
+        "Unlike polyester golf shirts that develop an unpleasant synthetic odor over time, organic Pima cotton breathes naturally and softens with every wash cycle."
+      ]
+    },
+    {
+      "heading": "3. How to Style Criquet Shirts with Trousers",
+      "paragraphs": [
+        "Criquet polos look best leaning into relaxed preppy aesthetics. Wear an Augusta green polo tucked into warm tobacco chinos with brown leather driving loafers. Review our guide on What Color Shirt Goes with Brown Pants for footwear coordination."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do Criquet polos shrink after washing?",
+      "answer": "Because they are 100% organic cotton pique, minimal shrinkage (around 3%) can occur if dried with high heat. Machine wash cold and hang dry or tumble dry low."
+    },
+    {
+      "question": "Are Criquet shirts true to size?",
+      "answer": "Criquet fits slightly relaxed in the shoulders and body to honor traditional golf aesthetics. If you prefer a tailored modern fit, order one size down."
+    }
+  ]
+}
