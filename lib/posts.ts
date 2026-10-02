@@ -44,6 +44,36 @@ export interface PostContent {
   [key: string]: any;
 }
 
+export interface PostMeta {
+  slug: string;
+  title: string;
+  metaTitle: string;
+  metaDescription: string;
+  description?: string;
+  excerpt?: string;
+  leadExcerpt?: string;
+  shortLabel?: string;
+  primaryKeyword: string;
+  searchVolume: number;
+  publishedDate: string;
+  updatedDate?: string | Date;
+  date?: string;
+  readTime: string;
+  image?: string;
+  imageAlt?: string;
+  related?: string[];
+  faqs?: FAQItem[];
+  sections?: Section[];
+  content?: any;
+  [key: string]: any;
+}
+
+export interface PostData {
+  frontmatter: PostMeta;
+  content: string;
+  [key: string]: any;
+}
+
 export const POSTS: PostMeta[] = [
   {
     slug: "what-color-shirt-goes-with-grey-pants",
