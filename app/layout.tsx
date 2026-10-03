@@ -12,7 +12,8 @@ const inter = Inter({
   display: "swap",
 });
 
-const GA_MEASUREMENT_ID = "G-5S01248LB4";
+// Agar Google Analytics ID ho to yahan lagayein:
+const GA_MEASUREMENT_ID = "G-XXXXXXXXXX";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://shirtsmeer.com"),
@@ -44,6 +45,10 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  // Pinterest Domain Verification
+  other: {
+    "p:domain_verify": "9200f7458a6676b3402072b2ac1e9f0c",
+  },
 };
 
 export default function RootLayout({
@@ -54,27 +59,33 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
+        {/* Pinterest Verification Meta Tag */}
+        <meta name="p:domain_verify" content="9200f7458a6676b3402072b2ac1e9f0c" />
+
         <OrganizationJsonLd
           name="ShirtsMeer"
           url="https://shirtsmeer.com"
           logo="https://shirtsmeer.com/images/shirtsmeer-logo.webp"
           description="A technical, research-backed men's style and shirt-pants color coordination publication."
         />
-        {/* Google Analytics 4 (GA4) Tag */}
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${GA_MEASUREMENT_ID}', {
-              page_path: window.location.pathname,
-            });
-          `}
-        </Script>
+        {GA_MEASUREMENT_ID !== "G-XXXXXXXXXX" && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GA_MEASUREMENT_ID}', {
+                  page_path: window.location.pathname,
+                });
+              `}
+            </Script>
+          </>
+        )}
       </head>
       <body className="min-h-screen bg-white text-slate-900 font-sans antialiased flex flex-col">
         <Header />
