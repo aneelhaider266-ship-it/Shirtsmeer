@@ -12,7 +12,6 @@ const inter = Inter({
   display: "swap",
 });
 
-// Agar Google Analytics ID ho to yahan lagayein:
 const GA_MEASUREMENT_ID = "G-XXXXXXXXXX";
 
 export const metadata: Metadata = {
@@ -45,9 +44,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  // Pinterest Domain Verification
   other: {
     "p:domain_verify": "9200f7458a6676b3402072b2ac1e9f0c",
+    "impact-site-verification": "2feed3cf-bc9a-4b62-b955-6771410477fc",
   },
 };
 
@@ -62,12 +61,16 @@ export default function RootLayout({
         {/* Pinterest Verification Meta Tag */}
         <meta name="p:domain_verify" content="9200f7458a6676b3402072b2ac1e9f0c" />
 
+        {/* Impact.com Verification Meta Tag */}
+        <meta name="impact-site-verification" content="2feed3cf-bc9a-4b62-b955-6771410477fc" />
+
         <OrganizationJsonLd
           name="ShirtsMeer"
           url="https://shirtsmeer.com"
           logo="https://shirtsmeer.com/images/shirtsmeer-logo.webp"
           description="A technical, research-backed men's style and shirt-pants color coordination publication."
         />
+
         {GA_MEASUREMENT_ID !== "G-XXXXXXXXXX" && (
           <>
             <Script
