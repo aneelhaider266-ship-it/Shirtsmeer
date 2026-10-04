@@ -188,7 +188,7 @@ export const POSTS: PostMeta[] = [
     updatedDate: "2026-03-20",
     date: "2026-03-20",
     readTime: "8 min read",
-    image: "https://images.unsplash.com/photo-1620012253295-c15c429fbb3e?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1581655353564-df123a1eb820?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Collars and Co dress collar polo layered neatly under a navy sweater",
     related: ["mens-shirt-collar-types-guide", "what-color-shirt-goes-with-navy-pants", "charles-tyrwhitt-vs-kamakura-dress-shirts"],
   },
