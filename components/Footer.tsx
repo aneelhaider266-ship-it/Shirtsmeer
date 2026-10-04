@@ -15,7 +15,7 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Pillar Guides */}
+        {/* Trouser Guides */}
         <div>
           <h3 className="mb-3 text-sm font-semibold text-white">Trouser Guides</h3>
           <ul className="space-y-2 text-xs">
@@ -29,11 +29,11 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Brand Reviews & Tech */}
+        {/* Brand Reviews & Technical Guides (All 9 remaining posts) */}
         <div>
-          <h3 className="mb-3 text-sm font-semibold text-white">Brand Reviews</h3>
+          <h3 className="mb-3 text-sm font-semibold text-white">Reviews & Guides</h3>
           <ul className="space-y-2 text-xs">
-            {POSTS.slice(5, 10).map((p) => (
+            {POSTS.slice(5).map((p) => (
               <li key={p.slug}>
                 <Link href={`/blog/${p.slug}`} className="hover:text-white transition-colors">
                   {p.shortLabel || p.title}
@@ -43,7 +43,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Legal & Compliance (Mandatory for Monetization) */}
+        {/* Legal & Compliance */}
         <div>
           <h3 className="mb-3 text-sm font-semibold text-white">Legal & Info</h3>
           <ul className="space-y-2 text-xs">
