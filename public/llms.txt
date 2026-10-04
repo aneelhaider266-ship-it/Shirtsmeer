@@ -1,0 +1,15 @@
+# ShirtsMeer (shirtsmeer.com)
+> Expert men's shirt and pants color matching matrices, tailored menswear styling guides, and honest clothing brand reviews.
+
+## Core Guides
+- /blog/what-color-shirt-goes-with-grey-pants: Grey pants and shirt color combinations.
+- /blog/what-color-shirt-goes-with-navy-pants: Navy blue trousers outfit rules.
+- /blog/what-color-shirt-goes-with-brown-pants: Brown pants color pairing guide.
+- /blog/what-color-shirt-goes-with-khaki-pants: Khaki pants styling rules.
+- /blog/what-color-shirt-goes-with-olive-green-pants: Olive green chinos outfit guide.
+
+## Brand Reviews & Technical Guides
+- /blog/collars-and-co-dress-collar-polo-review: Review of Collars & Co dress collar polo.
+- /blog/charles-tyrwhitt-vs-kamakura-dress-shirts: Business dress shirt comparison.
+- /blog/mens-shirt-collar-types-guide: Guide to 10 types of men's shirt collars.
+- /blog/poplin-vs-twill-vs-oxford-shirt-fabrics: Comprehensive shirting fabric breakdown.
