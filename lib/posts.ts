@@ -5,6 +5,7 @@ import matter from "gray-matter";
 export const SITE_URL = "https://shirtsmeer.com";
 
 const POSTS_DIRECTORY = path.join(process.cwd(), "content", "posts");
+const DEFAULT_IMAGE = "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80";
 
 const SLUG_TO_JSON: Record<string, string> = {
   "what-color-shirt-goes-with-grey-pants": "grey-pants.json",
@@ -77,7 +78,6 @@ export interface PostData {
 }
 
 export const POSTS: PostMeta[] = [
-  // --- 1. TROUSER COLOR MATCHING PILLARS ---
   {
     slug: "what-color-shirt-goes-with-grey-pants",
     title: "What Color Shirt Goes with Grey Pants? Complete Men's Guide",
@@ -93,7 +93,7 @@ export const POSTS: PostMeta[] = [
     updatedDate: "2026-03-15",
     date: "2026-03-15",
     readTime: "7 min read",
-    image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80",
+    image: DEFAULT_IMAGE,
     imageAlt: "Tailored grey trousers neatly paired with crisp white and blue dress shirts",
     related: ["what-color-shirt-goes-with-navy-pants", "charles-tyrwhitt-vs-kamakura-dress-shirts", "poplin-vs-twill-vs-oxford-shirt-fabrics"],
   },
@@ -173,8 +173,6 @@ export const POSTS: PostMeta[] = [
     imageAlt: "Olive green cotton chinos paired with white, black, and denim shirts",
     related: ["what-color-shirt-goes-with-grey-pants", "how-to-style-cuban-camp-collar-shirts", "comfort-colors-1717-vs-gildan-5000-review"],
   },
-
-  // --- 2. BRAND REVIEWS & COMPARISONS (CSV CLUSTER) ---
   {
     slug: "collars-and-co-dress-collar-polo-review",
     title: "Collars & Co Review: Is the Dress Collar Polo Actually Worth It?",
@@ -270,8 +268,6 @@ export const POSTS: PostMeta[] = [
     imageAlt: "Heavyweight ringspun cotton t-shirts folded in neutral pastel colors",
     related: ["poplin-vs-twill-vs-oxford-shirt-fabrics", "what-color-shirt-goes-with-olive-green-pants", "untuckit-shirts-sizing-and-fit-guide"],
   },
-
-  // --- 3. TECHNICAL SHIRT GUIDES (AUTHORITY CLUSTER) ---
   {
     slug: "mens-shirt-collar-types-guide",
     title: "10 Types of Men's Shirt Collars: Spread, Point & Cuban Guide",
@@ -306,7 +302,7 @@ export const POSTS: PostMeta[] = [
     updatedDate: "2026-03-26",
     date: "2026-03-26",
     readTime: "8 min read",
-    image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80",
+    image: DEFAULT_IMAGE,
     imageAlt: "Close up macro texture of woven poplin, diagonal twill, and Oxford cloth",
     related: ["charles-tyrwhitt-vs-kamakura-dress-shirts", "what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-khaki-pants"],
   },
