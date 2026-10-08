@@ -4,6 +4,28 @@ import FAQAccordion from "@/components/FAQAccordion";
 import ColorSwatch from "@/components/ColorSwatch";
 import { type PostContent, type Section, type PostMeta } from "@/lib/posts";
 
+// Turns [link text](https://...) inside a string into a real link.
+// External links get rel="sponsored nofollow" (needed for Amazon affiliate links).
+function renderText(text: any): React.ReactNode {
+  if (typeof text !== "string") return text;
+  const parts = text.split(/(\[[^\]]+\]\(https?:\/\/[^)\s]+\))/g);
+  return parts.map((part, i) => {
+    const m = part.match(/^\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)$/);
+    if (!m) return part;
+    return (
+      <a
+        key={i}
+        href={m[2]}
+        target="_blank"
+        rel="sponsored nofollow noopener noreferrer"
+        className="text-blue-700 underline underline-offset-2 hover:text-blue-900"
+      >
+        {m[1]}
+      </a>
+    );
+  });
+}
+
 function SectionBlock({ section }: { section: any }) {
   if (!section) return null;
 
@@ -17,7 +39,7 @@ function SectionBlock({ section }: { section: any }) {
       {Array.isArray(section.paragraphs) &&
         section.paragraphs.map((p: any, idx: number) => (
           <p key={idx} className="my-4 text-slate-700 leading-relaxed text-base">
-            {p}
+            {renderText(p)}
           </p>
         ))}
       {Array.isArray(section.bullets) && section.bullets.length > 0 && (
@@ -25,11 +47,11 @@ function SectionBlock({ section }: { section: any }) {
           {section.bullets.map((b: any, idx: number) => (
             <li key={idx} className="leading-relaxed">
               {typeof b === "string" ? (
-                b
+                renderText(b)
               ) : (
                 <>
                   {b.label && <strong className="text-slate-900 font-semibold">{b.label}: </strong>}
-                  <span>{b.text || ""}</span>
+                  <span>{renderText(b.text || "")}</span>
                 </>
               )}
             </li>
