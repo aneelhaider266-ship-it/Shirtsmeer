@@ -1,15 +1,15 @@
 {
-  "quickAnswerTitle": "Quick Answer: What Color Shirt Goes with Khaki Pants?",
-  "quickAnswer": "The best shirt colors to wear with khaki pants are deep navy blue, crisp white, light blue, and washed denim. Navy blue creates the best contrast for work. A classic white button-down shirt looks clean and fresh for summer. For casual days, wear a black shirt or layer a blue denim jacket. Finish your outfit with brown leather loafers or clean white sneakers.",
-  "intro": "Khaki pants are a classic staple in menswear. They work well for both the office and casual weekends. But many men wonder what color shirt goes with khaki pants. The secret is simple: contrast and clean fit. When you pick the right button up shirt, your khakis look sharp and modern.",
-  "swatchHeading": "Best Shirt Colors for Khakis",
+  "quickAnswerTitle": "Quick Answer: What Color Dress Shirt with Khaki Pants?",
+  "quickAnswer": "The best dress shirt colors to wear with khaki pants are deep navy blue, crisp white, light blue, and washed denim. Navy blue creates the best contrast for work. A classic white button-down shirt looks clean and fresh for summer. For casual days, wear a black shirt or layer a blue denim jacket. Finish your outfit with brown leather loafers or clean white sneakers.",
+  "intro": "Khaki pants are a classic staple in menswear. They work well for both the office and casual weekends. But many men wonder what color dress shirt goes with khaki pants. Khaki is an earthy tone, so it pairs best with clean, cool colors that balance its warmth. The secret is simple: contrast and clean fit. When you pick the right button up shirt, your khakis look sharp and modern.",
+  "swatchHeading": "Best Dress Shirt Colors for Khakis",
   "swatches": [
     { "name": "Deep Navy Blue", "hex": "#1B2A47", "role": "Best Contrast" },
     { "name": "Crisp Pure White", "hex": "#FFFFFF", "role": "Clean Classic" },
     { "name": "Light Sky Blue", "hex": "#87CEEB", "role": "Office Daily" },
     { "name": "Washed Denim Chambray", "hex": "#4682B4", "role": "Casual Texture" },
     { "name": "Matte Black Shirt", "hex": "#111827", "role": "Modern Night" },
-    { "name": "Military Olive", "hex": "#556B2F", "role": "Earth Tone" }
+    { "name": "Military Olive", "hex": "#556B2F", "role": "Earthy Tone Match" }
   ],
   "sections": [
     {
@@ -75,7 +75,7 @@
     {
       "heading": "9. Match Your Khaki Shade: Stone, Tan, and Dark Khaki",
       "paragraphs": [
-        "Always check the shade of your pants before picking a shirt:",
+        "Always check the shade of your pants before picking a shirt. Khaki is an earthy tone, but the exact shade changes which dress shirt works best:",
         "Stone Khaki is very light, so pair it with dark shirts like navy or black. Classic Tan Khaki has warm yellow tones that look best with light blue or white. Dark khaki looks great with cream, denim, or a soft pink shirt. A pale pink shirt adds a friendly, fresh touch without looking loud."
       ]
     },
@@ -114,6 +114,10 @@
     }
   ],
   "faqs": [
+    {
+      "question": "What color dress shirt goes best with khaki pants?",
+      "answer": "Navy blue, crisp white, and light blue are the best dress shirt colors for khaki pants. They balance the earthy tone of khaki with clean, cool contrast."
+    },
     {
       "question": "Can you wear a black shirt with khaki pants?",
       "answer": "Yes. A matte black shirt with light khaki pants creates a sharp, modern evening style. Wear black leather shoes to complete the look."
