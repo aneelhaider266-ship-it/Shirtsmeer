@@ -1,7 +1,7 @@
 {
-  "quickAnswerTitle": "Quick Answer: What Color Shirt Goes with Brown Pants?",
-  "quickAnswer": "The best shirt colors for brown pants are light sky blue, crisp white, cream or ecru, pale pink, and forest green. Sky blue gives the strongest contrast against chocolate and tobacco brown because the two colors are complementary. Complete the outfit with dark brown suede, oxblood, or tobacco leather shoes.",
-  "intro": "Brown pants have returned to the center of modern menswear. For years, conservative dress rules sent brown to the country house and kept charcoal and navy for serious occasions. Today, brown trousers are valued for their warmth, depth and texture, from espresso flannel to tobacco twill chinos. They bring out the best in classic shirt colors and give you a softer alternative to black and grey. This guide explains which shirts work with each shade of brown, which shoes to wear and which combinations to avoid.",
+  "quickAnswerTitle": "Quick Answer: Which Shirts to Wear with Brown Pants?",
+  "quickAnswer": "The best shirts to wear with brown pants are light sky blue, crisp white, cream or ecru, pale pink, and forest green. Sky blue gives the strongest contrast against chocolate and tobacco brown because the two colors are complementary. Complete the outfit with dark brown suede, oxblood, or tobacco leather shoes.",
+  "intro": "Brown pants have returned to the center of modern menswear. For years, conservative dress rules sent brown to the country house and kept charcoal and navy for serious occasions. Today, brown trousers are valued for their warmth, depth and texture, from espresso flannel to tobacco twill chinos. They bring out the best in classic shirt colors and give you a softer alternative to black and grey. This guide explains which shirts to wear with brown pants, which shirts work with each shade of brown, which shoes to wear and which combinations to avoid.",
   "swatchHeading": "Recommended Shirt Colors for Brown Pants",
   "swatches": [
     {
@@ -34,7 +34,7 @@
     {
       "heading": "Know Your Brown: Espresso, Tobacco and Tan",
       "paragraphs": [
-        "The word brown covers a huge range, so start by identifying the undertone of your trousers. Dark browns are cool and nearly black in dim light, mid browns are warm and reddish, and light browns lean toward khaki. Each group has its own best matches."
+        "The word brown covers a huge range, so start by identifying the undertone of your trousers. Dark browns are cool and nearly black in dim light, mid browns are warm and reddish, and light browns lean toward khaki. Each group has its own best matches. Dark brown pants, such as espresso or chocolate, are the easiest place to start, because they match almost any light shirt."
       ],
       "bullets": [
         {
@@ -84,6 +84,31 @@
       "paragraphs": [
         "An old rule says that black and brown should never be worn together. In modern styling, a matte black shirt or knit polo with tobacco or caramel trousers looks sleek and confident, as long as the shades are clearly different.",
         "Never wear black with very dark espresso pants, as the contrast is too low and the outfit looks muddy. Choose lighter camel, tan or warm tobacco trousers, and finish with clean black leather shoes so the black on top is echoed below."
+      ]
+    },
+    {
+      "heading": "6. Best Shirts to Wear with Brown Pants by Occasion",
+      "paragraphs": [
+        "If you want a fast answer, match the shirt to the situation. Brown pants are flexible, but the formality of the shirt sets the tone of the whole outfit.",
+        "For the office, wear a light blue or white shirt in poplin or twill with dark brown leather shoes. For a weekend lunch, choose an ecru Oxford or a muted green shirt with suede loafers. For an evening out, a pale pink or crisp white shirt with an unstructured blazer looks relaxed and sharp."
+      ],
+      "bullets": [
+        {
+          "label": "Office",
+          "text": "Light blue or white dress shirt, espresso trousers, dark brown Oxfords."
+        },
+        {
+          "label": "Weekend",
+          "text": "Ecru or olive Oxford shirt, tobacco chinos, suede loafers."
+        },
+        {
+          "label": "Evening",
+          "text": "Pale pink or white shirt, dark chocolate trousers, brown Chelsea boots."
+        },
+        {
+          "label": "Summer",
+          "text": "Sky blue linen shirt, tan trousers, white leather sneakers."
+        }
       ]
     }
   ],
@@ -155,6 +180,10 @@
     }
   ],
   "faqs": [
+    {
+      "question": "What shirts should you wear with brown pants?",
+      "answer": "Light blue, white, ecru, pale pink and olive green shirts all work with brown pants. Light blue gives the strongest contrast, and white or ecru gives the cleanest look for business settings."
+    },
     {
       "question": "Can you wear a blue shirt with brown pants?",
       "answer": "Yes. A light blue or chambray shirt with brown pants is one of the most classic combinations in menswear. Blue and brown are complementary colors, so they look balanced in both smart casual and business settings."
