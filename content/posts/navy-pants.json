@@ -1,7 +1,7 @@
 {
-  "quickAnswerTitle": "Quick Answer: What Color Shirt Goes with Navy Blue Pants?",
-  "quickAnswer": "The best shirt colors for navy blue pants are crisp white, soft pink, light heather grey, sky blue, and sage green. White gives the highest professional contrast, while light blue creates a refined tonal look. Complete the outfit with dark brown, cognac, or oxblood leather shoes and a matching belt.",
-  "intro": "Navy blue pants are the backbone of men's tailoring. Whether you wear tropical wool trousers to a presentation or slim navy chinos to a weekend dinner, navy gives you a confident, approachable base. Because navy is deep and cool, it works as a strong anchor for light shirts, soft pastels and woven neutrals. It is also easier to wear than black, since it looks formal without feeling severe. This guide shows which shirt colors work best with navy blue pants, how to judge different shades of navy, and which shoes and belts complete each outfit.",
+  "quickAnswerTitle": "Quick Answer: Blue Pants with What Color Shirt?",
+  "quickAnswer": "The best shirt colors for navy blue pants are crisp white, soft pink, light heather grey, light blue shirts, and sage green. White gives the highest professional contrast, while sky blue creates a refined tonal look. For a business meeting, choose white or light blue. Complete the outfit with dark brown, cognac, or oxblood leather shoes and a matching belt.",
+  "intro": "Navy blue pants are the backbone of men's tailoring. Whether you wear tropical wool trousers to a presentation or slim navy chinos to a weekend dinner, navy gives you a confident, approachable base. Many men search for blue pants with what color shirt, and the right answer depends on how dark your navy is and where you are going. Because navy is deep and cool, it works as a strong anchor for light shirts, soft pastels and woven neutrals. Among all colored pants, navy is also the most forgiving, since it looks formal without feeling severe like black. This guide shows which shirt colors work best with navy blue pants, how to judge different shades of navy, how to dress for a business meeting, and which shoes and belts complete each outfit.",
   "swatchHeading": "Recommended Shirt Colors for Navy Blue Pants",
   "swatches": [
     {
@@ -20,7 +20,7 @@
       "role": "Cool Neutral"
     },
     {
-      "name": "Sky Blue",
+      "name": "Light Blue Shirt",
       "hex": "#A0C4E2",
       "role": "Tonal Look"
     },
@@ -66,10 +66,11 @@
       ]
     },
     {
-      "heading": "3. The Sky Blue Shirt: Tonal Harmony",
+      "heading": "3. Light Blue Shirts: Tonal Harmony",
       "paragraphs": [
-        "Wearing several shades of one color family is a hallmark of confident dressing. A light sky blue shirt with dark navy trousers gives you depth and structure at the same time, and it looks modern without trying hard.",
-        "The key is clear separation. The shirt must be noticeably lighter than the pants, otherwise the outfit looks muddled. An ice blue or chambray shirt with midnight navy trousers gives a relaxed, Mediterranean feel that suits warm weather."
+        "Wearing several shades of one color family is a hallmark of confident dressing. Light blue shirts worn with dark navy trousers give you depth and structure at the same time, and the result looks modern without trying hard.",
+        "The key is clear separation. The shirt must be noticeably lighter than the pants, otherwise the outfit looks muddled. An ice blue or chambray shirt with midnight navy trousers gives a relaxed, Mediterranean feel that suits warm weather.",
+        "If you only own one shirt for navy pants, make it a sky blue Oxford. It works in the office, at dinner and on weekends, and it never clashes with brown, black or burgundy shoes."
       ]
     },
     {
@@ -85,6 +86,41 @@
         "For men who want to move beyond office standards, an olive or sage green shirt with navy chinos is a modern and stylish option. Navy and olive are both grounded, masculine colors, so they look natural together.",
         "A sage linen shirt worn untucked over slim navy chinos, with white minimalist leather sneakers, is an easy outfit for weekend dinners and warm evenings."
       ]
+    },
+    {
+      "heading": "6. What to Wear to a Business Meeting with Navy Pants",
+      "paragraphs": [
+        "A business meeting calls for clean lines, low risk and a shirt that photographs well on video calls. Navy trousers already give you a professional base, so the shirt only needs to confirm that impression.",
+        "For a client meeting or interview, wear a white or pale blue poplin shirt with a crisp collar, a leather belt that matches your shoes, and dark brown or black Oxfords. For an internal meeting with a business casual dress code, a light grey or soft pink shirt adds personality while staying polished. Skip loud patterns, shiny fabrics and anything wrinkled, because a creased shirt weakens even the best color match."
+      ],
+      "bullets": [
+        {
+          "label": "Interview or client pitch",
+          "text": "White poplin shirt, navy trousers, dark brown Oxfords, matching belt."
+        },
+        {
+          "label": "Team meeting",
+          "text": "Light blue Oxford shirt, navy chinos, brown loafers."
+        },
+        {
+          "label": "Video call",
+          "text": "Pale blue or white shirt, because mid-tone colors can look washed out on camera."
+        }
+      ]
+    },
+    {
+      "heading": "7. Can You Wear a Navy Blue Shirt with Navy Pants?",
+      "paragraphs": [
+        "A navy blue shirt with navy pants only works when the two pieces are clearly different shades. When they are almost the same, the outfit looks like a mismatched suit, and when they are exactly the same it can look like a uniform.",
+        "If you want to try it, pair a lighter, brighter navy blue shirt with darker midnight trousers, and break up the block of color with a tan belt, brown shoes or a light jacket. For most men, a lighter shirt is the simpler and safer choice."
+      ]
+    },
+    {
+      "heading": "8. Why Navy Works Better Than Other Colored Pants",
+      "paragraphs": [
+        "Colored pants such as olive, burgundy or rust can be hard to match because each one limits your shirt options. Navy is different. It acts almost like a neutral, so white, grey, pink, light blue and green shirts all work without much thought.",
+        "That flexibility makes navy trousers a smart first purchase if you are building a wardrobe around a few versatile pieces. One pair can be styled formally on Monday and casually on Saturday just by changing the shirt and shoes."
+      ]
     }
   ],
   "tableCaption": "Navy Blue Pants and Shirt Pairing Chart",
@@ -94,7 +130,7 @@
       "formality": "Business Formal",
       "contrast": "High",
       "footwear": "Dark brown Oxfords or burgundy derbies",
-      "occasion": "Interviews, meetings, formal events"
+      "occasion": "Interviews, business meetings, formal events"
     },
     {
       "shirtColor": "Light Powder Pink",
@@ -111,7 +147,7 @@
       "occasion": "Daily office wear, business travel"
     },
     {
-      "shirtColor": "Classic Sky Blue",
+      "shirtColor": "Light Blue Shirt",
       "formality": "Tonal Professional",
       "contrast": "Low (tonal)",
       "footwear": "Oxblood double monk straps",
@@ -151,6 +187,30 @@
       ]
     },
     {
+      "heading": "Easy Outfit Formulas with Navy Blue Pants",
+      "paragraphs": [
+        "If you do not want to think about color theory every morning, use these simple formulas. Each one takes only a few minutes and works for most body types."
+      ],
+      "bullets": [
+        {
+          "label": "Office",
+          "text": "Light blue shirt, navy trousers, dark brown belt and brown Oxfords."
+        },
+        {
+          "label": "Client dinner",
+          "text": "Powder pink shirt, navy trousers, cognac loafers and a brown leather belt."
+        },
+        {
+          "label": "Weekend",
+          "text": "Sage green linen shirt, navy chinos and white leather sneakers."
+        },
+        {
+          "label": "Autumn",
+          "text": "Heather grey shirt, navy chinos and dark chocolate suede Chelsea boots."
+        }
+      ]
+    },
+    {
       "heading": "Common Mistakes with Navy Blue Pants",
       "paragraphs": [
         "The most common mistake is wearing a shirt in a similar dark shade. A navy shirt with navy pants looks like an accident unless the two pieces belong to a matching suit, and a black shirt often blends into dark navy in poor light.",
@@ -159,6 +219,14 @@
     }
   ],
   "faqs": [
+    {
+      "question": "Blue pants with what color shirt looks best?",
+      "answer": "White, light blue, soft pink and heather grey shirts look best with blue pants. White gives the sharpest contrast, while light blue creates a refined tonal look."
+    },
+    {
+      "question": "What shirt should you wear with navy pants to a business meeting?",
+      "answer": "A white or pale blue poplin shirt is the safest choice. Add dark brown or black Oxfords and a matching leather belt. For a business casual meeting, a light grey or soft pink shirt also works."
+    },
     {
       "question": "Can you wear a black shirt with navy pants?",
       "answer": "It is difficult, because the shades often blur together. If the pants are a brighter marine navy and the outfit has structure, such as a coat or strong accessories, it can work. In general, a lighter shirt gives a cleaner result."
@@ -176,8 +244,8 @@
       "answer": "Yes. A light or heather grey shirt pairs naturally with navy chinos. Grey balances the richness of navy without the stark formality of a pure white shirt."
     },
     {
-      "question": "Can you wear a navy shirt with navy pants?",
-      "answer": "Only as part of a matching set. When the shirt and pants are slightly different dark blues, the outfit looks unplanned. Choose a lighter blue shirt for a polished tonal look."
+      "question": "Can you wear a navy blue shirt with navy pants?",
+      "answer": "Only as part of a matching set, or when the two shades are clearly different. When the shirt and pants are slightly different dark blues, the outfit looks unplanned. Choose a lighter blue shirt for a polished tonal look."
     }
   ]
 }
