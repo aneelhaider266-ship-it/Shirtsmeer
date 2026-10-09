@@ -1,7 +1,7 @@
 {
   "quickAnswerTitle": "Quick Answer: Which Shirt Collar Style Is Best?",
-  "quickAnswer": "The Semi-Spread collar is the most versatile dress collar for 90% of men, balancing medium-width suit lapels with or without a tie. If you have a round face, choose a Classic Point collar to lengthen your features. If you have a narrow or angular face, choose an English Spread or Cutaway collar to add horizontal width.",
-  "intro": "The collar is the most important anatomical component of any shirt. Because it sits directly beneath your chin, it frames your facial structure, dictates your necktie knot choice, and determines whether an outfit leans formal or casual. Choosing the wrong collar can widen an already broad face or make an expensive tailored suit look mismatched.",
+  "quickAnswer": "The semi-spread collar is the most versatile dress collar for most men. It balances medium-width suit lapels, with or without a tie. If you have a round face, choose a classic point collar to lengthen your features. If you have a narrow or angular face, choose an English spread or cutaway collar to add width.",
+  "intro": "The collar is the most important part of any shirt. It sits right under your chin, so it frames your face. It also decides which tie knot works and whether an outfit feels formal or casual. A wrong collar can widen a broad face or make a good suit look mismatched.",
   "swatchHeading": "Classic Collar Color Foundations",
   "swatches": [
     { "name": "Crisp White Spread", "hex": "#FFFFFF", "role": "Formal Suiting" },
@@ -12,43 +12,90 @@
     {
       "heading": "1. The Semi-Spread Collar: The Modern Corporate Benchmark",
       "paragraphs": [
-        "A semi-spread collar features point tips positioned approximately 3.5 to 4 inches apart. It strikes a balance between conservative point collars and dramatic British cutaways.",
-        "It effortlessly accommodates medium-sized tie knots—such as the Four-in-Hand and Half-Windsor—while maintaining enough structure to stand upright when worn open-collar under a blazer."
+        "A semi-spread collar has points about 3.5 to 4 inches apart. It sits between a conservative point collar and a dramatic British cutaway.",
+        "It works well with medium tie knots, such as the four-in-hand and the half-Windsor. It also stands up well when worn open-collar under a blazer."
       ],
       "bullets": [
-        { "label": "Best Face Shape", "text": "Universally flattering on oval, angular, and rectangular face profiles." },
+        { "label": "Best Face Shape", "text": "Flattering on oval, angular and rectangular faces." },
         { "label": "Optimal Knot", "text": "Half-Windsor or double four-in-hand knot." }
       ]
     },
     {
       "heading": "2. The Classic Point Collar: The Face-Lengthening Traditionalist",
       "paragraphs": [
-        "Classic point collars feature narrow spreads (less than 3 inches between points). The vertical direction of the points creates an optical illusion that draws the eye downward.",
-        "Men with rounder faces or shorter necks benefit significantly from point collars, as the sharp downward angle creates a slimming, vertical elongation."
+        "Classic point collars have narrow spreads, less than 3 inches between the points. The vertical points pull the eye downward.",
+        "Men with rounder faces or shorter necks often benefit from point collars. The sharp downward angle creates a slimming, vertical look."
       ]
     },
     {
       "heading": "3. The Button-Down Collar (OCBD): The Ivy League Icon",
       "paragraphs": [
-        "Originally borrowed from polo players who needed to keep their collars from flapping in the wind, the Oxford Cloth Button-Down features small button holes that secure the points to the shirt body.",
-        "A quality button-down collar features an unlined, soft construction that forms a relaxed S-shaped curve (the famous collar roll). Pair it with tailored chinos for quintessential business casual."
+        "The Oxford cloth button-down was first worn by polo players. They needed their collars to stay down in the wind. Small buttonholes secure the points to the shirt body.",
+        "A good button-down collar is soft and unlined. It forms a relaxed S-shaped curve, known as the collar roll. Pair it with tailored chinos for classic business casual."
       ]
     },
     {
       "heading": "4. The Cuban / Camp Collar: The Retro Resort Staple",
       "paragraphs": [
-        "Unlike formal folded neckbands, the camp collar lays completely flat against your clavicle, creating a continuous open V-neck notch lapel. It contains zero interior stiffeners and is strictly designed for casual warm-weather tailoring."
+        "A camp collar lies flat against the collarbone. It creates an open V-neck notch.",
+        "It has no interior stiffeners. It is made for casual, warm-weather style."
+      ]
+    }
+  ],
+  "afterTable": [
+    {
+      "heading": "Collar Types Explained: Spread, Button-Down, Tab, Band and More",
+      "paragraphs": [
+        "The collar sets the mood of a shirt. Most men know only two or three collar types. There are many more, and each one suits a different occasion.",
+        "Start with the collar that matches your tie or your dress code."
+      ],
+      "bullets": [
+        { "label": "Spread collar", "text": "Wide points that sit far apart. Best with a thick knot tie for formal events." },
+        { "label": "Semi-spread collar", "text": "A balanced choice for the office. It works with most tie knots." },
+        { "label": "Button-down collar", "text": "Points fastened to the shirt body. Relaxed and ideal for business casual." },
+        { "label": "Cutaway collar", "text": "A wide, open angle. A modern look that suits a bow tie or a wide knot." },
+        { "label": "Tab collar", "text": "Small tabs fasten under the tie knot with a clip. A sharp option for a bow tie." },
+        { "label": "Band collar", "text": "A collar-less band around the neck. Also called a Mandarin or grandad collar. Suits casual or modern outfits." },
+        { "label": "Bow tie collar", "text": "A stiff, wide collar that holds a bow tie in place. Common on formal evening shirts." }
+      ]
+    },
+    {
+      "heading": "Early 20th Century Collars: Where the Classics Came From",
+      "paragraphs": [
+        "Early in the 20th century, detachable collars were standard for men. A separate collar buttoned onto the shirt. It could be cleaned or swapped out.",
+        "Today most collars are sewn on. But many classic shapes still come from that era."
+      ]
+    },
+    {
+      "heading": "Which Type of Collar Should You Choose?",
+      "paragraphs": [
+        "Choose your collar by face shape and by occasion. A wide collar suits a long or narrow face. A narrow point collar suits a round face.",
+        "For a formal event with a bow tie, choose a tab or bow tie collar. For a daily office look, a semi-spread collar is the safest pick."
+      ]
+    },
+    {
+      "heading": "Check Your Collar Points First",
+      "paragraphs": [
+        "Collar points are the most visible part of the collar. Check them before you leave the house.",
+        "The points should not curl. They should sit just below the jacket lapel or the sweater neckline."
+      ]
+    },
+    {
+      "heading": "Where to Buy the Basics",
+      "paragraphs": [
+        "Two simple pieces help you put these collar ideas into practice. Start with a [dress shirt](https://link.amazon/B0fZrL1F8) that has the collar style you like. Then add [collar stays](https://link.amazon/B03HVtnAW) to keep the points sharp under a sweater or blazer.",
+        "As an Amazon Associate I earn from qualifying purchases."
       ]
     }
   ],
   "faqs": [
     {
       "question": "Can you wear a tie with a button-down collar?",
-      "answer": "Yes. An Oxford cloth button-down with a knit silk tie or repp-stripe collegiate tie is a foundational staple of classic American business casual."
+      "answer": "Yes. An Oxford cloth button-down with a knit silk tie or a repp-stripe tie is a classic American business casual look."
     },
     {
       "question": "What is the difference between spread and cutaway collars?",
-      "answer": "Spread collars feature points angled outward at roughly 45 degrees. Cutaway collars feature extreme horizontal spread (nearly 180 degrees), revealing the entire tie knot and shirt band."
+      "answer": "Spread collars have points angled outward at roughly 45 degrees. Cutaway collars have a much wider opening, which shows the whole tie knot."
     }
   ]
 }
