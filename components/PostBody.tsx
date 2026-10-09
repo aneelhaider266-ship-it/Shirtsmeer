@@ -62,6 +62,49 @@ function SectionBlock({ section }: { section: any }) {
   );
 }
 
+// Simple pairing table. Columns come from the keys of the first row,
+// so it works with whatever fields the JSON file uses.
+function PairingTable({ caption, rows }: { caption?: string; rows: any[] }) {
+  const columns = Object.keys(rows[0] || {});
+  if (columns.length === 0) return null;
+  const label = (key: string) =>
+    key.replace(/([A-Z])/g, " $1").replace(/^./, (c) => c.toUpperCase());
+
+  return (
+    <div className="my-8 not-prose">
+      <div className="overflow-x-auto rounded-lg border border-slate-200">
+        <table className="min-w-full text-left text-sm">
+          {caption && (
+            <caption className="px-4 py-3 text-left text-base font-semibold text-slate-900">
+              {caption}
+            </caption>
+          )}
+          <thead className="bg-slate-50 text-slate-900">
+            <tr>
+              {columns.map((col) => (
+                <th key={col} scope="col" className="px-4 py-3 font-semibold whitespace-nowrap">
+                  {label(col)}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-slate-200 text-slate-700">
+            {rows.map((row: any, i: number) => (
+              <tr key={i}>
+                {columns.map((col) => (
+                  <td key={col} className="px-4 py-3 align-top">
+                    {renderText(row[col])}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
+
 export default function PostBody({
   content,
   post,
@@ -82,6 +125,8 @@ export default function PostBody({
   const sections = Array.isArray(content.sections) ? content.sections : [];
   const faqs = Array.isArray(content.faqs) ? content.faqs : (post?.faqs || []);
   const swatches = Array.isArray(content.swatches) ? content.swatches : [];
+  const tableRows = Array.isArray(content.tableRows) ? content.tableRows : [];
+  const afterTable = Array.isArray(content.afterTable) ? content.afterTable : [];
 
   return (
     <div className="prose prose-slate max-w-none text-slate-800 leading-relaxed">
@@ -121,6 +166,16 @@ export default function PostBody({
       {/* 4. Complete Body Sections */}
       {sections.map((section: any, idx: number) => (
         <SectionBlock key={idx} section={section} />
+      ))}
+
+      {/* 4b. Pairing table */}
+      {tableRows.length > 0 && (
+        <PairingTable caption={content.tableCaption} rows={tableRows} />
+      )}
+
+      {/* 4c. Sections after the table */}
+      {afterTable.map((section: any, idx: number) => (
+        <SectionBlock key={`after-${idx}`} section={section} />
       ))}
 
       {/* 5. FAQs */}
