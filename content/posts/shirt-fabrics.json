@@ -1,7 +1,7 @@
 {
   "quickAnswerTitle": "Quick Answer: Poplin vs Twill vs Oxford Cloth?",
-  "quickAnswer": "Choose Poplin for formal business meetings and hot summer days: it is lightweight, breathable, and smooth. Choose Twill for daily corporate durability: its diagonal ribbing resists wrinkles, drapes heavily, and is easy to iron. Choose Oxford Cloth (OCBD) for smart casual: its heavy basketweave texture is durable and looks best open-collar.",
-  "intro": "When shopping for dress shirts, men frequently focus on color while completely overlooking the weave. Yet the weave determines how warm the shirt feels, how easily it wrinkles, how it drapes over your torso, and what level of formality it conveys. We break down the physics and dress codes of the three foundational shirting weaves.",
+  "quickAnswer": "Choose poplin for formal business meetings and hot summer days. It is lightweight, breathable and smooth. Choose twill for daily corporate wear. Its diagonal ribbing resists wrinkles and drapes well. Choose Oxford cloth (OCBD) for smart casual. Its heavy basketweave texture is durable and looks best open-collar.",
+  "intro": "When you shop for a dress shirt, most men focus on color and ignore the weave. But the weave decides how warm the shirt feels, how easily it wrinkles, how it drapes, and how formal it looks. This guide compares poplin shirt vs Oxford, along with twill, so you can pick the right cotton fabric for your dress code.",
   "swatchHeading": "Essential Weave Colors",
   "swatches": [
     { "name": "Crisp White Poplin", "hex": "#FFFFFF", "role": "Maximum Formal Sheen" },
@@ -10,39 +10,67 @@
   ],
   "sections": [
     {
-      "heading": "1. Poplin (Broadcloth): The Formal Plain-Weave Standard",
+      "heading": "Poplin or Oxford: Which Shirt Fabric Should You Choose?",
       "paragraphs": [
-        "Poplin is woven using a simple over-under plain weave with fine horizontal ribs. It produces a thin, smooth, and lightweight surface with zero texture.",
-        "Because poplin is woven tightly from fine yarns, it feels cool against the skin and breathes exceptionally well in warm climates. However, because it lacks diagonal elasticity, it wrinkles more readily than heavier weaves."
+        "The poplin shirt and the Oxford shirt look very different. Poplin is smooth and thin. Oxford has a visible basketweave texture. Both are common in a business shirt wardrobe, but they suit different settings.",
+        "Start with the dress code. If you need a sharp, formal look, choose poplin. If you want a relaxed look with a bit of texture, choose Oxford."
       ],
       "bullets": [
-        { "label": "Formality", "text": "10/10 — The formal choice for black-tie affairs, executive meetings, and weddings." },
-        { "label": "Weight", "text": "Lightweight (100–120 GSM) with a crisp, cool hand-feel." }
+        { "label": "Poplin", "text": "Smooth surface, light weight, formal look." },
+        { "label": "Oxford", "text": "Textured surface, heavier weight, smart casual look." },
+        { "label": "Twill", "text": "Diagonal lines, good drape, easy to care for." }
       ]
     },
     {
-      "heading": "2. Twill: The Wrinkle-Resistant Daily Workhorse",
+      "heading": "1. Poplin (Broadcloth): The Formal Plain-Weave Standard",
       "paragraphs": [
-        "Twill is easily recognized by its diagonal parallel ridges. Common variations include herringbone, cavalry twill, and royal twill.",
-        "The diagonal weave gives twill substantial weight and natural flexibility. It drapes smoothly over the torso, masking minor body imperfections, and is significantly more resistant to creasing throughout an 8-hour workday."
+        "Poplin is woven with a simple over-under plain weave and fine horizontal ribs. It gives a thin, smooth surface with almost no texture. Many men call this type of cotton broadcloth.",
+        "Poplin is woven tightly from fine yarns, so it feels cool and breathes well in warm weather. Because it has little diagonal stretch, it wrinkles more easily than heavier weaves."
+      ],
+      "bullets": [
+        { "label": "Formality", "text": "Very high. A strong choice for black-tie events, executive meetings and weddings." },
+        { "label": "Weight", "text": "Light, with a crisp, cool feel." }
+      ]
+    },
+    {
+      "heading": "2. Broadcloth vs Twill: The Wrinkle-Resistant Daily Workhorse",
+      "paragraphs": [
+        "Twill has diagonal parallel ridges. Common types include herringbone, cavalry twill and royal twill. When you compare broadcloth vs twill, the main difference is the diagonal line.",
+        "The diagonal weave gives twill more weight and natural flexibility. It drapes smoothly over the torso and resists creasing through a long workday."
       ]
     },
     {
       "heading": "3. Oxford Cloth (OCBD): The Casual Basketweave",
       "paragraphs": [
-        "Oxford cloth uses a basketweave technique where multiple warp threads cross over equal numbers of weft threads. Traditional Oxford combines dyed warp yarns with bleached white weft yarns, creating a subtle cross-hatch texture.",
-        "We recommend testing this weave with a [Classic Heavyweight 100% Cotton Oxford Shirt on Amazon](https://link.amazon/B0fZrL1F8). It is heavier, sturdier, and softens with every wash cycle."
+        "Oxford cloth uses a basketweave, where several warp threads cross over an equal number of weft threads. Traditional Oxford uses colored warp yarns with white weft yarns. This creates a soft cross-hatch texture.",
+        "Oxford is heavier and sturdier than poplin. It softens with every wash. For a sturdy, everyday option, try this [Classic Heavyweight 100% Cotton Oxford Shirt on Amazon](https://link.amazon/B0fZrL1F8)."
+      ]
+    },
+    {
+      "heading": "Choosing the Right Fabric for Your Dress Code",
+      "paragraphs": [
+        "Each fabric suits a different dress code. Use this quick guide before you buy."
+      ],
+      "bullets": [
+        { "label": "Interview or boardroom", "text": "Poplin in white or pale blue." },
+        { "label": "Daily office", "text": "Twill or fine poplin in a light shade." },
+        { "label": "Weekend or smart casual", "text": "Oxford in a soft blue or grey." },
+        { "label": "Hot summer days", "text": "Poplin or lightweight twill, because both breathe well." }
       ]
     }
   ],
   "faqs": [
     {
-      "question": "Is Poplin see-through?",
-      "answer": "Lightweight white poplin can sometimes be translucent under bright sunlight. Choose a higher-thread-count broadcloth or wear a heather grey undershirt to prevent transparency."
+      "question": "Is poplin shirt see-through?",
+      "answer": "Lightweight white poplin can look slightly translucent in bright sunlight. Choose a higher thread count, or wear a light undershirt to avoid this."
     },
     {
       "question": "Which shirt fabric is easiest to iron?",
-      "answer": "Twill is the easiest to iron because its diagonal structure naturally releases wrinkles with moderate steam. Poplin requires hotter iron temperatures."
+      "answer": "Twill is usually the easiest to care for, because its diagonal structure resists wrinkles. Poplin wrinkles more easily, so it needs a bit more ironing."
+    },
+    {
+      "question": "Is Oxford cloth good for business?",
+      "answer": "Oxford works well for business casual. For a formal office or a client meeting, poplin is the safer choice."
     }
   ]
 }
