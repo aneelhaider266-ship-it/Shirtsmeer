@@ -1,123 +1,164 @@
 {
   "quickAnswerTitle": "Quick Answer: What Color Shirt Goes with Khaki Pants?",
-  "quickAnswer": "The best shirt colors to wear with khaki pants are deep navy blue, crisp white, light blue, and washed denim. Navy blue creates the best contrast for work. A classic white button down shirt looks clean and fresh for summer. For casual days, wear a black shirt or layer a blue denim jacket. Finish your outfit with brown leather loafers or clean white sneakers.",
-  "intro": "Khaki pants are a classic staple in menswear. They work well for both the office and casual weekends. But many men wonder what color shirt goes with khaki pants. The secret is simple: contrast and clean fit. When you pick the right button up shirt, these versatile khaki pairings look sharp and modern.",
+  "quickAnswer": "The best shirt colors for khaki pants are deep navy, crisp white, light blue, and washed denim. Navy gives the best contrast for work. A white button-down looks clean and fresh in summer. For casual days, try a black shirt or a blue denim jacket. Finish with brown leather loafers or clean white sneakers.",
+  "intro": "Khaki pants work for both the office and the weekend. But many men still ask what color shirt goes with khaki pants. The answer comes down to contrast and fit. Pick the right button-up shirt and these khaki pairings look sharp and modern.",
   "swatchHeading": "Best Shirt Colors for Khakis",
   "swatches": [
-    { "name": "Deep Navy Blue", "hex": "#1B2A47", "role": "Best Contrast" },
-    { "name": "Crisp Pure White", "hex": "#FFFFFF", "role": "Clean Classic" },
-    { "name": "Light Sky Blue", "hex": "#87CEEB", "role": "Office Daily" },
-    { "name": "Washed Denim Chambray", "hex": "#4682B4", "role": "Casual Texture" },
-    { "name": "Matte Black Shirt", "hex": "#111827", "role": "Modern Night" },
-    { "name": "Military Olive", "hex": "#556B2F", "role": "Earth Tone" }
+    {
+      "name": "Deep Navy Blue",
+      "hex": "#1B2A47",
+      "role": "Best Contrast"
+    },
+    {
+      "name": "Crisp Pure White",
+      "hex": "#FFFFFF",
+      "role": "Clean Classic"
+    },
+    {
+      "name": "Light Sky Blue",
+      "hex": "#87CEEB",
+      "role": "Office Daily"
+    },
+    {
+      "name": "Washed Denim Chambray",
+      "hex": "#4682B4",
+      "role": "Casual Texture"
+    },
+    {
+      "name": "Matte Black Shirt",
+      "hex": "#111827",
+      "role": "Modern Night"
+    },
+    {
+      "name": "Military Olive",
+      "hex": "#556B2F",
+      "role": "Earth Tone"
+    }
   ],
   "sections": [
     {
       "heading": "1. The Navy Blue Shirt: The Best High-Contrast Choice",
       "paragraphs": [
-        "Navy blue is the number one shirt color for khaki pants. Khaki is light and warm. Navy is dark and cool. This creates an easy, balanced contrast that looks great on every man.",
-        "A navy button up shirt makes your chest look broader and trims your waist. We recommend this classic [Navy Blue Regular Fit Dress Shirt on Amazon](https://link.amazon/B068CQ2Jy) for business casual workdays. For casual Fridays, swap it for a navy polo shirt or a soft knit shirt."
+        "Navy is the best shirt color for khaki pants. Khaki is light and warm. Navy is dark and cool. Together they create a balanced contrast that suits almost everyone.",
+        "A navy button-up makes your chest look broader and your waist look trimmer. For business casual days, look for a navy regular fit dress shirt in a cotton poplin or twill. For casual Fridays, swap it for a navy polo or a soft knit shirt."
       ],
       "bullets": [
-        { "label": "Formality", "text": "Great for business casual and dinner dates." },
-        { "label": "Shoes", "text": "Pair with medium brown leather loafers or monk straps." }
+        {
+          "label": "Formality",
+          "text": "Great for business casual and dinner dates."
+        },
+        {
+          "label": "Shoes",
+          "text": "Pair with medium brown leather loafers or monk straps."
+        }
       ]
     },
     {
       "heading": "2. The Crisp White Shirt: Fresh Summer Style",
       "paragraphs": [
-        "A white shirt with khaki chinos is timeless. It looks bright, clean, and confident in spring and summer. A crisp white button down shirt is essential for every man's wardrobe.",
-        "Choose an Oxford cloth white button up shirt or a breezy linen shirt. Avoid stiff formal shirts. Roll your sleeves up to your forearms for an easy, stylish look. A classic white button shirt pairs naturally with brown suede shoes to ground the light colors."
+        "A white shirt with khaki chinos is timeless. It looks bright and clean in spring and summer. A crisp white button-down is one of the most useful shirts a man can own.",
+        "Choose an Oxford cloth or a breezy linen shirt. Avoid stiff formal shirts for weekends. Roll the sleeves to the forearm for an easy look. Brown suede shoes ground the light colors nicely."
       ]
     },
     {
       "heading": "3. The Light Blue Shirt: The Daily Office Favorite",
       "paragraphs": [
         "Light blue is softer than pure white. It pairs naturally with the warm tan tone of khaki pants.",
-        "A light blue dress shirt is the safest choice for regular office wear. It looks professional and friendly. Wear this combo with dark brown shoes or burgundy leather derbies. It is a foolproof work outfit."
+        "A light blue dress shirt is a safe choice for regular office wear. It looks professional and friendly. Wear it with dark brown shoes or burgundy leather derbies for a reliable work outfit."
       ]
     },
     {
       "heading": "4. Denim Shirts and Denim Jackets: Rugged Weekend Casual",
       "paragraphs": [
-        "Khakis have military roots, so they look great with rugged denim. A blue chambray shirt adds rich texture to smooth cotton chinos.",
-        "In fall and spring, you can also layer a blue denim jacket over a plain white shirt. This classic pairing is comfortable and looks great on weekends. Add brown work boots or canvas sneakers to complete the rugged look."
+        "Khakis have military roots, so they look good with rugged denim. A blue chambray shirt adds texture to smooth cotton chinos.",
+        "In fall and spring, layer a blue denim jacket over a plain white shirt. It is comfortable and works well on weekends. Add brown work boots or canvas sneakers to finish the look."
       ]
     },
     {
       "heading": "5. The Black Shirt: Modern and Minimalist",
       "paragraphs": [
         "Yes, you can wear a black shirt with khaki pants. It creates a sleek, high-contrast look for evenings.",
-        "Make sure the black shirt has a matte finish. Avoid shiny fabrics. Pair a black button up shirt with slim khakis and clean black Chelsea boots. This combination gives classic chinos an edgy modern upgrade."
+        "Choose a matte finish and avoid shiny fabrics. Pair a black button-up with slim khakis and clean black Chelsea boots for a modern look."
       ]
     },
     {
       "heading": "6. Patterned Shirts: Gingham, Stripes, and Checks",
       "paragraphs": [
-        "Solid shirts are great, but patterns add personality to plain khaki trousers. A blue and white gingham check button down shirt looks smart in creative offices.",
-        "Fine blue stripes or micro-checks also work well. Keep the pattern scale small to maintain a professional look. Always ensure the base color of the pattern complements the tan tone of your pants."
+        "Solid shirts are great, but patterns add personality to plain khaki trousers. A blue and white gingham button-down looks smart in creative offices.",
+        "Fine blue stripes or micro-checks also work well. Keep the pattern small to stay professional. Make sure the base color of the pattern complements the tan tone of your pants."
       ]
     },
     {
       "heading": "7. Jackets and Layers to Wear with Khaki Pants",
       "paragraphs": [
-        "Layering makes any khaki pants outfit look complete and intentional:",
-        "A dark navy blazer over a white button shirt is the classic business casual uniform. For casual outings, a brown leather jacket adds rugged warmth. On rainy days, a beige or navy trench coat keeps your outfit stylish and practical."
+        "Layering makes a khaki outfit look complete. A dark navy blazer over a white button-down is the classic business casual look.",
+        "For casual outings, a brown leather jacket adds rugged warmth. On rainy days, a beige or navy trench coat keeps the outfit stylish and practical."
       ]
     },
     {
       "heading": "8. Seasonal Styling Rules for Khaki Pants",
       "paragraphs": [
-        "You can wear khaki trousers in all four seasons if you pick the right shirt fabric:",
-        "In summer, wear a short-sleeve linen shirt or an unbuttoned white button shirt over a light tee. In spring, switch to a light blue Oxford shirt. In fall, wear a navy flannel shirt or layer with a brown leather jacket. In winter, pair heavy khaki chinos with a charcoal wool sweater over a collared shirt."
+        "You can wear khaki trousers in all four seasons if you choose the right shirt fabric.",
+        "In summer, wear a short-sleeve linen shirt or an unbuttoned white shirt over a light tee. In spring, switch to a light blue Oxford. In fall, wear a navy flannel shirt or add a brown leather jacket. In winter, pair heavier khaki chinos with a charcoal sweater over a collared shirt."
       ]
     },
     {
       "heading": "9. Match Your Khaki Shade: Stone, Tan, and Dark Khaki",
       "paragraphs": [
-        "Always check the shade of your pants before picking a shirt:",
-        "Stone Khaki is very light, so pair it with dark shirts like navy or black. Classic Tan Khaki has warm yellow tones that look best with light blue or white. Dark British Khaki looks great with cream, denim, or soft pink shirts."
+        "Check the shade of your pants before you pick a shirt.",
+        "Stone khaki is very light, so pair it with dark shirts like navy or black. Classic tan khaki has warm yellow tones that look best with light blue or white. Dark khaki looks great with cream, denim or soft pink shirts."
       ]
     },
     {
       "heading": "10. Belt and Leather Rules for Khakis",
       "paragraphs": [
-        "Your accessories tie the whole outfit together:",
-        "Always match your belt color to your shoe color. We recommend pairing your chinos with these [Men's Casual Leather Slip-On Loafers on Amazon](https://link.amazon/B05XUCOQX). For casual outfits with white sneakers, choose a woven canvas or brown braided belt. Never wear a black belt with brown shoes."
+        "Your accessories tie the outfit together. Always match your belt to your shoes. For example, brown loafers need a brown belt.",
+        "For casual outfits with white sneakers, choose a woven canvas or brown braided belt. Never wear a black belt with brown shoes."
       ]
     },
     {
       "heading": "11. Best Shoes to Wear with Khaki Pants",
       "paragraphs": [
-        "Your shoes define how formal your outfit feels:",
-        "Medium brown and cognac leather loafers are the most versatile choice. Dark brown suede chukkas work best for autumn. For relaxed weekend wear, nothing beats clean white leather sneakers."
+        "Your shoes decide how formal the outfit feels.",
+        "Medium brown and cognac leather loafers are the most versatile choice. Dark brown suede chukkas work best in autumn. For relaxed weekends, clean white leather sneakers are hard to beat."
+      ]
+    },
+    {
+      "heading": "Where to Buy the Basics",
+      "paragraphs": [
+        "Two simple pieces cover most khaki pants outfits. Start with a [white regular fit 100% cotton dress shirt](https://link.amazon/B068CQ2Jy) for a clean, classic look. Then add [brown leather penny loafers](https://link.amazon/B0gHrgyMt) for a relaxed, polished finish.",
+        "As an Amazon Associate I earn from qualifying purchases."
       ]
     }
   ],
   "faqs": [
     {
       "question": "Can you wear a black shirt with khaki pants?",
-      "answer": "Yes. A matte black shirt with light khaki pants creates a sharp, modern evening style. Wear black leather shoes to complete the look."
+      "answer": "Yes. A matte black shirt with light khaki pants creates a sharp, modern evening look. Wear black leather shoes to complete it."
     },
     {
       "question": "What shoes should you wear with khaki pants?",
-      "answer": "Brown leather penny loafers, dark brown suede boots, and clean white sneakers are the best choices."
+      "answer": "Brown leather penny loafers, dark brown suede boots and clean white sneakers are the best choices."
     },
     {
       "question": "Does a denim jacket look good with khakis?",
-      "answer": "Yes. A blue denim jacket over a white t-shirt or white button shirt with khaki chinos is an easy, stylish casual outfit."
+      "answer": "Yes. A blue denim jacket over a white shirt with khaki chinos is an easy, stylish casual outfit."
     },
     {
       "question": "What colors should you avoid with khaki pants?",
-      "answer": "Avoid shirts that match the exact same tan shade as your pants. Also avoid neon green and mustard yellow, as they clash."
+      "answer": "Avoid shirts in the exact same tan shade as your pants. Neon green and mustard yellow also clash."
     },
     {
       "question": "Can you wear a polo shirt with khaki pants?",
-      "answer": "Yes. A navy or dark green pique polo shirt looks excellent with khaki chinos for casual Fridays and golf outings."
+      "answer": "Yes. A navy or dark green pique polo looks excellent with khaki chinos for casual Fridays and golf outings."
     },
     {
-      "question": "Can you wear a white button up shirt casually?",
-      "answer": "Yes. Roll up the sleeves and leave the top two buttons open to wear a white button up shirt in a relaxed, casual way."
+      "question": "Can you wear a white button-up shirt casually?",
+      "answer": "Yes. Roll up the sleeves and leave the top two buttons open for a relaxed look."
+    },
+    {
+      "question": "What color shirt goes with khaki pants for a business meeting?",
+      "answer": "A navy, light blue or white button-down works well. Pair it with brown leather shoes and a matching belt."
     }
   ]
 }
