@@ -118,8 +118,8 @@ export const POSTS: PostMeta[] = [
   },
   {
     slug: "what-color-shirt-goes-with-navy-pants",
-    title: "Blue Pants with What Color Shirt? Navy Pants Outfit Rules",
-    metaTitle: "Blue Pants with What Color Shirt? Style Guide",
+    title: "Blue Pants with What Color Shirt? What Color Pants with Navy Shirt",
+    metaTitle: "Blue Pants with What Color Shirt? Navy Shirt Style Guide",
     metaDescription: "Blue pants with what color shirt? Pair navy trousers with white, pink, light blue, or grey shirts for the office, business meetings, and weekends.",
     description: "Blue pants with what color shirt? Pair navy trousers with white, pink, light blue, or grey shirts for the office, business meetings, and weekends.",
     excerpt: "Navy pants form the bedrock of business casual and tailored menswear. Master tonal contrasts, pastel balances, and shoe coordination effortlessly.",
