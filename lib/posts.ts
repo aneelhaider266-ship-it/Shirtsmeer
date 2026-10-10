@@ -80,8 +80,8 @@ export interface PostData {
 export const POSTS: PostMeta[] = [
   {
     slug: "what-color-shirt-goes-with-grey-pants",
-    title: "What Color Shirts Go with Grey Dress Pants? Complete Men's Guide",
-    metaTitle: "Color Shirts to Wear with Grey Pants: Style Guide",
+    title: "What Color Shirts Go with Grey Dress Pants? Shirts That Go with Grey Pants Guide",
+    metaTitle: "What Color Pants with Grey Shirt? Shirts That Go with Grey Pants",
     metaDescription: "Wondering what color shirt goes with grey pants? Style grey trousers with white, light blue, black, or navy shirts using our complete outfit matrix.",
     description: "Wondering what color shirt goes with grey pants? Style grey trousers with white, light blue, black, or navy shirts using our complete outfit matrix.",
     excerpt: "Grey pants offer the most versatile neutral foundation in menswear. Discover the exact shirt colors, contrast ratios, and leather pairings that create foolproof outfits.",
