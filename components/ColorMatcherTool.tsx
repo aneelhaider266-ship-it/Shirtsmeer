@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import ColorSwatch from "@/components/ColorSwatch";
 import { ArrowRight, Check, AlertTriangle, Sparkles, ExternalLink } from "lucide-react";
 
 interface MatchRule {
@@ -52,7 +51,7 @@ const COLOR_DATABASE: Record<string, MatchRule> = {
     beltRule: "Always match black leather belt to black shoes, or espresso brown belt to brown loafers.",
     amazonAffiliate: {
       title: "Recommended White Dress Shirt on Amazon",
-      url: "https://link.amazon/B003IXvr7",
+      url: "https://www.amazon.com/dp/B003IXvr7?tag=YOUR_TAG_HERE",
     },
   },
   navy: {
@@ -75,7 +74,7 @@ const COLOR_DATABASE: Record<string, MatchRule> = {
     beltRule: "Match rich chocolate or cognac leather belt directly to your footwear.",
     amazonAffiliate: {
       title: "Recommended Navy Business Pairing Shoes on Amazon",
-      url: "https://link.amazon/B0gHrgyMt",
+      url: "https://www.amazon.com/dp/B0gHrgyMt?tag=YOUR_TAG_HERE",
     },
   },
   brown: {
@@ -98,7 +97,7 @@ const COLOR_DATABASE: Record<string, MatchRule> = {
     beltRule: "Select a belt noticeably darker than your trousers to ground your waistline.",
     amazonAffiliate: {
       title: "Recommended Brown Leather Penny Loafers on Amazon",
-      url: "https://link.amazon/B0dmpUnLv",
+      url: "https://www.amazon.com/dp/B0dmpUnLv?tag=YOUR_TAG_HERE",
     },
   },
   khaki: {
@@ -121,7 +120,7 @@ const COLOR_DATABASE: Record<string, MatchRule> = {
     beltRule: "Medium brown leather belt or woven braided canvas belt for casual outfits.",
     amazonAffiliate: {
       title: "Recommended Oxford Button Down Shirt on Amazon",
-      url: "https://link.amazon/B068CQ2Jy",
+      url: "https://www.amazon.com/dp/B068CQ2Jy?tag=YOUR_TAG_HERE",
     },
   },
   olive: {
@@ -144,7 +143,7 @@ const COLOR_DATABASE: Record<string, MatchRule> = {
     beltRule: "Dark brown leather belt with matte silver hardware.",
     amazonAffiliate: {
       title: "Recommended Casual Loafers on Amazon",
-      url: "https://link.amazon/B05XUCOQX",
+      url: "https://www.amazon.com/dp/B05XUCOQX?tag=YOUR_TAG_HERE",
     },
   },
   black: {
@@ -152,7 +151,7 @@ const COLOR_DATABASE: Record<string, MatchRule> = {
     hex: "#111827",
     tone: "Maximum Formal Density",
     description: "Black absorbs all visible light and demands high-value contrast or strict monochromatic textures.",
-    link: "/blog/what-color-shirt-goes-with-grey-pants",
+    link: "/blog/what-color-shirt-goes-with-black-pants",
     bestShirts: [
       { name: "Crisp Pure White", hex: "#FFFFFF", role: "Formal Monochrome", fabric: "Egyptian Cotton Twill", reason: "The classic black-tie and executive suit combination." },
       { name: "Ice Blue Pinpoint", hex: "#B0E0E6", role: "Corporate Modern", fabric: "Pinpoint Cotton", reason: "Softens the starkness of black trousers while retaining crispness." },
@@ -167,17 +166,17 @@ const COLOR_DATABASE: Record<string, MatchRule> = {
     beltRule: "High-shine black leather dress belt with silver rectangular buckle.",
     amazonAffiliate: {
       title: "Recommended Black Oxford Shoes on Amazon",
-      url: "https://link.amazon/B08wRqX3Y",
+      url: "https://www.amazon.com/dp/B08wRqX3Y?tag=YOUR_TAG_HERE",
     },
   },
 };
 
 export default function ColorMatcherTool() {
-  const [selectedKey, setSelectedKey] = useState<string>("khaki");
+  const [selectedKey, setSelectedKey] = useState<string>("olive");
   const current = COLOR_DATABASE[selectedKey];
 
   return (
-    <section className="my-8 rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 shadow-sm">
+    <section className="my-8 rounded-2xl border border-slate-200 bg-white p-4 sm:p-8 shadow-sm">
       <div className="mb-6">
         <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-bold uppercase tracking-wider text-blue-700">
           <Sparkles className="h-3.5 w-3.5" /> Interactive Color Wheel Tool
@@ -185,27 +184,27 @@ export default function ColorMatcherTool() {
         <h2 className="mt-3 text-2xl sm:text-3xl font-extrabold tracking-tight text-slate-900">
           Select Your Trouser Color:
         </h2>
-        <p className="mt-1 text-sm text-slate-600">
+        <p className="mt-1 text-xs sm:text-sm text-slate-600">
           Tap any trouser shade below to instantly generate matching shirts, shoe rules, and colors to avoid based on menswear color wheel theory.
         </p>
       </div>
 
-      {/* 1. Trouser Color Selectors (1-Tap Buttons) */}
-      <div className="flex flex-wrap gap-2.5 sm:gap-3 pb-6 border-b border-slate-200">
+      {/* 1. Trouser Color Selectors */}
+      <div className="flex flex-wrap gap-2 pb-6 border-b border-slate-200">
         {Object.entries(COLOR_DATABASE).map(([key, data]) => {
           const isSelected = selectedKey === key;
           return (
             <button
               key={key}
               onClick={() => setSelectedKey(key)}
-              className={`flex items-center gap-2 rounded-xl px-3.5 py-2.5 text-xs sm:text-sm font-semibold transition-all ${
+              className={`flex items-center gap-2 rounded-xl px-3 py-2 text-xs sm:text-sm font-semibold transition-all ${
                 isSelected
                   ? "bg-slate-900 text-white shadow-md ring-2 ring-blue-600 ring-offset-2"
                   : "bg-slate-50 text-slate-700 hover:bg-slate-100 border border-slate-200"
               }`}
             >
               <span
-                className="h-4 w-4 rounded-full border border-white/20 flex-shrink-0"
+                className="h-3.5 w-3.5 rounded-full border border-white/20 flex-shrink-0"
                 style={{ backgroundColor: data.hex }}
                 aria-hidden="true"
               />
@@ -217,11 +216,11 @@ export default function ColorMatcherTool() {
       </div>
 
       {/* 2. Dynamic Output Card */}
-      <div className="mt-8 space-y-8">
+      <div className="mt-6 space-y-6">
         {/* Selected Summary */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 rounded-xl bg-slate-50 border border-slate-200">
           <div>
-            <span className="text-xs font-bold uppercase tracking-wider text-slate-500">
+            <span className="text-[11px] font-bold uppercase tracking-wider text-slate-500">
               Active Bottom Base:
             </span>
             <div className="flex items-center gap-2 mt-0.5">
@@ -245,24 +244,24 @@ export default function ColorMatcherTool() {
           </Link>
         </div>
 
-        {/* Top 3 Recommended Shirt Combinations */}
+        {/* Top 3 Recommended Shirt Combinations (Stacked on mobile, 3 columns on tablet/desktop) */}
         <div>
           <h3 className="text-base sm:text-lg font-bold text-slate-900 mb-3 flex items-center gap-2">
             <span className="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-100 text-xs font-bold text-emerald-700">✓</span>
             Top 3 Recommended Shirt Color Combinations:
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5">
             {current.bestShirts.map((shirt, idx) => (
               <div
                 key={idx}
                 className="p-4 rounded-xl border border-slate-200 bg-white shadow-xs hover:border-slate-300 transition-colors flex flex-col justify-between"
               >
                 <div>
-                  <div className="flex items-center justify-between mb-2">
+                  <div className="flex items-center justify-between gap-2 mb-2">
                     <span className="text-[10px] font-bold uppercase tracking-wider text-blue-700 bg-blue-50 px-2 py-0.5 rounded">
                       {shirt.role}
                     </span>
-                    <span className="text-[10px] text-slate-500 font-mono">
+                    <span className="text-[10px] text-slate-500 font-mono text-right">
                       {shirt.fabric}
                     </span>
                   </div>
@@ -285,7 +284,7 @@ export default function ColorMatcherTool() {
         </div>
 
         {/* Avoid + Shoe Rules Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* Color Clash Warning */}
           <div className="p-4 rounded-xl border border-amber-200 bg-amber-50/70">
             <div className="flex items-center gap-2 text-amber-900 font-bold text-sm mb-1.5">
@@ -311,7 +310,7 @@ export default function ColorMatcherTool() {
             <h4 className="font-bold text-sm text-slate-900 mb-1">
               👞 Leather Footwear & Belt Rule:
             </h4>
-            <p className="text-xs text-slate-700 leading-relaxed mb-2">
+            <p className="text-xs text-slate-700 leading-relaxed mb-1.5">
               <strong>Footwear:</strong> {current.shoeRule}
             </p>
             <p className="text-xs text-slate-600 leading-relaxed">
