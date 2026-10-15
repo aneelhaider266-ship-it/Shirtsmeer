@@ -14,6 +14,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/cookie-policy`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
     { url: `${SITE_URL}/dmca`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
     { url: `${SITE_URL}/accessibility`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
+    {
+  url: `${baseUrl}/color-matcher`,
+  lastModified: new Date(),
+  changeFrequency: "weekly",
+  priority: 0.95,
+},
   ];
 
   const postRoutes: MetadataRoute.Sitemap = POSTS.map((post) => ({
