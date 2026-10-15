@@ -8,9 +8,21 @@ export default function Header() {
           Shirts<span className="text-blue-600">Meer</span>
         </Link>
         <nav className="flex items-center gap-5 text-sm font-medium text-slate-600">
-          <Link href="/blog" className="transition-colors hover:text-blue-600">All Guides</Link>
-          <Link href="/about" className="transition-colors hover:text-blue-600">About</Link>
-          <Link href="/contact" className="transition-colors hover:text-blue-600">Contact</Link>
+          <Link
+            href="/color-matcher"
+            className="font-semibold text-blue-600 hover:text-blue-700 transition-colors"
+          >
+            Color Matcher
+          </Link>
+          <Link href="/blog" className="transition-colors hover:text-blue-600">
+            All Guides
+          </Link>
+          <Link href="/about" className="transition-colors hover:text-blue-600">
+            About
+          </Link>
+          <Link href="/contact" className="transition-colors hover:text-blue-600">
+            Contact
+          </Link>
         </nav>
       </div>
     </header>
