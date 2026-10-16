@@ -64,6 +64,13 @@ export default function RootLayout({
         {/* Impact.com Verification Meta Tag */}
         <meta name="impact-site-verification" content="2feed3cf-bc9a-4b62-b955-6771410477fc" />
 
+        {/* Google AdSense */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5442747651786672"
+          crossOrigin="anonymous"
+        ></script>
+
         <OrganizationJsonLd
           name="ShirtsMeer"
           url="https://shirtsmeer.com"
