@@ -22,6 +22,7 @@ const SLUG_TO_JSON: Record<string, string> = {
   "poplin-vs-twill-vs-oxford-shirt-fabrics": "shirt-fabrics.json",
   "how-to-style-cuban-camp-collar-shirts": "cuban-collar-styling.json",
   "how-a-dress-shirt-should-fit-guide": "dress-shirt-fit-guide.json",
+  "interview-outfit-guide": "interview-outfit-guide.json",
 };
 
 export interface FAQItem {
@@ -343,6 +344,29 @@ export const POSTS: PostMeta[] = [
     image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Tailored slim-fit dress shirt fitting cleanly across shoulders and chest",
     related: ["untuckit-shirts-sizing-and-fit-guide", "charles-tyrwhitt-vs-kamakura-dress-shirts", "what-color-shirt-goes-with-navy-pants"],
+  },
+  {
+    slug: "interview-outfit-guide",
+    title: "Interview Outfit: Best Work Interview Outfits for Men",
+    metaTitle: "Interview Outfit: Best Work Interview Outfits for Men",
+    metaDescription: "Master your next job interview with our complete interview outfit guide. Discover simple interview attire, business casual rules, and shoe pairings.",
+    description: "Master your next job interview with our complete interview outfit guide. Discover simple interview attire, business casual rules, and shoe pairings.",
+    excerpt: "Master your next job interview with our complete interview outfit guide. Discover simple interview attire, business casual rules, and shoe pairings.",
+    leadExcerpt: "Master your next job interview with our complete interview outfit guide. Discover simple interview attire, business casual rules, and shoe pairings.",
+    shortLabel: "Interview Outfits",
+    primaryKeyword: "interview outfit",
+    searchVolume: 2900,
+    publishedDate: "2026-03-29",
+    updatedDate: "2026-03-29",
+    date: "2026-03-29",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
+    imageAlt: "Professional men interview outfit with navy blue blazer and white dress shirt",
+    related: [
+      "what-color-shirt-goes-with-navy-pants",
+      "what-color-shirt-goes-with-grey-pants",
+      "what-color-shirt-goes-with-khaki-pants"
+    ],
   },
 ];
 
