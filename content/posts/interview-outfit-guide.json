@@ -1,19 +1,21 @@
-{
-  slug: "interview-outfit-guide",
-  title: "Interview Outfit: Best Work Interview Outfits for Men",
-  image: "/images/interview-outfit-guide.png", // Agar aapne .webp rakha hai to .png ko .webp kar dein
-  imageAlt: "Professional men interview outfit featuring tailored blazer and dress shirt",
-  excerpt: "Master your next job interview with our complete interview outfit guide. Discover simple interview attire, business casual rules, and shoe pairings.",
-  date: "2026-03-20",
-  updatedDate: "2026-03-20",
-  readTime: "7 min read",
-  author: "ShirtsMeer Fashion Team",
-  category: "Style Guides",
-  seo: {
-    metaTitle: "Interview Outfit: Best Work Interview Outfits for Men",
-    metaDescription: "Master your next job interview with our complete interview outfit guide. Discover simple interview attire, business casual rules, and shoe pairings.",
-    focusKeyword: "interview outfit",
-    secondaryKeywords: [
+import json
+
+post_data = {
+  "slug": "interview-outfit-guide",
+  "title": "Interview Outfit: Best Work Interview Outfits for Men",
+  "image": "/images/interview-outfit-guide.webp",
+  "imageAlt": "Professional men interview outfit featuring tailored blazer and dress shirt",
+  "excerpt": "Master your next job interview with our complete interview outfit guide. Discover simple interview attire, business casual rules, and shoe pairings.",
+  "date": "2026-03-20",
+  "updatedDate": "2026-03-20",
+  "readTime": "7 min read",
+  "author": "ShirtsMeer Fashion Team",
+  "category": "Style Guides",
+  "seo": {
+    "metaTitle": "Interview Outfit: Best Work Interview Outfits for Men",
+    "metaDescription": "Master your next job interview with our complete interview outfit guide. Discover simple interview attire, business casual rules, and shoe pairings.",
+    "focusKeyword": "interview outfit",
+    "secondaryKeywords": [
       "interview outfits",
       "work interview outfit",
       "outfit for interview",
@@ -21,10 +23,9 @@
       "formal interview wear"
     ]
   },
-  content: `
-# Interview Outfit: Best Work Interview Outfits for Men
+  "content": """# Interview Outfit: Best Work Interview Outfits for Men
 
-![Professional Men Work Interview Outfit](/images/interview-outfit-guide.png)
+![Professional Men Work Interview Outfit](/images/interview-outfit-guide.webp)
 
 Walking into a job interview is about psychological leverage. Within the first seven seconds of entering the room, hiring managers form an unconscious impression regarding your competence, professionalism, and organizational discipline. While qualifications get you the interview, the right **interview outfit** commands immediate credibility before you speak a single word.
 
@@ -119,6 +120,11 @@ Even the most qualified candidates can sabotage their chances with careless ward
 | **Retail / Customer Service** | Long-Sleeve Dress Shirt + Dark Slacks | Clean Derby Shoes | Optional |
 | **Trades / Field Operations** | Clean Pressed Chinos + Collared Button-Down Polo | Dark Leather Boots | No |
 
-Arriving in an intentional, well-pressed **interview outfit** gives you the psychological calm and composure needed to articulate your value and secure the offer. Prepare your wardrobe 24 hours in advance, inspect your collars, shine your leather shoes, and enter the room with absolute confidence.
-  `
+Arriving in an intentional, well-pressed **interview outfit** gives you the psychological calm and composure needed to articulate your value and secure the offer. Prepare your wardrobe 24 hours in advance, inspect your collars, shine your leather shoes, and enter the room with absolute confidence."""
 }
+
+json_output = json.dumps(post_data, indent=2)
+# test validity
+json.loads(json_output)
+print("JSON is perfectly valid!")
+print("Length of json:", len(json_output))
