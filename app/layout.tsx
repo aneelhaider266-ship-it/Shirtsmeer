@@ -12,7 +12,7 @@ const inter = Inter({
   display: "swap",
 });
 
-const GA_MEASUREMENT_ID = "G-XXXXXXXXXX";
+const GA_MEASUREMENT_ID = "G-5S01248LB4";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://shirtsmeer.com"),
@@ -58,12 +58,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
-        {/* Pinterest Verification Meta Tag */}
-        <meta name="p:domain_verify" content="9200f7458a6676b3402072b2ac1e9f0c" />
-
-        {/* Impact.com Verification Meta Tag */}
-        <meta name="impact-site-verification" content="2feed3cf-bc9a-4b62-b955-6771410477fc" />
-
         {/* Google AdSense */}
         <script
           async
