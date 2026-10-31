@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import Link from "next/link";
 import ColorMatcherTool from "@/components/ColorMatcherTool";
@@ -56,6 +57,18 @@ export default function ColorMatcherPage() {
       price: "0",
       priceCurrency: "USD",
     },
+    featureList: [
+      "Interactive clothes color wheel",
+      "Shirt and pants color combination matching",
+      "Footwear pairing guidance",
+      "Color clash alerts",
+    ],
+    inLanguage: "en",
+    publisher: {
+      "@type": "Organization",
+      name: "ShirtsMeer",
+      url: "https://shirtsmeer.com/",
+    },
   };
 
   return (
@@ -72,7 +85,7 @@ export default function ColorMatcherPage() {
           Menswear Color Theory Generator
         </span>
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight mt-3 mb-4">
-          Color Wheel for Clothes: Interactive Shirt & Pant Color Matcher
+          Color Wheel for Clothes: Interactive Shirt &amp; Pant Color Matcher
         </h1>
         <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
           Take the guesswork out of dressing. Use our free clothes color wheel generator to find balanced shirt and pants color combinations, leather footwear pairing rules, and color clashes to avoid.
@@ -82,7 +95,7 @@ export default function ColorMatcherPage() {
       {/* Interactive Tool Component */}
       <ColorMatcherTool />
 
-      {/* In-Depth Informational Guide (High Text Depth to Prevent Thin Content) */}
+      {/* In-Depth Informational Guide */}
       <article className="prose prose-slate max-w-none text-slate-800 leading-relaxed mt-14 bg-slate-50 p-6 sm:p-10 rounded-2xl border border-slate-200">
         <h2 className="text-2xl font-bold text-slate-900 mb-4">
           How to Use the Clothes Color Wheel for Men's Outfits
@@ -132,7 +145,7 @@ export default function ColorMatcherPage() {
         </p>
       </article>
 
-      {/* Tool FAQs with FAQPage Schema */}
+      {/* Tool FAQs */}
       <FAQAccordion items={TOOL_FAQS} />
     </div>
   );
