@@ -7,8 +7,9 @@ export const SITE_URL = "https://shirtsmeer.com";
 const POSTS_DIRECTORY = path.join(process.cwd(), "content", "posts");
 const DEFAULT_IMAGE = "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80";
 
+
 const SLUG_TO_JSON: Record<string, string> = {
-  "what-color-shirt-goes-with-grey-pants": "grey-pants.json",
+  "what-color-shirt-goes-with-grey-pants": "what-color-shirt-goes-with-grey-pants.json",
   "what-color-shirt-goes-with-brown-pants": "brown-pants.json",
   "what-color-shirt-goes-with-navy-pants": "navy-pants.json",
   "what-color-shirt-goes-with-khaki-pants": "khaki-pants.json",
@@ -24,6 +25,7 @@ const SLUG_TO_JSON: Record<string, string> = {
   "how-a-dress-shirt-should-fit-guide": "dress-shirt-fit-guide.json",
   "interview-outfit-guide": "interview-outfit-guide.json",
 };
+
 
 export interface FAQItem {
   question: string;
