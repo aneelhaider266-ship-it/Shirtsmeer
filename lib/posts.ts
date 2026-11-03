@@ -81,25 +81,31 @@ export interface PostData {
 }
 
 export const POSTS: PostMeta[] = [
-  {
-    slug: "what-color-shirt-goes-with-grey-pants",
-    title: "What Color Shirts Go with Grey Dress Pants? Shirts That Go with Grey Pants Guide",
-    metaTitle: "What Color Pants with Grey Shirt? Shirts That Go with Grey Pants",
-    metaDescription: "Wondering what color shirt goes with grey pants? Style grey trousers with white, light blue, black, or navy shirts using our complete outfit matrix.",
-    description: "Wondering what color shirt goes with grey pants? Style grey trousers with white, light blue, black, or navy shirts using our complete outfit matrix.",
-    excerpt: "Grey pants offer the most versatile neutral foundation in menswear. Discover the exact shirt colors, contrast ratios, and leather pairings that create foolproof outfits.",
-    leadExcerpt: "Grey pants offer the most versatile neutral foundation in menswear. Discover the exact shirt colors, contrast ratios, and leather pairings that create foolproof outfits.",
-    shortLabel: "Grey Pants Combinations",
-    primaryKeyword: "what color shirt goes with grey pants",
-    searchVolume: 2900,
-    publishedDate: "2026-03-15",
-    updatedDate: "2026-03-15",
-    date: "2026-03-15",
-    readTime: "7 min read",
-    image: DEFAULT_IMAGE,
-    imageAlt: "Tailored grey trousers neatly paired with crisp white and blue dress shirts",
-    related: ["what-color-shirt-goes-with-navy-pants", "charles-tyrwhitt-vs-kamakura-dress-shirts", "poplin-vs-twill-vs-oxford-shirt-fabrics"],
-  },
+  
+{
+  slug: "what-color-shirt-goes-with-grey-pants",
+  title: "What Color Shirt Goes with Grey Pants? 7 Best Combinations",
+  metaTitle: "What Color Shirt Goes with Grey Pants? 7 Best Combinations",
+  metaDescription: "Discover the best shirt colors to wear with grey pants, including white, navy, light blue, black, pink, and lavender. Explore outfit ideas for every occasion.",
+  description: "Discover the best shirt colors to wear with grey pants, including white, navy, light blue, black, pink, and lavender. Explore outfit ideas for every occasion.",
+  excerpt: "Find the best shirt colors for grey pants, from crisp white and light blue to navy, black, pink, and lavender. Explore outfit combinations for work and casual wear.",
+  leadExcerpt: "Find the best shirt colors for grey pants, from crisp white and light blue to navy, black, pink, and lavender. Explore outfit combinations for work and casual wear.",
+  shortLabel: "Grey Pants Combinations",
+  primaryKeyword: "what color shirt goes with grey pants",
+  searchVolume: 2900,
+  publishedDate: "2026-03-15",
+  updatedDate: "2026-11-03",
+  date: "2026-03-15",
+  readTime: "7 min read",
+  image: DEFAULT_IMAGE,
+  imageAlt: "Tailored grey trousers neatly paired with crisp white and blue dress shirts",
+  related: [
+    "what-color-shirt-goes-with-navy-pants",
+    "charles-tyrwhitt-vs-kamakura-dress-shirts",
+    "poplin-vs-twill-vs-oxford-shirt-fabrics"
+  ],
+},
+
   {
     slug: "what-color-shirt-goes-with-brown-pants",
     title: "Shirts to Wear with Brown Pants: What Color Goes Best?",
