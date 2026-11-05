@@ -62,7 +62,7 @@ export interface PostMeta {
   leadExcerpt?: string;
   shortLabel?: string;
   primaryKeyword: string;
-  searchVolume: number;
+  searchVolume?: number;
   publishedDate: string;
   updatedDate?: string | Date;
   date?: string;
