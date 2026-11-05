@@ -116,6 +116,7 @@ export const POSTS: PostMeta[] = [
   leadExcerpt: "Wondering what color shirt goes with brown pants? Explore the best light blue, white, cream, pink and olive shirt combinations for chocolate, tobacco and tan trousers.",
   shortLabel: "Brown Pants Styling",
   primaryKeyword: "what color shirt goes with brown pants",
+  searchVolume?: number;
   publishedDate: "2026-03-16",
   updatedDate: "2026-11-06",
   date: "2026-03-16",
