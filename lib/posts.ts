@@ -297,25 +297,33 @@ export const POSTS: PostMeta[] = [
     imageAlt: "Different men's dress shirt collar styles arranged in studio flat lay",
     related: ["charles-tyrwhitt-vs-kamakura-dress-shirts", "collars-and-co-dress-collar-polo-review", "how-a-dress-shirt-should-fit-guide"],
   },
-  {
-    slug: "poplin-vs-twill-vs-oxford-shirt-fabrics",
-    title: "Broadcloth vs Twill vs Oxford Cloth: The Ultimate Fabric Breakdown",
-    metaTitle: "Broadcloth vs Twill vs Oxford Cloth: Fabric Guide",
-    metaDescription: "Broadcloth (poplin) vs twill vs Oxford cloth (OCBD) shirt fabrics compared. Learn which weave is best for office work, breathability, summer heat, and wrinkle resistance.",
-    description: "Broadcloth (poplin) vs twill vs Oxford cloth (OCBD) shirt fabrics compared. Learn which weave is best for office work, breathability, summer heat, and wrinkle resistance.",
-    excerpt: "Should you choose crisp poplin, silky diagonal twill, or rugged basketweave Oxford? We compare weight, formality, breathability, and ease of ironing.",
-    leadExcerpt: "Should you choose crisp poplin, silky diagonal twill, or rugged basketweave Oxford? We compare weight, formality, breathability, and ease of ironing.",
-    shortLabel: "Shirt Fabric Breakdown",
-    primaryKeyword: "broadcloth vs twill",
-    searchVolume: 1900,
-    publishedDate: "2026-03-26",
-    updatedDate: "2026-03-26",
-    date: "2026-03-26",
-    readTime: "8 min read",
-    image: DEFAULT_IMAGE,
-    imageAlt: "Close up macro texture of woven poplin, diagonal twill, and Oxford cloth",
-    related: ["charles-tyrwhitt-vs-kamakura-dress-shirts", "what-color-shirt-goes-with-grey-pants", "what-color-shirt-goes-with-khaki-pants"],
-  },
+{
+  slug: "poplin-vs-twill-vs-oxford-shirt-fabrics",
+  title: "Poplin vs Oxford: Key Differences, Weave & Best Uses",
+  metaTitle: "Poplin vs Oxford: Which Shirt Fabric Is Better?",
+  metaDescription:
+    "Poplin shirt vs Oxford: compare weave, texture, breathability, wrinkle resistance, and formality. Learn how twill and broadcloth compare too.",
+  description:
+    "Compare poplin and Oxford shirt fabrics, from their weave and texture to comfort, breathability, and formality. See how twill and broadcloth fit in.",
+  excerpt:
+    "Choosing between poplin and Oxford? Understand their weave, texture, comfort, and formality, then compare both with twill.",
+  leadExcerpt:
+    "Choosing between poplin and Oxford? Understand their weave, texture, comfort, and formality, then compare both with twill.",
+  shortLabel: "Poplin vs Oxford Fabrics",
+  primaryKeyword: "poplin vs oxford",
+  searchVolume: 1900,
+  publishedDate: "2026-03-26",
+  updatedDate: "2026-11-05",
+  date: "2026-03-26",
+  readTime: "8 min read",
+  image: DEFAULT_IMAGE,
+  imageAlt: "Close-up comparison of poplin, twill, and Oxford shirt fabric textures",
+  related: [
+    "charles-tyrwhitt-vs-kamakura-dress-shirts",
+    "what-color-shirt-goes-with-grey-pants",
+    "what-color-shirt-goes-with-khaki-pants"
+  ],
+},
   {
     slug: "how-to-style-cuban-camp-collar-shirts",
     title: "How to Wear a Cuban Collar (Camp Collar) Shirt in 2026",
