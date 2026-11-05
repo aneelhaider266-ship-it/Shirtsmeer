@@ -377,6 +377,29 @@ export const POSTS: PostMeta[] = [
       "what-color-shirt-goes-with-khaki-pants"
     ],
   },
+  {
+    slug: "what-color-shirt-goes-with-black-pants",
+    title: "What Color Shirt with Black Pants? Black Pants Outfit Men's Guide",
+    metaTitle: "What Color Shirt with Black Pants? Men's Style Guide",
+    metaDescription: "Wondering what color shirt goes with black pants? Discover the best combinations with white, blue, and grey shirts, plus brown shoes with black pants rules.",
+    description: "Wondering what color shirt goes with black pants? Discover the best combinations with white, blue, and grey shirts, plus brown shoes with black pants rules.",
+    excerpt: "Black pants offer a sharp, masculine foundation. Learn how to style black trousers with crisp white, light blue, and grey shirts, plus brown shoe pairing rules.",
+    leadExcerpt: "Black pants offer a sharp, masculine foundation. Learn how to style black trousers with crisp white, light blue, and grey shirts, plus brown shoe pairing rules.",
+    shortLabel: "Black Pants Outfits",
+    primaryKeyword: "what color shirt goes with black pants",
+    searchVolume: 1600,
+    publishedDate: "2026-11-05",
+    updatedDate: "2026-11-05",
+    date: "2026-11-05",
+    readTime: "9 min read",
+    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
+    imageAlt: "Tailored black trousers styled with crisp white dress shirt and black leather shoes",
+    related: [
+      "what-color-shirt-goes-with-grey-pants",
+      "what-color-shirt-goes-with-navy-pants",
+      "interview-outfit-guide"
+    ],
+  },
 ];
 
 export function getPostSlugs(): string[] {
