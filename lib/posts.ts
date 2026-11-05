@@ -24,6 +24,7 @@ const SLUG_TO_JSON: Record<string, string> = {
   "how-to-style-cuban-camp-collar-shirts": "cuban-collar-styling.json",
   "how-a-dress-shirt-should-fit-guide": "dress-shirt-fit-guide.json",
   "interview-outfit-guide": "interview-outfit-guide.json",
+  "what-color-shirt-goes-with-black-pants": "what-color-shirt-goes-with-black-pants.json",
 };
 
 
