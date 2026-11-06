@@ -1,144 +1,385 @@
+
 {
   "quickAnswerTitle": "Quick Answer: What Color Shirt Goes with Black Pants?",
-  "quickAnswer": "The best shirt colors that go with black pants are crisp white, light powder blue, heather grey, cream or beige, and olive green. For formal occasions and black-tie events, crisp white poplin delivers unmatched executive contrast. For daily office wear, a light blue or pale grey shirt softens the starkness of black trousers. For smart casual evenings, pair with an all-black textured knit polo or deep burgundy shirt. Can you wear brown shoes with black pants? Yes, provided you choose deep dark espresso brown or oxblood leather rather than light tan.",
-  "intro": "Black pants are a cornerstone of modern menswear, spanning executive boardrooms, smart casual offices, and weekend evening events. Because pure black absorbs light, styling black trousers requires a solid understanding of value contrast, color temperatures, and leather footwear coordination. In this complete style guide, we break down what color shirt goes with black pants, explore formal and casual combinations, answer common questions like the 3-color rule for men, and explain how to wear brown shoes with black pants without clashing.",
-  "swatchHeading": "Essential Shirt Colors for Black Pants",
+  "quickAnswer": "The best shirt colors to wear with black pants include crisp white, light blue, light grey, cream, olive green, burgundy and pale pink. White and light blue work especially well for smart and office outfits, while cream, olive and burgundy create stylish casual and evening looks. You can also wear a black shirt with black pants by mixing different textures. For formal events, remember that black pants and a white shirt alone do not make a black-tie outfit; black tie traditionally requires a tuxedo.",
+  "intro": "Black pants are one of the most versatile pieces in a man's wardrobe. They work with everything from office shirts and smart casual outfits to relaxed weekend clothing. The key is choosing a shirt color, fabric and fit that suit the occasion and the type of black pants you are wearing. This guide explains the best shirt colors for black pants, which shoes to choose, how to wear brown shoes with black trousers and how to build balanced outfits without following unnecessary fashion rules.",
+  "swatchHeading": "7 Best Shirt Colors for Black Pants",
   "swatches": [
-    { "name": "Crisp Pure White", "hex": "#FFFFFF", "role": "Maximum Formal Contrast" },
-    { "name": "Light Powder Blue", "hex": "#87CEEB", "role": "Office Business Casual" },
-    { "name": "Muted Heather Grey", "hex": "#D1D5DB", "role": "Sleek Monochrome" },
-    { "name": "Warm Cream / Ecru", "hex": "#F5F5DC", "role": "Soft Luxury Contrast" },
-    { "name": "Military Olive Green", "hex": "#556B2F", "role": "Earthy Smart Casual" },
-    { "name": "Deep Burgundy Maroon", "hex": "#800020", "role": "Bold Evening Statement" },
-    { "name": "Matte Jet Black", "hex": "#111827", "role": "Modern Monochrome" }
+    {
+      "name": "Crisp Pure White",
+      "hex": "#FFFFFF",
+      "role": "Classic High Contrast"
+    },
+    {
+      "name": "Light Powder Blue",
+      "hex": "#87CEEB",
+      "role": "Office and Smart Casual"
+    },
+    {
+      "name": "Light Heather Grey",
+      "hex": "#D1D5DB",
+      "role": "Understated Monochrome"
+    },
+    {
+      "name": "Warm Cream / Ecru",
+      "hex": "#F5F5DC",
+      "role": "Soft Neutral Contrast"
+    },
+    {
+      "name": "Olive Green",
+      "hex": "#556B2F",
+      "role": "Relaxed Earthy Style"
+    },
+    {
+      "name": "Deep Burgundy",
+      "hex": "#800020",
+      "role": "Rich Evening Color"
+    },
+    {
+      "name": "Matte Jet Black",
+      "hex": "#111827",
+      "role": "Modern Monochrome"
+    }
   ],
   "sections": [
     {
-      "heading": "1. What Color Shirt Goes with Black Pants: The Crisp White Standard",
+      "heading": "1. White Shirt with Black Pants: A Timeless Combination",
       "paragraphs": [
-        "A crisp white shirt paired with tailored black pants represents the ultimate high-contrast combination in men's fashion. This classic pairing creates clean visual separation between your upper torso and lower half, framing your face with unmatched authority.",
-        "For formal occasions, executive job interviews, and evening black-tie galas, wear a 100% two-ply Egyptian cotton white poplin dress shirt. Ensure the collar has structured collar stays so it sits firmly under a suit jacket lapel.",
-        "For smart casual weekend settings, switch to an open-collar white Oxford cloth button-down (OCBD) or a breezy linen shirt with sleeves rolled up to your forearms. Finish with polished black leather penny loafers or minimalist white leather sneakers."
+        "A crisp white shirt with black pants is one of the easiest and most reliable combinations in men's fashion. The strong contrast creates a clean appearance that works for office meetings, interviews, dinners and many smart casual occasions.",
+        "For a professional outfit, choose a white Oxford, poplin or twill dress shirt with well-fitted black dress trousers. Add black leather dress shoes and a simple belt for a coordinated finish.",
+        "For a relaxed look, wear a white Oxford button-down or linen shirt with black chinos or jeans. White leather sneakers or casual loafers can complete the outfit.",
+        "Important: A white shirt with ordinary black trousers is not automatically black tie. A traditional black-tie dress code calls for a tuxedo and appropriate formal accessories."
       ],
       "bullets": [
-        { "label": "Formality Level", "text": "10/10 — The timeless gold standard for business formal, weddings, and executive meetings." },
-        { "label": "Necktie Pairings", "text": "Solid black silk tie, deep burgundy grenadine tie, or charcoal grey woven silk tie." },
-        { "label": "Footwear", "text": "Polished black calfskin Oxford shoes paired with an exact matching black dress belt." }
+        {
+          "label": "Best shirt styles",
+          "text": "White Oxford button-down, poplin dress shirt or linen shirt."
+        },
+        {
+          "label": "Best occasions",
+          "text": "Office wear, interviews, dinners and smart casual events."
+        },
+        {
+          "label": "Footwear",
+          "text": "Black leather dress shoes, loafers or clean white sneakers, depending on the occasion."
+        }
       ]
     },
     {
-      "heading": "2. Blue Shirt and Black Pant Combination: Modern Corporate Balance",
+      "heading": "2. Light Blue Shirt with Black Pants: Smart Office Style",
       "paragraphs": [
-        "A blue shirt and black pant pairing is one of the most reliable, professional office outfits for men. Light blue softens the stark darkness of black wool trousers, adding a friendly, approachable touch while maintaining full corporate elegance.",
-        "When pairing a blue shirt with black trousers, prioritize shade separation. A pale powder blue or light ice blue pinpoint shirt creates crisp tonal separation. Avoid dark navy shirts that blend into black trousers unless separated by distinct textural differences.",
-        "For business casual Fridays, a light blue chambray or denim button-down shirt paired with slim black chinos strikes the perfect balance between rugged utilitarian texture and sharp tailoring. Anchor this look with dark brown or black monk strap shoes."
+        "A light blue shirt and black pants create a balanced combination that looks professional without feeling too formal. The lighter blue shade stands out against black trousers and adds color while keeping the outfit understated.",
+        "Choose a pale blue Oxford or poplin shirt with tailored black trousers for office wear. For a more relaxed outfit, try a light blue chambray shirt with black jeans or chinos.",
+        "Dark navy shirts can also work with black pants. To make the combination look intentional, use differences in fabric, texture or shade rather than relying on contrast alone."
       ],
       "bullets": [
-        { "label": "Best Blue Tones", "text": "Sky blue, powder blue, and bleached light indigo denim." },
-        { "label": "Fabrics", "text": "Fine royal twill for executive meetings; Oxford basketweave for daily business casual." },
-        { "label": "Leather Rule", "text": "Black leather shoes or deep espresso dress shoes with a matching leather belt." }
+        {
+          "label": "Best blue shades",
+          "text": "Powder blue, sky blue, pale blue and light chambray."
+        },
+        {
+          "label": "Best fabrics",
+          "text": "Oxford cloth, poplin, chambray and lightweight cotton."
+        },
+        {
+          "label": "Footwear",
+          "text": "Black dress shoes, dark brown loafers or clean casual sneakers."
+        }
       ]
     },
     {
-      "heading": "3. The Grey Shirt: Sleek Architectural Monochrome",
+      "heading": "3. Grey Shirt with Black Pants: A Minimalist Outfit",
       "paragraphs": [
-        "If you want to avoid the high contrast of a stark white shirt, a grey shirt provides a sophisticated middle ground. Heather grey and pale slate shirts reduce visual contrast while maintaining a clean, cohesive monochrome outfit.",
-        "A light grey broadcloth dress shirt with tailored black trousers creates a sleek, European aesthetic that flatters every skin tone. In colder months, layer a medium grey merino wool crewneck sweater over a collared shirt for refined office comfort.",
-        "Finish this architectural grey-and-black combination with matte black leather Chelsea boots or tailored black dress derbies."
-      ]
-    },
-    {
-      "heading": "4. Warm Neutrals: Cream, Beige, and Soft Ecru",
-      "paragraphs": [
-        "While bleached white creates sharp contrast, warm cream and beige shirts soften the visual impact of black pants. An ecru linen shirt or oatmeal knit polo adds quiet luxury warmth that looks relaxed and upscale.",
-        "This combination is particularly effective for summer daytime events and outdoor dinners. Complete the look with medium brown suede penny loafers or clean white sneakers."
-      ]
-    },
-    {
-      "heading": "5. Can You Wear Brown Shoes with Black Pants? The Modern Footwear Rule",
-      "paragraphs": [
-        "One of the oldest debates in menswear is: can you wear brown shoes with black pants? Traditional styling rules forbade mixing brown leather with black trousers, but modern sartorial standards have updated this rule completely.",
-        "Yes, you can wear black pants brown shoes combinations, provided you follow the Golden Contrast Rule: choose deep, rich brown tones like espresso, dark chocolate, or burgundy oxblood. Avoid light tan or cognac shoes with black trousers, as light tan creates an awkward, competing visual break at the ankle.",
-        "When styling black trousers and brown shoes for smart casual wear, choose textured footwear such as dark brown suede chukka boots or espresso brown leather penny loafers. Remember: your belt must always match your brown shoe leather exactly."
+        "Grey shirts pair naturally with black pants when you want a subtle, understated outfit. Light grey creates more separation from black trousers, while charcoal grey gives you a darker monochrome appearance.",
+        "For a smart casual look, wear a light grey button-down shirt with black chinos and black Chelsea boots. For a relaxed outfit, try a grey T-shirt or textured knit polo with black jeans.",
+        "If you choose a dark grey shirt, vary the textures or shades of your clothing so the outfit does not look flat."
       ],
       "bullets": [
-        { "label": "Allowed Brown Tones", "text": "Dark espresso brown, deep chocolate suede, and rich burgundy oxblood." },
-        { "label": "Brown Tones to Avoid", "text": "Light tan, honey brown, and pale caramel leather." },
-        { "label": "Belt Rule", "text": "Always wear an espresso brown leather belt to match your brown footwear." }
+        {
+          "label": "Light grey",
+          "text": "A good choice for office outfits and daytime wear."
+        },
+        {
+          "label": "Charcoal grey",
+          "text": "Works well for darker, minimalist evening outfits."
+        },
+        {
+          "label": "Footwear",
+          "text": "Black leather boots, loafers or minimalist sneakers."
+        }
       ]
     },
     {
-      "heading": "6. Earth Tones: Olive Green and Sage with Black Trousers",
+      "heading": "4. Cream and Beige Shirts with Black Pants",
       "paragraphs": [
-        "Olive green and sage shirts provide a modern military-inspired look when paired with black cotton chinos or tapered utility trousers.",
-        "Black grounds the earthy warmth of olive green, creating an urban, masculine edge. A muted olive linen shirt worn untucked over slim black jeans with white minimalist leather sneakers is an ideal combination for warm spring and summer weekends.",
-        "You can explore real-time contrast ratios and color matching formulas for all pant shades using our free interactive color wheel tool (/color-matcher)."
-      ]
-    },
-    {
-      "heading": "7. The 3-Color Rule for Men Explained",
-      "paragraphs": [
-        "What is the 3-color rule for men? It is a foundational style principle stating that an outfit should contain no more than three core colors at once to avoid visual clutter.",
-        "When wearing black pants, black counts as your primary grounding neutral. Your shirt serves as your secondary color (e.g., light blue or olive). Your third accent color should be reserved for your layering piece, shoes, or accessories (e.g., a dark brown belt and loafers, or a charcoal blazer). Following this rule keeps every outfit intentional and cohesive."
-      ]
-    },
-    {
-      "heading": "8. What Shoes to Wear with Black Pants: Footwear Matrix",
-      "paragraphs": [
-        "Because black pants carry maximum visual weight, your footwear anchors the formality of the entire ensemble:",
-        "Black leather shoes represent the gold standard for corporate presentations and formal occasions. When styling black slacks for business casual, dark brown loafers or minimalist white leather sneakers keep the outfit relaxed yet intentional."
+        "Cream, beige and ecru shirts add warmth to black pants without creating the sharp contrast of pure white. These neutral shades are particularly useful for relaxed smart casual outfits.",
+        "Try a cream linen shirt with black chinos during warmer weather, or wear a beige cotton button-down with tailored black trousers for a clean everyday look.",
+        "Brown suede loafers, dark leather boots or simple white sneakers can complement this combination. Choose footwear according to the formality of the occasion."
       ],
       "bullets": [
-        { "label": "Black Oxford Shoes", "text": "Mandatory for formal suits, black-tie events, and executive interviews." },
-        { "label": "Dark Brown Loafers", "text": "Rich espresso leather penny loafers soften black chinos for smart casual office wear." },
-        { "label": "Black Chelsea Boots", "text": "Sleek, modern silhouette ideal for autumn, winter, and evening dining." },
-        { "label": "Clean White Sneakers", "text": "Low-profile minimalist white leather sneakers create a sharp weekend contrast." }
+        {
+          "label": "Best shades",
+          "text": "Cream, oatmeal, beige, ecru and warm ivory."
+        },
+        {
+          "label": "Best fabrics",
+          "text": "Linen, cotton Oxford and lightweight knit."
+        },
+        {
+          "label": "Footwear",
+          "text": "Brown suede loafers, dark leather shoes or white sneakers."
+        }
+      ]
+    },
+    {
+      "heading": "5. Can You Wear Brown Shoes with Black Pants?",
+      "paragraphs": [
+        "Yes, brown shoes can work with black pants. The best choice depends on the shade of brown, the shoe style and the formality of your outfit.",
+        "Dark espresso and chocolate brown leather shoes are easy options for smart casual outfits. Oxblood and burgundy footwear can also complement black trousers. Lighter tan and cognac shoes create a stronger contrast, which may work better with casual outfits than conservative business wear.",
+        "For a polished appearance, coordinate your belt with your shoes when practical. They do not have to match exactly, but similar tones and finishes usually create a more cohesive outfit."
+      ],
+      "bullets": [
+        {
+          "label": "Dark brown shoes",
+          "text": "A versatile choice for smart casual black pants outfits."
+        },
+        {
+          "label": "Oxblood shoes",
+          "text": "Add a rich color accent to black trousers."
+        },
+        {
+          "label": "Tan or cognac shoes",
+          "text": "Can work for relaxed outfits when the contrast looks intentional."
+        },
+        {
+          "label": "Belt advice",
+          "text": "Coordinate the belt with your footwear where possible, but an exact match is not essential."
+        }
+      ]
+    },
+    {
+      "heading": "6. Olive Green Shirt with Black Pants: An Earthy Casual Look",
+      "paragraphs": [
+        "Olive green is a strong choice when you want to add color without making your outfit too bright. Its muted, earthy tone works particularly well with black jeans, chinos and casual trousers.",
+        "Wear an olive cotton button-down shirt with black chinos for a relaxed smart casual outfit. An olive linen shirt is another good option for warmer days.",
+        "Finish with black boots, dark brown casual shoes or clean white sneakers. You can also explore more combinations using our free interactive Color Matcher tool (/color-matcher)."
+      ],
+      "bullets": [
+        {
+          "label": "Best shades",
+          "text": "Muted olive, sage green and darker moss green."
+        },
+        {
+          "label": "Best occasions",
+          "text": "Weekend outings, casual dinners and everyday wear."
+        },
+        {
+          "label": "Footwear",
+          "text": "Black boots, dark brown shoes or white sneakers."
+        }
+      ]
+    },
+    {
+      "heading": "7. Burgundy Shirt with Black Pants: A Rich Evening Combination",
+      "paragraphs": [
+        "A burgundy shirt adds depth and color to black trousers without looking overly bright. The combination is especially suitable for evening dinners, date nights and smart social occasions.",
+        "Choose a deep burgundy button-down shirt with tailored black trousers for a more polished outfit. For a relaxed version, wear a burgundy polo or knit shirt with black jeans.",
+        "Black leather loafers or dress shoes help keep the outfit coordinated. Keep accessories simple so the shirt remains the main color feature."
+      ],
+      "bullets": [
+        {
+          "label": "Best shades",
+          "text": "Deep burgundy, wine red and muted maroon."
+        },
+        {
+          "label": "Best shirt styles",
+          "text": "Button-down shirts, knit polos and casual cotton shirts."
+        },
+        {
+          "label": "Footwear",
+          "text": "Black leather loafers, Chelsea boots or dress shoes."
+        }
+      ]
+    },
+    {
+      "heading": "Bonus: Can You Wear a Black Shirt with Black Pants?",
+      "paragraphs": [
+        "Yes. An all-black outfit can look modern and well put together. The key is to combine different textures so that the shirt and trousers do not look like one flat block of color.",
+        "Try a black knit polo with black tailored trousers, or a black Oxford shirt with black jeans. You can also introduce texture through suede shoes, a leather belt or a jacket.",
+        "This combination works particularly well for evening outings, casual events and minimalist everyday outfits."
+      ]
+    },
+    {
+      "heading": "What Shoes to Wear with Black Pants",
+      "paragraphs": [
+        "Your shoes help determine whether black pants look formal, smart casual or relaxed. Consider the type of trousers and the occasion before choosing footwear."
+      ],
+      "bullets": [
+        {
+          "label": "Black Oxford shoes",
+          "text": "A classic choice for formal business outfits and tailored trousers."
+        },
+        {
+          "label": "Black Derby shoes",
+          "text": "Versatile footwear for office wear and smart casual outfits."
+        },
+        {
+          "label": "Dark brown loafers",
+          "text": "A useful option for smart casual black chinos and tailored trousers."
+        },
+        {
+          "label": "Black Chelsea boots",
+          "text": "Work well with black jeans, chinos and slim tailored trousers."
+        },
+        {
+          "label": "White sneakers",
+          "text": "A relaxed choice for black jeans and casual outfits."
+        }
+      ]
+    },
+    {
+      "heading": "How to Choose the Right Black Pants for Your Outfit",
+      "paragraphs": [
+        "Not all black pants create the same look. The fabric, cut and finish of your trousers can change which shirt combinations work best.",
+        "Black dress trousers are best suited to Oxford and poplin dress shirts, structured jackets and leather dress shoes. Black chinos are more flexible and work with button-down shirts, polos and casual knitwear. Black jeans pair naturally with T-shirts, casual shirts, denim and boots.",
+        "For a balanced outfit, consider the fit of both pieces. Slim trousers usually work well with a fitted or regular-fit shirt, while relaxed trousers can be paired with a slightly looser shirt."
+      ],
+      "bullets": [
+        {
+          "label": "Black dress trousers",
+          "text": "Best for office wear, tailored outfits and formal business settings."
+        },
+        {
+          "label": "Black chinos",
+          "text": "Best for smart casual outfits and everyday office clothing."
+        },
+        {
+          "label": "Black jeans",
+          "text": "Best for casual outfits, weekend wear and relaxed evenings."
+        }
+      ]
+    },
+    {
+      "heading": "The 3-Color Rule for Men's Outfits",
+      "paragraphs": [
+        "The 3-color rule is a simple styling guideline that suggests keeping an outfit to around three main colors. It can help create a coordinated look, but it is not a strict fashion rule.",
+        "For example, black pants, a light blue shirt and brown shoes create a simple combination of three colors. Neutral shades such as black, white, grey and beige are flexible, so you do not need to count every small accessory as a separate color.",
+        "The most important thing is that your colors, clothing fit and footwear suit the occasion."
       ]
     }
   ],
-  "tableCaption": "Black Pants and Shirt Color Combination Matrix",
+  "tableCaption": "Best Shirt Colors to Wear with Black Pants",
   "tableRows": [
-    { "shirtColor": "Crisp Pure White", "formality": "Business Formal / Black Tie", "contrast": "High", "footwear": "Black Oxford dress shoes", "occasion": "Interviews, galas, formal weddings" },
-    { "shirtColor": "Light Powder Blue", "formality": "Business Casual", "contrast": "High", "footwear": "Black or espresso brown loafers", "occasion": "Daily office, corporate client meetings" },
-    { "shirtColor": "Muted Heather Grey", "formality": "Smart Casual", "contrast": "Medium", "footwear": "Black leather Chelsea boots", "occasion": "Evening dinners, creative workplaces" },
-    { "shirtColor": "Warm Cream / Ecru", "formality": "Smart Casual", "contrast": "Medium", "footwear": "Espresso suede loafers or derbies", "occasion": "Spring dinners, smart social events" },
-    { "shirtColor": "Military Olive Green", "formality": "Casual Modern", "contrast": "Medium", "footwear": "Clean white minimalist sneakers", "occasion": "Weekend outings, casual events" },
-    { "shirtColor": "Deep Burgundy Maroon", "formality": "Evening Smart", "contrast": "Rich Contrast", "footwear": "Black leather dress shoes", "occasion": "Date nights, cocktail gatherings" },
-    { "shirtColor": "Matte Jet Black", "formality": "Modern Monochrome", "contrast": "Monochrome", "footwear": "Black polished leather shoes or boots", "occasion": "Nightlife, creative agencies" }
-  ],
-  "afterTable": [
     {
-      "heading": "Where to Buy the Basics",
-      "paragraphs": [
-        "Three foundational pieces complete almost every black pants outfit: a crisp white 100% cotton dress shirt, a versatile light blue Oxford button-down, and polished black leather dress shoes.",
-        "As an Amazon Associate I earn from qualifying purchases."
-      ]
+      "shirtColor": "Crisp Pure White",
+      "formality": "Smart / Business",
+      "contrast": "High",
+      "footwear": "Black leather shoes or white sneakers",
+      "occasion": "Office, interviews and dinners"
+    },
+    {
+      "shirtColor": "Light Powder Blue",
+      "formality": "Business Casual",
+      "contrast": "High",
+      "footwear": "Black or dark brown loafers",
+      "occasion": "Office and client meetings"
+    },
+    {
+      "shirtColor": "Light Heather Grey",
+      "formality": "Smart Casual",
+      "contrast": "Medium",
+      "footwear": "Black Chelsea boots or loafers",
+      "occasion": "Dinner and everyday wear"
+    },
+    {
+      "shirtColor": "Warm Cream / Ecru",
+      "formality": "Smart Casual",
+      "contrast": "Medium",
+      "footwear": "Brown suede loafers or white sneakers",
+      "occasion": "Daytime events and casual dinners"
+    },
+    {
+      "shirtColor": "Olive Green",
+      "formality": "Casual / Smart Casual",
+      "contrast": "Medium",
+      "footwear": "Black boots or white sneakers",
+      "occasion": "Weekend outings"
+    },
+    {
+      "shirtColor": "Deep Burgundy",
+      "formality": "Evening Smart Casual",
+      "contrast": "Rich Contrast",
+      "footwear": "Black leather shoes or boots",
+      "occasion": "Date nights and evening gatherings"
+    },
+    {
+      "shirtColor": "Matte Jet Black",
+      "formality": "Modern Monochrome",
+      "contrast": "Low",
+      "footwear": "Black leather shoes or boots",
+      "occasion": "Evening and casual outfits"
+    }
+  ],
+  "productsHeading": "Shop Men's Outfit Essentials",
+  "productsIntro": "Explore these men's clothing and footwear options to build versatile outfits with black pants. Check each Amazon listing for current colors, sizes, fit and availability before ordering.",
+  "products": [
+    {
+      "name": "Tommy Hilfiger Men's Long Sleeve Oxford Shirt",
+      "description": "A classic button-down shirt option for smart casual and office outfits. Check the listing for available colors and sizes.",
+      "url": "https://link.amazon/B0ggO3rQX",
+      "category": "Shirt"
+    },
+    {
+      "name": "Men's 4-Way Stretch Dress Pants",
+      "description": "Stretch dress pants with an expandable waist and wrinkle-free styling. Check the color selector to confirm black is available.",
+      "url": "https://link.amazon/B05FJgNDN",
+      "category": "Trousers"
+    },
+    {
+      "name": "Cole Haan Men's Newmark Grand Chelsea",
+      "description": "Chelsea boots to consider with black jeans and smart casual trousers. Check the listing for available colors and finishes.",
+      "url": "https://link.amazon/B01xXPJDz",
+      "category": "Footwear"
+    },
+    {
+      "name": "CQR Men's Thermal Fleece Quarter Zip Sweater",
+      "description": "A thermal quarter-zip layer for cooler days. Wear it over a suitable base layer with black jeans or chinos.",
+      "url": "https://link.amazon/B0g1HiMfk",
+      "category": "Layering"
     }
   ],
   "faqs": [
     {
-      "question": "What color shirt goes with black pants?",
-      "answer": "Crisp white, light powder blue, heather grey, warm cream, washed denim, and olive green are the best shirt colors to wear with black pants. White provides classic formal contrast, while light blue is ideal for business casual office wear."
+      "question": "What color shirt goes best with black pants?",
+      "answer": "White, light blue, grey, cream, olive green and burgundy are excellent shirt colors for black pants. White and light blue are especially versatile for smart and office outfits, while olive and burgundy add color to casual and evening looks."
     },
     {
       "question": "Can you wear brown shoes with black pants?",
-      "answer": "Yes. You can wear brown shoes with black pants as long as you choose dark espresso, dark chocolate, or oxblood leather. Avoid light tan or cognac shoes, which clash against black trousers. Always match your belt to your brown footwear."
+      "answer": "Yes. Dark espresso, chocolate brown and oxblood shoes are useful options for smart casual outfits. Tan and cognac shoes can also work with casual black pants when the contrast looks intentional. Coordinating your belt with your shoes helps create a balanced outfit."
     },
     {
-      "question": "Does a blue shirt and black pant combination look good?",
-      "answer": "Yes. A light powder blue or sky blue dress shirt with black pants is a sharp, modern business casual staple. The light blue softens the dark formality of black while maintaining professional elegance."
-    },
-    {
-      "question": "What is the 3-color rule for men's outfits?",
-      "answer": "The 3-color rule states that a men's outfit should contain no more than three core colors at one time. For example: black pants (neutral 1), light blue shirt (color 2), and dark brown shoes/belt (accent 3). This prevents clashing and keeps outfits balanced."
+      "question": "Does a blue shirt go with black pants?",
+      "answer": "Yes. Light blue, sky blue and powder blue shirts create a clean contrast with black pants. They are particularly suitable for office wear and business casual outfits."
     },
     {
       "question": "Can you wear a black shirt with black pants?",
-      "answer": "Yes. Wearing all black creates a modern, sleek aesthetic for evening wear. Ensure you mix textures—such as a matte merino knit polo with smooth wool trousers—to avoid looking like a catering uniform."
+      "answer": "Yes. An all-black outfit can look sleek and modern. Combine different textures, such as a black knit polo with smooth black trousers, to add visual interest."
+    },
+    {
+      "question": "What shoes should men wear with black pants?",
+      "answer": "Black Oxford and Derby shoes work well with formal and business outfits. Loafers and Chelsea boots are versatile smart casual choices, while clean white sneakers work with casual black jeans and chinos."
+    },
+    {
+      "question": "What is the 3-color rule for men's outfits?",
+      "answer": "The 3-color rule is a styling guideline suggesting that an outfit should use around three main colors. For example, black pants, a light blue shirt and brown shoes create a simple, coordinated outfit. It is a guideline, not a strict rule."
     },
     {
       "question": "What colors should you avoid wearing with black pants?",
-      "answer": "Avoid muddy medium brown shirts and dark navy shirts that share the exact same darkness as your black pants, as they blend into an unintentional dark silhouette in poor lighting."
+      "answer": "There is no universal list of colors to avoid with black pants. Very similar dark shades can sometimes create a flat look, but navy, brown and other darker colors can work when you use suitable textures and intentional contrast."
+    },
+    {
+      "question": "Are black jeans and black dress pants styled the same way?",
+      "answer": "Not always. Black dress pants usually suit dress shirts and leather shoes, while black jeans work well with casual shirts, polos, sweaters and sneakers. Choose your shirt and footwear based on the fabric and formality of the trousers."
     }
   ]
 }
