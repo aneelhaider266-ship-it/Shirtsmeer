@@ -374,28 +374,28 @@ export const POSTS: PostMeta[] = [
       "what-color-shirt-goes-with-khaki-pants"
     ],
   },
-  {
-    slug: "what-color-shirt-goes-with-black-pants",
-    title: "What Color Shirt with Black Pants? Black Pants Outfit Men's Guide",
-    metaTitle: "What Color Shirt with Black Pants? Men's Style Guide",
-    metaDescription: "Wondering what color shirt goes with black pants? Discover the best combinations with white, blue, and grey shirts, plus brown shoes with black pants rules.",
-    description: "Wondering what color shirt goes with black pants? Discover the best combinations with white, blue, and grey shirts, plus brown shoes with black pants rules.",
-    excerpt: "Black pants offer a sharp, masculine foundation. Learn how to style black trousers with crisp white, light blue, and grey shirts, plus brown shoe pairing rules.",
-    leadExcerpt: "Black pants offer a sharp, masculine foundation. Learn how to style black trousers with crisp white, light blue, and grey shirts, plus brown shoe pairing rules.",
-    shortLabel: "Black Pants Outfits",
-    primaryKeyword: "what color shirt goes with black pants",
-    publishedDate: "2026-11-05",
-    updatedDate: "2026-11-05",
-    date: "2026-11-05",
-    readTime: "9 min read",
-    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Tailored black trousers styled with crisp white dress shirt and black leather shoes",
-    related: [
-      "what-color-shirt-goes-with-grey-pants",
-      "what-color-shirt-goes-with-navy-pants",
-      "interview-outfit-guide"
-    ],
-  },
+{
+  slug: "what-color-shirt-goes-with-black-pants",
+  title: "What Color Shirt Goes with Black Pants? 7 Best Combinations for Men",
+  metaTitle: "What Color Shirt Goes with Black Pants? Men's Guide",
+  metaDescription: "Find the best shirt colors for black pants, from white and light blue to grey, cream, olive and burgundy. Compare outfits, shoes and styling tips for men.",
+  description: "Find the best shirt colors for black pants, from white and light blue to grey, cream, olive and burgundy. Compare outfits, shoes and styling tips for men.",
+  excerpt: "Discover what color shirt goes with black pants. Explore white, light blue, grey, cream, olive and burgundy combinations, plus shoes and outfit ideas for men.",
+  leadExcerpt: "Discover what color shirt goes with black pants. Explore white, light blue, grey, cream, olive and burgundy combinations, plus shoes and outfit ideas for men.",
+  shortLabel: "Black Pants Outfits",
+  primaryKeyword: "what color shirt goes with black pants",
+  publishedDate: "2026-11-05",
+  updatedDate: "2026-11-06",
+  date: "2026-11-05",
+  readTime: "10 min read",
+  image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
+  imageAlt: "Men's black trousers styled with a crisp white dress shirt",
+  related: [
+    "what-color-shirt-goes-with-grey-pants",
+    "what-color-shirt-goes-with-navy-pants",
+    "interview-outfit-guide"
+  ]
+},
 ];
 
 export function getPostSlugs(): string[] {
