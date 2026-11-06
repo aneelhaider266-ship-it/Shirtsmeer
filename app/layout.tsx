@@ -101,7 +101,9 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen bg-white text-slate-900 font-sans antialiased flex flex-col">
         <Header />
-        <main className="flex-grow">{children}</main>
+        <div className="flex-grow">
+  {children}
+</div>
         <Footer />
       </body>
     </html>
