@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useEffect } from "react";
@@ -11,112 +12,116 @@ const SLIDES = [
     subtitle: "Classic Monochromes & Crisp White Contrast",
     category: "Corporate & Evening",
     link: "/blog/what-color-shirt-goes-with-grey-pants",
-    // Premium Menswear Flatlay (High-res Unsplash)
-    image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1400&q=80",
-    alt: "Tailored grey trousers with crisp white and blue shirts",
+    image:
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1400&q=80",
+    alt: "Men's shirts arranged on a wooden table",
   },
   {
     title: "Navy Blue Pants & Pastel Shirts",
     subtitle: "The Timeless Royal Standard with Rose & Sky Tones",
     category: "Business Casual",
     link: "/blog/what-color-shirt-goes-with-navy-pants",
-    // Tailored Navy & Shirts Flatlay
-    image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=1400&q=80",
-    alt: "Navy blue dress pants and luxury formal shirts",
+    image:
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=1400&q=80",
+    alt: "Men's formal clothing and shirt styling",
   },
   {
     title: "Olive Green Chinos & Denim",
     subtitle: "Rugged Elegance with Military Utility & Black Knits",
     category: "Modern Smart Casual",
     link: "/blog/what-color-shirt-goes-with-olive-green-pants",
-    // Earthy Casual Menswear
-    image: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1400&q=80",
-    alt: "Olive green pants paired with denim and white shirts",
+    image:
+      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1400&q=80",
+    alt: "Men's casual clothing and wardrobe styling",
   },
   {
     title: "Khaki Trousers & Navy Shirts",
     subtitle: "High-Contrast Sartorial Harmony for Summer & Office",
     category: "Wardrobe Essentials",
     link: "/blog/what-color-shirt-goes-with-khaki-pants",
-    // Classic Khaki & Smart Shirts
-    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1400&q=80",
-    alt: "Khaki chinos styled with navy and white shirts",
+    image:
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1400&q=80",
+    alt: "Men's smart formal outfit styling",
   },
 ];
 
 export default function HeroSlider() {
   const [current, setCurrent] = useState(0);
 
-  // Auto-slide every 5 seconds
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrent((prev) => (prev + 1) % SLIDES.length);
     }, 5000);
+
     return () => clearInterval(timer);
   }, []);
 
   return (
-    <section className="relative w-full overflow-hidden rounded-2xl border border-slate-200 bg-slate-900 shadow-xl mb-14">
-      {/* Aspect Ratio Container for Desktop & Mobile */}
-      <div className="relative h-[420px] sm:h-[480px] md:h-[540px] w-full">
+    <section className="relative mb-14 w-full overflow-hidden rounded-3xl border border-[#D9CBB5] bg-[#252923] shadow-lg">
+      <div className="relative h-[420px] w-full sm:h-[480px] md:h-[540px]">
         {SLIDES.map((slide, idx) => {
           const isActive = idx === current;
+
           return (
             <div
-              key={idx}
+              key={slide.link}
               className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-                isActive ? "opacity-100 z-10" : "opacity-0 z-0 pointer-events-none"
+                isActive
+                  ? "z-10 opacity-100"
+                  : "pointer-events-none z-0 opacity-0"
               }`}
             >
-              {/* Background Image */}
               <Image
                 src={slide.image}
                 alt={slide.alt}
                 fill
                 priority={idx === 0}
                 sizes="(max-width: 768px) 100vw, 1200px"
-                className="object-cover object-center brightness-50"
+                className="object-cover object-center brightness-[0.78]"
               />
 
-              {/* Gradient Vignette Overlay for Text Legibility */}
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#252923]/90 via-[#252923]/30 to-[#252923]/10" />
 
-              {/* Slide Content */}
-              <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-10 md:p-12 text-white">
-                <span className="inline-block text-xs font-bold uppercase tracking-widest text-blue-400 bg-blue-950/80 border border-blue-800 px-3 py-1 rounded-full mb-3">
+              <div className="absolute bottom-0 left-0 right-0 p-6 pb-16 text-white sm:p-10 sm:pb-20 md:p-12 md:pb-20">
+                <span className="mb-4 inline-block rounded-full border border-[#D9CBB5]/50 bg-[#252923]/65 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-[#E5D7C2] backdrop-blur-sm">
                   {slide.category}
                 </span>
-                <h2 className="text-2xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight mb-2 max-w-2xl">
+
+                <h2 className="mb-3 max-w-2xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl md:text-5xl">
                   {slide.title}
                 </h2>
-                <p className="text-sm sm:text-base text-slate-300 max-w-xl mb-5 leading-relaxed">
+
+                <p className="mb-6 max-w-xl text-sm leading-relaxed text-[#F5F2EB]/90 sm:text-base">
                   {slide.subtitle}
                 </p>
+
                 <Link
                   href={slide.link}
-                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold rounded-lg shadow-md transition-all group"
+                  className="group inline-flex items-center gap-3 rounded-full bg-[#78836A] px-6 py-3 text-sm font-semibold text-white shadow-md transition-all duration-300 hover:bg-[#657256] hover:shadow-lg"
                 >
-                  View Styling Matrix
-                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  Explore Style Guide
+                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Link>
               </div>
             </div>
           );
         })}
-      </div>
 
-      {/* Slide Navigation Dots */}
-      <div className="absolute bottom-4 right-6 sm:right-10 z-20 flex gap-2">
-        {SLIDES.map((_, idx) => (
-          <button
-            key={idx}
-            onClick={() => setCurrent(idx)}
-            aria-label={`Go to slide ${idx + 1}`}
-            className={`h-2.5 rounded-full transition-all duration-300 ${
-              idx === current ? "w-8 bg-blue-500" : "w-2.5 bg-white/40 hover:bg-white/70"
-            }`}
-          />
-        ))}
+        <div className="absolute right-5 top-5 z-20 flex gap-2 sm:right-8 sm:top-8">
+          {SLIDES.map((slide, idx) => (
+            <button
+              key={slide.link}
+              onClick={() => setCurrent(idx)}
+              aria-label={`Go to slide ${idx + 1}: ${slide.title}`}
+              aria-current={idx === current ? "true" : undefined}
+              className={`h-2.5 rounded-full transition-all duration-300 ${
+                idx === current
+                  ? "w-8 bg-[#D9CBB5]"
+                  : "w-2.5 bg-white/60 hover:bg-white"
+              }`}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
