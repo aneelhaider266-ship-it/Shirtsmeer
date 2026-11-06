@@ -1,199 +1,411 @@
+
 import Link from "next/link";
 import type { Metadata } from "next";
 import { POSTS } from "@/lib/posts";
 import ColorSwatch from "@/components/ColorSwatch";
 import HeroSlider from "@/components/HeroSlider";
-import { ArrowRight, CheckCircle, ShieldCheck } from "lucide-react";
+import {
+  ArrowRight,
+  CheckCircle,
+  ShieldCheck,
+  Shirt,
+  Palette,
+  Footprints,
+  BookOpen,
+} from "lucide-react";
 
 export const metadata: Metadata = {
-title: "Men's Shirt & Pants Color Matching Guide | ShirtsMeer",
-description:
-"Master men's color combinations with expert shirt and pants styling guides. Explore verified contrast rules, color swatches, and shoe pairing charts.",
-alternates: {
-canonical: "https://shirtsmeer.com",
-},
+  title: "Men's Shirt & Pants Color Matching Guide | ShirtsMeer",
+  description:
+    "Discover men's shirt and pants color combinations, outfit ideas, clothing guides and practical styling advice at ShirtsMeer.",
+  alternates: {
+    canonical: "https://shirtsmeer.com",
+  },
 };
 
-export default function HomePage() {
-return (
-<div className="max-w-5xl mx-auto px-4 sm:px-6 py-8 md:py-12">
-{/* 1. Hero Slider */}
-<HeroSlider />
+const allPosts = POSTS as any[];
 
-  {/* 2. Primary Heading */}
-  <section className="text-center max-w-3xl mx-auto mb-14">
-    <span className="inline-block text-xs font-bold tracking-wider uppercase text-blue-600 bg-blue-50 px-3 py-1 rounded-full mb-3">
-      Menswear Color Theory & Coordination
-    </span>
+const colorGuides = allPosts
+  .filter((post) =>
+    post.slug?.startsWith("what-color-shirt-goes-with-")
+  )
+  .slice(0, 6);
 
-    <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight mb-4">
-      The Practical Guide to Matching Men's Shirts and Pants
-    </h1>
+const featuredSlugs = new Set(colorGuides.map((post) => post.slug));
 
-    <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-      Stop guessing what to wear. ShirtsMeer gives you clear, high-contrast
-      color matching matrices so you can pair dress shirts, chinos,
-      trousers, and leather shoes with surgical precision.
-    </p>
-  </section>
+const editorialPosts = allPosts
+  .filter((post) => !featuredSlugs.has(post.slug))
+  .slice(0, 6);
 
-  {/* 3. Five Core Base Swatches */}
-  <section className="mb-14 p-6 bg-slate-50 rounded-xl border border-slate-200">
-    <h2 className="text-lg font-bold text-slate-900 mb-2">
-      Five Core Trouser Base Colors
-    </h2>
+function getCategory(slug: string) {
+  if (slug.includes("what-color-shirt-goes-with")) {
+    return "Color Matching";
+  }
 
-    <p className="text-sm text-slate-600 mb-4">
-      Most masculine wardrobes are anchored on these five shades. Click any
-      color below to explore optimal shirt pairings and contrast rules.
-    </p>
+  if (slug.includes("collar") || slug.includes("fabric") || slug.includes("fit")) {
+    return "Shirt Guides";
+  }
 
-    <div className="flex flex-wrap gap-2">
-      <ColorSwatch colorName="Charcoal & Mid Grey" hex="#4B5563" role="Neutral Anchor" />
-      <ColorSwatch colorName="Espresso Brown" hex="#3E2723" role="Rich Earth" />
-      <ColorSwatch colorName="Midnight Navy" hex="#1B2A47" role="Formal Anchor" />
-      <ColorSwatch colorName="Classic British Khaki" hex="#C3B091" role="Casual Foundation" />
-      <ColorSwatch colorName="Military Olive" hex="#556B2F" role="Modern Utility" />
-    </div>
-  </section>
+  if (
+    slug.includes("review") ||
+    slug.includes("vs-") ||
+    slug.includes("charles-tyrwhitt") ||
+    slug.includes("untuckit")
+  ) {
+    return "Brand & Product Guides";
+  }
 
-  {/* 4. Pillar Post Grid */}
-  <section className="mb-16">
-    <div className="flex items-center justify-between mb-8">
-      <h2 className="text-2xl font-bold text-slate-900">
-        Verified Pillar Styling Guides
-      </h2>
+  return "Men's Style";
+}
 
-      <Link
-        href="/blog"
-        className="text-sm font-semibold text-blue-600 hover:text-blue-700 flex items-center gap-1"
-      >
-        Browse all guides <ArrowRight className="w-4 h-4" />
+function ArticleCard({ post }: { post: any }) {
+  const slug = post.slug || "";
+  const title = post.title || "Men's Style Guide";
+  const image = post.image;
+  const description =
+    post.leadExcerpt ||
+    post.description ||
+    post.metaDescription ||
+    "";
+
+  return (
+    <article className="group overflow-hidden rounded-2xl border border-stone-200 bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+      <Link href={`/blog/${slug}`} className="block overflow-hidden">
+        {image ? (
+          <img
+            src={image}
+            alt={post.imageAlt || title}
+            loading="lazy"
+            decoding="async"
+            className="aspect-[16/10] w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+        ) : (
+          <div className="flex aspect-[16/10] items-center justify-center bg-stone-100">
+            <Shirt className="h-12 w-12 text-stone-400" />
+          </div>
+        )}
       </Link>
-    </div>
 
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-      {POSTS.map((item) => {
-        const post = item as any;
-        const slug = post.slug || "";
-        const title = post.title || "";
-        const keyword = post.primaryKeyword || "Menswear";
-        const time = post.readTime || "7 min read";
-        const excerpt =
-          post.leadExcerpt ||
-          post.description ||
-          post.metaDescription ||
-          "";
+      <div className="p-5 sm:p-6">
+        <div className="mb-3 flex items-center justify-between gap-3">
+          <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-amber-800">
+            {getCategory(slug)}
+          </span>
+          <span className="shrink-0 text-xs text-stone-500">
+            {post.readTime || "7 min read"}
+          </span>
+        </div>
 
-        return (
-          <article
-            key={slug}
-            className="p-6 rounded-xl border border-slate-200 bg-white hover:border-blue-400 hover:shadow-md transition-all flex flex-col justify-between"
-          >
+        <h3 className="mb-3 text-lg font-bold leading-snug text-stone-900 transition-colors group-hover:text-amber-800 sm:text-xl">
+          <Link href={`/blog/${slug}`}>{title}</Link>
+        </h3>
+
+        <p className="mb-5 line-clamp-3 text-sm leading-7 text-stone-600">
+          {description}
+        </p>
+
+        <Link
+          href={`/blog/${slug}`}
+          className="inline-flex items-center gap-2 text-sm font-bold text-stone-900 transition-colors hover:text-amber-800"
+        >
+          Read the guide
+          <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+        </Link>
+      </div>
+    </article>
+  );
+}
+
+export default function HomePage() {
+  return (
+    <main className="min-h-screen bg-[#faf9f6] text-stone-900">
+      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+
+        {/* 01. Hero */}
+        <section className="mb-16">
+          <HeroSlider />
+
+          <div className="mx-auto mt-12 max-w-3xl text-center">
+            <span className="mb-4 inline-block text-xs font-bold uppercase tracking-[0.22em] text-amber-800">
+              The Men's Style Journal
+            </span>
+
+            <h1 className="mb-5 font-serif text-4xl font-bold leading-tight tracking-tight text-stone-950 sm:text-5xl lg:text-6xl">
+              Better Outfits.
+              <span className="block italic text-amber-800">
+                Smarter Color Choices.
+              </span>
+            </h1>
+
+            <p className="mx-auto max-w-2xl text-base leading-8 text-stone-600 sm:text-lg">
+              Discover how to match men's shirts, pants, shoes and accessories
+              with practical styling guides and thoughtful outfit inspiration.
+            </p>
+
+            <div className="mt-7 flex flex-wrap justify-center gap-3">
+              <Link
+                href="/blog"
+                className="inline-flex items-center gap-2 rounded-full bg-stone-900 px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-amber-800"
+              >
+                Explore Style Guides
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+
+              <Link
+                href="/color-matcher"
+                className="rounded-full border border-stone-300 bg-white px-7 py-3.5 text-sm font-semibold text-stone-900 transition hover:border-stone-900"
+              >
+                Try Color Matcher
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* 02. Explore trouser colors */}
+        <section className="mb-20">
+          <div className="mb-8 flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
             <div>
-              <div className="flex items-center justify-between text-xs text-slate-500 mb-3">
-                <span className="font-semibold uppercase tracking-wider text-blue-600">
-                  Primary: {keyword}
-                </span>
-                <span>{time}</span>
-              </div>
-
-              <h3 className="text-xl font-bold text-slate-900 mb-3 leading-snug">
-                <Link
-                  href={`/blog/${slug}`}
-                  className="hover:text-blue-600 transition-colors"
-                >
-                  {title}
-                </Link>
-              </h3>
-
-              <p className="text-sm text-slate-600 leading-relaxed mb-4">
-                {excerpt}
+              <span className="text-xs font-bold uppercase tracking-[0.2em] text-amber-800">
+                01 / Find Your Combination
+              </span>
+              <h2 className="mt-2 font-serif text-3xl font-bold sm:text-4xl">
+                Start with your pants.
+              </h2>
+              <p className="mt-3 max-w-xl text-sm leading-7 text-stone-600">
+                Explore the shirt colors and outfit combinations that work
+                with the trousers already in your wardrobe.
               </p>
             </div>
 
-            <div className="pt-4 border-t border-slate-100 flex justify-end">
+            <Link
+              href="/blog"
+              className="inline-flex items-center gap-2 text-sm font-bold text-stone-900 hover:text-amber-800"
+            >
+              All style guides <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {colorGuides.map((post) => (
+              <ArticleCard key={post.slug} post={post} />
+            ))}
+          </div>
+        </section>
+
+        {/* 03. Color swatches */}
+        <section className="mb-20 rounded-3xl border border-stone-200 bg-[#f1eee7] p-6 sm:p-9">
+          <div className="mb-7 max-w-2xl">
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-amber-800">
+              02 / The Color Edit
+            </span>
+            <h2 className="mt-2 font-serif text-3xl font-bold sm:text-4xl">
+              Your wardrobe's essential colors.
+            </h2>
+            <p className="mt-3 text-sm leading-7 text-stone-600">
+              Start with five versatile trouser shades and discover how
+              different shirt colors create balanced outfits.
+            </p>
+          </div>
+
+          <div className="flex flex-wrap gap-3">
+            <ColorSwatch
+              colorName="Charcoal & Mid Grey"
+              hex="#4B5563"
+              role="Neutral Anchor"
+            />
+            <ColorSwatch
+              colorName="Espresso Brown"
+              hex="#3E2723"
+              role="Rich Earth"
+            />
+            <ColorSwatch
+              colorName="Midnight Navy"
+              hex="#1B2A47"
+              role="Formal Anchor"
+            />
+            <ColorSwatch
+              colorName="Classic British Khaki"
+              hex="#C3B091"
+              role="Casual Foundation"
+            />
+            <ColorSwatch
+              colorName="Military Olive"
+              hex="#556B2F"
+              role="Modern Utility"
+            />
+          </div>
+        </section>
+
+        {/* 04. Editorial articles */}
+        {editorialPosts.length > 0 && (
+          <section className="mb-20">
+            <div className="mb-8 flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
+              <div>
+                <span className="text-xs font-bold uppercase tracking-[0.2em] text-amber-800">
+                  03 / The Editorial Cut
+                </span>
+                <h2 className="mt-2 font-serif text-3xl font-bold sm:text-4xl">
+                  Stories worth your scroll.
+                </h2>
+                <p className="mt-3 max-w-xl text-sm leading-7 text-stone-600">
+                  Practical shirt guides, fabric explainers, fit advice and
+                  thoughtful clothing reviews.
+                </p>
+              </div>
+
               <Link
-                href={`/blog/${slug}`}
-                className="text-sm font-semibold text-blue-600 hover:underline flex items-center gap-1"
+                href="/blog"
+                className="inline-flex items-center gap-2 text-sm font-bold text-stone-900 hover:text-amber-800"
               >
-                Read Matrix <ArrowRight className="w-4 h-4" />
+                Browse all articles <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
-          </article>
-        );
-      })}
-    </div>
-  </section>
 
-  {/* 5. Editorial Authority Section */}
-  <section className="prose prose-slate max-w-none bg-white p-8 rounded-xl border border-slate-200">
-    <h2 className="text-2xl font-bold text-slate-900 mb-4">
-      Why Color Coordination Dictates Masculine Style
-    </h2>
+            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              {editorialPosts.map((post) => (
+                <ArticleCard key={post.slug} post={post} />
+              ))}
+            </div>
+          </section>
+        )}
 
-    <p className="text-slate-700 leading-relaxed mb-4">
-      Most men struggle with daily style choices not because they lack quality
-      garments, but because they assemble outfits without understanding value
-      contrast and color temperature. A tailored pair of trousers instantly
-      loses its sophistication when paired with a shirt that shares an
-      identical visual weight or clashes in chromatic warmth.
-    </p>
+        {/* 05. Explore categories */}
+        <section className="mb-20">
+          <div className="mb-8">
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-amber-800">
+              04 / Explore by Category
+            </span>
+            <h2 className="mt-2 font-serif text-3xl font-bold sm:text-4xl">
+              More than just color matching.
+            </h2>
+            <p className="mt-3 max-w-xl text-sm leading-7 text-stone-600">
+              Explore the details that make everyday outfits look more
+              considered, comfortable and complete.
+            </p>
+          </div>
 
-    <p className="text-slate-700 leading-relaxed mb-4">
-      At ShirtsMeer, we treat men's style as a systematic formula rather than
-      subjective guesswork. Our color coordination frameworks break down the
-      exact science behind pairing foundational bottoms—such as{" "}
-      <Link
-        href="/blog/what-color-shirt-goes-with-grey-pants"
-        className="text-blue-600 font-medium hover:underline"
-      >
-        versatile grey pants
-      </Link>
-      , formal{" "}
-      <Link
-        href="/blog/what-color-shirt-goes-with-navy-pants"
-        className="text-blue-600 font-medium hover:underline"
-      >
-        deep navy trousers
-      </Link>
-      , and casual{" "}
-      <Link
-        href="/blog/what-color-shirt-goes-with-khaki-pants"
-        className="text-blue-600 font-medium hover:underline"
-      >
-        classic khaki chinos
-      </Link>
-      —with optimal shirt textiles.
-    </p>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            <Link
+              href="/blog/mens-shirt-collar-types-guide"
+              className="group rounded-2xl border border-stone-200 bg-white p-6 transition hover:border-amber-700 hover:shadow-lg"
+            >
+              <Shirt className="mb-5 h-7 w-7 text-amber-800" />
+              <h3 className="font-bold">Shirt Collars</h3>
+              <p className="mt-2 text-sm leading-6 text-stone-600">
+                Discover collar shapes, styles and occasions.
+              </p>
+              <ArrowRight className="mt-5 h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </Link>
 
-    <p className="text-slate-700 leading-relaxed mb-4">
-      Whether you are dressing for a high-stakes board meeting, a summer
-      outdoor wedding, or a smart casual dinner, our matrices account for
-      essential styling variables. We evaluate fabric sheen (Oxford cloth
-      versus broadcloth and poplin), seasonal weights (linen versus twill),
-      and strict leather matching rules across shoes and belts to ensure you
-      walk out the door looking cohesive and commanding.
-    </p>
+            <Link
+              href="/blog/poplin-vs-twill-vs-oxford-shirt-fabrics"
+              className="group rounded-2xl border border-stone-200 bg-white p-6 transition hover:border-amber-700 hover:shadow-lg"
+            >
+              <BookOpen className="mb-5 h-7 w-7 text-amber-800" />
+              <h3 className="font-bold">Shirt Fabrics</h3>
+              <p className="mt-2 text-sm leading-6 text-stone-600">
+                Understand Oxford, poplin, twill and more.
+              </p>
+              <ArrowRight className="mt-5 h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </Link>
 
-    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4 border-t border-slate-200 text-sm text-slate-700">
-      <div className="flex items-center gap-2">
-        <CheckCircle className="w-5 h-5 text-emerald-600 flex-shrink-0" />
-        <span>Practical Color Contrast Principles</span>
+            <Link
+              href="/blog/interview-outfit-guide"
+              className="group rounded-2xl border border-stone-200 bg-white p-6 transition hover:border-amber-700 hover:shadow-lg"
+            >
+              <Footprints className="mb-5 h-7 w-7 text-amber-800" />
+              <h3 className="font-bold">Outfit Ideas</h3>
+              <p className="mt-2 text-sm leading-6 text-stone-600">
+                Find outfits for work, events and everyday life.
+              </p>
+              <ArrowRight className="mt-5 h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </Link>
+
+            <Link
+              href="/blog"
+              className="group rounded-2xl border border-stone-200 bg-white p-6 transition hover:border-amber-700 hover:shadow-lg"
+            >
+              <Palette className="mb-5 h-7 w-7 text-amber-800" />
+              <h3 className="font-bold">Brand Reviews</h3>
+              <p className="mt-2 text-sm leading-6 text-stone-600">
+                Explore clothing reviews and buying guides.
+              </p>
+              <ArrowRight className="mt-5 h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </Link>
+          </div>
+        </section>
+
+        {/* 06. Why ShirtsMeer */}
+        <section className="mb-20 rounded-3xl bg-stone-900 px-6 py-12 text-white sm:px-10 sm:py-16">
+          <div className="mx-auto max-w-3xl text-center">
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-amber-300">
+              05 / The ShirtsMeer Way
+            </span>
+
+            <h2 className="mt-4 font-serif text-3xl font-bold sm:text-4xl">
+              Good style. Less guesswork.
+            </h2>
+
+            <p className="mt-5 text-sm leading-8 text-stone-300 sm:text-base">
+              ShirtsMeer makes men's style easier to understand with
+              practical color combinations, clear clothing guides and
+              useful outfit advice. Our goal is to help you make better
+              wardrobe decisions without unnecessary complexity.
+            </p>
+          </div>
+
+          <div className="mt-10 grid grid-cols-1 gap-7 sm:grid-cols-3">
+            <div className="text-center">
+              <CheckCircle className="mx-auto mb-3 h-7 w-7 text-amber-300" />
+              <h3 className="font-bold">Practical Advice</h3>
+              <p className="mt-2 text-sm leading-6 text-stone-400">
+                Styling guidance you can use in real outfits.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <Palette className="mx-auto mb-3 h-7 w-7 text-amber-300" />
+              <h3 className="font-bold">Clear Color Pairings</h3>
+              <p className="mt-2 text-sm leading-6 text-stone-400">
+                Understand contrast, balance and coordination.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <ShieldCheck className="mx-auto mb-3 h-7 w-7 text-amber-300" />
+              <h3 className="font-bold">Transparent Guides</h3>
+              <p className="mt-2 text-sm leading-6 text-stone-400">
+                Useful recommendations and clear affiliate disclosures.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* 07. Final CTA */}
+        <section className="mb-12 rounded-3xl border border-stone-200 bg-white px-6 py-12 text-center sm:px-10">
+          <span className="text-xs font-bold uppercase tracking-[0.2em] text-amber-800">
+            06 / Start Somewhere Good
+          </span>
+
+          <h2 className="mx-auto mt-3 max-w-2xl font-serif text-3xl font-bold sm:text-4xl">
+            Build a wardrobe that works together.
+          </h2>
+
+          <p className="mx-auto mt-4 max-w-xl text-sm leading-7 text-stone-600">
+            Explore men's outfit combinations, shirt guides and practical
+            styling ideas to make everyday dressing easier.
+          </p>
+
+          <Link
+            href="/blog"
+            className="mt-7 inline-flex items-center gap-2 rounded-full bg-stone-900 px-8 py-3.5 text-sm font-semibold text-white transition hover:bg-amber-800"
+          >
+            Browse All Style Guides
+            <ArrowRight className="h-4 w-4" />
+          </Link>
+        </section>
+
       </div>
-
-      <div className="flex items-center gap-2">
-        <CheckCircle className="w-5 h-5 text-emerald-600 flex-shrink-0" />
-        <span>Complete Footwear Alignment</span>
-      </div>
-
-      <div className="flex items-center gap-2">
-        <ShieldCheck className="w-5 h-5 text-blue-600 flex-shrink-0" />
-        <span>Zero Fluff, 100% Actionable</span>
-      </div>
-    </div>
-  </section>
-</div>
-
-);
+    </main>
+  );
 }
