@@ -29,13 +29,13 @@ export const metadata: Metadata = {
     siteName: "ShirtsMeer",
     title: "Men's Shirt & Pants Color Matching Guide | ShirtsMeer",
     description:
-      "Discover men's shirt and pants color combinations, outfit inspiration and practical menswear guides.",
+      "Learn how to match men's shirts, pants and shoes. Explore practical color combinations, outfit ideas and thoughtful menswear guides.",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Men's Shirt & Pants Color Matching Guide | ShirtsMeer",
     description:
-      "Discover men's shirt and pants color combinations, outfit inspiration and practical menswear guides.",
+      "Learn how to match men's shirts, pants and shoes. Explore practical color combinations, outfit ideas and thoughtful menswear guides.",
   },
 };
 
@@ -184,9 +184,7 @@ export default function HomePage() {
 
         {/* 01. Hero */}
         <section className="mb-20" aria-labelledby="home-heading">
-          <HeroSlider />
-
-          <div className="mx-auto mt-12 max-w-3xl text-center">
+          <div className="mx-auto mb-10 max-w-3xl text-center">
             <span className="mb-4 inline-block text-xs font-bold uppercase tracking-[0.22em] text-[#78836A]">
               The Men's Style Journal
             </span>
@@ -223,6 +221,8 @@ export default function HomePage() {
               </Link>
             </div>
           </div>
+
+          <HeroSlider />
         </section>
 
         {/* 02. Trouser color guides */}
@@ -391,72 +391,48 @@ export default function HomePage() {
               href="/blog/mens-shirt-collar-types-guide"
               className="group rounded-2xl border border-[#E8E3D9] bg-white p-6 transition hover:-translate-y-1 hover:border-[#78836A] hover:shadow-lg"
             >
-              <Shirt
-                className="mb-5 h-7 w-7 text-[#78836A]"
-                aria-hidden="true"
-              />
+              <Shirt className="mb-5 h-7 w-7 text-[#78836A]" aria-hidden="true" />
               <h3 className="font-bold">Shirt Collars</h3>
               <p className="mt-2 text-sm leading-6 text-[#686B64]">
                 Discover collar shapes, styles and occasions.
               </p>
-              <ArrowRight
-                className="mt-5 h-4 w-4 transition-transform group-hover:translate-x-1"
-                aria-hidden="true"
-              />
+              <ArrowRight className="mt-5 h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden="true" />
             </Link>
 
             <Link
               href="/blog/poplin-vs-twill-vs-oxford-shirt-fabrics"
               className="group rounded-2xl border border-[#E8E3D9] bg-white p-6 transition hover:-translate-y-1 hover:border-[#78836A] hover:shadow-lg"
             >
-              <BookOpen
-                className="mb-5 h-7 w-7 text-[#78836A]"
-                aria-hidden="true"
-              />
+              <BookOpen className="mb-5 h-7 w-7 text-[#78836A]" aria-hidden="true" />
               <h3 className="font-bold">Shirt Fabrics</h3>
               <p className="mt-2 text-sm leading-6 text-[#686B64]">
                 Understand Oxford, poplin, twill and more.
               </p>
-              <ArrowRight
-                className="mt-5 h-4 w-4 transition-transform group-hover:translate-x-1"
-                aria-hidden="true"
-              />
+              <ArrowRight className="mt-5 h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden="true" />
             </Link>
 
             <Link
               href="/blog/interview-outfit-guide"
               className="group rounded-2xl border border-[#E8E3D9] bg-white p-6 transition hover:-translate-y-1 hover:border-[#78836A] hover:shadow-lg"
             >
-              <Footprints
-                className="mb-5 h-7 w-7 text-[#78836A]"
-                aria-hidden="true"
-              />
+              <Footprints className="mb-5 h-7 w-7 text-[#78836A]" aria-hidden="true" />
               <h3 className="font-bold">Outfit Ideas</h3>
               <p className="mt-2 text-sm leading-6 text-[#686B64]">
                 Find outfits for work, events and everyday life.
               </p>
-              <ArrowRight
-                className="mt-5 h-4 w-4 transition-transform group-hover:translate-x-1"
-                aria-hidden="true"
-              />
+              <ArrowRight className="mt-5 h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden="true" />
             </Link>
 
             <Link
               href="/blog"
               className="group rounded-2xl border border-[#E8E3D9] bg-white p-6 transition hover:-translate-y-1 hover:border-[#78836A] hover:shadow-lg"
             >
-              <Palette
-                className="mb-5 h-7 w-7 text-[#78836A]"
-                aria-hidden="true"
-              />
+              <Palette className="mb-5 h-7 w-7 text-[#78836A]" aria-hidden="true" />
               <h3 className="font-bold">Brand Reviews</h3>
               <p className="mt-2 text-sm leading-6 text-[#686B64]">
                 Explore clothing reviews and buying guides.
               </p>
-              <ArrowRight
-                className="mt-5 h-4 w-4 transition-transform group-hover:translate-x-1"
-                aria-hidden="true"
-              />
+              <ArrowRight className="mt-5 h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden="true" />
             </Link>
           </div>
         </section>
@@ -488,10 +464,7 @@ export default function HomePage() {
 
           <div className="mt-10 grid grid-cols-1 gap-7 sm:grid-cols-3">
             <div className="text-center">
-              <CheckCircle
-                className="mx-auto mb-3 h-7 w-7 text-[#C5CEB9]"
-                aria-hidden="true"
-              />
+              <CheckCircle className="mx-auto mb-3 h-7 w-7 text-[#C5CEB9]" aria-hidden="true" />
               <h3 className="font-bold">Practical Advice</h3>
               <p className="mt-2 text-sm leading-6 text-[#B9BDB4]">
                 Styling guidance you can use in real outfits.
@@ -499,10 +472,7 @@ export default function HomePage() {
             </div>
 
             <div className="text-center">
-              <Palette
-                className="mx-auto mb-3 h-7 w-7 text-[#C5CEB9]"
-                aria-hidden="true"
-              />
+              <Palette className="mx-auto mb-3 h-7 w-7 text-[#C5CEB9]" aria-hidden="true" />
               <h3 className="font-bold">Clear Color Pairings</h3>
               <p className="mt-2 text-sm leading-6 text-[#B9BDB4]">
                 Understand contrast, balance and coordination.
@@ -510,10 +480,7 @@ export default function HomePage() {
             </div>
 
             <div className="text-center">
-              <ShieldCheck
-                className="mx-auto mb-3 h-7 w-7 text-[#C5CEB9]"
-                aria-hidden="true"
-              />
+              <ShieldCheck className="mx-auto mb-3 h-7 w-7 text-[#C5CEB9]" aria-hidden="true" />
               <h3 className="font-bold">Transparent Guides</h3>
               <p className="mt-2 text-sm leading-6 text-[#B9BDB4]">
                 Useful recommendations and clear affiliate disclosures.
