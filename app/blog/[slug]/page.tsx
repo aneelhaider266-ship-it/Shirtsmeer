@@ -220,8 +220,8 @@ export default async function BlogPostPage({ params }: Props) {
         </Link>
         <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
         <span className="text-slate-800 font-medium truncate max-w-[200px] sm:max-w-xs">
-          {frontmatter.primaryKeyword || "Styling"}
-        </span>
+  {frontmatter.title || "Style Guide"}
+</span>
       </nav>
 
       {/* Article Header (Clean Professional Badge) */}
