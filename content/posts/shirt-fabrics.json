@@ -193,7 +193,7 @@
       ]
     }
   ],
-  "tableCaption": "Broadcloth vs Oxford: Shirt Fabric Comparison",
+  "tableCaption": "Broadcloth, Oxford, Poplin and Twill: Shirt Fabric Comparison",
   "tableRows": [
     { "feature": "Weave", "broadcloth": "Plain weave; broadcloth is often used for smooth poplin-style shirting", "oxford": "Basket-like weave with an interlaced appearance", "poplin": "Plain weave", "twill": "Diagonal weave" },
     { "feature": "Texture", "broadcloth": "Smooth and fine", "oxford": "Visible cross-hatch texture", "poplin": "Usually smooth", "twill": "Usually visibly diagonal" },
