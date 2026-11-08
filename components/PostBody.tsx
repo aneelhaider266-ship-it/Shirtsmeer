@@ -29,13 +29,35 @@ function renderText(text: any): React.ReactNode {
   });
 }
 
-function SectionBlock({ section }: { section: any }) {
+// One generator is shared by the TOC and its section headings. The index
+// guarantees unique IDs even when headings happen to have identical wording.
+function getSectionId(heading: string, index: number): string {
+  const headingSlug = heading
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+
+  return `grey-pants-section-${index + 1}-${headingSlug}`;
+}
+
+function SectionBlock({
+  section,
+  sectionId,
+}: {
+  section: any;
+  sectionId?: string;
+}) {
   if (!section) return null;
 
   return (
     <div className="my-8">
       {section.heading && (
-        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4 tracking-tight">
+        <h2
+          id={sectionId}
+          className="scroll-mt-24 text-2xl font-bold text-slate-900 mt-8 mb-4 tracking-tight"
+        >
           {section.heading}
         </h2>
       )}
@@ -71,6 +93,45 @@ function SectionBlock({ section }: { section: any }) {
         </ul>
       )}
     </div>
+  );
+}
+
+function TableOfContents({ sections }: { sections: any[] }) {
+  return (
+    <nav
+      aria-label="Table of contents"
+      className="not-prose my-8 rounded-2xl border border-[#D9CBB5] bg-[#F5F2EB] p-5 shadow-sm sm:p-6"
+    >
+      <div className="mb-4 flex items-center gap-3">
+        <span aria-hidden="true" className="h-8 w-1 rounded-full bg-[#78836A]" />
+        <h2 className="font-serif text-xl font-semibold tracking-tight text-[#252923] sm:text-2xl">
+          In this guide
+        </h2>
+      </div>
+      <ol className="grid list-none grid-cols-1 gap-x-6 gap-y-1 p-0 sm:grid-cols-2">
+        {sections.map((section, index) => {
+          const id = getSectionId(section.heading, index);
+          return (
+            <li key={id} className="m-0 border-b border-[#D9CBB5]/70 last:border-0 sm:last:border-b">
+              <a
+                href={`#${id}`}
+                className="group flex min-h-11 items-start gap-3 rounded-md px-2 py-2 text-sm leading-5 text-[#252923] transition-colors hover:bg-white/70 hover:text-[#78836A] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#78836A] focus-visible:ring-offset-2 focus-visible:ring-offset-[#F5F2EB] sm:text-[0.9375rem]"
+              >
+                <span
+                  aria-hidden="true"
+                  className="mt-px w-6 shrink-0 font-serif text-xs font-semibold tracking-wide text-[#78836A]"
+                >
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+                <span className="font-medium decoration-[#78836A]/50 underline-offset-4 group-hover:underline">
+                  {section.heading}
+                </span>
+              </a>
+            </li>
+          );
+        })}
+      </ol>
+    </nav>
   );
 }
 
@@ -247,6 +308,10 @@ export default function PostBody({
     ? content.products
     : [];
 
+  // Deliberately enable the TOC only for this article. Other posts keep their
+  // current presentation and do not receive section IDs.
+  const hasGreyPantsToc = post?.slug === "what-color-shirt-goes-with-grey-pants";
+
   return (
     <div className="prose prose-slate max-w-none text-slate-800 leading-relaxed">
       {/* 1. Quick Answer */}
@@ -254,6 +319,10 @@ export default function PostBody({
         <QuickAnswerBox title={content.quickAnswerTitle || "Quick Answer"}>
           {content.quickAnswer}
         </QuickAnswerBox>
+      )}
+
+      {hasGreyPantsToc && sections.length > 0 && (
+        <TableOfContents sections={sections} />
       )}
 
       {/* 2. Introduction */}
@@ -285,7 +354,15 @@ export default function PostBody({
 
       {/* 4. Article Sections */}
       {sections.map((section: any, idx: number) => (
-        <SectionBlock key={idx} section={section} />
+        <SectionBlock
+          key={idx}
+          section={section}
+          sectionId={
+            hasGreyPantsToc && section.heading
+              ? getSectionId(section.heading, idx)
+              : undefined
+          }
+        />
       ))}
 
       {/* 5. Pairing Table */}
@@ -298,7 +375,15 @@ export default function PostBody({
 
       {/* 6. Additional Sections */}
       {afterTable.map((section: any, idx: number) => (
-        <SectionBlock key={`after-${idx}`} section={section} />
+        <SectionBlock
+          key={`after-${idx}`}
+          section={section}
+          sectionId={
+            hasGreyPantsToc && section.heading
+              ? getSectionId(section.heading, sections.length + idx)
+              : undefined
+          }
+        />
       ))}
 
       {/* 7. Amazon Product Recommendations */}
