@@ -7,21 +7,9 @@
   "intro": "When choosing a men's dress shirt, fabric matters just as much as color, fit and collar style. The weave affects how a shirt looks, feels, drapes and performs throughout the day. In this guide to Oxford vs poplin, we also compare twill and linen so you can understand the differences before buying your next business shirt. Whether you need a crisp shirt for formal occasions, a comfortable option for everyday office wear or a relaxed weekend style, understanding these fabrics will help you make a better choice.",
   "swatchHeading": "Popular Shirt Fabrics and Their Characteristics",
   "swatches": [
-    {
-      "name": "White Poplin",
-      "hex": "#FFFFFF",
-      "role": "Smooth, crisp and suitable for formal outfits"
-    },
-    {
-      "name": "Blue Twill",
-      "hex": "#3B82F6",
-      "role": "Soft drape and a distinctive diagonal texture"
-    },
-    {
-      "name": "Blue Oxford",
-      "hex": "#5B84B1",
-      "role": "Textured, versatile and ideal for smart-casual outfits"
-    }
+    { "name": "White Poplin", "hex": "#FFFFFF", "role": "Smooth, crisp and suitable for formal outfits" },
+    { "name": "Blue Twill", "hex": "#3B82F6", "role": "Soft drape and a distinctive diagonal texture" },
+    { "name": "Blue Oxford", "hex": "#5B84B1", "role": "Textured, versatile and ideal for smart-casual outfits" }
   ],
   "sections": [
     {
@@ -31,100 +19,52 @@
         "Poplin is commonly chosen for dress shirts worn with tailored suits, trousers and neckties. Oxford is popular for button-down shirts, chinos, jeans and relaxed office outfits. Neither fabric is automatically better: the right option depends on your dress code, preferred texture and the way you want your shirt to look."
       ],
       "bullets": [
-        {
-          "label": "Poplin",
-          "text": "Smooth plain weave, usually lightweight, crisp in appearance and well suited to formal business shirts."
-        },
-        {
-          "label": "Oxford",
-          "text": "Textured basket-like weave, often more substantial in feel and popular for smart-casual and business-casual shirts."
-        },
-        {
-          "label": "Twill",
-          "text": "Recognizable diagonal weave, often soft in drape and better at disguising creases than smooth poplin."
-        },
-        {
-          "label": "Linen",
-          "text": "Natural plant-based fabric known for airflow, a relaxed texture and characteristic wrinkles in warm weather."
-        }
+        { "label": "Poplin", "text": "Smooth plain weave, usually lightweight, crisp in appearance and well suited to formal business shirts." },
+        { "label": "Oxford", "text": "Textured basket-like weave, often more substantial in feel and popular for smart-casual and business-casual shirts." },
+        { "label": "Twill", "text": "Recognizable diagonal weave, often soft in drape and better at disguising creases than smooth poplin." },
+        { "label": "Linen", "text": "Natural plant-based fabric known for airflow, a relaxed texture and characteristic wrinkles in warm weather." }
       ]
     },
     {
       "heading": "1. Poplin: The Smooth and Classic Dress Shirt Fabric",
       "paragraphs": [
         "Poplin, also commonly called broadcloth in some menswear markets, is a plain-weave fabric. Its yarns pass over and under one another in a simple pattern, creating a smooth surface with little visible texture. Depending on the yarns used, poplin can have a crisp finish and a clean appearance that works particularly well for dress shirts.",
-        "A poplin shirt is a popular choice for business meetings, office outfits, weddings and other formal occasions. Its relatively smooth surface looks neat under a suit jacket and provides a clean background for ties and other accessories. Lightweight versions can also feel comfortable in warm weather, although breathability depends on the fiber, weave density and fabric weight.",
+        "A poplin shirt is a popular choice for business meetings, office outfits, weddings and other formal occasions. Its relatively smooth surface looks neat under a suit jacket and provides a clean background for ties and other accessories. Lightweight versions can also feel comfortable in warm weather, although breathability depends on fibre, weave density and fabric weight.",
         "One trade-off is that smooth poplin can show wrinkles more clearly than textured Oxford cloth. If you prefer a consistently crisp appearance, you may need to iron or steam the shirt before wearing it."
       ],
       "bullets": [
-        {
-          "label": "Appearance",
-          "text": "Smooth, clean and relatively flat, with little visible surface texture."
-        },
-        {
-          "label": "Best for",
-          "text": "Business shirts, tailored suits, office outfits, weddings and smart formal dressing."
-        },
-        {
-          "label": "Comfort",
-          "text": "Can feel light and comfortable in warm weather, depending on its cotton quality and construction."
-        },
-        {
-          "label": "Maintenance",
-          "text": "May show wrinkles easily and often benefits from ironing or steaming."
-        }
+        { "label": "Appearance", "text": "Smooth, clean and relatively flat, with little visible surface texture." },
+        { "label": "Best for", "text": "Business shirts, tailored suits, office outfits, weddings and smart formal dressing." },
+        { "label": "Comfort", "text": "Can feel light and comfortable in warm weather, depending on its cotton quality and construction." },
+        { "label": "Maintenance", "text": "May show wrinkles easily and often benefits from ironing or steaming." }
       ]
     },
-        {
+    {
       "heading": "2. Twill: A Versatile Fabric with a Diagonal Weave",
       "paragraphs": [
-        "Twill is identified by its diagonal lines, sometimes called ribs or wales, which are created by the way the yarns interlace. The exact appearance depends on the twill construction, yarn thickness and finishing. Some twill fabrics have a subtle texture, while others show a more noticeable diagonal pattern.",
+        "Twill is identified by its diagonal lines, sometimes called ribs or wales, which are created by the way the yarns interlace. The exact appearance depends on the twill construction, yarn thickness and finishing. Some twills have a subtle texture, while others show a more noticeable diagonal pattern.",
         "Twill shirts often have a soft drape and a slightly fuller feel than lightweight poplin. The surface texture can help disguise minor wrinkles, which makes twill a practical option for everyday business wear and travel. However, wrinkle performance varies between fabrics, and a twill shirt is not automatically wrinkle-free.",
         "Twill is available in different weights and finishes, so it can work for both formal business shirts and more relaxed outfits. Look at the actual fabric rather than relying on the name alone when choosing a shirt."
       ],
       "bullets": [
-        {
-          "label": "Appearance",
-          "text": "Diagonal weave pattern with a smooth or subtly textured finish."
-        },
-        {
-          "label": "Best for",
-          "text": "Office wear, business travel, smart outfits and everyday dress shirts."
-        },
-        {
-          "label": "Comfort",
-          "text": "Often has a soft drape, with comfort depending on fiber and fabric weight."
-        },
-        {
-          "label": "Maintenance",
-          "text": "Can disguise minor creases and may be easier to maintain than very smooth poplin."
-        }
+        { "label": "Appearance", "text": "Diagonal weave pattern with a smooth or subtly textured finish." },
+        { "label": "Best for", "text": "Office wear, business travel, smart outfits and everyday dress shirts." },
+        { "label": "Comfort", "text": "Often has a soft drape, with comfort depending on fibre and fabric weight." },
+        { "label": "Maintenance", "text": "Can disguise minor creases and may be easier to maintain than very smooth poplin." }
       ]
     },
     {
       "heading": "3. Oxford Cloth: The Textured Everyday Classic",
       "paragraphs": [
-        "Oxford cloth is a woven shirting fabric known for its distinctive textured surface. Traditional Oxford construction uses a basket-like arrangement of yarns, producing a visible cross-hatch appearance. Many classic Oxford shirts use colored and white yarns to create a subtle two-tone effect.",
-        "Oxford cloth button-down shirts, often called OCBDs, are strongly associated with smart-casual and business-casual dressing. They pair naturally with chinos, denim, casual trousers and textured jackets. The fabric is often more substantial than lightweight poplin, although Oxford shirts are available in different weights and constructions.",
+        "Oxford cloth is a woven shirting fabric known for its distinctive textured surface. Traditional Oxford construction uses a basket-like arrangement of yarns, producing a visible cross-hatch appearance. Many classic Oxford shirts use coloured and white yarns to create a subtle two-tone effect.",
+        "Oxford cloth button-down shirts, often called OCBDs, are strongly associated with smart-casual and business-casual dressing. They pair naturally with chinos, denim, casual trousers and textured jackets. The fabric often feels more substantial than lightweight poplin, although Oxford shirts are available in different weights and constructions.",
         "When comparing a poplin shirt vs Oxford, consider the overall outfit. Poplin usually creates a cleaner and more formal appearance, while Oxford adds texture and a relaxed character. Oxford is not limited to casual wear: a fine Oxford shirt can work in some less conservative office settings, depending on its fit, collar and styling."
       ],
       "bullets": [
-        {
-          "label": "Appearance",
-          "text": "Visible cross-hatch texture with a casual, substantial look."
-        },
-        {
-          "label": "Best for",
-          "text": "Button-down shirts, business-casual outfits, chinos, denim and weekend wear."
-        },
-        {
-          "label": "Comfort",
-          "text": "Often feels substantial and comfortable, with lighter Oxford variations available."
-        },
-        {
-          "label": "Maintenance",
-          "text": "Texture can make minor wrinkles less noticeable than on smooth poplin."
-        }
+        { "label": "Appearance", "text": "Visible cross-hatch texture with a casual, substantial look." },
+        { "label": "Best for", "text": "Button-down shirts, business-casual outfits, chinos, denim and weekend wear." },
+        { "label": "Comfort", "text": "Often feels substantial and comfortable, with lighter Oxford variations available." },
+        { "label": "Maintenance", "text": "Texture can make minor wrinkles less noticeable than on smooth poplin." }
       ]
     },
     {
@@ -134,83 +74,57 @@
         "These names describe different shirting constructions and finishes, but exact characteristics vary between manufacturers. If you want an Oxford shirt for the office, pinpoint or a finer Royal Oxford may be worth considering. For a relaxed button-down, standard Oxford is a familiar choice."
       ],
       "bullets": [
-        {
-          "label": "Standard Oxford",
-          "text": "More noticeable texture and a relaxed appearance, commonly used for everyday button-down shirts."
-        },
-        {
-          "label": "Pinpoint Oxford",
-          "text": "Finer-looking construction with a more polished appearance, suitable for business-casual outfits."
-        },
-        {
-          "label": "Royal Oxford",
-          "text": "Distinctive decorative texture and a dressier appearance, depending on the fabric and finish."
-        }
+        { "label": "Standard Oxford", "text": "More noticeable texture and a relaxed appearance, commonly used for everyday button-down shirts." },
+        { "label": "Pinpoint Oxford", "text": "Finer-looking construction with a more polished appearance, suitable for business-casual outfits." },
+        { "label": "Royal Oxford", "text": "Distinctive decorative texture and a dressier appearance, depending on the fabric and finish." }
       ]
     },
     {
-      "heading": "5. Poplin vs Twill vs Oxford: Fabric Comparison",
+      "heading": "5. Broadcloth vs Oxford: What's the Difference?",
       "paragraphs": [
-        "Choosing between poplin, twill and Oxford becomes easier when you compare their texture, typical styling and everyday performance. The table below describes common characteristics rather than fixed rules: actual results depend on fiber content, yarn quality, weave density, finishing and fabric weight."
+        "Broadcloth vs Oxford comes down first to weave. In many menswear markets, broadcloth refers to a smooth plain-weave shirting fabric (often called poplin), while Oxford uses a basket-like weave. Broadcloth has a fine, flat surface; Oxford's interlaced yarns create a visible cross-hatch texture. The terms can vary by market and maker, so check the fabric description as well as the name.",
+        "Broadcloth often feels smoother and, when made in a light construction, thinner and airier than a substantial Oxford. Oxford is commonly more textured and has a fuller hand, but weight and breathability depend on the yarn, fibre, weave density and finish—not just the fabric label. Neither weave guarantees greater durability: yarn quality, construction and care matter. Oxford's everyday associations make it a practical choice, while a well-made broadcloth shirt can also be durable with appropriate care.",
+        "For a traditional formal office, broadcloth is usually the safer choice because its smooth finish sits neatly under tailoring. A fine pinpoint Oxford can suit many business-casual offices. For everyday wear, choose Oxford for relaxed texture or broadcloth for a cleaner dress-shirt look. In warm weather, a lightweight, breathable broadcloth is often comfortable; a light Oxford can also work, so compare the actual fabric weight and feel."
       ],
       "bullets": [
-        {
-          "label": "Texture",
-          "text": "Poplin is smooth and relatively flat; twill has diagonal lines; Oxford has a visible basket-like cross-hatch texture."
-        },
-        {
-          "label": "Formality",
-          "text": "Poplin is commonly used for formal business shirts. Fine twill can also look formal, while standard Oxford is generally more casual."
-        },
-        {
-          "label": "Breathability",
-          "text": "All three can be comfortable. Lightweight cotton poplin often works well in warm weather, but fiber, weave density and weight also matter."
-        },
-        {
-          "label": "Wrinkle appearance",
-          "text": "Smooth poplin can show creases clearly. Twill often disguises some wrinkles, while Oxford texture can make minor creases less noticeable."
-        },
-        {
-          "label": "Drape",
-          "text": "Poplin often has a crisp appearance, twill can drape softly, and Oxford commonly feels more substantial."
-        },
-        {
-          "label": "Everyday use",
-          "text": "Poplin suits dressier outfits, twill is versatile for office wear, and Oxford works especially well for relaxed and smart-casual looks."
-        }
+        { "label": "Choose broadcloth", "text": "For a smooth, crisp shirt, traditional business dress codes, or a lightweight option for warm days." },
+        { "label": "Choose Oxford", "text": "For visible texture, a relaxed button-down, everyday outfits, or business-casual settings." },
+        { "label": "Check the shirt itself", "text": "Fabric weight, fibre, weave density, finishing and care affect comfort and longevity; the weave name alone is not a durability rating." }
       ]
     },
     {
-      "heading": "6. Fabric Weight, GSM and Cotton Yarn Count Explained",
+      "heading": "6. Poplin vs Twill vs Oxford: Fabric Comparison",
+      "paragraphs": [
+        "Choosing between poplin, twill and Oxford becomes easier when you compare their texture, typical styling and everyday performance. The table below describes common characteristics rather than fixed rules: actual results depend on fibre content, yarn quality, weave density, finishing and fabric weight. Broadcloth is often used for a smooth plain-weave shirt similar to poplin; naming can vary by market."
+      ],
+      "bullets": [
+        { "label": "Texture", "text": "Poplin and broadcloth are usually smooth and relatively flat; twill has diagonal lines; Oxford has a visible basket-like cross-hatch texture." },
+        { "label": "Formality", "text": "Poplin and broadcloth are commonly used for formal business shirts. Fine twill can also look formal, while standard Oxford is generally more casual." },
+        { "label": "Breathability", "text": "All can be comfortable. Lightweight cotton poplin or broadcloth often works well in warm weather, but fibre, weave density and weight also matter." },
+        { "label": "Wrinkle appearance", "text": "Smooth poplin and broadcloth can show creases clearly. Twill often disguises some wrinkles, while Oxford texture can make minor creases less noticeable." },
+        { "label": "Drape", "text": "Poplin and broadcloth often have a crisp appearance, twill can drape softly, and Oxford commonly feels more substantial." },
+        { "label": "Everyday use", "text": "Poplin and broadcloth suit dressier outfits, twill is versatile for office wear, and Oxford works especially well for relaxed and smart-casual looks." }
+      ]
+    },
+    {
+      "heading": "7. Fabric Weight, GSM and Cotton Yarn Count Explained",
       "paragraphs": [
         "GSM means grams per square meter and describes the weight of a fabric. It can help you compare two fabrics, but there is no single GSM range that applies to every poplin, Oxford or twill shirt. A lightweight Oxford may weigh less than a dense poplin, and two shirts with similar GSM can feel different because of their yarns and weave construction.",
         "Cotton shirt descriptions may also include yarn-count terms such as 80s, 100s or 120s. These refer to yarn fineness, not a universal fabric thread-count rating. A higher yarn count often indicates finer yarn, but it does not automatically mean a shirt is more durable or better quality.",
         "You may also see the term two-ply or 2-ply. It means two yarn strands have been twisted together to form a yarn. This can affect strength, feel and fabric quality, but the final result depends on the cotton, yarn construction and weaving process."
       ],
       "bullets": [
-        {
-          "label": "GSM",
-          "text": "A measurement of fabric weight, not a guaranteed measure of warmth, quality or durability."
-        },
-        {
-          "label": "Yarn count",
-          "text": "Describes yarn fineness. It should not be confused with the number of threads per square inch."
-        },
-        {
-          "label": "Two-ply cotton",
-          "text": "Uses two yarn strands twisted together; it does not automatically make every shirt twice as strong."
-        },
-        {
-          "label": "Buying tip",
-          "text": "Check the actual fabric description, fiber content, construction and feel instead of choosing by a number alone."
-        }
+        { "label": "GSM", "text": "A measurement of fabric weight, not a guaranteed measure of warmth, quality or durability." },
+        { "label": "Yarn count", "text": "Describes yarn fineness. It should not be confused with the number of threads per square inch." },
+        { "label": "Two-ply cotton", "text": "Uses two yarn strands twisted together; it does not automatically make every shirt twice as strong." },
+        { "label": "Buying tip", "text": "Check the actual fabric description, fibre content, construction and feel instead of choosing by a number alone." }
       ]
     },
-        {
-      "heading": "7. Which Shirt Fabric Is Best for Business Shirts and Formal Occasions?",
+    {
+      "heading": "8. Which Shirt Fabric Is Best for Business Shirts and Formal Occasions?",
       "paragraphs": [
         "For most business and formal settings, poplin and fine twill are dependable choices. Poplin has a smooth, crisp appearance that works well with suits and ties. Fine twill offers a subtle diagonal texture and can be a practical option when you want a dress shirt with a little more visual depth.",
-        "Oxford cloth is generally better suited to business-casual and smart-casual outfits, although a fine pinpoint or royal Oxford can look polished enough for many office environments. The best choice depends on the dress code, fabric quality, shirt construction and how formal the occasion is.",
+        "Oxford cloth is generally better suited to business-casual and smart-casual outfits, although a fine pinpoint or Royal Oxford can look polished enough for many office environments. The best choice depends on the dress code, fabric quality, shirt construction and how formal the occasion is.",
         "For a traditional business outfit, consider a white or light blue poplin or fine-twill shirt with tailored trousers and a suitable jacket."
       ],
       "bullets": [
@@ -221,7 +135,7 @@
       ]
     },
     {
-      "heading": "8. Poplin vs Linen: What Is the Difference?",
+      "heading": "9. Poplin vs Linen: What Is the Difference?",
       "paragraphs": [
         "Poplin and linen serve different purposes. Poplin is usually made from cotton or a cotton blend and has a smooth, closely woven surface. Linen is made from flax fibres and is known for its breathable feel, natural texture and relaxed appearance.",
         "Poplin is a practical choice for dress shirts, office outfits and occasions where a crisp appearance is preferred. Linen is especially popular in warm weather because it feels airy and has a naturally casual character.",
@@ -234,7 +148,7 @@
       ]
     },
     {
-      "heading": "9. How to Style Poplin, Twill and Oxford Shirts",
+      "heading": "10. How to Style Poplin, Twill and Oxford Shirts",
       "paragraphs": [
         "The fabric you choose can influence the overall feel of an outfit. Poplin naturally suits clean, structured combinations, while twill works across both formal and smart-casual wardrobes. Oxford shirts are especially easy to style in relaxed everyday outfits.",
         "For a polished office outfit, wear a white or light blue poplin shirt with navy, charcoal or grey trousers. A fine-twill shirt can be paired with tailored trousers, a blazer or a suit depending on its design.",
@@ -249,7 +163,7 @@
       ]
     },
     {
-      "heading": "10. Which Collar Works Best with Each Shirt Fabric?",
+      "heading": "11. Which Collar Works Best with Each Shirt Fabric?",
       "paragraphs": [
         "The collar affects the formality and styling of a shirt, but it is not determined by the fabric alone. Poplin, twill and Oxford shirts can all be made with different collar styles.",
         "A spread or semi-spread collar is a versatile choice for business shirts and works well with many tie knots. A point collar gives a traditional appearance, while a button-down collar is commonly associated with Oxford shirts and relaxed smart-casual outfits.",
@@ -263,7 +177,7 @@
       ]
     },
     {
-      "heading": "11. How to Wash and Care for Poplin, Twill and Oxford Shirts",
+      "heading": "12. How to Wash and Care for Poplin, Twill and Oxford Shirts",
       "paragraphs": [
         "Always check the care label before washing a shirt. Fabric composition, dye, finishing and construction can affect the recommended washing temperature and drying method.",
         "Most everyday cotton shirts can be washed with similar colours using a suitable detergent. Avoid overcrowding the washing machine, and remove shirts promptly after the cycle to reduce creasing.",
@@ -279,79 +193,30 @@
       ]
     }
   ],
-  "tableCaption": "Poplin vs Twill vs Oxford: Quick Fabric Comparison",
+  "tableCaption": "Broadcloth vs Oxford: Shirt Fabric Comparison",
   "tableRows": [
-    {
-      "feature": "Surface",
-      "poplin": "Smooth and fine",
-      "twill": "Diagonal weave texture",
-      "oxford": "Textured basket weave"
-    },
-    {
-      "feature": "Appearance",
-      "poplin": "Clean and crisp",
-      "twill": "Subtle texture and depth",
-      "oxford": "Casual and textured"
-    },
-    {
-      "feature": "Common use",
-      "poplin": "Dress and business shirts",
-      "twill": "Business and smart-casual shirts",
-      "oxford": "Casual and business-casual shirts"
-    },
-    {
-      "feature": "Texture",
-      "poplin": "Usually smooth",
-      "twill": "Usually visibly diagonal",
-      "oxford": "Usually more pronounced"
-    },
-    {
-      "feature": "Styling",
-      "poplin": "Suits and tailored trousers",
-      "twill": "Suits, trousers and chinos",
-      "oxford": "Chinos, jeans and casual trousers"
-    }
+    { "feature": "Weave", "broadcloth": "Plain weave; broadcloth is often used for smooth poplin-style shirting", "oxford": "Basket-like weave with an interlaced appearance", "poplin": "Plain weave", "twill": "Diagonal weave" },
+    { "feature": "Texture", "broadcloth": "Smooth and fine", "oxford": "Visible cross-hatch texture", "poplin": "Usually smooth", "twill": "Usually visibly diagonal" },
+    { "feature": "Typical feel", "broadcloth": "Often light and crisp; varies by construction", "oxford": "Often more substantial; lighter versions exist", "poplin": "Often light and crisp", "twill": "Often soft in drape" },
+    { "feature": "Breathability", "broadcloth": "Lightweight versions can suit warm weather; density and fibre matter", "oxford": "Depends on weight and construction; lighter versions can feel comfortable", "poplin": "Lightweight cotton often works well in warmth", "twill": "Depends on weight, density and fibre" },
+    { "feature": "Formality", "broadcloth": "Common choice for dress and formal business shirts", "oxford": "Usually casual to business-casual; fine versions can look polished", "poplin": "Dress and business shirts", "twill": "Business and smart-casual shirts" },
+    { "feature": "Durability", "broadcloth": "Depends on yarn, construction and care—not the name alone", "oxford": "Depends on yarn, construction and care—not the weave alone", "poplin": "Varies by construction", "twill": "Varies by construction" },
+    { "feature": "Best use", "broadcloth": "Formal office, tailored outfits and lighter warm-weather shirts", "oxford": "Everyday button-downs, relaxed office and smart-casual wear", "poplin": "Suits and tailored trousers", "twill": "Suits, trousers and chinos" }
   ],
   "faqs": [
-    {
-      "question": "Is Oxford better than poplin?",
-      "answer": "Neither fabric is universally better. Poplin is usually preferred for smooth, crisp dress shirts, while Oxford is popular for textured casual and business-casual shirts. Choose according to the occasion and the look you want."
-    },
-    {
-      "question": "What is the difference between an Oxford shirt and a poplin shirt?",
-      "answer": "The main difference is the weave and resulting texture. Poplin has a smooth, closely woven surface, while Oxford cloth uses a basket-style weave that creates a more visible texture."
-    },
-    {
-      "question": "Is poplin more formal than Oxford?",
-      "answer": "Poplin is generally associated with more formal dress shirts because of its smooth and crisp appearance. Oxford shirts are commonly more casual, although fine pinpoint and royal Oxford fabrics can look quite polished."
-    },
-    {
-      "question": "Is twill better than poplin for dress shirts?",
-      "answer": "Both are suitable for dress shirts. Poplin offers a smooth, crisp look, while twill has a diagonal texture. Your choice should depend on the shirt's quality, weight, fit and intended use."
-    },
-    {
-      "question": "Does Oxford fabric wrinkle?",
-      "answer": "Yes. Oxford fabric can wrinkle, particularly when made from cotton. Its textured appearance may make some creases less noticeable than they are on a smooth fabric, but it is not wrinkle-proof."
-    },
-    {
-      "question": "Is poplin a good fabric for summer?",
-      "answer": "Lightweight cotton poplin can be a good summer option because it has a smooth, lightweight construction. Breathability also depends on fibre content, fabric weight and weave density."
-    },
-    {
-      "question": "What is the difference between pinpoint Oxford and regular Oxford?",
-      "answer": "Pinpoint Oxford generally uses finer yarns and a tighter, finer-looking basket weave than regular Oxford cloth. It often has a neater appearance and is suitable for business-casual shirts."
-    },
-    {
-      "question": "What is royal Oxford fabric?",
-      "answer": "Royal Oxford is a more decorative Oxford-style fabric with a distinctive textured appearance and subtle sheen. It is often used for dressier shirts compared with standard Oxford cloth."
-    },
-    {
-      "question": "Which shirt fabric is best for office wear?",
-      "answer": "Poplin and fine twill are reliable choices for traditional business outfits. Pinpoint Oxford can also work well in business-casual workplaces. Follow your workplace dress code when choosing."
-    },
-    {
-      "question": "How can I identify poplin, twill and Oxford fabric?",
-      "answer": "Look closely at the surface. Poplin usually looks smooth and fine, twill shows diagonal lines, and Oxford has a textured basket-like weave. Checking the garment label can also help identify the fibre content."
-    }
+    { "question": "Is Oxford better than poplin?", "answer": "Neither fabric is universally better. Poplin is usually preferred for smooth, crisp dress shirts, while Oxford is popular for textured casual and business-casual shirts. Choose according to the occasion, dress code, climate and feel you prefer." },
+    { "question": "What is the difference between an Oxford shirt and a poplin shirt?", "answer": "The main difference is the weave and resulting texture. Poplin has a smooth plain-weave surface, while Oxford cloth uses a basket-style weave that creates a more visible cross-hatch texture. Poplin is often dressier; Oxford is commonly more relaxed." },
+    { "question": "Is poplin more formal than Oxford?", "answer": "Poplin is generally associated with more formal dress shirts because of its smooth and crisp appearance. Oxford shirts are commonly more casual, although fine pinpoint and Royal Oxford fabrics can look polished." },
+    { "question": "Is broadcloth the same as Oxford?", "answer": "No. Broadcloth generally describes a smooth plain-weave shirting fabric, often similar to what some markets call poplin. Oxford is made with a basket-like weave and has a more visible texture. Fabric naming can vary, so check the garment description." },
+    { "question": "Is broadcloth or Oxford better for office wear?", "answer": "Broadcloth is a strong choice for traditional business dress codes because of its smooth, formal finish. Oxford—especially pinpoint Oxford—can work well in business-casual offices. Follow your workplace dress code." },
+    { "question": "Which is better for everyday wear, broadcloth or Oxford?", "answer": "Oxford is a natural everyday choice if you want texture and a relaxed button-down look. Broadcloth suits everyday wear too if you prefer a smoother, dressier shirt; choose based on your routine and preferred finish." },
+    { "question": "Is broadcloth or Oxford better for warm weather?", "answer": "A lightweight broadcloth shirt can feel comfortable in warm weather, while a light Oxford may also work. Breathability depends on fibre content, fabric weight and weave density, so compare the actual shirt rather than relying on the fabric name alone." },
+    { "question": "Is twill better than poplin for dress shirts?", "answer": "Both are suitable for dress shirts. Poplin offers a smooth, crisp look, while twill has a diagonal texture. Your choice should depend on the shirt's quality, weight, fit and intended use." },
+    { "question": "Does Oxford fabric wrinkle?", "answer": "Yes. Oxford fabric can wrinkle, particularly when made from cotton. Its textured appearance may make some creases less noticeable than they are on a smooth fabric, but it is not wrinkle-proof." },
+    { "question": "Is poplin a good fabric for summer?", "answer": "Lightweight cotton poplin can be a good summer option because it has a smooth, lightweight construction. Breathability also depends on fibre content, fabric weight and weave density." },
+    { "question": "What is the difference between pinpoint Oxford and regular Oxford?", "answer": "Pinpoint Oxford generally uses finer yarns and a tighter, finer-looking basket weave than regular Oxford cloth. It often has a neater appearance and is suitable for business-casual shirts." },
+    { "question": "What is Royal Oxford fabric?", "answer": "Royal Oxford is a more decorative Oxford-style fabric with a distinctive textured appearance and subtle sheen. It is often used for dressier shirts compared with standard Oxford cloth." },
+    { "question": "Which shirt fabric is best for office wear?", "answer": "Poplin and fine twill are reliable choices for traditional business outfits. Pinpoint Oxford can also work well in business-casual workplaces. Follow your workplace dress code when choosing." },
+    { "question": "How can I identify poplin, twill and Oxford fabric?", "answer": "Look closely at the surface. Poplin usually looks smooth and fine, twill shows diagonal lines, and Oxford has a textured basket-like weave. Checking the garment label can also help identify the fibre content." }
   ]
 }
