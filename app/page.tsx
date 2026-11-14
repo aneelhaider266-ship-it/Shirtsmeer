@@ -284,7 +284,7 @@ export default function HomePage() {
               Your wardrobe's essential colors.
             </h2>
 
-            <p className="mt-3 text-sm leading-7 text-[#686B64]">
+            <p className="mt-3 text-sm leading-7 text-[#59664D]">
               Start with five versatile trouser shades and discover how
               different shirt colors create balanced outfits.
             </p>
