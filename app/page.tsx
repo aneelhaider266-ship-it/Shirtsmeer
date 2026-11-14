@@ -295,30 +295,35 @@ export default function HomePage() {
               colorName="Charcoal & Mid Grey"
               hex="#4B5563"
               role="Neutral Anchor"
+              href="/blog/what-color-shirt-goes-with-grey-pants"
             />
 
             <ColorSwatch
               colorName="Espresso Brown"
               hex="#3E2723"
               role="Rich Earth"
+              href="/blog/what-color-shirt-goes-with-brown-pants"
             />
 
             <ColorSwatch
               colorName="Midnight Navy"
               hex="#1B2A47"
               role="Formal Anchor"
+              href="/blog/what-color-shirt-goes-with-navy-pants"
             />
 
             <ColorSwatch
               colorName="Classic British Khaki"
               hex="#C3B091"
               role="Casual Foundation"
+              href="/blog/what-color-shirt-goes-with-khaki-pants"
             />
 
             <ColorSwatch
               colorName="Military Olive"
               hex="#556B2F"
               role="Modern Utility"
+              href="/blog/what-color-shirt-goes-with-olive-green-pants"
             />
           </div>
         </section>
