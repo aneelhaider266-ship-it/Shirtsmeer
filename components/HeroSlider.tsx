@@ -83,7 +83,7 @@ export default function HeroSlider() {
 
             <Link
               href={slide.link}
-              className="group inline-flex items-center gap-3 rounded-full bg-[#78836A] px-6 py-3 text-sm font-semibold text-white shadow-md transition-all duration-300 hover:bg-[#657256] hover:shadow-lg"
+              className="group inline-flex items-center gap-3 rounded-full bg-[#59664D] px-6 py-3 text-sm font-semibold text-white shadow-md transition-all duration-300 hover:bg-[#46543D] hover:shadow-lg"
             >
               Explore Style Guide
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -99,11 +99,7 @@ export default function HeroSlider() {
               onClick={() => setCurrent(idx)}
               aria-label={`Show slide ${idx + 1}: ${item.title}`}
               aria-current={idx === current ? "true" : undefined}
-              className={`h-2.5 rounded-full transition-all duration-300 ${
-                idx === current
-                  ? "w-8 bg-[#D9CBB5]"
-                  : "w-2.5 bg-white/60 hover:bg-white"
-              }`}
+              className="flex h-11 w-11 items-center justify-center rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
             />
           ))}
         </div>
