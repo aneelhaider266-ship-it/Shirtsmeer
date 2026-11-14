@@ -83,6 +83,19 @@ export default function AboutPage() {
           answer yet, send it through the{" "}
           <Link href="/contact" className={link}>contact page</Link> and we may cover it in a future article.
         </p>
+
+        <section className="mt-10 rounded-xl border border-slate-200 bg-slate-50 p-6">
+          <p className="text-sm font-semibold uppercase tracking-wide text-blue-700">Founder &amp; Editor</p>
+          <h2 className="mt-2 text-2xl font-bold text-slate-900">Aneel Haider</h2>
+          <p className="mt-3 leading-relaxed text-slate-700">
+            ShirtsMeer is founded and edited by Aneel Haider. He oversees the publication's
+            practical men's clothing guides, with a focus on shirt-and-trouser color
+            combinations, wardrobe basics, and everyday styling decisions.
+          </p>
+          <Link href="/author/aneel-haider" className="mt-4 inline-flex font-semibold text-blue-700 hover:underline">
+            Meet the founder and editor
+          </Link>
+        </section>
       </div>
     </div>
   );
