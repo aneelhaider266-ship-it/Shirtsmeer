@@ -335,9 +335,9 @@ export default function PostBody({
       {/* 3. Color Swatches */}
       {swatches.length > 0 && (
         <div className="my-6 not-prose">
-          <h3 className="mb-2 text-sm font-bold uppercase tracking-wider text-slate-500">
+          <h2 className="mb-2 text-sm font-bold uppercase tracking-wider text-slate-500">
             {content.swatchHeading || "Recommended Color Swatches"}
-          </h3>
+          </h2>
 
           <div className="flex flex-wrap gap-2">
             {swatches.map((s: any, idx: number) => (
@@ -354,19 +354,26 @@ export default function PostBody({
 
       {/* 4. Article Sections */}
       {sections.map((section: any, idx: number) => (
-        <SectionBlock
-          key={idx}
-          section={section}
-          sectionId={
-            hasGreyPantsToc && section.heading
-              ? getSectionId(section.heading, idx)
-              : undefined
-          }
-        />
+        <React.Fragment key={idx}>
+          <SectionBlock
+            section={section}
+            sectionId={
+              hasGreyPantsToc && section.heading
+                ? getSectionId(section.heading, idx)
+                : undefined
+            }
+          />
+          {content.tableAfterSection === idx + 1 && tableRows.length > 0 && (
+            <PairingTable
+              caption={content.tableCaption}
+              rows={tableRows}
+            />
+          )}
+        </React.Fragment>
       ))}
 
-      {/* 5. Pairing Table */}
-      {tableRows.length > 0 && (
+      {/* 5. Pairing Table (default position for articles without a custom placement) */}
+      {content.tableAfterSection == null && tableRows.length > 0 && (
         <PairingTable
           caption={content.tableCaption}
           rows={tableRows}

@@ -1,5 +1,34 @@
 import React from "react";
 
+export const FOUNDER_SOCIAL_PROFILES = [
+  "https://www.instagram.com/aneelhaider2/",
+  "https://x.com/Aneel7157791",
+  "https://www.tiktok.com/@aneelhaider014",
+];
+
+export function PersonJsonLd() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Aneel Haider",
+    url: "https://shirtsmeer.com/author/aneel-haider",
+    jobTitle: "Founder & Editor",
+    worksFor: {
+      "@type": "Organization",
+      name: "ShirtsMeer",
+      url: "https://shirtsmeer.com",
+    },
+    sameAs: FOUNDER_SOCIAL_PROFILES,
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
 export function OrganizationJsonLd({
   name = "ShirtsMeer",
   url = "https://shirtsmeer.com",
@@ -18,6 +47,7 @@ export function OrganizationJsonLd({
     url,
     logo,
     description,
+    sameAs: ["https://pin.it/4FsmKPEyn"],
   };
 
   return (
@@ -53,12 +83,14 @@ export function ArticleJsonLd({
   description,
   url,
   datePublished,
+  dateModified,
   image,
 }: {
   title: string;
   description: string;
   url: string;
   datePublished: string;
+  dateModified?: string;
   image: string;
 }) {
   const schema = {
@@ -72,10 +104,12 @@ export function ArticleJsonLd({
     },
     image,
     datePublished,
+    dateModified: dateModified || datePublished,
     author: {
-      "@type": "Organization",
-      name: "ShirtsMeer Editorial Team",
-      url: "https://shirtsmeer.com/about",
+      "@type": "Person",
+      name: "Aneel Haider",
+      url: "https://shirtsmeer.com/author/aneel-haider",
+      sameAs: FOUNDER_SOCIAL_PROFILES,
     },
     publisher: {
       "@type": "Organization",

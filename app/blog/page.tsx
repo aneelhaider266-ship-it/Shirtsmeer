@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { ArrowRight, Calendar, Clock } from "lucide-react";
 import { POSTS } from "@/lib/posts";
@@ -23,12 +24,22 @@ export default function BlogIndexPage() {
         </p>
       </div>
 
-      <div className="space-y-8">
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
         {POSTS.map((post) => (
           <article
             key={post.slug}
-            className="rounded-xl border border-slate-200 bg-white p-6 transition-all hover:border-slate-400 hover:shadow-sm"
+            className="overflow-hidden rounded-xl border border-slate-200 bg-white transition-all hover:border-slate-400 hover:shadow-md"
           >
+            <Link href={`/blog/${post.slug}`} className="relative block aspect-[16/10] overflow-hidden bg-slate-100" aria-label={`Read ${post.title}`}>
+              <Image
+                src={post.image || "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80"}
+                alt={post.imageAlt || post.title}
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 480px"
+                className="object-cover transition-transform duration-300 hover:scale-[1.03]"
+              />
+            </Link>
+            <div className="p-5 sm:p-6">
             <div className="mb-2 flex items-center gap-4 text-xs text-slate-500">
               <span className="flex items-center gap-1">
                 <Calendar className="h-3.5 w-3.5" /> {post.publishedDate}
@@ -47,6 +58,7 @@ export default function BlogIndexPage() {
             >
               Read the full guide <ArrowRight className="h-4 w-4" />
             </Link>
+            </div>
           </article>
         ))}
       </div>

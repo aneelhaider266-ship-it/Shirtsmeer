@@ -9,7 +9,7 @@ import { OrganizationJsonLd } from "@/components/JsonLd";
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-sans",
-  display: "swap",
+  display: "optional",
 });
 
 const GA_MEASUREMENT_ID = "G-5S01248LB4";
@@ -58,13 +58,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
-        {/* Google AdSense */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5442747651786672"
-          crossOrigin="anonymous"
-        ></script>
-
         <OrganizationJsonLd
           name="ShirtsMeer"
           url="https://shirtsmeer.com"
@@ -75,7 +68,7 @@ export default function RootLayout({
         {/* Google Analytics (GA4) */}
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
@@ -89,7 +82,7 @@ export default function RootLayout({
         </Script>
 
         {/* Microsoft Clarity Tracking */}
-        <Script id="microsoft-clarity" strategy="afterInteractive">
+        <Script id="microsoft-clarity" strategy="lazyOnload">
           {`
             (function(c,l,a,r,i,t,y){
                 c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};

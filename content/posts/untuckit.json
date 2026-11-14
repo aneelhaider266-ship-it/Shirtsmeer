@@ -1,89 +1,181 @@
 {
-  "quickAnswerTitle": "Quick Answer: Does Untuckit Run Small and Solve Shirt Proportions?",
-  "quickAnswer": "Untuckit shirts generally fit true to size in their Regular Fit, but their Slim Fit cut runs slightly small and snug through the chest and shoulders. If you are between sizes or have an athletic build, size up in Slim Fit or choose the Regular Fit. In terms of length, Untuckit shirts measure approximately 28.5 to 29.5 inches (roughly 2 to 3 inches shorter than traditional 31–33 inch dress shirts), engineered to fall precisely at mid-zipper to eliminate the untucked 'nightgown' look without tailoring.",
-  "intro": "Tucking in your shirt has long been a requirement of traditional menswear. Yet in weekend settings, beachside venues, and modern creative offices, keeping a shirt tucked can feel overly formal and restrictive. The problem? Taking a standard dress shirt and leaving it untucked invariably results in excess fabric that swallows your legs and makes you appear shorter. Untuckit built a global brand around solving this exact proportional problem. In this Untuckit shirts sizing and fit review, we examine whether they run small, exact hem length measurements, fabric durability, and how to style untucked shirts effortlessly.",
-  "swatchHeading": "Untuckit Shirt Styling Palette",
-  "swatches": [
-    { "name": "Classic Navy Chambray", "hex": "#1B2A47", "role": "Casual Friday" },
-    { "name": "Washed White Linen", "hex": "#FFFFFF", "role": "Summer Essential" },
-    { "name": "Gingham Blue Plaid", "hex": "#5B84B1", "role": "Weekend Layer" },
-    { "name": "Olive Utility Twill", "hex": "#556B2F", "role": "Rugged Style" }
-  ],
+  "quickAnswerTitle": "Quick Answer: Do Untuckit Shirts Run Small?",
+  "quickAnswer": "Yes. UNTUCKit says its men's shirts run smaller than traditional shirt brands. If you are between sizes, the brand recommends ordering one size up. The right choice also depends on the fit: Regular is the classic cut, Slim is narrower through the body, Relaxed adds room, and Tall options add length to the body and sleeves. Check your chest, waist, and sleeve measurements against the current chart before ordering.",
+  "intro": "UNTUCKit is designed around shirts that look intentional when worn untucked, but choosing the right size still matters. The brand's own guidance is clear: men's shirts run smaller than traditional brands, and shoppers between sizes should order one size up. Below, we explain the available fits, show the published men's button-down measurements, and outline how to choose without relying on a generic size label.",
   "sections": [
     {
-      "heading": "1. How Long Are Untuckit Shirts? The Mid-Zipper Measurement",
+      "heading": "Do UNTUCKit Shirts Run Small? The Short Answer",
       "paragraphs": [
-        "The golden rule of wearing an untucked shirt states that the bottom curved hem must fall halfway down your trouser zipper—leaving the front trouser pockets accessible while fully covering your belt line.",
-        "How long are Untuckit shirts in actual measurements? A standard Medium Untuckit shirt features a center back length of approximately 28.5 to 29.5 inches. Compare that to a conventional dress shirt, which typically measures 31 to 33 inches to remain tucked into trousers.",
-        "By trimming those crucial 2 to 3 inches off the bottom and redesigning the side sweep curves, Untuckit shirts hit the exact mid-fly proportional mark on 90% of men without requiring custom tailoring alterations."
-      ]
-    },
-    {
-      "heading": "2. Do Untuckit Shirts Run Small? Sizing Breakdown",
-      "paragraphs": [
-        "One of the most common questions before buying is: do Untuckit shirts run small? The answer depends directly on which fit profile you select:",
-        "Untuckit Regular Fit fits true to size with a comfortable, classic drape through the chest and abdomen. If you normally wear a Medium in standard mall brands like J.Crew or Banana Republic, an Untuckit Medium Regular will fit comfortably.",
-        "However, Untuckit Slim Fit cut runs slightly small and trim. It features higher armholes, a narrowed chest box, and an aggressive taper toward the waist. If you have broad shoulders, an athletic chest, or prefer extra breathing room, we recommend sizing up by one size when choosing the Slim Fit cut."
+        "Yes. According to UNTUCKit's official men's size guidance, its button-down shirts run smaller than traditional shirt brands. The brand specifically advises customers who fall between sizes to order one size up.",
+        "That advice applies to men's shirts; do not assume that your usual size in another brand will fit exactly the same. Compare body measurements with the chart for the product category you are buying, because button-downs, dress shirts, polos, and other tops can use different charts.",
+        "A practical starting point: measure your chest and waist, check the sleeve range, then choose the fit that matches how much room you want through the torso."
       ],
       "bullets": [
-        { "label": "Regular Fit", "text": "True to size. Offers 2 extra inches across the chest and waist for average-to-broader builds." },
-        { "label": "Slim Fit", "text": "Runs slightly small/snug. Form-fitting across chest and lats with zero lower-back ballooning." },
-        { "label": "Relaxed Fit", "text": "Generous cut with straight side seams designed for fuller torsos and maximum ease." }
+        {
+          "label": "Usually between sizes",
+          "text": "Follow UNTUCKit's advice and order the larger size."
+        },
+        {
+          "label": "Prefer a closer silhouette",
+          "text": "Compare the Slim fit chart rather than automatically sizing down."
+        },
+        {
+          "label": "Want more room",
+          "text": "Look at Relaxed fit, which adds room through the body."
+        }
       ]
     },
     {
-      "heading": "3. Torso Length Options: Regular vs. Tall vs. Short Torso",
+      "heading": "Understand the Five Men's Shirt Fits",
       "paragraphs": [
-        "Untuckit provides dedicated torso length cuts so the hem line never sits too high or too low relative to your height:",
-        "Standard length fits men between 5'8 and 6'2. If you fall outside this height bracket, selecting the proper specialty cut is critical for maintaining correct proportions."
+        "UNTUCKit lists five fit options for men's button-down shirts. The fit changes the shape and proportions of the shirt, so choosing between Regular and Slim is not the same as choosing between two size labels."
       ],
       "bullets": [
-        { "label": "Short Torso Cut", "text": "Designed for men under 5'8. Reduces hem length by 1.5 inches and shortens sleeve lengths proportionally." },
-        { "label": "Tall Cut", "text": "Designed for men 6'2 and taller. Adds 2 inches to sleeve lengths and 1.5 inches to the bottom hem." }
+        {
+          "label": "Regular",
+          "text": "The classic cut. UNTUCKit describes it as slightly smaller than traditional shirt brands."
+        },
+        {
+          "label": "Slim",
+          "text": "A narrower cut through the torso with less fabric than Regular. Check the product's own fit details because the exact specification can vary by style."
+        },
+        {
+          "label": "Relaxed",
+          "text": "Adds three inches of room in the body without adding extra length."
+        },
+        {
+          "label": "Tall Regular",
+          "text": "Adds two inches to the body and sleeve length for taller customers."
+        },
+        {
+          "label": "Tall Slim",
+          "text": "A slimmer shape with additional body and sleeve length."
+        }
       ]
     },
     {
-      "heading": "4. Fabric Quality & Wrinkle Resistance",
+      "heading": "How to Use the UNTUCKit Men's Button-Down Size Chart",
       "paragraphs": [
-        "Untuckit uses 100% two-ply cotton across their flagship wrinkle-free collections. The fabric possesses substantial body that resists creasing even after hours of sitting in flights or driving.",
-        "For summer, their washed linen and cotton-linen blends provide excellent airflow while retaining enough collar structure to prevent the lapels from folding flat."
+        "The chart below reproduces the published body-measurement ranges for Regular-fit men's button-down shirts in sizes S–XXL. Measurements are in inches. The linked official chart includes additional sizes and other fit options. Use the chart for the specific product category you are buying; UNTUCKit's dress-shirt, polo, and other size charts are not interchangeable.",
+        "If your measurements sit near the upper end of a range or between two sizes, take the brand's one-size-up guidance into account. Also check the sleeve range before ordering, especially if you usually need longer sleeves."
       ]
     },
     {
-      "heading": "5. How to Pair Untucked Shirts with Chinos and Pants",
+      "heading": "Regular, Slim, or Relaxed: Which Fit Should You Choose?",
       "paragraphs": [
-        "Because an untucked shirt creates an inherently casual silhouette, it pairs naturally with tapered flat-front chinos, dark wash denim, and clean leather sneakers.",
-        "Pair a dark navy Untuckit button-down with classic tan chinos for smart casual outings. Review our complete styling guide on [what color shirt goes with khaki pants](/blog/what-color-shirt-goes-with-khaki-pants) to master contrast ratios, or test different color combinations using our [interactive color wheel tool](/color-matcher)."
+        "Choose Regular if you want the brand's classic silhouette. Choose Slim only if you prefer a closer shape through the torso and your measurements fit its chart. Choose Relaxed if you want more room through the body but do not want extra shirt length.",
+        "If your chest measurement points to one size but your waist or preferred ease points to another, avoid guessing from your usual T-shirt size. Use the current product chart and consider contacting UNTUCKit before purchase."
       ]
     },
     {
-      "heading": "6. Untuckit Shirts Review Verdict: Are They Worth It?",
+      "heading": "What If You Are Between Sizes?",
       "paragraphs": [
-        "If you routinely spend $20 to $30 at the tailor shortening the hem and sleeve lengths of conventional dress shirts, Untuckit saves both time and alteration costs. The curved hem is engineered specifically to look intentional untucked, avoiding the boxy flat-bottom hem found on vintage camp shirts.",
-        "While priced at a premium ($88 to $118), their wrinkle-free cotton weaves, reinforced collars, and multi-fit sizing options make them a versatile wardrobe workhorse for men who dislike tucking in their shirts."
+        "UNTUCKit's published advice is to order one size up when you are between sizes. This is the safest starting point when comparing its men's shirts with traditional brands.",
+        "Do not size up automatically if your measurements already fall comfortably inside a size range. Instead, compare the chart and the fit description for the exact shirt. A Relaxed fit may provide the extra room you want without changing the size."
+      ]
+    },
+    {
+      "heading": "How Long Are UNTUCKit Shirts?",
+      "paragraphs": [
+        "UNTUCKit designs its button-downs with an untucked length, but there is no single length measurement that applies to every shirt, size, and fit. Tall versions add length to the body and sleeves, while product styles can differ.",
+        "For the most reliable answer, check the measurements or fit notes on the individual product page. A good untucked hem should look intentional with your proportions; do not rely on a universal inch measurement copied from another style."
+      ]
+    },
+    {
+      "heading": "Are UNTUCKit Shirts Worth It If You Need a Specific Fit?",
+      "paragraphs": [
+        "The main advantage is the choice of purpose-built fits: Regular, Slim, Relaxed, and Tall variations. That range can help shoppers who want a shirt designed to be worn untucked rather than simply leaving a conventional dress shirt untucked.",
+        "The trade-off is that you should check the brand's measurements carefully. Its own guidance says men's shirts run smaller than traditional brands, so ordering your usual size without checking the chart can be a poor shortcut."
+      ]
+    },
+    {
+      "heading": "Before You Order: A Quick Sizing Checklist",
+      "bullets": [
+        "Measure your chest and waist in inches.",
+        "Check the size chart for the exact product category and fit.",
+        "If you are between sizes, follow the brand's recommendation to order one size up.",
+        "Compare sleeve length, especially if standard sleeves often feel short or long.",
+        "Choose Tall if you need additional body and sleeve length, not simply a larger torso size.",
+        "Review the product page's fit notes and return policy before buying."
+      ]
+    }
+  ],
+  "tableCaption": "UNTUCKit men's button-down — Regular fit body measurements (inches)",
+  "tableRows": [
+    {
+      "size": "S",
+      "chest": "36–38",
+      "waist": "29–31",
+      "sleeve": "33–34"
+    },
+    {
+      "size": "M",
+      "chest": "39–41",
+      "waist": "32–34",
+      "sleeve": "33.5–34.5"
+    },
+    {
+      "size": "L",
+      "chest": "42–44",
+      "waist": "35–37",
+      "sleeve": "34.5–35.5"
+    },
+    {
+      "size": "XL",
+      "chest": "45–47",
+      "waist": "38–40",
+      "sleeve": "35–36"
+    },
+    {
+      "size": "XXL",
+      "chest": "48–50",
+      "waist": "41–43",
+      "sleeve": "35.5–36.5"
+    }
+  ],
+  "afterTable": [
+    {
+      "heading": "Official UNTUCKit Sizing Resources",
+      "paragraphs": [
+        "Check the [official men's size charts](https://www.untuckit.com/pages/all-size-charts) for the latest measurements and other product categories. You can also review the brand's [fit guide](https://www.untuckit.com/pages/find-your-fit) to compare Regular, Slim, Relaxed, and Tall options.",
+        "Measurements and fit descriptions can change. The official chart for the exact item should take priority over a general guide."
+      ]
+    },
+    {
+      "heading": "Related ShirtsMeer Guide",
+      "paragraphs": [
+        "For a broader explanation of shoulder, chest, collar, and sleeve fit, read our [guide to how a dress shirt should fit](https://shirtsmeer.com/blog/how-a-dress-shirt-should-fit-guide)."
       ]
     }
   ],
   "faqs": [
     {
-      "question": "Do Untuckit shirts run small?",
-      "answer": "Untuckit Regular Fit shirts fit true to size. However, the Slim Fit cut runs slightly small and snug across the chest, shoulders, and upper back. If you have an athletic build, broad lats, or fall between sizes, size up by one size in Slim Fit or choose your standard size in Regular Fit."
+      "question": "Do UNTUCKit men's shirts run small?",
+      "answer": "Yes. UNTUCKit says its men's shirts run smaller than traditional shirt brands. If you are between sizes, the brand recommends ordering one size up."
     },
     {
-      "question": "How long are Untuckit shirts?",
-      "answer": "A standard Medium Untuckit shirt measures approximately 28.5 to 29.5 inches in total center-back length. This is 2 to 3 inches shorter than standard dress shirts (which measure 31 to 33 inches), allowing the hem to rest perfectly halfway down your trouser zipper fly."
+      "question": "Should I size up in UNTUCKit shirts?",
+      "answer": "If your measurements fall between two sizes, UNTUCKit recommends choosing the larger size. If your measurements fit comfortably within one size, compare the product's specific fit chart before deciding."
     },
     {
-      "question": "Can you tuck in an Untuckit shirt if needed?",
-      "answer": "Technically yes, but because the hem is shortened to hit mid-fly, the shirt tails may pull out of your trouser waistband whenever you raise your arms or bend over. They are designed exclusively to be worn untucked."
+      "question": "Is UNTUCKit Regular fit true to size?",
+      "answer": "UNTUCKit describes Regular as its classic cut but says it runs slightly smaller than traditional shirt brands. Do not assume it fits exactly like the same size from another label."
     },
     {
-      "question": "Are Untuckit shirts good quality and worth the price?",
-      "answer": "Yes. Untuckit shirts feature two-ply 100% cotton, durable button stitching, structured collar interlinings, and effective wrinkle-free treatments that justify the $88–$118 price point for men who want a tailored untucked fit right off the rack."
+      "question": "What is the difference between UNTUCKit Regular and Slim?",
+      "answer": "Regular is the classic cut. Slim has less room through the torso and a closer silhouette. Check the fit notes on the individual product because specifications can vary by style."
     },
     {
-      "question": "What pants look best with Untuckit shirts?",
-      "answer": "Untuckit shirts look best with slim or straight-fit chinos, tailored 5-pocket pants, and dark selvedge denim. Pair with clean leather loafers, suede chukkas, or low-top white sneakers."
+      "question": "Is UNTUCKit Relaxed fit bigger?",
+      "answer": "Yes. UNTUCKit says Relaxed adds three inches of room in the body without adding extra length."
+    },
+    {
+      "question": "What is UNTUCKit Tall fit?",
+      "answer": "Tall Regular adds two inches to the body and sleeve length. Tall Slim combines a slimmer shape with extra length in the body and sleeves."
+    },
+    {
+      "question": "Are UNTUCKit size charts the same for every product?",
+      "answer": "No. The brand publishes separate charts for categories such as button-down shirts, dress shirts, polos, and other tops. Use the chart for the exact product category."
     }
   ]
 }
