@@ -335,9 +335,9 @@ export default function PostBody({
       {/* 3. Color Swatches */}
       {swatches.length > 0 && (
         <div className="my-6 not-prose">
-          <h3 className="mb-2 text-sm font-bold uppercase tracking-wider text-slate-500">
+          <h2 className="mb-2 text-sm font-bold uppercase tracking-wider text-slate-500">
             {content.swatchHeading || "Recommended Color Swatches"}
-          </h3>
+          </h2>
 
           <div className="flex flex-wrap gap-2">
             {swatches.map((s: any, idx: number) => (
