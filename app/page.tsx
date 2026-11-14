@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { POSTS } from "@/lib/posts";
 import ColorSwatch from "@/components/ColorSwatch";
@@ -115,19 +116,20 @@ function ArticleCard({ post }: { post: any }) {
     <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-[#E8E3D9] bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(37,41,35,0.09)]">
       <Link
         href={`/blog/${slug}`}
-        className="block overflow-hidden bg-[#F0EDE6]"
+        className="relative block aspect-[16/10] overflow-hidden bg-[#F0EDE6]"
         aria-label={`Read ${title}`}
       >
         {image ? (
-          <img
+          <Image
             src={image}
             alt={post.imageAlt || title}
-            loading="lazy"
-            decoding="async"
-            className="aspect-[16/10] w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            quality={70}
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
           />
         ) : (
-          <div className="flex aspect-[16/10] items-center justify-center bg-[#F0EDE6]">
+          <div className="flex h-full w-full items-center justify-center bg-[#F0EDE6]">
             <Shirt
               className="h-12 w-12 text-[#78836A]"
               aria-hidden="true"
