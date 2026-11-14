@@ -13,7 +13,7 @@ const SLIDES = [
     link: "/blog/what-color-shirt-goes-with-grey-pants",
     image:
       "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1000&q=70",
-    alt: "Men's shirts arranged on a wooden table",
+    alt: "A men's tailored outfit styled with a dress shirt and trousers",
   },
   {
     title: "Navy Blue Pants & Pastel Shirts",
