@@ -61,7 +61,7 @@ export default function HeroSlider() {
             fill
             priority={current === 0}
             fetchPriority={current === 0 ? "high" : "auto"}
-            sizes="(max-width: 768px) 100vw, 1200px"
+            sizes="(max-width: 639px) calc(100vw - 32px), (max-width: 768px) calc(100vw - 48px), 1200px"
             quality={70}
             className="object-cover object-center brightness-[0.78]"
           />
