@@ -243,6 +243,14 @@ export default async function BlogPostPage({ params }: Props) {
         </h1>
       </header>
 
+      <div className="mb-6 text-sm text-slate-600">
+        Written and edited by{" "}
+        <Link href="/author/aneel-haider" className="font-semibold text-blue-700 hover:underline">
+          Aneel Haider
+        </Link>
+        <span className="ml-1">, Founder &amp; Editor of ShirtsMeer</span>
+      </div>
+
       {/* Featured Header Image */}
       <div className="relative w-full aspect-[16/9] sm:aspect-[21/9] mb-10 overflow-hidden rounded-2xl border border-slate-200 shadow-md">
         <Image
