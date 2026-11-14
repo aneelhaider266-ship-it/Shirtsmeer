@@ -176,7 +176,7 @@ function ArticleCard({ post }: { post: any }) {
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-[#F5F2EB] text-[#252923]">
+    <main className="bg-[#F5F2EB] text-[#252923]">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: structuredDataString }}
