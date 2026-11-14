@@ -60,7 +60,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-slate-800 py-6 text-center text-xs text-slate-500">
+      <div className="border-t border-slate-800 py-6 text-center text-xs text-slate-400">
         © {new Date().getFullYear()} ShirtsMeer.com. All rights reserved.
       </div>
     </footer>
