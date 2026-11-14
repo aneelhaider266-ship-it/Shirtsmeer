@@ -60,6 +60,7 @@ export default function HeroSlider() {
             alt={slide.alt}
             fill
             priority={current === 0}
+            fetchPriority={current === 0 ? "high" : "auto"}
             sizes="(max-width: 768px) 100vw, 1200px"
             quality={70}
             className="object-cover object-center brightness-[0.78]"
