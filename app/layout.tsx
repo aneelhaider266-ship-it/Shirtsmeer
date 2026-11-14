@@ -58,13 +58,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
-        {/* Google AdSense */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5442747651786672"
-          crossOrigin="anonymous"
-        ></script>
-
         <OrganizationJsonLd
           name="ShirtsMeer"
           url="https://shirtsmeer.com"
