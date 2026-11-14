@@ -53,12 +53,14 @@ export function ArticleJsonLd({
   description,
   url,
   datePublished,
+  dateModified,
   image,
 }: {
   title: string;
   description: string;
   url: string;
   datePublished: string;
+  dateModified?: string;
   image: string;
 }) {
   const schema = {
@@ -72,6 +74,7 @@ export function ArticleJsonLd({
     },
     image,
     datePublished,
+    dateModified: dateModified || datePublished,
     author: {
       "@type": "Organization",
       name: "ShirtsMeer Editorial Team",
