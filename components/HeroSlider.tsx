@@ -100,7 +100,16 @@ export default function HeroSlider() {
               aria-label={`Show slide ${idx + 1}: ${item.title}`}
               aria-current={idx === current ? "true" : undefined}
               className="flex h-11 w-11 items-center justify-center rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-            />
+            >
+              <span
+                aria-hidden="true"
+                className={`block h-2.5 rounded-full transition-all duration-300 ${
+                  idx === current
+                    ? "w-8 bg-[#D9CBB5]"
+                    : "w-2.5 bg-white/60 hover:bg-white"
+                }`}
+              />
+            </button>
           ))}
         </div>
       </div>
