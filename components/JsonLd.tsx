@@ -47,7 +47,7 @@ export function OrganizationJsonLd({
     url,
     logo,
     description,
-    // Add the official Pinterest profile here once its direct profile URL is available.
+    sameAs: ["https://pin.it/4FsmKPEyn"],
   };
 
   return (
