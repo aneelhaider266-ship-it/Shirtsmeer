@@ -217,7 +217,7 @@
       ]
     },
     {
-      "heading": "What to Compare When Choosing a Shirt Fabric",
+      "heading": "5. What to Compare When Choosing a Shirt Fabric",
       "paragraphs": [
         "The comparison table below summarizes the usual differences in weave, feel, formality and everyday use. Treat these as general tendencies: fibre content, yarn quality, weave density, finishing and fabric weight can change how an individual shirt performs."
       ],
@@ -392,5 +392,6 @@
       "question": "Which fabric is best for an interview?",
       "answer": "For a traditional interview outfit, a white or light blue poplin or fine twill shirt is a safe choice. A fine Oxford may suit a business-casual workplace, but follow the employer's dress code."
     }
-  ]
+  ],
+  "tableAfterSection": 10
 }
