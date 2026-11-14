@@ -204,7 +204,8 @@ export default async function BlogPostPage({ params }: Props) {
         title={frontmatter.title || "Men's Styling Guide"}
         description={frontmatter.description || ""}
         url={`https://shirtsmeer.com/blog/${slug}`}
-        datePublished={frontmatter.date || "2026-03-15"}
+        datePublished={frontmatter.date || frontmatter.publishedDate || "2026-03-15"}
+        dateModified={frontmatter.updatedDate || frontmatter.date || frontmatter.publishedDate || "2026-03-15"}
         image={activeImage.url}
       />
       <BreadcrumbJsonLd items={breadcrumbs} />
