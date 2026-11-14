@@ -291,16 +291,16 @@ export const POSTS: PostMeta[] = [
   },
 {
   slug: "poplin-vs-twill-vs-oxford-shirt-fabrics",
-  title: "Poplin vs Oxford: Key Differences, Weave & Best Uses",
-  metaTitle: "Poplin vs Oxford: Which Shirt Fabric Is Better?",
+  title: "Poplin vs Oxford vs Twill: Key Differences & Best Uses",
+  metaTitle: "Poplin vs Oxford vs Twill: Key Differences & Best Uses",
   metaDescription:
     "Compare poplin vs Oxford, twill and broadcloth shirt fabrics. Learn the differences in weave, texture, formality, wrinkles and everyday use.",
   description:
     "Compare poplin, Oxford, twill and broadcloth shirt fabrics, including weave, texture, formality, crease appearance and when to wear each.",
   excerpt:
-    "Choosing between poplin and Oxford? Understand their weave, texture, comfort, and formality, then compare both with twill.",
+    "Compare poplin, Oxford and twill shirt fabrics by weave, texture, formality and everyday use.",
   leadExcerpt:
-    "Choosing between poplin and Oxford? Understand their weave, texture, comfort, and formality, then compare both with twill.",
+    "Compare poplin, Oxford and twill shirt fabrics by weave, texture, formality and everyday use.",
   shortLabel: "Poplin vs Oxford Fabrics",
   primaryKeyword: "poplin vs oxford",
   searchVolume: 1900,
