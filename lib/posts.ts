@@ -107,7 +107,7 @@ export const POSTS: PostMeta[] = [
 },
   {
   slug: "what-color-shirt-goes-with-brown-pants",
-  title: "What Color Shirt Goes with Brown Pants? Best Color Combinations",
+  title: "What Color Shirt Goes with Brown Pants? 7 Best Matches",
   metaTitle: "What Color Shirt Goes with Brown Pants? 7 Best Combinations",
   metaDescription: "Discover what color shirt goes with brown pants. Explore light blue, white, cream, pink and olive shirt combinations for casual and formal outfits.",
   description: "Discover what color shirt goes with brown pants. Explore light blue, white, cream, pink and olive shirt combinations for casual and formal outfits.",
@@ -131,8 +131,8 @@ export const POSTS: PostMeta[] = [
     slug: "what-color-shirt-goes-with-navy-pants",
     title: "What Color Shirt Goes with Navy Pants? 7 Best Combinations",
     metaTitle: "What Color Shirt Goes with Navy Pants? 7 Best Combinations",
-    metaDescription: "Find the best shirt colors to wear with navy pants, including white, light blue, pink and grey. Explore smart combinations for work, weekends and formal occasions.",
-    description: "Find the best shirt colors to wear with navy pants, including white, light blue, pink and grey. Explore smart combinations for work, weekends and formal occasions.",
+    metaDescription: "Find shirt colors for navy pants, including white, light blue, pink and grey. See smart combinations for work, weekends and formal occasions.",
+    description: "Find shirt colors for navy pants, including white, light blue, pink and grey. See smart combinations for work, weekends and formal occasions.",
     excerpt: "Discover how to pair navy pants with white, light blue, pink and grey shirts for polished workwear, smart-casual outfits and relaxed weekends.",
     leadExcerpt: "Discover how to pair navy pants with white, light blue, pink and grey shirts for polished workwear, smart-casual outfits and relaxed weekends.",
     shortLabel: "Navy Pants Pairing",
@@ -183,7 +183,7 @@ export const POSTS: PostMeta[] = [
   },
   {
     slug: "collars-and-co-dress-collar-polo-review",
-    title: "Collars & Co Review: Is the Dress Collar Polo Actually Worth It?",
+    title: "Collars & Co Review: Is Its Dress Collar Polo Worth It?",
     metaTitle: "Collars & Co Review: Dress Collar Polo Guide",
     metaDescription: "Honest Collars & Co dress collar polo review. Learn how the firm structured collar holds up under sweaters, office comfort, sizing, and styling rules.",
     description: "Honest Collars & Co dress collar polo review. Learn how the firm structured collar holds up under sweaters, office comfort, sizing, and styling rules.",
@@ -219,7 +219,7 @@ export const POSTS: PostMeta[] = [
   },
   {
     slug: "untuckit-shirts-sizing-and-fit-guide",
-    title: "Untuckit Shirts Review: Sizing, Fit, and How to Wear Untucked",
+    title: "Untuckit Shirts Review: Fit, Sizing & How to Wear Them",
     metaTitle: "Untuckit Shirts Review: Sizing & Fit Guide",
     metaDescription: "Untuckit shirts review and sizing breakdown. Learn the right hem length for your height, slim vs regular fit, and pairing untucked shirts with chinos.",
     description: "Untuckit shirts review and sizing breakdown. Learn the right hem length for your height, slim vs regular fit, and pairing untucked shirts with chinos.",
@@ -237,7 +237,7 @@ export const POSTS: PostMeta[] = [
   },
   {
     slug: "criquet-shirts-retro-polo-review",
-    title: "Criquet Shirts Review: The Cult-Favorite Players Polo Examined",
+    title: "Criquet Shirts Review: Is the Players Polo Worth It?",
     metaTitle: "Criquet Shirts Review: The Players Polo Guide",
     metaDescription: "Criquet Shirts in-depth review. Explore the deep 4-button placket, removable collar stays, organic cotton pique weave, and country club styling.",
     description: "Criquet Shirts in-depth review. Explore the deep 4-button placket, removable collar stays, organic cotton pique weave, and country club styling.",
@@ -255,7 +255,7 @@ export const POSTS: PostMeta[] = [
   },
   {
     slug: "comfort-colors-1717-vs-gildan-5000-review",
-    title: "Comfort Colors 1717 vs Gildan 5000: Which Blank T-Shirt Is Best?",
+    title: "Comfort Colors 1717 vs Gildan 5000: Which Is Better?",
     metaTitle: "Comfort Colors 1717 vs Gildan 5000 Review",
     metaDescription: "Comfort Colors 1717 vs Gildan 5000 compared. Discover differences in garment dye, cotton softness, shrinkage, durability, and streetwear fit.",
     description: "Comfort Colors 1717 vs Gildan 5000 compared. Discover differences in garment dye, cotton softness, shrinkage, durability, and streetwear fit.",
@@ -273,7 +273,7 @@ export const POSTS: PostMeta[] = [
   },
   {
     slug: "mens-shirt-collar-types-guide",
-    title: "Men's Shirt Collar Types: 10 Styles Explained (Spread, Point & Cuban)",
+    title: "Men's Shirt Collar Types: 10 Styles Explained",
     metaTitle: "Men's Shirt Collar Types Explained: 10 Styles Guide",
     metaDescription: "Visual guide to 10 men's shirt collar styles. Match spread, button-down, cutaway, and Cuban collars to your face shape, tie knots, and formal suits.",
     description: "Visual guide to 10 men's shirt collar styles. Match spread, button-down, cutaway, and Cuban collars to your face shape, tie knots, and formal suits.",
@@ -336,7 +336,7 @@ export const POSTS: PostMeta[] = [
   },
   {
     slug: "how-a-dress-shirt-should-fit-guide",
-    title: "How a Dress Shirt Should Fit: Slim vs Classic vs Athletic Fit",
+    title: "How Should a Dress Shirt Fit? Slim, Classic & Athletic",
     metaTitle: "How a Dress Shirt Should Actually Fit: Men's Guide",
     metaDescription: "Complete dress shirt fit guide. Master the 2-finger collar rule, shoulder seam placement, sleeve length at wrist bone, and eliminating muffin tops.",
     description: "Complete dress shirt fit guide. Master the 2-finger collar rule, shoulder seam placement, sleeve length at wrist bone, and eliminating muffin tops.",
@@ -376,7 +376,7 @@ export const POSTS: PostMeta[] = [
   },
 {
   slug: "what-color-shirt-goes-with-black-pants",
-  title: "What Color Shirt Goes with Black Pants? 7 Best Combinations for Men",
+  title: "What Color Shirt Goes with Black Pants? 7 Best Matches",
   metaTitle: "What Color Shirt Goes with Black Pants? Men's Guide",
   metaDescription: "Find the best shirt colors for black pants, from white and light blue to grey, cream, olive and burgundy. Compare outfits, shoes and styling tips for men.",
   description: "Find the best shirt colors for black pants, from white and light blue to grey, cream, olive and burgundy. Compare outfits, shoes and styling tips for men.",
