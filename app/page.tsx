@@ -131,7 +131,7 @@ function ArticleCard({ post }: { post: any }) {
         ) : (
           <div className="flex h-full w-full items-center justify-center bg-[#F0EDE6]">
             <Shirt
-              className="h-12 w-12 text-[#78836A]"
+              className="h-12 w-12 text-[#59664D]"
               aria-hidden="true"
             />
           </div>
@@ -140,7 +140,7 @@ function ArticleCard({ post }: { post: any }) {
 
       <div className="flex flex-1 flex-col p-5 sm:p-6">
         <div className="mb-3 flex items-center justify-between gap-3">
-          <span className="text-[11px] font-bold uppercase tracking-[0.15em] text-[#78836A]">
+          <span className="text-[11px] font-bold uppercase tracking-[0.15em] text-[#59664D]">
             {getCategory(slug)}
           </span>
 
@@ -149,7 +149,7 @@ function ArticleCard({ post }: { post: any }) {
           </span>
         </div>
 
-        <h3 className="mb-3 text-lg font-bold leading-snug text-[#252923] transition-colors group-hover:text-[#78836A] sm:text-xl">
+        <h3 className="mb-3 text-lg font-bold leading-snug text-[#252923] transition-colors group-hover:text-[#59664D] sm:text-xl">
           <Link href={`/blog/${slug}`}>{title}</Link>
         </h3>
 
@@ -161,7 +161,7 @@ function ArticleCard({ post }: { post: any }) {
 
         <Link
           href={`/blog/${slug}`}
-          className="mt-auto inline-flex items-center gap-2 text-sm font-bold text-[#252923] transition-colors hover:text-[#78836A]"
+          className="mt-auto inline-flex items-center gap-2 text-sm font-bold text-[#252923] transition-colors hover:text-[#59664D]"
         >
           Read the guide
           <ArrowRight
@@ -187,7 +187,7 @@ export default function HomePage() {
         {/* 01. Hero */}
         <section className="mb-20" aria-labelledby="home-heading">
           <div className="mx-auto mb-10 max-w-3xl text-center">
-            <span className="mb-4 inline-block text-xs font-bold uppercase tracking-[0.22em] text-[#78836A]">
+            <span className="mb-4 inline-block text-xs font-bold uppercase tracking-[0.22em] text-[#59664D]">
               The Men's Style Journal
             </span>
 
@@ -196,7 +196,7 @@ export default function HomePage() {
               className="mb-5 font-serif text-4xl font-bold leading-tight tracking-tight text-[#252923] sm:text-5xl lg:text-6xl"
             >
               Better Outfits.
-              <span className="block italic text-[#78836A]">
+              <span className="block italic text-[#59664D]">
                 Smarter Color Choices.
               </span>
             </h1>
@@ -209,7 +209,7 @@ export default function HomePage() {
             <div className="mt-7 flex flex-wrap justify-center gap-3">
               <Link
                 href="/blog"
-                className="inline-flex items-center gap-2 rounded-full bg-[#252923] px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-[#78836A]"
+                className="inline-flex items-center gap-2 rounded-full bg-[#252923] px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-[#59664D]"
               >
                 Explore Style Guides
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />
@@ -217,7 +217,7 @@ export default function HomePage() {
 
               <Link
                 href="/color-matcher"
-                className="rounded-full border border-[#CFC9BC] bg-white px-7 py-3.5 text-sm font-semibold text-[#252923] transition hover:border-[#78836A] hover:text-[#78836A]"
+                className="rounded-full border border-[#CFC9BC] bg-white px-7 py-3.5 text-sm font-semibold text-[#252923] transition hover:border-[#59664D] hover:text-[#59664D]"
               >
                 Try Color Matcher
               </Link>
@@ -234,7 +234,7 @@ export default function HomePage() {
         >
           <div className="mb-8 flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
             <div>
-              <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#78836A]">
+              <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#59664D]">
                 01 / Find Your Combination
               </span>
 
@@ -253,7 +253,7 @@ export default function HomePage() {
 
             <Link
               href="/blog"
-              className="inline-flex items-center gap-2 text-sm font-bold text-[#252923] hover:text-[#78836A]"
+              className="inline-flex items-center gap-2 text-sm font-bold text-[#252923] hover:text-[#59664D]"
             >
               All style guides
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
@@ -273,7 +273,7 @@ export default function HomePage() {
           aria-labelledby="color-edit-heading"
         >
           <div className="mb-7 max-w-2xl">
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#78836A]">
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#59664D]">
               02 / The Color Edit
             </span>
 
@@ -331,7 +331,7 @@ export default function HomePage() {
           >
             <div className="mb-8 flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
               <div>
-                <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#78836A]">
+                <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#59664D]">
                   03 / The Editorial Cut
                 </span>
 
@@ -350,7 +350,7 @@ export default function HomePage() {
 
               <Link
                 href="/blog"
-                className="inline-flex items-center gap-2 text-sm font-bold text-[#252923] hover:text-[#78836A]"
+                className="inline-flex items-center gap-2 text-sm font-bold text-[#252923] hover:text-[#59664D]"
               >
                 Browse all articles
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />
@@ -371,7 +371,7 @@ export default function HomePage() {
           aria-labelledby="categories-heading"
         >
           <div className="mb-8">
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#78836A]">
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#59664D]">
               04 / Explore by Category
             </span>
 
@@ -391,9 +391,9 @@ export default function HomePage() {
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <Link
               href="/blog/mens-shirt-collar-types-guide"
-              className="group rounded-2xl border border-[#E8E3D9] bg-white p-6 transition hover:-translate-y-1 hover:border-[#78836A] hover:shadow-lg"
+              className="group rounded-2xl border border-[#E8E3D9] bg-white p-6 transition hover:-translate-y-1 hover:border-[#59664D] hover:shadow-lg"
             >
-              <Shirt className="mb-5 h-7 w-7 text-[#78836A]" aria-hidden="true" />
+              <Shirt className="mb-5 h-7 w-7 text-[#59664D]" aria-hidden="true" />
               <h3 className="font-bold">Shirt Collars</h3>
               <p className="mt-2 text-sm leading-6 text-[#686B64]">
                 Discover collar shapes, styles and occasions.
@@ -403,9 +403,9 @@ export default function HomePage() {
 
             <Link
               href="/blog/poplin-vs-twill-vs-oxford-shirt-fabrics"
-              className="group rounded-2xl border border-[#E8E3D9] bg-white p-6 transition hover:-translate-y-1 hover:border-[#78836A] hover:shadow-lg"
+              className="group rounded-2xl border border-[#E8E3D9] bg-white p-6 transition hover:-translate-y-1 hover:border-[#59664D] hover:shadow-lg"
             >
-              <BookOpen className="mb-5 h-7 w-7 text-[#78836A]" aria-hidden="true" />
+              <BookOpen className="mb-5 h-7 w-7 text-[#59664D]" aria-hidden="true" />
               <h3 className="font-bold">Shirt Fabrics</h3>
               <p className="mt-2 text-sm leading-6 text-[#686B64]">
                 Understand Oxford, poplin, twill and more.
@@ -415,9 +415,9 @@ export default function HomePage() {
 
             <Link
               href="/blog/interview-outfit-guide"
-              className="group rounded-2xl border border-[#E8E3D9] bg-white p-6 transition hover:-translate-y-1 hover:border-[#78836A] hover:shadow-lg"
+              className="group rounded-2xl border border-[#E8E3D9] bg-white p-6 transition hover:-translate-y-1 hover:border-[#59664D] hover:shadow-lg"
             >
-              <Footprints className="mb-5 h-7 w-7 text-[#78836A]" aria-hidden="true" />
+              <Footprints className="mb-5 h-7 w-7 text-[#59664D]" aria-hidden="true" />
               <h3 className="font-bold">Outfit Ideas</h3>
               <p className="mt-2 text-sm leading-6 text-[#686B64]">
                 Find outfits for work, events and everyday life.
@@ -427,9 +427,9 @@ export default function HomePage() {
 
             <Link
               href="/blog"
-              className="group rounded-2xl border border-[#E8E3D9] bg-white p-6 transition hover:-translate-y-1 hover:border-[#78836A] hover:shadow-lg"
+              className="group rounded-2xl border border-[#E8E3D9] bg-white p-6 transition hover:-translate-y-1 hover:border-[#59664D] hover:shadow-lg"
             >
-              <Palette className="mb-5 h-7 w-7 text-[#78836A]" aria-hidden="true" />
+              <Palette className="mb-5 h-7 w-7 text-[#59664D]" aria-hidden="true" />
               <h3 className="font-bold">Brand Reviews</h3>
               <p className="mt-2 text-sm leading-6 text-[#686B64]">
                 Explore clothing reviews and buying guides.
@@ -496,7 +496,7 @@ export default function HomePage() {
           className="mb-12 rounded-3xl border border-[#E8E3D9] bg-white px-6 py-12 text-center sm:px-10"
           aria-labelledby="final-cta-heading"
         >
-          <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#78836A]">
+          <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#59664D]">
             06 / Start Somewhere Good
           </span>
 
@@ -514,7 +514,7 @@ export default function HomePage() {
 
           <Link
             href="/blog"
-            className="mt-7 inline-flex items-center gap-2 rounded-full bg-[#252923] px-8 py-3.5 text-sm font-semibold text-white transition hover:bg-[#78836A]"
+            className="mt-7 inline-flex items-center gap-2 rounded-full bg-[#252923] px-8 py-3.5 text-sm font-semibold text-white transition hover:bg-[#59664D]"
           >
             Browse All Style Guides
             <ArrowRight className="h-4 w-4" aria-hidden="true" />
