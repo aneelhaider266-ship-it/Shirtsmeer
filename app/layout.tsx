@@ -9,7 +9,7 @@ import { OrganizationJsonLd } from "@/components/JsonLd";
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-sans",
-  display: "swap",
+  display: "optional",
 });
 
 const GA_MEASUREMENT_ID = "G-5S01248LB4";
