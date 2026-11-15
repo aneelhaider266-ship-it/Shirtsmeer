@@ -25,7 +25,7 @@ export default function BlogIndexPage() {
       </div>
 
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-        {POSTS.map((post) => (
+        {POSTS.map((post, index) => (
           <article
             key={post.slug}
             className="overflow-hidden rounded-xl border border-slate-200 bg-white transition-all hover:border-slate-400 hover:shadow-md"
@@ -34,6 +34,7 @@ export default function BlogIndexPage() {
               <Image
                 src={post.image || "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80"}
                 alt={post.imageAlt || post.title}
+                priority={index === 0}
                 fill
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 480px"
                 className="object-cover transition-transform duration-300 hover:scale-[1.03]"
