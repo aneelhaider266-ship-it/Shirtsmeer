@@ -96,7 +96,7 @@ export const POSTS: PostMeta[] = [
   publishedDate: "2026-03-15",
   updatedDate: "2026-11-03",
   date: "2026-03-15",
-  readTime: "7 min read",
+  readTime: "9 min read",
   image: DEFAULT_IMAGE,
   imageAlt: "Tailored grey trousers neatly paired with crisp white and blue dress shirts",
   related: [
