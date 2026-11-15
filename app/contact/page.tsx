@@ -27,7 +27,7 @@ export default function ContactPage() {
           <Mail className="mb-2 h-6 w-6 text-blue-600" />
           <h2 className="mb-1 text-base font-bold text-slate-900">Email</h2>
           <p className="mb-2 text-xs text-slate-600">For all questions and feedback:</p>
-          <a href="mailto:contact@shirtsmeer.com" className="text-sm font-semibold text-blue-600 hover:underline">
+          <a href="mailto:info@shirtsmeer.com" className="text-sm font-semibold text-blue-600 hover:underline">
             info@shirtsmeer.com
           </a>
         </div>
