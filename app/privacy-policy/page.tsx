@@ -63,7 +63,7 @@ export default function PrivacyPolicyPage() {
           Depending on where you live, laws such as the GDPR or the CCPA may give you rights to access,
           correct or delete personal information we hold about you. To make a request or ask a question about
           this policy, use our{" "}
-          <Link href="/contact" className={link}>contact page</Link> or email contact@shirtsmeer.com.
+          <Link href="/contact" className={link}>contact page</Link> or email info@shirtsmeer.com.
         </p>
       </div>
     </div>
