@@ -58,6 +58,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
+        {/* Google AdSense site verification and ad loader */}
+        <Script
+          id="google-adsense"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5442747651786672"
+          async
+          crossOrigin="anonymous"
+          strategy="beforeInteractive"
+        />
         <OrganizationJsonLd
           name="ShirtsMeer"
           url="https://shirtsmeer.com"
