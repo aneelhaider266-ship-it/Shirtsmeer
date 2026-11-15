@@ -5,7 +5,7 @@ import { PersonJsonLd } from "@/components/JsonLd";
 export const metadata: Metadata = {
   title: "Aneel Haider, Founder & Editor of ShirtsMeer",
   description:
-    "Meet Aneel Haider, Founder & Editor of ShirtsMeer, a men's style publication covering clothing guides, shirt and trouser combinations, and practical outfit advice.",
+    "Meet Aneel Haider, founder and editor of ShirtsMeer, covering men's clothing guides, color combinations and practical outfit advice.",
   alternates: {
     canonical: "https://shirtsmeer.com/author/aneel-haider",
   },
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: "https://shirtsmeer.com/author/aneel-haider",
     title: "Aneel Haider, Founder & Editor of ShirtsMeer",
     description:
-      "Meet Aneel Haider, Founder & Editor of ShirtsMeer, a men's style publication.",
+      "Meet Aneel Haider, founder and editor of ShirtsMeer, a men's style publication.",
   },
 };
 
