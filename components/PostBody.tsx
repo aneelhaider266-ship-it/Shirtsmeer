@@ -117,10 +117,7 @@ function TableOfContents({ sections }: { sections: any[] }) {
                 href={`#${id}`}
                 className="group flex min-h-11 items-start gap-3 rounded-md px-2 py-2 text-sm leading-5 text-[#252923] transition-colors hover:bg-white/70 hover:text-[#78836A] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#78836A] focus-visible:ring-offset-2 focus-visible:ring-offset-[#F5F2EB] sm:text-[0.9375rem]"
               >
-                <span
-                  aria-hidden="true"
-                  className="mt-px w-6 shrink-0 font-serif text-xs font-semibold tracking-wide text-[#78836A]"
-                >
+                <span aria-hidden="true" className="mt-px w-6 shrink-0 font-serif text-xs font-semibold tracking-wide text-[#78836A]">
                   {String(index + 1).padStart(2, "0")}
                 </span>
                 <span className="font-medium decoration-[#78836A]/50 underline-offset-4 group-hover:underline">
@@ -150,37 +147,52 @@ function PairingTable({
   const label = (key: string) =>
     key.replace(/([A-Z])/g, " $1").replace(/^./, (c) => c.toUpperCase());
 
+  const titleColumn = columns[0];
+
   return (
     <div className="my-8 not-prose">
-      <div className="overflow-x-auto rounded-xl border border-slate-200">
-        <table className="min-w-full text-left text-sm">
-          {caption && (
-            <caption className="px-4 py-3 text-left text-base font-semibold text-slate-900">
-              {caption}
-            </caption>
-          )}
+      {caption && (
+        <p className="mb-3 text-sm font-semibold leading-6 text-slate-800 sm:text-base">
+          {caption}
+        </p>
+      )}
 
+      {/* Mobile: readable stacked outfit cards, no horizontal scrolling. */}
+      <div className="grid gap-3 sm:hidden">
+        {rows.map((row: any, i: number) => (
+          <article key={i} className="overflow-hidden rounded-xl border border-slate-200 bg-white">
+            <h3 className="bg-slate-50 px-4 py-3 text-base font-bold text-slate-900">
+              {renderText(row[titleColumn])}
+            </h3>
+            <dl className="divide-y divide-slate-100 px-4">
+              {columns.slice(1).map((col) => (
+                <div key={col} className="grid grid-cols-[ minmax(0,0.8fr)_minmax(0,1.2fr)] gap-3 py-3">
+                  <dt className="text-xs font-semibold leading-5 text-slate-500">{label(col)}</dt>
+                  <dd className="text-sm leading-5 text-slate-700">{renderText(row[col])}</dd>
+                </div>
+              ))}
+            </dl>
+          </article>
+        ))}
+      </div>
+
+      {/* Tablet and desktop: retain the comparison table. */}
+      <div className="hidden overflow-x-auto rounded-xl border border-slate-200 sm:block">
+        <table className="min-w-full text-left text-sm">
           <thead className="bg-slate-50 text-slate-900">
             <tr>
               {columns.map((col) => (
-                <th
-                  key={col}
-                  scope="col"
-                  className="px-4 py-3 font-semibold whitespace-nowrap"
-                >
+                <th key={col} scope="col" className="px-4 py-3 font-semibold whitespace-nowrap">
                   {label(col)}
                 </th>
               ))}
             </tr>
           </thead>
-
           <tbody className="divide-y divide-slate-200 text-slate-700">
             {rows.map((row: any, i: number) => (
               <tr key={i}>
                 {columns.map((col) => (
-                  <td key={col} className="px-4 py-3 align-top">
-                    {renderText(row[col])}
-                  </td>
+                  <td key={col} className="px-4 py-3 align-top">{renderText(row[col])}</td>
                 ))}
               </tr>
             ))}
@@ -304,6 +316,8 @@ export default function PostBody({
     ? content.afterTable
     : [];
 
+  const tocSections = hasGreyPantsToc ? [...sections, ...afterTable] : sections;
+
   const products = Array.isArray(content.products)
     ? content.products
     : [];
@@ -322,7 +336,7 @@ export default function PostBody({
       )}
 
       {hasGreyPantsToc && sections.length > 0 && (
-        <TableOfContents sections={sections} />
+        <TableOfContents sections={tocSections} />
       )}
 
       {/* 2. Introduction */}
