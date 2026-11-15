@@ -291,6 +291,130 @@
     {
       "question": "What color top goes with grey pants for casual weekends?",
       "answer": "For casual weekends, pair grey chinos with a navy polo, washed-blue denim shirt, white Oxford shirt, or olive T-shirt. White sneakers or suede loafers complete the outfit."
+    },
+    {
+      "question": "How do I choose a shirt for light grey versus charcoal pants?",
+      "answer": "Use contrast as your starting point. Light grey trousers can take darker shirts such as navy or black, while charcoal trousers usually look clearer with white, pale blue, soft pink, or lavender. Medium grey is the most flexible middle ground."
+    },
+    {
+      "question": "What is an easy three-piece outfit with grey pants?",
+      "answer": "For business casual, wear medium-grey trousers with a pale-blue Oxford shirt and brown leather Derbies. For a relaxed outfit, choose light-grey chinos, a navy polo, and clean white sneakers."
+    },
+    {
+      "question": "Can I wear a grey shirt with grey pants?",
+      "answer": "Yes. Make the shades visibly different or use contrasting textures, such as a charcoal knit with light-grey trousers. Avoid two almost-identical grey pieces that look unintentionally mismatched."
+    }
+  ],
+  "tableCaption": "A practical outfit-pairing matrix: start with your trouser shade, then choose contrast and footwear for the setting.",
+  "tableAfterSection": 8,
+  "tableRows": [
+    {
+      "trouserShade": "Light grey",
+      "shirtColor": "Navy or black",
+      "contrast": "High; the darker shirt gives the outfit a clear focal point",
+      "bestSetting": "Smart casual, dinner, relaxed office",
+      "shoeDirection": "Dark brown loafers or black leather shoes"
+    },
+    {
+      "trouserShade": "Light grey",
+      "shirtColor": "White or pale blue",
+      "contrast": "Low to medium; clean and understated",
+      "bestSetting": "Daytime, business casual, warm-weather events",
+      "shoeDirection": "Brown loafers, tan suede, or clean white sneakers"
+    },
+    {
+      "trouserShade": "Medium grey",
+      "shirtColor": "White or pale blue",
+      "contrast": "Medium; balanced without looking severe",
+      "bestSetting": "Office, interviews, weddings, everyday tailoring",
+      "shoeDirection": "Black Oxfords for formal wear; brown Derbies for business casual"
+    },
+    {
+      "trouserShade": "Medium grey",
+      "shirtColor": "Burgundy or forest green",
+      "contrast": "Medium to high; a controlled accent against a neutral base",
+      "bestSetting": "Dinner, social events, smart casual",
+      "shoeDirection": "Dark brown leather or suede"
+    },
+    {
+      "trouserShade": "Charcoal",
+      "shirtColor": "White or light blue",
+      "contrast": "High; the light shirt separates clearly from dark trousers",
+      "bestSetting": "Formal office, interviews, evening occasions",
+      "shoeDirection": "Black Oxfords or Derbies"
+    },
+    {
+      "trouserShade": "Charcoal",
+      "shirtColor": "Pale pink or lavender",
+      "contrast": "Medium; softer color while keeping enough light-dark separation",
+      "bestSetting": "Business casual, spring events, daytime celebrations",
+      "shoeDirection": "Dark brown or black leather"
+    }
+  ],
+  "afterTable": [
+    {
+      "heading": "A Simple Method for Choosing the Right Shirt",
+      "paragraphs": [
+        "Use this sequence when you are standing in front of your wardrobe. First, identify whether the trousers are light grey, medium grey, or charcoal; the same shirt can look very different against each shade. Second, decide whether you want clear contrast or a quieter tonal outfit. Third, match the shirt's formality to the trousers and the occasion: a crisp poplin dress shirt reads differently from an Oxford button-down, polo, or T-shirt.",
+        "A useful starting point is to keep one part of the outfit visually quiet. If the shirt is a strong color such as burgundy, let the grey trousers and shoes stay understated. If the shirt is white or pale blue, you have more room to add texture through a knit, suede shoe, or subtle patterned tie."
+      ],
+      "bullets": [
+        {
+          "label": "Step 1 — Shade",
+          "text": "Light grey usually supports darker shirts; charcoal usually benefits from lighter shirts."
+        },
+        {
+          "label": "Step 2 — Contrast",
+          "text": "Choose one clear light-dark difference if you want the outfit to look defined."
+        },
+        {
+          "label": "Step 3 — Setting",
+          "text": "Use dress shirts and leather shoes for formal settings; Oxford shirts, polos, chinos, and sneakers for relaxed ones."
+        }
+      ]
+    },
+    {
+      "heading": "Three Complete Outfits You Can Re-create",
+      "paragraphs": [
+        "For a dependable office outfit, combine medium-grey or charcoal trousers with a pale-blue poplin shirt, a dark brown belt, and brown leather Derbies. The blue softens the contrast while the leather keeps the outfit business-ready.",
+        "For an evening look, wear light-grey tailored trousers with a black matte-finish shirt and black Chelsea boots. Keep the shirt untucked only if its hem is designed for that length; otherwise, tuck it in for a cleaner line.",
+        "For a relaxed weekend, pair light-grey chinos with a navy polo and white leather sneakers. This works because the navy gives the outfit structure while the sneakers keep it casual."
+      ],
+      "bullets": [
+        {
+          "label": "Office",
+          "text": "Pale-blue poplin shirt + charcoal trousers + brown leather Derbies."
+        },
+        {
+          "label": "Evening",
+          "text": "Black matte shirt + light-grey tailored trousers + black Chelsea boots."
+        },
+        {
+          "label": "Weekend",
+          "text": "Navy polo + light-grey chinos + white leather sneakers."
+        }
+      ]
+    },
+    {
+      "heading": "How to Fix a Grey-Pants Outfit That Feels Unbalanced",
+      "paragraphs": [
+        "If the shirt and trousers seem to blend together, increase the difference in shade or introduce a different fabric texture. A charcoal shirt with charcoal trousers can work as a deliberate tonal outfit, but it needs visible separation—such as a lighter grey trouser, a textured shirt, or a contrasting jacket. Without that separation, the outfit may look like two pieces that almost match but do not quite belong together.",
+        "If the outfit feels too stark, replace pure black with navy, or choose pale blue instead of bright white. If it feels too plain, add one controlled accent through a burgundy shirt, a textured overshirt, or suede footwear. Avoid adding several bold colors at once; one accent is usually easier to coordinate."
+      ],
+      "bullets": [
+        {
+          "label": "Too similar",
+          "text": "Change the shade or texture rather than trying to match two nearly identical greys."
+        },
+        {
+          "label": "Too formal",
+          "text": "Swap a stiff dress shirt for an Oxford button-down or knit polo."
+        },
+        {
+          "label": "Too plain",
+          "text": "Add one accent color or a tactile fabric, not several competing accessories."
+        }
+      ]
     }
   ]
 }
