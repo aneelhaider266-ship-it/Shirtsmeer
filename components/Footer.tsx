@@ -19,7 +19,7 @@ export default function Footer() {
         <div>
           <h3 className="mb-3 text-sm font-semibold text-white">Trouser Guides</h3>
           <ul className="space-y-2 text-xs">
-            {POSTS.slice(0, 5).map((p) => (
+            {POSTS.filter((p) => p.slug.startsWith("what-color-shirt-goes-with-")).map((p) => (
               <li key={p.slug}>
                 <Link href={`/blog/${p.slug}`} className="hover:text-white transition-colors">
                   {p.shortLabel || p.title}
@@ -33,7 +33,7 @@ export default function Footer() {
         <div>
           <h3 className="mb-3 text-sm font-semibold text-white">Reviews & Guides</h3>
           <ul className="space-y-2 text-xs">
-            {POSTS.slice(5).map((p) => (
+            {POSTS.filter((p) => !p.slug.startsWith("what-color-shirt-goes-with-")).map((p) => (
               <li key={p.slug}>
                 <Link href={`/blog/${p.slug}`} className="hover:text-white transition-colors">
                   {p.shortLabel || p.title}
