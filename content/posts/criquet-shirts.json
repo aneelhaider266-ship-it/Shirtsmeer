@@ -1,43 +1,67 @@
 {
-  "quickAnswerTitle": "Quick Answer: What Makes Criquet Shirts Unique?",
-  "quickAnswer": "Criquet Shirts are famous for their vintage-inspired Players Polo, featuring an unusually deep 4-button placket and built-in collar stay slots. This retro structure prevents the collar from curling up under blazers, giving you country-club heritage style with ultra-soft organic Peruvian Pima cotton.",
-  "intro": "In a menswear landscape saturated with synthetic gym-polos, Austin-based Criquet Shirts took the opposite path. Founded by childhood friends seeking to revive the iconic, relaxed golf shirts worn by Arnold Palmer and Chevy Chase in 1970s country clubs, Criquet engineered the 'Players Polo'—a design that balances vintage sporting swagger with modern tailoring details.",
-  "swatchHeading": "Classic Criquet Colorways",
-  "swatches": [
-    { "name": "Augusta Green", "hex": "#2E5834", "role": "Heritage Fairway" },
-    { "name": "Oatmeal Heather", "hex": "#D8D0C5", "role": "Subtle Neutral" },
-    { "name": "Classic Navy Pique", "hex": "#1B2A47", "role": "Sartorial Anchor" }
-  ],
+  "quickAnswerTitle": "Quick Answer: What Is Different About Criquet Shirts?",
+  "quickAnswer": "Criquet's Players shirts stand out for a vintage-inspired polo design and removable collar stays. The brand sells more than one fabric option: its Classic Players shirts are described as 100% cotton, while its Top-Shelf range uses Peruvian Pima cotton and its Performance range uses blends. Check the exact style before assuming its fabric, fit or care requirements.",
+  "intro": "Criquet is an Austin-based menswear label known for its vintage-inspired Players shirts. The most recognizable detail is the removable collar stay, intended to help the collar hold its shape. This guide uses the brand's published product and help-page information; it is not a personal wear test. Fabric, fit and construction differ across the Classic, Top-Shelf and Performance ranges, so the exact product listing matters.",
   "sections": [
     {
-      "heading": "1. The Signature 4-Button Placket & Removable Stays",
+      "heading": "The signature detail: removable collar stays",
       "paragraphs": [
-        "Standard modern polos feature two or three buttons that open shallowly across the chest. Criquet utilizes a deep 4-button placket that extends down toward the solar plexus.",
-        "Crucially, the collar features hidden interior pockets designed to hold removable collar stays—a feature almost unheard of in casual knitwear. This keeps the collar upright and structured, allowing you to throw an unstructured cotton blazer directly over the polo without the lapels flattening the collar."
+        "Criquet says all Players shirts come with removable collar stays to help keep the collar structured. This is the feature to check if you like the look of a polo collar that stays more upright under a sweater or casual jacket. The stays are removable, so follow the product's instructions when laundering the shirt.",
+        "That construction does not turn a polo into a dress shirt. The Players design remains a casual knit top, and the collar's appearance will still depend on the fabric, laundering, storage and how the shirt is worn. See Criquet's [removable collar stay explanation](https://criquetshirts.com/pages/limp-collar)."
       ]
     },
     {
-      "heading": "2. Peruvian Pima Cotton vs. Technical Synthetics",
+      "heading": "Fabric options: Classic, Top-Shelf and Performance are different",
       "paragraphs": [
-        "Criquet crafts their core line from 100% certified organic Peruvian Pima cotton. Pima cotton fibers are 35% longer than standard upland cotton, resulting in superior tensile strength, exceptional softness, and resistance to surface pilling.",
-        "Unlike polyester golf shirts that develop an unpleasant synthetic odor over time, organic Pima cotton breathes naturally and softens with every wash cycle."
+        "One important buying mistake is treating every Criquet Players shirt as the same fabric. The brand describes its Classic Players shirts as 100% cotton, its Top-Shelf range as premium Peruvian Pima, and its Performance range as performance blends. Those are meaningfully different choices for texture, stretch, care and warm-weather use.",
+        "Pima cotton is a cotton variety; the name alone does not establish the precise fibre percentage, fabric weight or durability of a particular shirt. Read the composition and care information on the exact product page. Criquet's [Players collection](https://criquetshirts.com/pages/limp-collar) outlines the broad range distinctions."
       ]
     },
     {
-      "heading": "3. How to Style Criquet Shirts with Trousers",
+      "heading": "Fit and sizing: use the product measurements",
       "paragraphs": [
-        "Criquet polos look best leaning into relaxed preppy aesthetics. Wear an Augusta green polo tucked into warm tobacco chinos with brown leather driving loafers. Review our guide on What Color Shirt Goes with Brown Pants for footwear coordination."
+        "Do not automatically size down based on the brand name or on a review of a different Players style. A cotton pique polo, a Pima version and a performance blend can drape differently. Compare the current size chart with a polo you already own, paying attention to chest width, shoulder width, body length and sleeve opening.",
+        "If you are between sizes, check the return and exchange policy before ordering. A close fit may look sharper under a casual jacket, while a little extra room can feel more comfortable in hot weather. The right choice depends on your preferred silhouette and the exact model."
+      ]
+    },
+    {
+      "heading": "How to style a Players shirt",
+      "paragraphs": [
+        "The vintage polo shape works naturally with chinos, straight-leg jeans and casual tailored trousers. For a balanced outfit, let the shirt be the relaxed element and keep the trousers relatively clean in shape. A navy or cream polo with khaki chinos is an easy starting point; a darker green or burgundy shirt can work with stone, grey or dark denim.",
+        "For a smarter casual outfit, try the polo under an unstructured cotton blazer, but check that the collar and placket sit comfortably beneath the lapels. Avoid treating every colourway as formal office wear: workplace dress codes differ, and a polo is still less formal than a woven button-front shirt."
+      ]
+    },
+    {
+      "heading": "Care: follow the fabric label, not a generic rule",
+      "paragraphs": [
+        "Care requirements can differ between 100% cotton and performance-blend versions. Check the sewn-in label and product-specific instructions before washing. Remove collar stays if the instructions call for it, and store them safely so they do not bend or disappear.",
+        "Do not rely on a fixed shrinkage percentage unless Criquet publishes one for the exact garment. Washing temperature, dryer heat, fabric construction and garment finishing all affect shrinkage. When in doubt, use the care label's gentlest suitable method."
+      ]
+    },
+    {
+      "heading": "Who should consider Criquet—and who might skip it?",
+      "paragraphs": [
+        "Consider a Players shirt if you like a vintage golf-polo silhouette and want a collar that can be supported by removable stays. The range is worth comparing if you prefer to choose between cotton, Pima cotton and performance-blend options.",
+        "Skip it if you want a conventional dress shirt, dislike a deeper polo placket, or do not need the collar-stay feature. If fabric feel is your deciding factor, compare the composition of the exact model rather than relying on the broad brand description."
       ]
     }
   ],
   "faqs": [
     {
-      "question": "Do Criquet polos shrink after washing?",
-      "answer": "Because they are 100% organic cotton pique, minimal shrinkage (around 3%) can occur if dried with high heat. Machine wash cold and hang dry or tumble dry low."
+      "question": "Do all Criquet shirts use Peruvian Pima cotton?",
+      "answer": "No. Criquet distinguishes between its Classic Players shirts, described as 100% cotton, its Top-Shelf Peruvian Pima range and its Performance blends. Check the exact product listing for fibre content."
+    },
+    {
+      "question": "Do Criquet Players shirts have removable collar stays?",
+      "answer": "Criquet says all Players shirts come with removable collar stays. Follow the garment's care instructions for removing and replacing them."
     },
     {
       "question": "Are Criquet shirts true to size?",
-      "answer": "Criquet fits slightly relaxed in the shoulders and body to honor traditional golf aesthetics. If you prefer a tailored modern fit, order one size down."
+      "answer": "Fit can vary by style and fabric. Compare the current product measurements with a polo you already own rather than automatically sizing up or down."
+    },
+    {
+      "question": "Can you wear a Criquet polo under a blazer?",
+      "answer": "A Players shirt can work with an unstructured blazer for a relaxed smart-casual outfit. It remains a polo, so it may not meet formal dress codes that require a woven dress shirt."
     }
   ]
 }
