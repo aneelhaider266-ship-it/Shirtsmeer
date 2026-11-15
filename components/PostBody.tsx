@@ -166,7 +166,7 @@ function PairingTable({
             </h3>
             <dl className="divide-y divide-slate-100 px-4">
               {columns.slice(1).map((col) => (
-                <div key={col} className="grid grid-cols-[ minmax(0,0.8fr)_minmax(0,1.2fr)] gap-3 py-3">
+                <div key={col} className="grid grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)] gap-3 py-3">
                   <dt className="text-xs font-semibold leading-5 text-slate-500">{label(col)}</dt>
                   <dd className="text-sm leading-5 text-slate-700">{renderText(row[col])}</dd>
                 </div>
@@ -316,8 +316,6 @@ export default function PostBody({
     ? content.afterTable
     : [];
 
-  const tocSections = hasGreyPantsToc ? [...sections, ...afterTable] : sections;
-
   const products = Array.isArray(content.products)
     ? content.products
     : [];
@@ -325,6 +323,7 @@ export default function PostBody({
   // Deliberately enable the TOC only for this article. Other posts keep their
   // current presentation and do not receive section IDs.
   const hasGreyPantsToc = post?.slug === "what-color-shirt-goes-with-grey-pants";
+  const tocSections = hasGreyPantsToc ? [...sections, ...afterTable] : sections;
 
   return (
     <div className="prose prose-slate max-w-none text-slate-800 leading-relaxed">
