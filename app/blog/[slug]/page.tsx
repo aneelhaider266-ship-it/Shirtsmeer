@@ -232,10 +232,10 @@ export default async function BlogPostPage({ params }: Props) {
             <Calendar className="w-3.5 h-3.5" /> {frontmatter.date || "March 2026"}
           </span>
           <span className="flex items-center gap-1">
-            <Clock className="w-3.5 h-3.5" /> 7 min read
+            <Clock className="w-3.5 h-3.5" /> {frontmatter.readTime || "Guide"}
           </span>
-          <span className="bg-blue-50 text-blue-700 px-2.5 py-0.5 rounded-full font-semibold">
-            Verified Style Guide
+          <span className="bg-slate-100 text-slate-700 px-2.5 py-0.5 rounded-full font-semibold">
+            Editorial Guide
           </span>
         </div>
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
