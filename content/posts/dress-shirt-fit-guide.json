@@ -1,55 +1,110 @@
 {
   "quickAnswerTitle": "Quick Answer: How Should a Dress Shirt Fit?",
   "quickAnswer": "A dress shirt fits correctly when you can comfortably slide two fingers inside the buttoned collar, the shoulder seam sits squarely on your shoulder bone, the cuffs hit the base of your thumb (showing 0.5 inches under a suit jacket), and there is no excess billowing around the waist when tucked.",
-  "intro": "A $300 bespoke dress shirt tailored from Swiss cotton will look cheap and sloppy if the fit is incorrect. Conversely, an inexpensive $40 shirt that fits your proportions with precision will look custom-made. Most men buy shirts one or two sizes too large out of a mistaken desire for comfort. We outline the 5 critical anatomical checkpoints of a properly fitted dress shirt.",
+  "intro": "A dress shirt should look clean while allowing you to sit, reach and move without strain. Price and fabric alone cannot compensate for a poor fit. Use the checks below to assess the collar, shoulders, chest, waist, sleeves and shirt length, then compare the garment with a shirt you already wear comfortably. Fit preferences vary, so treat measurements as practical guides rather than rigid rules.",
   "swatchHeading": "Essential Formal Solids",
   "swatches": [
-    { "name": "Optical White", "hex": "#FFFFFF", "role": "Formal Benchmark" },
-    { "name": "Ice Blue Pinpoint", "hex": "#B0E0E6", "role": "Office Precision" },
-    { "name": "French Cuff Navy", "hex": "#1B2A47", "role": "Evening Authority" }
+    {
+      "name": "Optical White",
+      "hex": "#FFFFFF",
+      "role": "Formal Benchmark"
+    },
+    {
+      "name": "Ice Blue Pinpoint",
+      "hex": "#B0E0E6",
+      "role": "Office Precision"
+    },
+    {
+      "name": "French Cuff Navy",
+      "hex": "#1B2A47",
+      "role": "Evening Authority"
+    }
   ],
   "sections": [
     {
-      "heading": "1. The Collar: The Two-Finger Rule",
+      "heading": "1. The Collar: Comfortable When Buttoned",
       "paragraphs": [
-        "When the top collar button is fully fastened, the collar should rest lightly against your neck without pressing into your skin. You should be able to slide your index and middle fingers between your neck and the collar comfortably.",
-        "If your fingers cannot slide in, the collar is choking you and will cause skin irritation. If you can fit three fingers, the collar will buckle and gap awkwardly once you tie a necktie."
+        "Fasten the top button and check that the collar rests against your neck without digging in. You should be able to slide one or two fingers inside without forcing them. If the collar presses into your throat or makes swallowing uncomfortable, it is too tight. If there is excessive space, the collar may look loose under a tie.",
+        "Try the shirt while standing and sitting. Neck comfort can change with posture, so do not judge the collar only while looking straight ahead in a mirror."
       ]
     },
     {
-      "heading": "2. Shoulders: The Acromion Bone Alignment",
+      "heading": "2. Shoulders: Check the Seam Placement",
       "paragraphs": [
-        "The seam where the shirt sleeve joins the shoulder yoke must sit precisely at the point where your horizontal shoulder bone meets your vertical arm (the acromion).",
-        "If the seam droops down onto your triceps, the shirt is too large and will create excess fabric bunching under your armpits. If it pulls upward toward your neck, the shirt is too tight and will restrict arm mobility."
+        "The shoulder seam should sit close to the point where your shoulder transitions into your upper arm. If it falls far down the arm, the shirt may be too broad; if it sits well inside the shoulder and pulls, it may be too narrow.",
+        "Raise both arms forward and overhead. The shirt should allow movement without the yoke pulling sharply across your back or the armholes cutting into your armpits. A little movement in the fabric is normal; persistent tension is not."
       ]
     },
     {
-      "heading": "3. Torso: Slim vs. Classic vs. Athletic Fit",
+      "heading": "3. Chest and Buttons: No Pulling or Gaping",
       "paragraphs": [
-        "Slim Fit features gentle side seam tapering and back darts that follow the natural curve of your spine, eliminating the 'flying squirrel' billowing effect when tucked into trousers.",
-        "Athletic Fit is engineered for men with broader chests and narrow waists (V-taper), offering extra room through the lats while maintaining a trim waist."
-      ],
-      "bullets": [
-        { "label": "The Pinch Test", "text": "When sitting down, you should be able to pinch roughly 2 to 3 inches of fabric on either side of your torso." },
-        { "label": "Button Placket", "text": "The chest buttons must close flat without pulling open or creating diamond-shaped gaps." }
+        "Button the shirt fully and look at the placket. The buttons should lie flat without creating horizontal stress lines or diamond-shaped gaps. If the fabric pulls across the chest when you reach forward, try a roomier cut or a different size.",
+        "A shirt that is too large can also look untidy. Check whether excess fabric balloons around the chest or armholes. The goal is comfortable ease, not a painted-on fit."
       ]
     },
     {
-      "heading": "4. Sleeve Length & Cuff Tightness",
+      "heading": "4. Torso: Slim, Regular and Relaxed Fits",
       "paragraphs": [
-        "When your arms hang naturally at your sides, the shirt cuff should end at the base of your thumb. When wearing a tailored suit jacket, exactly 0.5 inches (1.2 cm) of shirt cuff should be visible past the jacket sleeve.",
-        "Pair your fitted shirt with tailored navy trousers for corporate presentations. Review What Color Shirt to Wear with Navy Pants for complete leather and tie coordination."
+        "Slim, regular and relaxed are brand-specific labels, not universal measurements. A slim shirt usually has more waist shaping; a regular cut provides more room through the body; a relaxed cut allows additional ease. Athletic fits may provide extra room in the chest and shoulders relative to the waist.",
+        "When the shirt is tucked in, check for excessive fabric bunching around the waist. When worn untucked, compare the hem length and side shape with the way you intend to wear it. A tailor may be able to adjust the waist, but cannot easily fix shoulders or armholes that are fundamentally the wrong size."
+      ]
+    },
+    {
+      "heading": "5. Sleeves and Cuffs: Check Both Reach and Movement",
+      "paragraphs": [
+        "With your arms relaxed, the cuff should reach the wrist area where the hand begins. When worn under a suit jacket, a modest amount of shirt cuff is commonly visible, but the exact amount depends on jacket sleeve length and personal preference.",
+        "Fasten the cuff and bend your arm. You should be able to move comfortably without the cuff pulling hard against your wrist. If the cuff slides over your hand or bunches excessively, compare sleeve and cuff measurements in another size."
+      ]
+    },
+    {
+      "heading": "6. Shirt Length: Tucked or Untucked?",
+      "paragraphs": [
+        "A shirt intended to be tucked in needs enough length to stay secured when you sit, bend and reach. If the hem repeatedly comes loose, the shirt may be too short or the body shape may not suit your proportions.",
+        "An untucked shirt should usually have a hem designed for that purpose. Check the front and back length and whether the hem falls around the middle of the fly area; a very long dress-shirt tail can look awkward when worn outside trousers."
+      ]
+    },
+    {
+      "heading": "7. How to Measure a Shirt You Already Own",
+      "paragraphs": [
+        "Lay a well-fitting shirt flat on a smooth surface and fasten the buttons. Measure the chest from one underarm seam to the other, then double that number if you want an approximate garment circumference. Measure shoulder width from shoulder seam to shoulder seam, sleeve length from the shoulder seam to the cuff, and body length from the highest shoulder point down to the hem.",
+        "Use the same measuring method on the brand's size chart. Some charts show body measurements and others show garment measurements, so read the labels carefully. Comparing a shirt you already like is often more useful than choosing a size based only on height or weight."
+      ]
+    },
+    {
+      "heading": "8. Common Fit Problems and What to Change",
+      "paragraphs": [
+        "If the shoulders fit but the waist is too loose, a tailor may be able to take in the side seams. If the collar is too tight, the shirt is too short in the body, or the shoulder seam is far out of place, sizing or pattern choice is usually the better fix.",
+        "If buttons gape across the chest, do not simply buy a larger shirt without checking the shoulder and sleeve fit. Try a different cut designed for more chest room. If cuffs are too long, compare sleeve lengths before paying for alterations."
+      ]
+    },
+    {
+      "heading": "A quick fitting-room checklist",
+      "paragraphs": [
+        "Before removing the tags, button the collar, raise your arms, reach forward, sit down and tuck the shirt into your usual trousers. Check the collar, shoulder seams, chest placket, waist, cuffs and hem in both standing and moving positions.",
+        "Choose the shirt that allows comfortable movement and looks balanced with the way you plan to wear it. For shirt-and-trouser colour ideas, browse our [navy pants guide](/blog/what-color-shirt-goes-with-navy-pants) or use the [ShirtsMeer color matcher](/color-matcher)."
       ]
     }
   ],
   "faqs": [
     {
-      "question": "Why do dress shirts puff out in the back when tucked?",
-      "answer": "This happens when the shirt torso is cut too wide for your waist. Have a local tailor add two vertical back darts (cost is typically $10-$15) to pull in the excess lower fabric."
+      "question": "How tight should a dress shirt collar be?",
+      "answer": "It should sit comfortably when buttoned, without pressing into your throat. One or two fingers should fit inside without forcing them, but comfort is the deciding factor."
     },
     {
-      "question": "How much should a 100% cotton shirt shrink after washing?",
-      "answer": "Quality preshrunk cotton shrinks approximately 1 to 2% over its lifespan. Cheaper untreated cotton can shrink up to half a collar size if washed in hot water."
+      "question": "Where should a dress shirt shoulder seam sit?",
+      "answer": "It should sit close to the point where your shoulder transitions into your upper arm. A seam that falls far down the arm may indicate excess width; one that pulls inward may be too narrow."
+    },
+    {
+      "question": "How much shirt cuff should show under a suit jacket?",
+      "answer": "A modest strip of shirt cuff is commonly visible, often around a quarter to half an inch, but the exact amount depends on jacket sleeve length and personal preference."
+    },
+    {
+      "question": "Why do shirt buttons gape across the chest?",
+      "answer": "The chest may not have enough room for your movement or body shape. Try a different cut with more chest ease and compare the shoulder fit before choosing a larger size."
+    },
+    {
+      "question": "Can a tailor fix a dress shirt that is too big?",
+      "answer": "A tailor can often reduce excess fabric through the waist or adjust sleeves within limits. Major issues with collar size, shoulders or armholes are harder to correct and may require a different shirt."
     }
   ]
 }
