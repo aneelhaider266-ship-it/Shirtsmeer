@@ -19,13 +19,13 @@ export default function BlogIndexPage() {
           Men's Trouser and Shirt Coordination Guides
         </h1>
         <p className="max-w-2xl text-base leading-relaxed text-slate-600">
-          Clear outfit guides for the five most common trouser colors, each with shirt matches, a quick
-          comparison table and shoe advice.
+          Explore practical shirt-and-trouser color guides, brand reviews and styling advice, with clear outfit
+          combinations, comparison tables and shoe recommendations.
         </p>
       </div>
 
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-        {POSTS.map((post, index) => (
+        {[...POSTS].sort((a, b) => b.publishedDate.localeCompare(a.publishedDate)).map((post, index) => (
           <article
             key={post.slug}
             className="overflow-hidden rounded-xl border border-slate-200 bg-white transition-all hover:border-slate-400 hover:shadow-md"
