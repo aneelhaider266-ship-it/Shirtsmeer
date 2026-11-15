@@ -86,7 +86,7 @@ export const POSTS: PostMeta[] = [
 {
   slug: "what-color-shirt-goes-with-grey-pants",
   title: "What Color Shirt Goes with Grey Pants? 7 Best Combinations",
-  metaTitle: "Best Shirt Colors for Grey Pants: 7 Outfit Ideas",
+  metaTitle: "Shirt Colors for Grey Pants: 7 Ideas",
   metaDescription: "Discover the best shirt colors to wear with grey pants, including white, navy, light blue, black, pink, and lavender. Explore outfit ideas for every occasion.",
   description: "Discover the best shirt colors to wear with grey pants, including white, navy, light blue, black, pink, and lavender. Explore outfit ideas for every occasion.",
   excerpt: "Find the best shirt colors for grey pants, from crisp white and light blue to navy, black, pink, and lavender. Explore outfit combinations for work and casual wear.",
@@ -130,7 +130,7 @@ export const POSTS: PostMeta[] = [
   {
     slug: "what-color-shirt-goes-with-navy-pants",
     title: "What Color Shirt Goes with Navy Pants? 7 Best Combinations",
-    metaTitle: "Best Shirt Colors for Navy Pants: 7 Outfit Ideas",
+    metaTitle: "Shirt Colors for Navy Pants: 7 Ideas",
     metaDescription: "Find shirt colors for navy pants, including white, light blue, pink and grey. See smart combinations for work, weekends and formal occasions.",
     description: "Find shirt colors for navy pants, including white, light blue, pink and grey. See smart combinations for work, weekends and formal occasions.",
     excerpt: "Discover how to pair navy pants with white, light blue, pink and grey shirts for polished workwear, smart-casual outfits and relaxed weekends.",
