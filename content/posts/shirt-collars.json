@@ -1,66 +1,121 @@
 {
   "quickAnswerTitle": "Quick Answer: Which Mens Shirt Collar Types Are Best?",
   "quickAnswer": "The Semi-Spread collar is the most versatile among all mens shirt collar types, balancing medium-width suit lapels with or without a tie. If you have a round face, choose a Classic Point collar to lengthen your features. If attending formal black tie galas, a specialized wing tip collar is required.",
-  "intro": "The collar is the most important anatomical component of any shirt. Because it sits directly beneath your chin, it frames your facial structure, dictates your necktie knot choice, and determines whether an outfit leans formal or casual. Understanding different mens shirt collar types ensures you never look mismatched in business suiting or casual tailoring.",
+  "intro": "A shirt collar affects more than appearance: its shape changes how a shirt frames the face, how a tie sits and how the neckline works with a jacket. The right choice depends on the occasion, tie preference, jacket lapel and the collar's actual dimensions—not just the name on the product page. This guide explains the main men's shirt collar types and gives a practical way to choose between them.",
   "swatchHeading": "Classic Collar Color Foundations",
   "swatches": [
-    { "name": "Crisp White Spread", "hex": "#FFFFFF", "role": "Formal Suiting" },
-    { "name": "Sky Blue Button-Down", "hex": "#87CEEB", "role": "Ivy Business Casual" },
-    { "name": "Ecru Camp Collar", "hex": "#F5F5DC", "role": "Warm-Weather Casual" }
+    {
+      "name": "Crisp White Spread",
+      "hex": "#FFFFFF",
+      "role": "Formal Suiting"
+    },
+    {
+      "name": "Sky Blue Button-Down",
+      "hex": "#87CEEB",
+      "role": "Ivy Business Casual"
+    },
+    {
+      "name": "Ecru Camp Collar",
+      "hex": "#F5F5DC",
+      "role": "Warm-Weather Casual"
+    }
   ],
   "sections": [
     {
-      "heading": "1. The Semi-Spread Collar: The Modern Corporate Benchmark",
+      "heading": "1. The Semi-Spread Collar: A Versatile Starting Point",
       "paragraphs": [
-        "A semi-spread collar features point tips positioned approximately 3.5 to 4 inches apart. It strikes a balance between conservative point collars and dramatic British cutaways.",
-        "It effortlessly accommodates medium-sized tie knots—such as the Half-Windsor and Four-in-Hand—while maintaining enough structure to stand upright when worn open-collar under a blazer.",
-        "To keep your spread collar crisp and prevent it from curling under jackets, we recommend using these [Heavy Duty Metal Collar Stays on Amazon](https://link.amazon/B03HVtnAW). They keep collar points razor sharp all day."
+        "A semi-spread collar places the points at a moderate angle. It usually works with a range of tie knots and can also be worn open-necked under a blazer. The exact spread varies by maker, so compare product photographs and measurements rather than relying on the label alone.",
+        "Choose this shape if you want one business shirt that can move between tie and no-tie outfits. With a tie, make sure the knot fills the space between the points without forcing the collar outward."
       ],
       "bullets": [
-        { "label": "Best Face Shape", "text": "Universally flattering on oval, angular, and rectangular face profiles." },
-        { "label": "Optimal Knot", "text": "Half-Windsor or double four-in-hand knot." }
+        {
+          "label": "Best for",
+          "text": "Business shirts, moderate-width lapels and a mix of tied and open-collar outfits."
+        },
+        {
+          "label": "Check before buying",
+          "text": "Collar height, point length and whether the collar has removable stays."
+        }
       ]
     },
     {
-      "heading": "2. The Classic Point Collar: The Face-Lengthening Traditionalist",
+      "heading": "2. The Classic Point Collar: Narrow and Traditional",
       "paragraphs": [
-        "Classic point collars feature narrow spreads (less than 3 inches between points). The vertical direction of the points creates an optical illusion that draws the eye downward.",
-        "Men with rounder faces or shorter necks benefit significantly from point collars, as the sharp downward angle creates a slimming, vertical elongation."
+        "A point collar has a relatively narrow spread, with the points directed more downward. It gives a traditional appearance and can work well with smaller tie knots and narrower lapels.",
+        "A narrow collar may create a longer vertical line, but face-shape advice is only a styling guideline—not a strict rule. Neck length, collar height, tie width and personal preference matter too."
       ]
     },
     {
-      "heading": "3. The Formal Wing Tip Collar for Black Tie Events",
+      "heading": "3. The Cutaway Collar: Wider Spread",
       "paragraphs": [
-        "The wing tip collar features small standing collar points that resemble bird wings folded downward. It is the most formal collar in existence.",
-        "Wing tip collars are strictly reserved for tuxedo suiting and black tie events. Never wear a wing tip collar to a standard business meeting or casual event; it must always be paired with a black silk bow tie and formal tuxedo stud set for authentic black tie elegance."
+        "A cutaway collar has points angled farther outward than a conventional spread collar. It creates more room for a larger tie knot and makes the collar more visually prominent.",
+        "It works best when the tie knot and jacket lapels have enough visual scale to balance the wider opening. If you rarely wear a tie, check how the collar sits when unbuttoned; some cutaway shapes can look unusually wide when worn open."
       ]
     },
     {
-      "heading": "4. The Button-Down Collar (OCBD): The Ivy League Icon",
+      "heading": "4. The Button-Down Collar (OCBD): Relaxed and Versatile",
       "paragraphs": [
-        "Originally borrowed from polo players who needed to keep their collars from flapping in the wind, the Oxford Cloth Button-Down features small button holes that secure the points to the shirt body.",
-        "A quality button-down collar features an unlined, soft construction that forms a relaxed S-shaped curve (the famous collar roll). Pair it with tailored chinos for quintessential business casual."
+        "A button-down collar has small buttons that fasten the collar points to the shirt. The style is closely associated with Oxford cloth button-down shirts, although button-down collars can appear on other fabrics too.",
+        "It is a natural choice for smart-casual outfits, knitwear and relaxed tailoring. It is usually less formal than a stiff spread collar, so it may not be suitable for conservative dress codes or formal business suits."
       ]
     },
     {
-      "heading": "5. The Cuban / Camp Collar: The Retro Resort Staple",
+      "heading": "5. The Wing Collar: Formal Eveningwear",
       "paragraphs": [
-        "Unlike formal folded neckbands, the camp collar lays completely flat against your clavicle, creating a continuous open V-neck notch lapel. It contains zero interior stiffeners and is strictly designed for casual warm-weather tailoring."
+        "A wing collar has small standing points that fold outward at the front. It is associated with formal evening dress, particularly white-tie attire and some traditional black-tie shirt designs.",
+        "Do not treat it as an everyday business collar. The correct shirt front, studs, bow tie and dress code matter; follow the event's stated dress requirements rather than choosing a wing collar simply because it looks formal."
+      ]
+    },
+    {
+      "heading": "6. The Club Collar: Rounded Points",
+      "paragraphs": [
+        "A club collar has rounded rather than pointed collar tips. It gives a shirt a distinctive, slightly vintage character and is often less conventional than a standard point or spread collar.",
+        "Because the rounded points are a visible design feature, keep the rest of the outfit relatively restrained if you want the collar to stand out. It can be worn with or without a tie depending on the shirt construction and setting."
+      ]
+    },
+    {
+      "heading": "7. The Cuban or Camp Collar: Open-Neck Casualwear",
+      "paragraphs": [
+        "A camp collar is a soft, open collar commonly found on casual summer shirts. It does not use the same structured collar band and tie-ready construction as a dress shirt collar.",
+        "Wear it open with casual trousers, shorts or relaxed tailoring. For fabric, length and outfit advice, see our [Cuban collar styling guide](/blog/how-to-style-cuban-camp-collar-shirts)."
+      ]
+    },
+    {
+      "heading": "How to choose a collar for your tie and jacket",
+      "paragraphs": [
+        "Start with the dress code. A formal office or suit-and-tie setting usually calls for a structured point, semi-spread or spread collar. A button-down is more relaxed, while a camp collar belongs to casual warm-weather outfits.",
+        "Next, consider proportions. A larger tie knot generally needs more collar space; a narrow knot can look lost inside an extremely wide spread. Jacket lapels also affect balance: very narrow lapels can look mismatched with a very wide collar, and vice versa.",
+        "Finally, check collar height and comfort. A high collar can feel restrictive on a shorter neck, while a low collar may disappear under a jacket. Button the top button and check that the collar sits comfortably before deciding."
+      ]
+    },
+    {
+      "heading": "Collar stays, laundering and upkeep",
+      "paragraphs": [
+        "Some dress shirts use removable collar stays to keep the points neat. Remove them before washing if the care instructions require it, and replace them before wearing. Never force a stay into a pocket that is too small; it can distort the collar.",
+        "Follow the shirt's care label and avoid assuming every collar needs starch. Soft button-down collars are designed to roll naturally, while some formal collars are intended to hold a sharper shape. The construction should guide the care routine."
       ]
     }
   ],
   "faqs": [
     {
-      "question": "Can you wear a tie with a button-down collar?",
-      "answer": "Yes. An Oxford cloth button-down with a knit silk tie or repp-stripe collegiate tie is a foundational staple of classic American business casual."
+      "question": "Which shirt collar is the most versatile?",
+      "answer": "A moderate spread or semi-spread collar is a practical starting point because it can work with many tie knots and can also be worn open-necked. The best choice still depends on the shirt, jacket and dress code."
     },
     {
-      "question": "What collar should you wear for a black tie event?",
-      "answer": "A classic wing tip collar or a formal spread collar with French cuffs is required for black tie tuxedo dress codes."
+      "question": "Can you wear a button-down collar with a suit?",
+      "answer": "You can wear one with some casual or business-casual suits, but it is generally less formal than a structured spread collar. Follow the expectations of your workplace or event."
     },
     {
-      "question": "What is the difference between spread and cutaway collars?",
-      "answer": "Spread collars feature points angled outward at roughly 45 degrees. Cutaway collars feature extreme horizontal spread (nearly 180 degrees), revealing the entire tie knot and shirt band."
+      "question": "What collar works best with a tie?",
+      "answer": "Point, semi-spread and spread collars can all work with a tie. Match the knot size to the collar opening and the tie width to the jacket lapels."
+    },
+    {
+      "question": "Are collar stays necessary?",
+      "answer": "No. They are useful on some structured collars, but soft button-down collars are often designed to roll naturally. Follow the shirt maker's construction and care instructions."
+    },
+    {
+      "question": "Is a Cuban collar the same as a button-down collar?",
+      "answer": "No. A Cuban or camp collar is an open, casual collar construction, while a button-down collar has points fastened to the shirt with buttons."
     }
   ]
 }
