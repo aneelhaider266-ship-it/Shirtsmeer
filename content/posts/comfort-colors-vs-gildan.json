@@ -52,6 +52,31 @@
         "Choose Gildan 5000 if you prefer a 5.3 oz/yd² classic-fit blank, want to compare a broad colour range, or need a practical option for custom printing. Check the fibre blend of the exact colour before ordering, especially for heather shades.",
         "Before buying, compare four details on the current listings: fabric weight, fibre composition for the chosen colour, garment measurements and return terms. For a bulk order, get a sample first; product specifications cannot tell you exactly how a garment will feel or fit on your body."
       ]
+    },
+    {
+      "heading": "A buyer decision guide by intended use",
+      "paragraphs": [
+        "For a relaxed, heavier-looking casual tee, the Comfort Colors 1717 is the more natural starting point because its published weight is higher and its garment-dyed finish creates a different appearance from a conventional blank. For a lighter-weight basic or a project where the classic fit and broad blank-shirt use are the priority, compare the Gildan 5000. These are product-positioning differences based on published specifications, not a claim that one shirt feels better after personal testing.",
+        "For printing or team orders, do not choose by fabric weight alone. Ask the printer which blank they have successfully run with the specific ink and decoration method, then compare the current colour availability, size range, per-shirt cost and replacement availability. For personal wear, compare the finished garment measurements with a tee you already like, and check the fibre composition for the exact colour because colour-specific blends can differ."
+      ],
+      "bullets": [
+        {
+          "label": "Choose Comfort Colors 1717 as a starting point",
+          "text": "If you prefer the heavier listed fabric weight, garment-dyed appearance and relaxed silhouette."
+        },
+        {
+          "label": "Choose Gildan 5000 as a starting point",
+          "text": "If you prefer a lighter listed weight, classic fit and a familiar blank-shirt option."
+        },
+        {
+          "label": "For bulk printing",
+          "text": "Get a sample approved by the printer before ordering the full run; decoration results depend on the print method and garment colour."
+        },
+        {
+          "label": "For everyday wear",
+          "text": "Compare actual garment measurements, colour-specific fibre content, care instructions and delivered price."
+        }
+      ]
     }
   ],
   "faqs": [
