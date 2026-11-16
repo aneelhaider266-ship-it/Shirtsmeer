@@ -98,6 +98,31 @@
         "Choose Tall if you need additional body and sleeve length, not simply a larger torso size.",
         "Review the product page's fit notes and return policy before buying."
       ]
+    },
+    {
+      "heading": "Measure a shirt you already own before choosing your size",
+      "paragraphs": [
+        "A useful way to apply a size chart is to measure a button-down that already fits the way you want. Lay it flat and measure pit-to-pit across the chest, across the waist at its narrowest point, from shoulder seam to shoulder seam, and from the shoulder seam to the cuff. Double the flat chest and waist measurements if you want approximate garment circumference. Compare like measurement types: a garment measurement is not the same as a body measurement.",
+        "Use those measurements alongside UNTUCKit's body-size chart and the fit description for the exact product. If the brand's chart places you between sizes, its published advice is to choose the larger size. If you need more torso room without extra length, compare Relaxed; if you need additional body and sleeve length, compare a Tall option. Always check the individual product page because style-specific measurements can differ."
+      ],
+      "bullets": [
+        {
+          "label": "Measure",
+          "text": "Chest, waist, shoulder width, sleeve length and body length on a shirt that fits you well."
+        },
+        {
+          "label": "Compare",
+          "text": "Match garment measurements to garment measurements, and body measurements to the brand's body chart."
+        },
+        {
+          "label": "Choose the shape",
+          "text": "Regular for the classic cut, Slim for a closer torso, Relaxed for more body room, Tall for added length."
+        },
+        {
+          "label": "Before ordering",
+          "text": "Recheck the current product chart and return terms; use the one-size-up advice if your body measurements fall between sizes."
+        }
+      ]
     }
   ],
   "tableCaption": "UNTUCKit men's button-down — Regular fit body measurements (inches)",
