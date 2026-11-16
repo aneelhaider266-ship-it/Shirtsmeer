@@ -292,7 +292,7 @@ export const POSTS: PostMeta[] = [
 {
   slug: "poplin-vs-twill-vs-oxford-shirt-fabrics",
   title: "Broadcloth vs Oxford: Poplin, Twill & Shirt Fabric Guide",
-  metaTitle: "Broadcloth vs Oxford: Poplin, Twill & Shirt Guide",
+  metaTitle: "Broadcloth vs Oxford: Shirt Fabric Guide",
   metaDescription:
     "Broadcloth vs Oxford explained, plus how poplin and twill differ in weave, texture, formality and everyday shirt use.",
   description:
