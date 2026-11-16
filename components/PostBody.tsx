@@ -10,34 +10,24 @@ import ColorSwatch from "@/components/ColorSwatch";
 function renderText(text: any): React.ReactNode {
   if (typeof text !== "string") return text;
 
-  const parts = text.split(/(\\[[^\\]]+\\]\\((?:\\/[^)\\s]+|https?:\\/\\/[^)\\s]+)\\))/g);
+  const linkPattern = /(\[[^\]]+\]\((?:\/[^\s)]+|https?:\/\/[^\s)]+)\))/g;
+  const parts = text.split(linkPattern);
 
   return parts.map((part, i) => {
-    const m = part.match(/^\\[([^\\]]+)\\]\\((\\/[^)\\s]+|https?:\\/\\/[^)\\s]+)\\)$/);
+    const match = part.match(/^\[([^\]]+)\]\((\/[^\s)]+|https?:\/\/[^\s)]+)\)$/);
+    if (!match) return part;
 
-    if (!m) return part;
-
-    if (m[2].startsWith("/")) {
+    if (match[2].startsWith("/")) {
       return (
-        <Link
-          key={i}
-          href={m[2]}
-          className="text-blue-700 underline underline-offset-2 hover:text-blue-900"
-        >
-          {m[1]}
+        <Link key={i} href={match[2]} className="text-blue-700 underline underline-offset-2 hover:text-blue-900">
+          {match[1]}
         </Link>
       );
     }
 
     return (
-      <a
-        key={i}
-        href={m[2]}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-700 underline underline-offset-2 hover:text-blue-900"
-      >
-        {m[1]}
+      <a key={i} href={match[2]} target="_blank" rel="noopener noreferrer" className="text-blue-700 underline underline-offset-2 hover:text-blue-900">
+        {match[1]}
       </a>
     );
   });
