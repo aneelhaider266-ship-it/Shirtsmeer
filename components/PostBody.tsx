@@ -1,19 +1,33 @@
 
 import React from "react";
+import Link from "next/link";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
 import FAQAccordion from "@/components/FAQAccordion";
 import ColorSwatch from "@/components/ColorSwatch";
 
-// Turns [link text](https://...) inside a string into a real link.
+// Render Markdown-style links in JSON content. Internal paths stay on-site;
+// external destinations open separately.
 function renderText(text: any): React.ReactNode {
   if (typeof text !== "string") return text;
 
-  const parts = text.split(/(\[[^\]]+\]\(https?:\/\/[^)\s]+\))/g);
+  const parts = text.split(/(\\[[^\\]]+\\]\\((?:\\/[^)\\s]+|https?:\\/\\/[^)\\s]+)\\))/g);
 
   return parts.map((part, i) => {
-    const m = part.match(/^\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)$/);
+    const m = part.match(/^\\[([^\\]]+)\\]\\((\\/[^)\\s]+|https?:\\/\\/[^)\\s]+)\\)$/);
 
     if (!m) return part;
+
+    if (m[2].startsWith("/")) {
+      return (
+        <Link
+          key={i}
+          href={m[2]}
+          className="text-blue-700 underline underline-offset-2 hover:text-blue-900"
+        >
+          {m[1]}
+        </Link>
+      );
+    }
 
     return (
       <a
