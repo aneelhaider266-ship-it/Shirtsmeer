@@ -1,10 +1,10 @@
 {
-  "title": "Poplin vs Oxford vs Twill: Key Differences & Best Uses | ShirtsMeer",
-  "metaDescription": "Poplin vs Oxford, twill and broadcloth: compare shirt weaves, texture, formality and care to choose the right fabric for work, summer and everyday wear.",
-  "h1": "Poplin vs Oxford vs Twill: Key Differences & Best Uses",
-  "quickAnswerTitle": "Quick Answer: Poplin vs Oxford vs Twill",
-  "quickAnswer": "Choose poplin for a smooth, crisp dress shirt; twill for a soft drape and a surface that can disguise some creases; and Oxford for a more textured, relaxed shirt. Broadcloth is often used as another name for poplin, although some makers distinguish the terms by yarn balance, weight or regional convention. Compare the actual fabric and care label rather than relying on the name alone.",
-  "intro": "When choosing a men's shirt, the weave affects its surface, drape, formality and how clearly it shows creases. This guide compares poplin vs Oxford and twill, explains where broadcloth fits into the terminology, and helps you choose a fabric for the office, warm weather or smart-casual outfits.",
+  "title": "Broadcloth vs Oxford: Poplin, Twill & Shirt Fabric Guide",
+  "metaDescription": "Broadcloth vs Oxford explained, plus how poplin and twill differ in weave, texture, formality, creasing and everyday shirt use.",
+  "h1": "Broadcloth vs Oxford: Key Differences in Shirt Fabrics",
+  "quickAnswerTitle": "Quick Answer: Broadcloth vs Oxford",
+  "quickAnswer": "Broadcloth is usually the smoother, dressier shirt fabric; Oxford has a more visible basket-weave texture and a relaxed character. Broadcloth is often sold under the name poplin, although some makers distinguish the terms by yarn balance or construction. Twill is different again: its diagonal weave often gives it a softer drape and can make small creases less obvious. Check the fabric specification, weight and care label rather than relying on the name alone.",
+  "intro": "Broadcloth vs Oxford is mainly a smooth-versus-textured comparison: broadcloth is typically fine and dressy, while Oxford has a more visible basket-style weave. This guide also explains how poplin and twill fit into the comparison, so you can choose a shirt fabric for formal work, business-casual outfits or everyday wear.",
   "swatchHeading": "Popular Shirt Fabrics and Their Characteristics",
   "swatches": [
     {
@@ -24,6 +24,31 @@
     }
   ],
   "sections": [
+    {
+      "heading": "Broadcloth vs Oxford: Key Differences in Shirt Fabric",
+      "paragraphs": [
+        "Broadcloth is generally a smooth, fine shirting fabric with a plain weave and a dressier appearance. Oxford cloth uses a basket-style construction that creates a more visible cross-hatch texture and a more relaxed look. For a crisp business shirt, broadcloth is usually the more formal choice; standard Oxford is a natural fit for button-down and smart-casual shirts. [Proper Cloth's broadcloth guide](https://propercloth.com/reference/broadcloth/) explains why the fabric is often used for dress shirts.",
+        "The word Oxford covers more than one construction. Standard Oxford is visibly textured, while pinpoint Oxford uses finer yarns and a tighter weave, giving it a more polished appearance. Royal Oxford has a distinctive decorative texture and sheen and should not be treated as identical to standard Oxford. Compare the actual fabric description and weight when shopping; [Proper Cloth's Oxford cloth guide](https://propercloth.com/reference/oxford-cloth/) outlines these variations."
+      ],
+      "bullets": [
+        {
+          "label": "Broadcloth",
+          "text": "Smooth, fine and commonly chosen for formal dress shirts, interviews and suits."
+        },
+        {
+          "label": "Standard Oxford",
+          "text": "Textured basket weave with a relaxed character, often used for button-down shirts."
+        },
+        {
+          "label": "Pinpoint Oxford",
+          "text": "Finer and more tightly woven than standard Oxford, making it a more polished business-casual option."
+        },
+        {
+          "label": "Royal Oxford",
+          "text": "A dressier fabric with a distinctive decorative texture; it is not simply standard Oxford cloth."
+        }
+      ]
+    },
     {
       "heading": "Poplin vs Oxford: Key Differences at a Glance",
       "paragraphs": [
@@ -86,8 +111,8 @@
     {
       "heading": "Poplin vs Broadcloth: Are They the Same Fabric?",
       "paragraphs": [
-        "In many menswear shops, poplin and broadcloth are used almost interchangeably for smooth, lightweight plain-weave shirting. Proper Cloth describes broadcloth as sometimes referred to as poplin and notes that the names are often treated as equivalent in practical fabric descriptions.",
-        "There can still be technical or regional differences in how mills and retailers use the terms. Some descriptions distinguish poplin by a slight rib or by different yarn weights in the warp and weft, while broadcloth may refer to a more balanced, smooth construction. If the distinction matters, check the fabric specification or ask for a swatch rather than assuming every label means exactly the same thing."
+        "In many menswear shops, poplin and broadcloth are used almost interchangeably for smooth, lightweight plain-weave shirting. Proper Cloth says it treats the names as equivalent for practical fabric descriptions, while noting that technical distinctions can exist between yarn balance and construction. See its [shirt-fabric glossary](https://propercloth.com/reference/glossary/) for the terminology.",
+        "A useful buying rule is to treat the names as overlapping rather than assuming every shirt labelled poplin or broadcloth is identical. Compare the fabric weight, yarns, surface, opacity and finish. If a maker publishes warp and weft yarn specifications, use those details to understand the construction."
       ],
       "bullets": [
         {
@@ -97,23 +122,6 @@
         {
           "label": "What to compare",
           "text": "Weave, yarns, weight, finish, opacity and the garment's care instructions."
-        }
-      ]
-    },
-    {
-      "heading": "Broadcloth vs Oxford: Smooth Dressy Fabric or Textured Casual Weave?",
-      "paragraphs": [
-        "Broadcloth is generally a smooth, fine shirting fabric with a plain weave and a dressier appearance. Oxford has a basket-style weave and a more visible cross-hatch texture. That makes broadcloth a common choice for formal shirts, while standard Oxford is often chosen for button-down and smart-casual shirts.",
-        "Pinpoint Oxford is finer and more polished than standard Oxford, while Royal Oxford has a distinctive decorative texture and sheen. These are related names, but Royal Oxford should not be confused with standard Oxford cloth."
-      ],
-      "bullets": [
-        {
-          "label": "Broadcloth",
-          "text": "Smooth, fine and commonly used for dress shirts."
-        },
-        {
-          "label": "Oxford",
-          "text": "Textured basket weave, often more relaxed and substantial."
         }
       ]
     },
@@ -322,35 +330,40 @@
       ]
     }
   ],
-  "tableCaption": "Poplin vs Twill vs Oxford: Shirt Fabric Comparison",
+  "tableCaption": "Broadcloth vs Oxford vs Poplin vs Twill: Men's Shirt Fabric Comparison",
   "tableRows": [
     {
       "feature": "Weave",
-      "poplin": "Plain weave; smooth surface",
+      "broadcloth": "Fine plain weave; often balanced yarns",
+      "poplin": "Plain weave; may have a subtle crosswise rib",
       "twill": "Diagonal weave",
       "oxford": "Basket-style weave"
     },
     {
       "feature": "Surface and feel",
+      "broadcloth": "Smooth, fine and usually lightweight",
       "poplin": "Smooth, crisp and flat",
       "twill": "Soft drape with diagonal texture",
-      "oxford": "Textured and more substantial"
+      "oxford": "Textured and often more substantial"
     },
     {
       "feature": "Typical formality",
+      "broadcloth": "Dressy to business formal",
       "poplin": "Dressy and business formal",
       "twill": "Business to smart casual",
       "oxford": "Usually casual to business casual"
     },
     {
       "feature": "Creases",
+      "broadcloth": "Smooth surface can show creases",
       "poplin": "Can show creases clearly",
       "twill": "Texture may disguise some creases",
       "oxford": "Texture may disguise minor creases"
     },
     {
       "feature": "Common use",
-      "poplin": "Dress shirts, suits and interviews",
+      "broadcloth": "Formal shirts, interviews and suits",
+      "poplin": "Dress shirts and tailored outfits",
       "twill": "Office shirts and travel",
       "oxford": "Button-downs, chinos and weekend outfits"
     }
@@ -391,6 +404,14 @@
     {
       "question": "Which fabric is best for an interview?",
       "answer": "For a traditional interview outfit, a white or light blue poplin or fine twill shirt is a safe choice. A fine Oxford may suit a business-casual workplace, but follow the employer's dress code."
+    },
+    {
+      "question": "Is broadcloth or Oxford better for a dress shirt?",
+      "answer": "Broadcloth is usually the better choice for a smooth, formal dress shirt worn with a suit or tie. Oxford has more visible texture and is generally more relaxed, although pinpoint Oxford can suit many business-casual settings."
+    },
+    {
+      "question": "What is the difference between broadcloth and pinpoint Oxford?",
+      "answer": "Broadcloth is typically smoother, finer and dressier. Pinpoint Oxford uses an Oxford-style basket weave with finer yarns and a tighter construction, so it has more texture and is usually a little more substantial."
     }
   ],
   "tableAfterSection": 10
