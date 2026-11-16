@@ -1,14 +1,34 @@
 {
-  "quickAnswerTitle": "Quick Answer: Blue Pants with What Color Shirt?",
-  "quickAnswer": "When deciding what color shirt matches navy blue pants, the best options are crisp white, soft pink, light heather grey, light blue shirts, and sage green. For men needing a versatile office look, a white or light blue shirt provides sharp, authoritative contrast. Pairing a pink shirt with navy blue pants delivers a sophisticated, warm contrast suitable for both office and evening occasions. Complete the outfit with dark brown, cognac, or oxblood leather shoes and a matching belt. You can also test real-time contrast ratios on our interactive color wheel tool (/color-matcher).",
-  "intro": "Navy blue pants are the backbone of men's tailoring. Whether you wear tropical wool trousers to a presentation or slim navy chinos to a weekend dinner, navy gives you a confident, approachable base. Many men search for what color shirt matches navy blue pants or blue pants with what color shirt, and the right answer depends on how dark your navy is and where you are going. Because navy is deep and cool, it works as a strong anchor for light shirts, soft pastels, and woven neutrals. This comprehensive guide covers what color shirt goes with navy blue pants for men, how to judge different shades of navy, monochromatic navy rules, and the leather shoes that complete each outfit.",
+  "quickAnswerTitle": "Quick Answer: What Color Shirt Goes with Navy Pants?",
+  "quickAnswer": "The best shirt colors for navy pants are crisp white, light blue, soft pink, light heather grey and muted sage green. White and pale blue are reliable choices for the office, while pink and sage add warmth for smart-casual outfits. Choose a shirt that is clearly lighter than dark navy trousers, and finish with brown, cognac or oxblood shoes and a matching belt. Use the ShirtsMeer Color Matcher to compare shades.",
+  "intro": "What color shirt goes with navy pants? For most men, the easiest choices are white, light blue, soft pink, light grey and muted sage green. Navy is a deep, cool neutral, so lighter shirts create clear contrast without making an outfit look busy. The best option depends on the shade of your trousers and the occasion. This guide explains how to match shirts with navy dress pants and chinos, from office outfits to relaxed weekend combinations, and how to choose shoes that complete the look.",
   "swatchHeading": "Recommended Shirt Colors for Navy Blue Pants",
   "swatches": [
-    { "name": "Crisp White", "hex": "#FFFFFF", "role": "Corporate Standard" },
-    { "name": "Powder Pink", "hex": "#F8C8DC", "role": "Warm Complement" },
-    { "name": "Heather Grey", "hex": "#D1D5DB", "role": "Cool Neutral" },
-    { "name": "Light Blue Shirt", "hex": "#A0C4E2", "role": "Tonal Look" },
-    { "name": "Sage Green", "hex": "#9CAF88", "role": "Modern Accent" }
+    {
+      "name": "Crisp White",
+      "hex": "#FFFFFF",
+      "role": "Corporate Standard"
+    },
+    {
+      "name": "Powder Pink",
+      "hex": "#F8C8DC",
+      "role": "Warm Complement"
+    },
+    {
+      "name": "Heather Grey",
+      "hex": "#D1D5DB",
+      "role": "Cool Neutral"
+    },
+    {
+      "name": "Light Blue Shirt",
+      "hex": "#A0C4E2",
+      "role": "Tonal Look"
+    },
+    {
+      "name": "Sage Green",
+      "hex": "#9CAF88",
+      "role": "Modern Accent"
+    }
   ],
   "sections": [
     {
@@ -17,9 +37,18 @@
         "Not every navy reflects light in the same way, so check how saturated your trousers are before you pick a shirt. A shirt that looks perfect with one navy can look flat with another."
       ],
       "bullets": [
-        { "label": "Midnight navy", "text": "Extremely dark and close to black in low light. It needs high-contrast shirts such as crisp white, ivory, or pale ice blue to keep the outfit balanced." },
-        { "label": "True classic navy", "text": "The deep, rich blue used in business suits. It works with almost every light shirt, especially soft pastels and greys." },
-        { "label": "Marine or bright navy", "text": "A brighter, more pigmented blue often seen in summer chinos. It looks best with muted neutrals like heather grey, ecru, and olive." }
+        {
+          "label": "Midnight navy",
+          "text": "Extremely dark and close to black in low light. It needs high-contrast shirts such as crisp white, ivory, or pale ice blue to keep the outfit balanced."
+        },
+        {
+          "label": "True classic navy",
+          "text": "The deep, rich blue used in business suits. It works with almost every light shirt, especially soft pastels and greys."
+        },
+        {
+          "label": "Marine or bright navy",
+          "text": "A brighter, more pigmented blue often seen in summer chinos. It looks best with muted neutrals like heather grey, ecru, and olive."
+        }
       ]
     },
     {
@@ -65,9 +94,18 @@
         "For a client meeting or interview, wear a white or pale blue poplin shirt with a crisp collar, a leather belt that matches your shoes, and dark brown or black Oxfords. For an internal meeting with a business casual dress code, a light grey or soft pink shirt adds personality while staying polished. Skip loud patterns, shiny fabrics, and anything wrinkled, because a creased shirt weakens even the best color match."
       ],
       "bullets": [
-        { "label": "Interview or client pitch", "text": "White poplin shirt, navy trousers, dark brown Oxfords, matching belt." },
-        { "label": "Team meeting", "text": "Light blue Oxford shirt, navy chinos, brown loafers." },
-        { "label": "Video call", "text": "Pale blue or white shirt, because mid-tone colors can look washed out on camera." }
+        {
+          "label": "Interview or client pitch",
+          "text": "White poplin shirt, navy trousers, dark brown Oxfords, matching belt."
+        },
+        {
+          "label": "Team meeting",
+          "text": "Light blue Oxford shirt, navy chinos, brown loafers."
+        },
+        {
+          "label": "Video call",
+          "text": "Pale blue or white shirt, because mid-tone colors can look washed out on camera."
+        }
       ]
     },
     {
@@ -87,11 +125,41 @@
   ],
   "tableCaption": "Navy Blue Pants and Shirt Pairing Chart",
   "tableRows": [
-    { "shirtColor": "Crisp White", "formality": "Business Formal", "contrast": "High", "footwear": "Dark brown Oxfords or burgundy derbies", "occasion": "Interviews, business meetings, formal events" },
-    { "shirtColor": "Light Powder Pink", "formality": "Smart Casual", "contrast": "High", "footwear": "Medium cognac loafers", "occasion": "Weddings, client dinners, spring parties" },
-    { "shirtColor": "Light Heather Grey", "formality": "Business Casual", "contrast": "Medium", "footwear": "Dark brown brogues or Chelsea boots", "occasion": "Daily office wear, business travel" },
-    { "shirtColor": "Light Blue Shirt", "formality": "Tonal Professional", "contrast": "Low (tonal)", "footwear": "Oxblood double monk straps", "occasion": "Presentations, networking events" },
-    { "shirtColor": "Olive or Sage Green", "formality": "Casual Modern", "contrast": "Medium", "footwear": "White minimalist leather sneakers", "occasion": "Weekend dinners, relaxed events" }
+    {
+      "shirtColor": "Crisp White",
+      "formality": "Business Formal",
+      "contrast": "High",
+      "footwear": "Dark brown Oxfords or burgundy derbies",
+      "occasion": "Interviews, business meetings, formal events"
+    },
+    {
+      "shirtColor": "Light Powder Pink",
+      "formality": "Smart Casual",
+      "contrast": "High",
+      "footwear": "Medium cognac loafers",
+      "occasion": "Weddings, client dinners, spring parties"
+    },
+    {
+      "shirtColor": "Light Heather Grey",
+      "formality": "Business Casual",
+      "contrast": "Medium",
+      "footwear": "Dark brown brogues or Chelsea boots",
+      "occasion": "Daily office wear, business travel"
+    },
+    {
+      "shirtColor": "Light Blue Shirt",
+      "formality": "Tonal Professional",
+      "contrast": "Low (tonal)",
+      "footwear": "Oxblood double monk straps",
+      "occasion": "Presentations, networking events"
+    },
+    {
+      "shirtColor": "Olive or Sage Green",
+      "formality": "Casual Modern",
+      "contrast": "Medium",
+      "footwear": "White minimalist leather sneakers",
+      "occasion": "Weekend dinners, relaxed events"
+    }
   ],
   "afterTable": [
     {
@@ -100,10 +168,22 @@
         "Navy gives you plenty of freedom with footwear, as long as you balance the leather tones. Keep your belt in the same color as your shoes, and remember that warmer leathers make navy feel friendlier while black makes it feel more formal."
       ],
       "bullets": [
-        { "label": "Dark brown and espresso", "text": "The best all-round choice. Brown leather softens the military feel of navy and creates warm, balanced contrast for almost any occasion." },
-        { "label": "Burgundy and oxblood", "text": "A refined pairing that adds depth, especially with white or light grey shirts." },
-        { "label": "Black", "text": "A traditional business choice that suits formal settings. It is correct, but brown usually looks more modern." },
-        { "label": "White leather sneakers", "text": "A clean, minimal sneaker keeps navy chinos relaxed and works well with sage, olive, or white shirts." }
+        {
+          "label": "Dark brown and espresso",
+          "text": "The best all-round choice. Brown leather softens the military feel of navy and creates warm, balanced contrast for almost any occasion."
+        },
+        {
+          "label": "Burgundy and oxblood",
+          "text": "A refined pairing that adds depth, especially with white or light grey shirts."
+        },
+        {
+          "label": "Black",
+          "text": "A traditional business choice that suits formal settings. It is correct, but brown usually looks more modern."
+        },
+        {
+          "label": "White leather sneakers",
+          "text": "A clean, minimal sneaker keeps navy chinos relaxed and works well with sage, olive, or white shirts."
+        }
       ]
     },
     {
@@ -112,10 +192,22 @@
         "If you do not want to think about color theory every morning, use these simple formulas. Each one takes only a few minutes and works for most body types."
       ],
       "bullets": [
-        { "label": "Office", "text": "Light blue shirt, navy trousers, dark brown belt, and brown Oxfords." },
-        { "label": "Client dinner", "text": "Powder pink shirt with navy blue pants, cognac loafers, and a brown leather belt." },
-        { "label": "Weekend", "text": "Sage green linen shirt, navy chinos, and white leather sneakers." },
-        { "label": "Autumn", "text": "Heather grey shirt, navy chinos, and dark chocolate suede Chelsea boots." }
+        {
+          "label": "Office",
+          "text": "Light blue shirt, navy trousers, dark brown belt, and brown Oxfords."
+        },
+        {
+          "label": "Client dinner",
+          "text": "Powder pink shirt with navy blue pants, cognac loafers, and a brown leather belt."
+        },
+        {
+          "label": "Weekend",
+          "text": "Sage green linen shirt, navy chinos, and white leather sneakers."
+        },
+        {
+          "label": "Autumn",
+          "text": "Heather grey shirt, navy chinos, and dark chocolate suede Chelsea boots."
+        }
       ]
     },
     {
@@ -146,10 +238,22 @@
         "Good outfits come down to perfect balance. The pants, shirt, and shoes should feel like one plan, not three separate ideas. Use our free [color wheel tool](/color-matcher) to verify shades, or apply these simple checks before leaving home:"
       ],
       "bullets": [
-        { "label": "Contrast", "text": "Make the shirt at least two shades lighter than the pants." },
-        { "label": "One focus", "text": "Choose one bold piece and keep the rest quiet." },
-        { "label": "Shoes", "text": "Match the shoe color to your belt." },
-        { "label": "Texture", "text": "Pair a smooth shirt with a slightly textured pant, or the other way around." }
+        {
+          "label": "Contrast",
+          "text": "Make the shirt at least two shades lighter than the pants."
+        },
+        {
+          "label": "One focus",
+          "text": "Choose one bold piece and keep the rest quiet."
+        },
+        {
+          "label": "Shoes",
+          "text": "Match the shoe color to your belt."
+        },
+        {
+          "label": "Texture",
+          "text": "Pair a smooth shirt with a slightly textured pant, or the other way around."
+        }
       ]
     },
     {
@@ -166,8 +270,8 @@
       "answer": "The most versatile shirt colors to match navy blue pants are crisp white, pale light blue, soft powder pink, heather grey, and muted sage green. White and light blue are ideal for corporate settings, while pink and green work best for smart-casual and weekend styling."
     },
     {
-      "question": "What color pants go best with a navy blue shirt?",
-      "answer": "If you are wearing a navy blue shirt or navy t-shirt, the best pant colors are classic tan khaki chinos, light-to-mid grey dress trousers, crisp white pants, and olive green chinos. These lighter shades provide necessary contrast against the dark upper half."
+      "question": "Do navy pants go with a blue shirt?",
+      "answer": "Yes. A light blue, pale blue or washed chambray shirt pairs well with navy pants because the lighter top creates clear tonal contrast. Avoid a shirt that is almost the same shade as the trousers unless you are deliberately wearing a coordinated set."
     },
     {
       "question": "Can I wear a pink shirt with navy blue pants?",
