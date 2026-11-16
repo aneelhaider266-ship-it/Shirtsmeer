@@ -229,8 +229,25 @@ export default async function BlogPostPage({ params }: Props) {
       <header className="border-b border-slate-200 pb-8 mb-8">
         <div className="flex flex-wrap items-center gap-4 text-xs text-slate-500 mb-3">
           <span className="flex items-center gap-1">
-            <Calendar className="w-3.5 h-3.5" /> {frontmatter.date || "March 2026"}
+            <Calendar className="w-3.5 h-3.5" />
+            Published{" "}
+            {new Date(`${frontmatter.publishedDate || frontmatter.date || "2026-03-15"}T00:00:00`).toLocaleDateString("en-US", {
+              month: "short",
+              day: "numeric",
+              year: "numeric",
+            })}
           </span>
+          {frontmatter.updatedDate && frontmatter.updatedDate !== (frontmatter.publishedDate || frontmatter.date) && (
+            <span className="flex items-center gap-1">
+              <Calendar className="w-3.5 h-3.5" />
+              Updated{" "}
+              {new Date(`${frontmatter.updatedDate}T00:00:00`).toLocaleDateString("en-US", {
+                month: "short",
+                day: "numeric",
+                year: "numeric",
+              })}
+            </span>
+          )}
           <span className="flex items-center gap-1">
             <Clock className="w-3.5 h-3.5" /> {frontmatter.readTime || "Guide"}
           </span>
