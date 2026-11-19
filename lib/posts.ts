@@ -116,7 +116,7 @@ export const POSTS: PostMeta[] = [
   shortLabel: "Brown Pants Styling",
   primaryKeyword: "what color shirt goes with brown pants",
   publishedDate: "2026-03-16",
-  updatedDate: "2026-11-15",
+  updatedDate: "2026-11-20",
   date: "2026-03-16",
   readTime: "7 min read",
   image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=1200&q=80",
