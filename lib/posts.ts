@@ -107,12 +107,12 @@ export const POSTS: PostMeta[] = [
 },
   {
   slug: "what-color-shirt-goes-with-brown-pants",
-  title: "What Color Shirt Goes with Brown Pants? Best Colors",
-  metaTitle: "Best Shirt Colors for Brown Pants: Outfit Guide",
-  metaDescription: "What top goes with brown pants? Compare shirt colors for light, medium and dark brown trousers, with outfit ideas, shoes and shade tips.",
-  description: "Find shirt and top colors for light, medium and dark brown pants, with outfit ideas for work, casual days and evenings.",
-  excerpt: "Find the best shirt colors for brown pants, from light tan to dark chocolate, with easy combinations for work, weekends and evenings.",
-  leadExcerpt: "Find the best shirt colors for brown pants, from light tan to dark chocolate, with easy combinations for work, weekends and evenings.",
+  title: "What Color Shirt Goes with Brown Pants? 8 Best Matches",
+  metaTitle: "What Color Shirt Goes with Brown Pants? 8 Matches",
+  metaDescription: "What color shirt goes with brown pants? Compare 8 shirt colors for tan, medium and dark brown trousers, with outfit ideas for work and weekends.",
+  description: "What color shirt goes with brown pants? Compare white, cream, light blue, pink, sage, navy, burgundy and black for different brown shades.",
+  excerpt: "Compare eight shirt colors for light, medium and dark brown pants, with practical outfit combinations for work, weekends and evenings.",
+  leadExcerpt: "Compare eight shirt colors for light, medium and dark brown pants, with practical outfit combinations for work, weekends and evenings.",
   shortLabel: "Brown Pants Styling",
   primaryKeyword: "what color shirt goes with brown pants",
   publishedDate: "2026-03-16",
@@ -124,7 +124,8 @@ export const POSTS: PostMeta[] = [
   related: [
     "what-color-shirt-goes-with-khaki-pants",
     "what-color-shirt-goes-with-navy-pants",
-    "what-color-shirt-goes-with-olive-green-pants"
+    "what-color-shirt-goes-with-olive-green-pants",
+    "what-color-shirt-goes-with-grey-pants"
   ],
 },
   {
