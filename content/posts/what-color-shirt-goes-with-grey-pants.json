@@ -220,23 +220,28 @@
       ]
     },
     {
-      "heading": "Shoes and Belts to Wear with Grey Pants",
+      "heading": "Shoes to Wear with Grey Pants: Match the Shoe to the Occasion",
       "paragraphs": [
-        "Grey pants work with both black and brown leather, so choose footwear based on the formality and overall color balance of your outfit. Black Oxford or Derby shoes are a strong choice with charcoal trousers and a white or pale blue dress shirt. Brown or cognac loafers add warmth to medium grey pants and are especially useful for business-casual outfits.",
-        "For casual grey chinos, clean white sneakers, suede loafers, or simple leather trainers can work well. When wearing a leather belt, match its color and finish reasonably closely to your shoes. A perfect match is not essential for casual outfits, but consistency helps formal outfits look polished."
+        "Grey pants are unusually flexible with footwear because the neutral trouser color works with both black and brown leather. For formal charcoal dress pants, black Oxford or Derby shoes create the sharpest finish. Medium-grey trousers can take black or dark brown shoes, while light-grey pants often look balanced with dark brown loafers, cognac leather, or clean white sneakers in casual outfits.",
+        "Chelsea boots are a strong option when you want a modern smart-casual outfit. Choose sleek black leather with charcoal or light-grey tailored trousers, or dark brown suede with medium-grey pants. Let the trouser hem fall cleanly over the boot shaft; avoid excess fabric bunching at the ankle. For relaxed grey chinos, suede chukkas and minimalist leather sneakers are easier choices than bulky work boots.",
+        "Use the setting as the final filter: polished Oxfords for formal events, Derbies or loafers for business casual, Chelsea boots for smart casual, and white sneakers for weekends. Coordinate a leather belt with the general color and formality of the shoes rather than trying to force an exact match in every casual outfit."
       ],
       "bullets": [
         {
-          "label": "Formal",
-          "text": "Black Oxford or Derby shoes with a black leather belt."
+          "label": "Formal dress pants",
+          "text": "Black Oxford or Derby shoes; use a black leather belt."
         },
         {
           "label": "Business casual",
-          "text": "Dark brown or cognac loafers with a similar brown belt."
+          "text": "Dark brown or cognac Derbies and loafers with medium-grey trousers."
         },
         {
-          "label": "Casual",
-          "text": "White leather sneakers or suede loafers with grey chinos."
+          "label": "Smart casual",
+          "text": "Sleek black or dark brown Chelsea boots; keep the trouser hem neat."
+        },
+        {
+          "label": "Casual grey chinos",
+          "text": "White leather sneakers, suede loafers, or chukka boots."
         }
       ]
     },
@@ -303,6 +308,14 @@
     {
       "question": "Can I wear a grey shirt with grey pants?",
       "answer": "Yes. Make the shades visibly different or use contrasting textures, such as a charcoal knit with light-grey trousers. Avoid two almost-identical grey pieces that look unintentionally mismatched."
+    },
+    {
+      "question": "What shoes should men wear with grey pants?",
+      "answer": "Black Oxfords or Derbies are best for formal charcoal trousers; brown leather shoes and loafers suit medium grey; sleek Chelsea boots work for smart casual; and clean white sneakers suit casual grey chinos."
+    },
+    {
+      "question": "Can you wear boots with grey dress pants?",
+      "answer": "Yes. Sleek leather Chelsea boots or refined chukka boots can work with grey dress pants in smart-casual settings. Let the trouser leg fall cleanly over the boot and avoid bulky boots with very fine formal tailoring."
     }
   ],
   "tableCaption": "A practical outfit-pairing matrix: start with your trouser shade, then choose contrast and footwear for the setting.",
