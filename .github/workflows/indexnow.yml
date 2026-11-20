@@ -20,7 +20,7 @@ jobs:
 
       - name: Notify IndexNow about changed articles
         env:
-          INDEXNOW_KEY: 0a72fe3e-4bc3-4a4b-8ce1-d39ead0dc11b
+          INDEXNOW_KEY: 70f9164cec104da293e803579eae4c89
           BEFORE_SHA: ${{ github.event.before }}
           AFTER_SHA: ${{ github.sha }}
         run: |
