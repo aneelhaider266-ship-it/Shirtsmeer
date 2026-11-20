@@ -231,7 +231,7 @@ export const POSTS: PostMeta[] = [
     shortLabel: "Untuckit Sizing Guide",
     primaryKeyword: "do untuckit shirts run small",
     publishedDate: "2026-03-22",
-    updatedDate: "2026-11-15",
+    updatedDate: "2026-11-21",
     date: "2026-03-22",
     readTime: "7 min read",
     image: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1200&q=80",
