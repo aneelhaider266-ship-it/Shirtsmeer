@@ -25,6 +25,7 @@ const SLUG_TO_JSON: Record<string, string> = {
   "how-a-dress-shirt-should-fit-guide": "dress-shirt-fit-guide.json",
   "interview-outfit-guide": "interview-outfit-guide.json",
   "what-color-shirt-goes-with-black-pants": "what-color-shirt-goes-with-black-pants.json",
+  "linen-pants-men-outfit": "linen-pants-men-outfit.json",
 };
 
 
@@ -423,7 +424,32 @@ export function getPostBySlug(slug: string): PostData | null {
   }
 
   // 2. Check if .json file exists
-  const jsonFileName = SLUG_TO_JSON[slug];
+  const jsonFileName = SLUG_TO_JSON[slug
+  {
+    slug: "linen-pants-men-outfit",
+    title: "Linen Pants Men Outfit: Shirts, Shoes & Styling Ideas",
+    metaTitle: "Linen Pants Men Outfit: Shirts, Shoes & Styling Guide",
+    metaDescription: "Learn how to style linen pants for men with the best shirts, colors and shoes. Outfit ideas for white, beige, navy and olive linen trousers.",
+    description: "A practical men's guide to linen pants outfits, including shirt colors, footwear, fit, tucking, and combinations for travel, dinners and smart-casual settings.",
+    excerpt: "Find the right shirts, shoes and colors for men's linen pants, with practical outfit combinations for white, beige, navy and olive trousers.",
+    leadExcerpt: "Find the right shirts, shoes and colors for men's linen pants, with practical outfit combinations for white, beige, navy and olive trousers.",
+    shortLabel: "Linen Pants Outfits",
+    primaryKeyword: "linen pants men outfit",
+    publishedDate: "2026-11-20",
+    updatedDate: "2026-11-20",
+    date: "2026-11-20",
+    readTime: "10 min read",
+    image: DEFAULT_IMAGE,
+    imageAlt: "Men's trousers styled for a practical warm-weather outfit",
+    related: [
+      "what-color-shirt-goes-with-khaki-pants",
+      "what-color-shirt-goes-with-olive-green-pants",
+      "what-color-shirt-goes-with-navy-pants",
+      "poplin-vs-twill-vs-oxford-shirt-fabrics",
+      "how-to-style-cuban-camp-collar-shirts"
+    ],
+  },
+];
   let contentData: PostContent | null = null;
   if (jsonFileName) {
     const jsonPath = path.join(POSTS_DIRECTORY, jsonFileName);
