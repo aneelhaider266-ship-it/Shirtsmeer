@@ -63,7 +63,7 @@ jobs:
           if (changedFiles.includes(".github/workflows/indexnow.yml")) {
             const cutoff = Date.now() - 7 * 24 * 60 * 60 * 1000;
             for (const [slug, block] of currentBlocks) {
-              const updatedDate = block.match(/updatedDate:\\s*"([^"]+)"/)?.[1];
+              const updatedDate = block.match(/updatedDate:\s*"([^"]+)"/)?.[1];
               if (updatedDate && new Date(updatedDate).getTime() >= cutoff) {
                 changedSlugs.add(slug);
               }
