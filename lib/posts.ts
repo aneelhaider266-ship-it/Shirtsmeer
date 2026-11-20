@@ -402,8 +402,8 @@ export const POSTS: PostMeta[] = [
 
   {
     slug: "linen-pants-men-outfit",
-    title: "Linen Pants Men Outfit: Shirts, Shoes & Styling Ideas",
-    metaTitle: "Linen Pants Men Outfit: Shirts, Shoes & Styling Guide",
+    title: "Linen Pants Outfits for Men: Shirts, Shoes & Styling Ideas",
+    metaTitle: "Men's Linen Pants Outfits: What to Wear & Which Shoes",
     metaDescription: "Learn how to style linen pants for men with the best shirts, colors and shoes. Outfit ideas for white, beige, navy and olive linen trousers.",
     description: "A practical men's guide to linen pants outfits, including shirt colors, footwear, fit, tucking, and combinations for travel, dinners and smart-casual settings.",
     excerpt: "Find the right shirts, shoes and colors for men's linen pants, with practical outfit combinations for white, beige, navy and olive trousers.",
@@ -415,7 +415,7 @@ export const POSTS: PostMeta[] = [
     date: "2026-11-20",
     readTime: "10 min read",
     image: DEFAULT_IMAGE,
-    imageAlt: "Men's trousers styled for a practical warm-weather outfit",
+    imageAlt: "Men's trousers and shirt styled for a smart-casual outfit",
     related: [
       "what-color-shirt-goes-with-khaki-pants",
       "what-color-shirt-goes-with-olive-green-pants",
