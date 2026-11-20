@@ -26,6 +26,7 @@ const SLUG_TO_JSON: Record<string, string> = {
   "interview-outfit-guide": "interview-outfit-guide.json",
   "what-color-shirt-goes-with-black-pants": "what-color-shirt-goes-with-black-pants.json",
   "linen-pants-men-outfit": "linen-pants-men-outfit.json",
+  "dress-pants-with-boots": "dress-pants-with-boots.json",
 };
 
 
@@ -400,6 +401,29 @@ export const POSTS: PostMeta[] = [
   ]
 },
 
+  {
+    slug: "dress-pants-with-boots",
+    title: "Can Men Wear Boots with Dress Pants? Best Styles & Outfits",
+    metaTitle: "Dress Pants with Boots: Men's Styling Guide",
+    metaDescription: "Learn how to wear boots with dress pants for men. Compare Chelsea, lace-up and chukka boots, trouser length, colors and outfit ideas.",
+    description: "A practical men's guide to wearing boots with dress pants, including Chelsea boots, lace-up dress boots, chukkas, color matching and trouser length.",
+    excerpt: "Find the best boots for dress pants, with outfit combinations, color advice and fit tips for business casual and smart casual looks.",
+    leadExcerpt: "Find the best boots for dress pants, with outfit combinations, color advice and fit tips for business casual and smart casual looks.",
+    shortLabel: "Dress Pants & Boots",
+    primaryKeyword: "dress pants with boots",
+    publishedDate: "2026-11-21",
+    updatedDate: "2026-11-21",
+    date: "2026-11-21",
+    readTime: "8 min read",
+    image: "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?auto=format&fit=crop&w=1200&q=80",
+    imageAlt: "Men's dark leather ankle boots styled with tailored trousers",
+    related: [
+      "what-color-shirt-goes-with-grey-pants",
+      "what-color-shirt-goes-with-khaki-pants",
+      "interview-outfit-guide",
+      "how-a-dress-shirt-should-fit-guide"
+    ],
+  },
   {
     slug: "linen-pants-men-outfit",
     title: "Linen Pants Outfits for Men: Shirts, Shoes & Styling Ideas",
