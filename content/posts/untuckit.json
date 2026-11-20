@@ -28,28 +28,28 @@
     {
       "heading": "Understand the Five Men's Shirt Fits",
       "paragraphs": [
-        "UNTUCKit lists five fit options for men's button-down shirts. The fit changes the shape and proportions of the shirt, so choosing between Regular and Slim is not the same as choosing between two size labels."
+        "UNTUCKit currently lists five fit options for men's button-down shirts. Fit changes the amount of room and the proportions of the shirt; it is not the same as changing the size label. The measurements below describe the brand's published fit guidance, not a guarantee that every fabric or product will measure identically."
       ],
       "bullets": [
         {
           "label": "Regular",
-          "text": "The classic cut. UNTUCKit describes it as slightly smaller than traditional shirt brands."
+          "text": "The classic cut. UNTUCKit says it runs slightly smaller than traditional shirt brands."
         },
         {
           "label": "Slim",
-          "text": "A narrower cut through the torso with less fabric than Regular. Check the product's own fit details because the exact specification can vary by style."
+          "text": "Two inches less fabric in the torso and half an inch less in the sleeve than Regular, according to UNTUCKit's current fit chart."
         },
         {
           "label": "Relaxed",
-          "text": "Adds three inches of room in the body without adding extra length."
+          "text": "Three extra inches of room in the body without extra shirt length."
         },
         {
           "label": "Tall Regular",
-          "text": "Adds two inches to the body and sleeve length for taller customers."
+          "text": "Adds two inches to both body and sleeve length."
         },
         {
           "label": "Tall Slim",
-          "text": "A slimmer shape with additional body and sleeve length."
+          "text": "A slimmer shape with additional body and sleeve length. Check the specific product page for its fit details."
         }
       ]
     },
@@ -63,8 +63,8 @@
     {
       "heading": "Regular, Slim, or Relaxed: Which Fit Should You Choose?",
       "paragraphs": [
-        "Choose Regular if you want the brand's classic silhouette. Choose Slim only if you prefer a closer shape through the torso and your measurements fit its chart. Choose Relaxed if you want more room through the body but do not want extra shirt length.",
-        "If your chest measurement points to one size but your waist or preferred ease points to another, avoid guessing from your usual T-shirt size. Use the current product chart and consider contacting UNTUCKit before purchase."
+        "Choose Regular if you want the brand's classic silhouette. Choose Slim if you want a closer torso and sleeve fit: UNTUCKit specifies two inches less fabric in the torso and half an inch less in the sleeve than Regular. Choose Relaxed if you want three extra inches of room through the body without extra length.",
+        "If you need more body and sleeve length, compare Tall Regular or Tall Slim. Tall Regular adds two inches to the body and sleeves. Always check the exact product page because available fits and product-specific details can differ."
       ]
     },
     {
@@ -77,8 +77,8 @@
     {
       "heading": "How Long Are UNTUCKit Shirts?",
       "paragraphs": [
-        "UNTUCKit designs its button-downs with an untucked length, but there is no single length measurement that applies to every shirt, size, and fit. Tall versions add length to the body and sleeves, while product styles can differ.",
-        "For the most reliable answer, check the measurements or fit notes on the individual product page. A good untucked hem should look intentional with your proportions; do not rely on a universal inch measurement copied from another style."
+        "There is no single published body-length measurement that applies to every UNTUCKit shirt, size, fabric, and fit. The brand describes its shirts as having an untucked length, while Tall Regular adds two inches to the body and sleeve length. Relaxed adds body room without adding length.",
+        "If you need the exact hem length for a particular size, check that product's measurements or ask UNTUCKit customer service before ordering. Do not treat sleeve length as shirt-body length: they are separate measurements, and dress-shirt sleeve sizing does not necessarily translate to casual button-downs."
       ]
     },
     {
@@ -102,8 +102,8 @@
     {
       "heading": "Measure a shirt you already own before choosing your size",
       "paragraphs": [
-        "A useful way to apply a size chart is to measure a button-down that already fits the way you want. Lay it flat and measure pit-to-pit across the chest, across the waist at its narrowest point, from shoulder seam to shoulder seam, and from the shoulder seam to the cuff. Double the flat chest and waist measurements if you want approximate garment circumference. Compare like measurement types: a garment measurement is not the same as a body measurement.",
-        "Use those measurements alongside UNTUCKit's body-size chart and the fit description for the exact product. If the brand's chart places you between sizes, its published advice is to choose the larger size. If you need more torso room without extra length, compare Relaxed; if you need additional body and sleeve length, compare a Tall option. Always check the individual product page because style-specific measurements can differ."
+        "A useful way to assess proportions is to measure a button-down that already fits the way you want. Lay it flat and record pit-to-pit chest width, waist width, shoulder width, sleeve length, and back-body length. Double the flat chest or waist width only when you want an approximate garment circumference.",
+        "Keep body measurements separate from garment measurements. UNTUCKit's men's button-down chart lists body chest and waist ranges alongside standard sleeve-length ranges; it is not a table of finished-shirt widths. Compare your body measurements with the brand's size chart, then compare garment measurements with a similar shirt you own. If your body measurements fall between sizes, the brand recommends choosing the larger size."
       ],
       "bullets": [
         {
@@ -125,7 +125,7 @@
       ]
     }
   ],
-  "tableCaption": "UNTUCKit men's button-down — Regular fit body measurements (inches)",
+  "tableCaption": "UNTUCKit men's button-down — Regular-fit size guide (body chest/waist ranges and sleeve length, inches)",
   "tableRows": [
     {
       "size": "S",
@@ -160,6 +160,13 @@
   ],
   "afterTable": [
     {
+      "heading": "How to Read These Measurements",
+      "paragraphs": [
+        "Chest and waist figures are body-measurement ranges, while sleeve length is the standard sleeve range shown by UNTUCKit. They are not finished-shirt chest or waist widths. Measure your body for the size chart; measure a shirt laid flat when comparing garment dimensions.",
+        "The chart above is for Regular-fit men's button-down shirts. UNTUCKit publishes separate charts for other fits and product categories, including dress shirts and polos. Use the chart linked on the exact item you plan to buy."
+      ]
+    },
+    {
       "heading": "Official UNTUCKit Sizing Resources",
       "paragraphs": [
         "Check the [official men's size charts](https://www.untuckit.com/pages/all-size-charts) for the latest measurements and other product categories. You can also review the brand's [fit guide](https://www.untuckit.com/pages/find-your-fit) to compare Regular, Slim, Relaxed, and Tall options.",
@@ -188,7 +195,7 @@
     },
     {
       "question": "What is the difference between UNTUCKit Regular and Slim?",
-      "answer": "Regular is the classic cut. Slim has less room through the torso and a closer silhouette. Check the fit notes on the individual product because specifications can vary by style."
+      "answer": "Regular is the classic cut. UNTUCKit's current fit chart says Slim has two inches less fabric in the torso and half an inch less in the sleeve than Regular."
     },
     {
       "question": "Is UNTUCKit Relaxed fit bigger?",
@@ -196,11 +203,19 @@
     },
     {
       "question": "What is UNTUCKit Tall fit?",
-      "answer": "Tall Regular adds two inches to the body and sleeve length. Tall Slim combines a slimmer shape with extra length in the body and sleeves."
+      "answer": "Tall Regular adds two inches to the body and sleeve length. Tall Slim offers a slimmer shape with additional body and sleeve length; check the specific product page for its details."
     },
     {
       "question": "Are UNTUCKit size charts the same for every product?",
       "answer": "No. The brand publishes separate charts for categories such as button-down shirts, dress shirts, polos, and other tops. Use the chart for the exact product category."
+    },
+    {
+      "question": "How long is an UNTUCKit medium shirt?",
+      "answer": "There is no single body-length figure that applies to every medium shirt. Length can vary by product and fit. Check the individual product page or ask UNTUCKit for the exact garment measurement."
+    },
+    {
+      "question": "Does the UNTUCKit size chart show shirt measurements?",
+      "answer": "The men's button-down chart lists body chest and waist ranges plus standard sleeve lengths. These are not finished-shirt chest and waist widths. Compare body measurements with the chart and garment measurements with a shirt you own."
     }
   ]
 }
