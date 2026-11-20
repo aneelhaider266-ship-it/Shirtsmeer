@@ -95,7 +95,25 @@ jobs:
             process.exit(0);
           }
 
-          fetch("https://api.indexnow.org/indexnow", {
+          async function waitForKeyFile() {
+            const keyUrl = `https://shirtsmeer.com/${key}.txt`;
+            for (let attempt = 1; attempt <= 24; attempt++) {
+              try {
+                const response = await fetch(keyUrl, { cache: "no-store" });
+                const body = await response.text();
+                if (response.ok && body.trim() === key) {
+                  console.log("IndexNow key file is live and verified.");
+                  return;
+                }
+              } catch (error) {
+                console.log(`Waiting for key file deployment (attempt ${attempt}/24).`);
+              }
+              await new Promise(resolve => setTimeout(resolve, 10000));
+            }
+            throw new Error("IndexNow key file did not become publicly accessible.");
+          }
+
+          waitForKeyFile().then(() => fetch("https://api.indexnow.org/indexnow", {
             method: "POST",
             headers: { "Content-Type": "application/json; charset=utf-8" },
             body: JSON.stringify({
@@ -104,7 +122,7 @@ jobs:
               keyLocation: `https://shirtsmeer.com/${key}.txt`,
               urlList: urls
             })
-          }).then(async response => {
+          })).then(async response => {
             const body = await response.text();
             console.log(`IndexNow response: ${response.status} ${body}`);
             if (![200, 202].includes(response.status)) process.exit(1);
