@@ -1,0 +1,102 @@
+name: IndexNow URL notifications
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "content/posts/**"
+      - "lib/posts.ts"
+
+jobs:
+  notify-search-engines:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Notify IndexNow about changed articles
+        env:
+          INDEXNOW_KEY: 0a72fe3e-4bc3-4a4b-8ce1-d39ead0dc11b
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+        run: |
+          node <<'NODE'
+          const { execFileSync } = require("node:child_process");
+
+          const before = process.env.BEFORE_SHA;
+          const after = process.env.AFTER_SHA;
+          const key = process.env.INDEXNOW_KEY;
+          const repoFile = (rev, file) => {
+            try {
+              return execFileSync("git", ["show", `${rev}:${file}`], { encoding: "utf8" });
+            } catch {
+              return "";
+            }
+          };
+
+          const changedFiles = execFileSync("git", ["diff", "--name-only", before, after], { encoding: "utf8" })
+            .split("\n").filter(Boolean);
+
+          const currentPosts = repoFile(after, "lib/posts.ts");
+          const previousPosts = repoFile(before, "lib/posts.ts");
+
+          function postBlocks(source) {
+            const result = new Map();
+            const chunks = source.split(/(?=^\s*\{\s*\n\s*slug:)/m);
+            for (const chunk of chunks) {
+              const slug = chunk.match(/slug:\s*"([^"]+)"/)?.[1];
+              if (slug) result.set(slug, chunk);
+            }
+            return result;
+          }
+
+          const currentBlocks = postBlocks(currentPosts);
+          const previousBlocks = postBlocks(previousPosts);
+          const changedSlugs = new Set();
+
+          if (changedFiles.includes("lib/posts.ts")) {
+            for (const [slug, block] of currentBlocks) {
+              if (previousBlocks.get(slug) !== block) changedSlugs.add(slug);
+            }
+          }
+
+          if (changedFiles.some(file => file.startsWith("content/posts/") && file.endsWith(".json"))) {
+            const mapping = new Map(
+              [...currentPosts.matchAll(/^\s*"([^"]+)":\s*"([^"]+\.json)",?$/gm)]
+                .map(match => [match[2], match[1]])
+            );
+            for (const file of changedFiles) {
+              if (file.startsWith("content/posts/") && file.endsWith(".json")) {
+                const slug = mapping.get(file.split("/").pop());
+                if (slug) changedSlugs.add(slug);
+              }
+            }
+          }
+
+          const urls = [...changedSlugs].map(slug => `https://shirtsmeer.com/blog/${slug}`);
+          if (!urls.length) {
+            console.log("No article URLs changed; skipping IndexNow.");
+            process.exit(0);
+          }
+
+          fetch("https://api.indexnow.org/indexnow", {
+            method: "POST",
+            headers: { "Content-Type": "application/json; charset=utf-8" },
+            body: JSON.stringify({
+              host: "shirtsmeer.com",
+              key,
+              keyLocation: `https://shirtsmeer.com/${key}.txt`,
+              urlList: urls
+            })
+          }).then(async response => {
+            const body = await response.text();
+            console.log(`IndexNow response: ${response.status} ${body}`);
+            if (![200, 202].includes(response.status)) process.exit(1);
+          }).catch(error => {
+            console.error(error);
+            process.exit(1);
+          });
+          NODE
