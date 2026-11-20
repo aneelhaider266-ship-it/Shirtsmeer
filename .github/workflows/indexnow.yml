@@ -7,6 +7,7 @@ on:
     paths:
       - "content/posts/**"
       - "lib/posts.ts"
+      - ".github/workflows/indexnow.yml"
 
 jobs:
   notify-search-engines:
@@ -56,6 +57,18 @@ jobs:
           const currentBlocks = postBlocks(currentPosts);
           const previousBlocks = postBlocks(previousPosts);
           const changedSlugs = new Set();
+
+          // On initial setup or workflow edits, bootstrap notifications for articles
+          // whose published update date is within the last seven days.
+          if (changedFiles.includes(".github/workflows/indexnow.yml")) {
+            const cutoff = Date.now() - 7 * 24 * 60 * 60 * 1000;
+            for (const [slug, block] of currentBlocks) {
+              const updatedDate = block.match(/updatedDate:\\s*"([^"]+)"/)?.[1];
+              if (updatedDate && new Date(updatedDate).getTime() >= cutoff) {
+                changedSlugs.add(slug);
+              }
+            }
+          }
 
           if (changedFiles.includes("lib/posts.ts")) {
             for (const [slug, block] of currentBlocks) {
