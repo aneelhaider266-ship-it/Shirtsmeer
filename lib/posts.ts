@@ -290,7 +290,7 @@ export const POSTS: PostMeta[] = [
     updatedDate: "2026-11-16",
     date: "2026-03-25",
     readTime: "5 min read",
-    image: "/chinos-shirt-combinations.webp",
+    image: "/forest-green-shirt-grey-trousers-outfit.webp",
     imageAlt: "Men's button-down shirt and chinos outfit",
     related: ["charles-tyrwhitt-vs-kamakura-dress-shirts", "collars-and-co-dress-collar-polo-review", "how-a-dress-shirt-should-fit-guide"],
   },
@@ -313,7 +313,7 @@ export const POSTS: PostMeta[] = [
   updatedDate: "2026-11-16",
   date: "2026-03-26",
   readTime: "9 min read",
-  image: "/navy-shirt-beige-chinos-editorial.webp",
+  image: "/grey-pants-shirt-combinations.webp",
   imageAlt: "Classic woven shirt styled with beige chinos",
   related: [
     "charles-tyrwhitt-vs-kamakura-dress-shirts",
