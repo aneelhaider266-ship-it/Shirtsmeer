@@ -97,19 +97,19 @@ const ARTICLE_IMAGES: Record<string, { url: string; alt: string }> = {
   },
   "comfort-colors-1717-vs-gildan-5000-review": {
     url: "/beige-chinos-green-shirt.webp",
-    alt: "Casual cotton shirt and chinos outfit",
+    alt: "Olive green shirt with beige chinos",
   },
   "mens-shirt-collar-types-guide": {
     url: "/forest-green-shirt-grey-trousers-outfit.webp",
-    alt: "Men's button-down shirt and chinos outfit",
+    alt: "Close-up of a dark green button-down shirt collar and placket",
   },
   "poplin-vs-twill-vs-oxford-shirt-fabrics": {
     url: "/grey-pants-shirt-combinations.webp",
-    alt: "Classic woven shirt styled with beige chinos",
+    alt: "Sage green shirt paired with tailored grey trousers",
   },
   "how-to-style-cuban-camp-collar-shirts": {
     url: "/navy-shirt-khaki-chinos-style.webp",
-    alt: "Relaxed shirt styled with khaki chinos",
+    alt: "Navy button-down shirt paired with khaki chinos",
   },
   "how-a-dress-shirt-should-fit-guide": {
     url: "/mens-shirt-fit-style-portrait.webp",
@@ -137,7 +137,7 @@ const ARTICLE_IMAGES: Record<string, { url: string; alt: string }> = {
   },
   "what-color-pants-go-with-grey-shirt": {
     url: "/white-shirt-olive-trousers-outfit.webp",
-    alt: "White and olive trouser outfit illustrating neutral trouser pairings",
+    alt: "White shirt paired with olive green trousers",
   },
 };
 
