@@ -200,8 +200,8 @@ export const POSTS: PostMeta[] = [
     updatedDate: "2026-11-15",
     date: "2026-03-20",
     readTime: "8 min read",
-    image: "/mens-shirt-fit-style-portrait.webp",
-    imageAlt: "Men's smart shirt styling and collar fit",
+    image: "/navy-chinos-blue-shirt.webp",
+    imageAlt: "Structured shirt styling with navy chinos",
     related: ["untuckit-shirts-sizing-and-fit-guide", "how-a-dress-shirt-should-fit-guide", "poplin-vs-twill-vs-oxford-shirt-fabrics", "interview-outfit-guide"],
   },
   {
@@ -290,8 +290,8 @@ export const POSTS: PostMeta[] = [
     updatedDate: "2026-11-16",
     date: "2026-03-25",
     readTime: "5 min read",
-    image: "/forest-green-shirt-grey-trousers-outfit.webp",
-    imageAlt: "Men's shirt collar and tailored outfit detail",
+    image: "/chinos-shirt-combinations.webp",
+    imageAlt: "Men's button-down shirt and chinos outfit",
     related: ["charles-tyrwhitt-vs-kamakura-dress-shirts", "collars-and-co-dress-collar-polo-review", "how-a-dress-shirt-should-fit-guide"],
   },
 {
@@ -417,8 +417,8 @@ export const POSTS: PostMeta[] = [
     updatedDate: "2026-11-21",
     date: "2026-11-21",
     readTime: "8 min read",
-    image: "/forest-green-shirt-grey-trousers-outfit.webp",
-    imageAlt: "Smart casual shirt with tailored trousers",
+    image: "/smart-casual-shirt-trouser-look.webp",
+    imageAlt: "Smart casual shirt and tailored trouser combination",
     related: [
       "what-color-shirt-goes-with-grey-pants",
       "what-color-shirt-goes-with-khaki-pants",
@@ -440,8 +440,8 @@ export const POSTS: PostMeta[] = [
     updatedDate: "2026-11-20",
     date: "2026-11-20",
     readTime: "10 min read",
-    image: "/navy-shirt-beige-chinos-outfit.webp",
-    imageAlt: "Lightweight shirt with relaxed beige trousers",
+    image: "/olive-chinos-pink-shirt.webp",
+    imageAlt: "Relaxed warm-weather shirt and trouser combination",
     related: [
       "what-color-shirt-goes-with-khaki-pants",
       "what-color-shirt-goes-with-olive-green-pants",
