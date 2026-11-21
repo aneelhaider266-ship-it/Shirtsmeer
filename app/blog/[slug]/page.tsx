@@ -80,8 +80,8 @@ const ARTICLE_IMAGES: Record<string, { url: string; alt: string }> = {
     alt: "Cream shirt paired with olive green chinos",
   },
   "collars-and-co-dress-collar-polo-review": {
-    url: "/mens-shirt-fit-style-portrait.webp",
-    alt: "Men's smart shirt styling and collar fit",
+    url: "/navy-chinos-blue-shirt.webp",
+    alt: "Structured shirt styling with navy chinos",
   },
   "charles-tyrwhitt-vs-kamakura-dress-shirts": {
     url: "/light-blue-shirt-navy-trousers-editorial.webp",
@@ -100,8 +100,8 @@ const ARTICLE_IMAGES: Record<string, { url: string; alt: string }> = {
     alt: "Casual cotton shirt and chinos outfit",
   },
   "mens-shirt-collar-types-guide": {
-    url: "/forest-green-shirt-grey-trousers-outfit.webp",
-    alt: "Men's shirt collar and tailored outfit detail",
+    url: "/chinos-shirt-combinations.webp",
+    alt: "Men's button-down shirt and chinos outfit",
   },
   "poplin-vs-twill-vs-oxford-shirt-fabrics": {
     url: "/navy-shirt-beige-chinos-editorial.webp",
@@ -124,12 +124,12 @@ const ARTICLE_IMAGES: Record<string, { url: string; alt: string }> = {
     alt: "Black shirt paired with grey and dark trousers",
   },
   "linen-pants-men-outfit": {
-    url: "/navy-shirt-beige-chinos-outfit.webp",
-    alt: "Lightweight shirt with relaxed beige trousers",
+    url: "/olive-chinos-pink-shirt.webp",
+    alt: "Relaxed warm-weather shirt and trouser combination",
   },
   "dress-pants-with-boots": {
-    url: "/forest-green-shirt-grey-trousers-outfit.webp",
-    alt: "Smart casual shirt with tailored trousers",
+    url: "/smart-casual-shirt-trouser-look.webp",
+    alt: "Smart casual shirt and tailored trouser combination",
   },
   "best-chinos-and-shirt-combinations-for-men": {
     url: "/navy-shirt-beige-chinos-outfit.webp",
