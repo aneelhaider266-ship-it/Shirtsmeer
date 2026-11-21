@@ -273,7 +273,7 @@ export const POSTS: PostMeta[] = [
     date: "2026-03-24",
     readTime: "5 min read",
     image: "/beige-chinos-green-shirt.webp",
-    imageAlt: "Casual cotton shirt and chinos outfit",
+    imageAlt: "Olive green shirt with beige chinos",
     related: ["poplin-vs-twill-vs-oxford-shirt-fabrics", "what-color-shirt-goes-with-olive-green-pants", "untuckit-shirts-sizing-and-fit-guide"],
   },
   {
@@ -291,7 +291,7 @@ export const POSTS: PostMeta[] = [
     date: "2026-03-25",
     readTime: "5 min read",
     image: "/forest-green-shirt-grey-trousers-outfit.webp",
-    imageAlt: "Men's button-down shirt and chinos outfit",
+    imageAlt: "Close-up of a dark green button-down shirt collar and placket",
     related: ["charles-tyrwhitt-vs-kamakura-dress-shirts", "collars-and-co-dress-collar-polo-review", "how-a-dress-shirt-should-fit-guide"],
   },
 {
@@ -314,7 +314,7 @@ export const POSTS: PostMeta[] = [
   date: "2026-03-26",
   readTime: "9 min read",
   image: "/grey-pants-shirt-combinations.webp",
-  imageAlt: "Classic woven shirt styled with beige chinos",
+  imageAlt: "Sage green shirt paired with tailored grey trousers",
   related: [
     "charles-tyrwhitt-vs-kamakura-dress-shirts",
     "how-a-dress-shirt-should-fit-guide",
@@ -337,7 +337,7 @@ export const POSTS: PostMeta[] = [
     date: "2026-03-27",
     readTime: "5 min read",
     image: "/navy-shirt-khaki-chinos-style.webp",
-    imageAlt: "Relaxed shirt styled with khaki chinos",
+    imageAlt: "Navy button-down shirt paired with khaki chinos",
     related: ["what-color-shirt-goes-with-olive-green-pants", "what-color-shirt-goes-with-brown-pants", "mens-shirt-collar-types-guide"],
   },
   {
@@ -490,7 +490,7 @@ export const POSTS: PostMeta[] = [
     date: "2026-11-21",
     readTime: "9 min read",
     image: "/white-shirt-olive-trousers-outfit.webp",
-    imageAlt: "White and olive trouser outfit illustrating neutral trouser pairings",
+    imageAlt: "White shirt paired with olive green trousers",
     related: [
       "what-color-shirt-goes-with-grey-pants",
       "what-color-shirt-goes-with-black-pants",
