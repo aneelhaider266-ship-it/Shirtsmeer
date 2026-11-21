@@ -417,8 +417,8 @@ export const POSTS: PostMeta[] = [
     updatedDate: "2026-11-21",
     date: "2026-11-21",
     readTime: "8 min read",
-    image: "/smart-casual-shirt-trouser-look.webp",
-    imageAlt: "Smart casual shirt and tailored trouser combination",
+    image: "/white-shirt-navy-pants-style.webp",
+    imageAlt: "Smart men's outfit with a crisp shirt and tailored trousers",
     related: [
       "what-color-shirt-goes-with-grey-pants",
       "what-color-shirt-goes-with-khaki-pants",
