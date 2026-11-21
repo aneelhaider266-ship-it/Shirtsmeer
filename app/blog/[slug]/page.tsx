@@ -100,11 +100,11 @@ const ARTICLE_IMAGES: Record<string, { url: string; alt: string }> = {
     alt: "Casual cotton shirt and chinos outfit",
   },
   "mens-shirt-collar-types-guide": {
-    url: "/chinos-shirt-combinations.webp",
+    url: "/forest-green-shirt-grey-trousers-outfit.webp",
     alt: "Men's button-down shirt and chinos outfit",
   },
   "poplin-vs-twill-vs-oxford-shirt-fabrics": {
-    url: "/navy-shirt-beige-chinos-editorial.webp",
+    url: "/grey-pants-shirt-combinations.webp",
     alt: "Classic woven shirt styled with beige chinos",
   },
   "how-to-style-cuban-camp-collar-shirts": {
