@@ -27,6 +27,8 @@ const SLUG_TO_JSON: Record<string, string> = {
   "what-color-shirt-goes-with-black-pants": "what-color-shirt-goes-with-black-pants.json",
   "linen-pants-men-outfit": "linen-pants-men-outfit.json",
   "dress-pants-with-boots": "dress-pants-with-boots.json",
+  "best-chinos-and-shirt-combinations-for-men": "best-chinos-and-shirt-combinations-for-men.json",
+  "what-color-pants-go-with-grey-shirt": "what-color-pants-go-with-grey-shirt.json",
 };
 
 
@@ -448,6 +450,56 @@ export const POSTS: PostMeta[] = [
       "how-to-style-cuban-camp-collar-shirts"
     ],
   },
+
+  {
+    slug: "best-chinos-and-shirt-combinations-for-men",
+    title: "Best Chinos and Shirt Combinations for Men: 6 Colors, Outfit Ideas & Shoes",
+    metaTitle: "Best Chinos and Shirt Combinations for Men",
+    metaDescription: "Find the best shirts to wear with khaki, navy, olive, grey, beige and black chinos. Get men's outfit combinations, shoe advice and fit tips.",
+    description: "A practical guide to matching shirts with men's chinos by color, fabric, fit and occasion, with outfit formulas and footwear advice.",
+    excerpt: "Match shirts with khaki, navy, olive, grey, beige and black chinos, then finish each outfit with the right shoes.",
+    leadExcerpt: "Match shirts with khaki, navy, olive, grey, beige and black chinos, then finish each outfit with the right shoes.",
+    shortLabel: "Chinos & Shirt Combinations",
+    primaryKeyword: "best chinos and shirt combinations for men",
+    publishedDate: "2026-11-21",
+    updatedDate: "2026-11-21",
+    date: "2026-11-21",
+    readTime: "10 min read",
+    image: DEFAULT_IMAGE,
+    imageAlt: "Men's chinos styled with a crisp button-down shirt for a smart-casual outfit",
+    related: [
+      "what-color-shirt-goes-with-khaki-pants",
+      "what-color-shirt-goes-with-olive-green-pants",
+      "what-color-shirt-goes-with-navy-pants",
+      "poplin-vs-twill-vs-oxford-shirt-fabrics",
+      "dress-pants-with-boots"
+    ],
+  },
+  {
+    slug: "what-color-pants-go-with-grey-shirt",
+    title: "What Color Pants Go with a Grey Shirt? 8 Easy Combinations",
+    metaTitle: "What Color Pants Go with a Grey Shirt? Men's Guide",
+    metaDescription: "Find the best pants for a grey shirt, from black and navy to khaki, beige, olive and denim. Compare light grey, medium grey and charcoal outfits.",
+    description: "A shade-specific guide to pairing grey shirts with trousers and jeans, including outfit ideas, shoes, fabric and occasion advice.",
+    excerpt: "Pair light-grey, medium-grey and charcoal shirts with the right pants, from navy and black to khaki, olive and denim.",
+    leadExcerpt: "Pair light-grey, medium-grey and charcoal shirts with the right pants, from navy and black to khaki, olive and denim.",
+    shortLabel: "Grey Shirt Pairings",
+    primaryKeyword: "what color pants go with a grey shirt",
+    publishedDate: "2026-11-21",
+    updatedDate: "2026-11-21",
+    date: "2026-11-21",
+    readTime: "9 min read",
+    image: DEFAULT_IMAGE,
+    imageAlt: "Men's grey shirt paired with dark trousers in a clean smart-casual outfit",
+    related: [
+      "what-color-shirt-goes-with-grey-pants",
+      "what-color-shirt-goes-with-black-pants",
+      "what-color-shirt-goes-with-khaki-pants",
+      "what-color-shirt-goes-with-navy-pants",
+      "dress-pants-with-boots"
+    ],
+  },
+
 ];
 
 export function getPostSlugs(): string[] {
