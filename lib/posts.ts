@@ -90,7 +90,7 @@ export const POSTS: PostMeta[] = [
 {
   slug: "what-color-shirt-goes-with-grey-pants",
   title: "What Color Shirt Goes with Grey Pants? Best Colors & Outfits",
-  metaTitle: "What Color Shirt Goes with Grey Pants? Best Colors",
+  metaTitle: "Shirts to Wear with Grey Pants",
   metaDescription: "What color shirt goes with grey pants? Compare white, blue, navy, black and pink shirts for light grey, medium grey and charcoal trousers.",
   description: "Compare the best shirt colors for grey pants, including white, light blue, navy, black, pink and lavender, with outfit ideas for work and weekends.",
   excerpt: "Find shirt colors that work with light grey, medium grey and charcoal pants, with practical outfit ideas for work, evenings and weekends.",
@@ -112,7 +112,7 @@ export const POSTS: PostMeta[] = [
   {
   slug: "what-color-shirt-goes-with-brown-pants",
   title: "What Color Shirt Goes with Brown Pants? 8 Best Matches",
-  metaTitle: "What Color Shirt Goes with Brown Pants? 8 Matches",
+  metaTitle: "Shirts to Wear with Brown Pants",
   metaDescription: "What color shirt goes with brown pants? Compare 8 shirt colors for tan, medium and dark brown trousers, with outfit ideas for work and weekends.",
   description: "What color shirt goes with brown pants? Compare white, cream, light blue, pink, sage, navy, burgundy and black for different brown shades.",
   excerpt: "Compare eight shirt colors for light, medium and dark brown pants, with practical outfit combinations for work, weekends and evenings.",
@@ -429,7 +429,7 @@ export const POSTS: PostMeta[] = [
   {
     slug: "linen-pants-men-outfit",
     title: "Linen Pants Outfits for Men: Shirts, Shoes & Styling Ideas",
-    metaTitle: "Men's Linen Pants Outfits: What to Wear & Which Shoes",
+    metaTitle: "Men's Linen Pants: Outfit & Shoe Guide",
     metaDescription: "Learn how to style linen pants for men with the best shirts, colors and shoes. Outfit ideas for white, beige, navy and olive linen trousers.",
     description: "A practical men's guide to linen pants outfits, including shirt colors, footwear, fit, tucking, and combinations for travel, dinners and smart-casual settings.",
     excerpt: "Find the right shirts, shoes and colors for men's linen pants, with practical outfit combinations for white, beige, navy and olive trousers.",
@@ -478,7 +478,7 @@ export const POSTS: PostMeta[] = [
   {
     slug: "what-color-pants-go-with-grey-shirt",
     title: "What Color Pants Go with a Grey Shirt? 8 Easy Combinations",
-    metaTitle: "What Color Pants Go with a Grey Shirt? Men's Guide",
+    metaTitle: "Pants to Wear with a Grey Shirt",
     metaDescription: "Find the best pants for a grey shirt, from black and navy to khaki, beige, olive and denim. Compare light grey, medium grey and charcoal outfits.",
     description: "A shade-specific guide to pairing grey shirts with trousers and jeans, including outfit ideas, shoes, fabric and occasion advice.",
     excerpt: "Pair light-grey, medium-grey and charcoal shirts with the right pants, from navy and black to khaki, olive and denim.",
