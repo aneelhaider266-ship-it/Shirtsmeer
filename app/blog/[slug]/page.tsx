@@ -128,8 +128,8 @@ const ARTICLE_IMAGES: Record<string, { url: string; alt: string }> = {
     alt: "Relaxed warm-weather shirt and trouser combination",
   },
   "dress-pants-with-boots": {
-    url: "/smart-casual-shirt-trouser-look.webp",
-    alt: "Smart casual shirt and tailored trouser combination",
+    url: "/white-shirt-navy-pants-style.webp",
+    alt: "Smart men's outfit with a crisp shirt and tailored trousers",
   },
   "best-chinos-and-shirt-combinations-for-men": {
     url: "/navy-shirt-beige-chinos-outfit.webp",
