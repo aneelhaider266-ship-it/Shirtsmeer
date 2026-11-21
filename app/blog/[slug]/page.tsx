@@ -56,70 +56,88 @@ const mdxComponents = {
   },
 };
 
-const DEFAULT_FALLBACK_IMAGE = "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80";
+const DEFAULT_FALLBACK_IMAGE = "/sage-shirt-grey-pants-editorial.webp";
 
-// 14 ARTICLES KI HIGH-RES MENSWEAR IMAGES MAPPING
 const ARTICLE_IMAGES: Record<string, { url: string; alt: string }> = {
-  // --- Trouser Guides ---
   "what-color-shirt-goes-with-grey-pants": {
-    url: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80",
-    alt: "Tailored grey trousers neatly paired with crisp white and blue dress shirts",
+    url: "/sage-shirt-grey-pants-editorial.webp",
+    alt: "Sage green shirt paired with tailored grey trousers",
   },
   "what-color-shirt-goes-with-brown-pants": {
-    url: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=1200&q=80",
-    alt: "Rich chocolate brown trousers laid flat with sky blue and ecru shirts",
+    url: "/brown-pants-shirt-combinations.webp",
+    alt: "Men's brown trousers styled with complementary shirts",
   },
   "what-color-shirt-goes-with-navy-pants": {
-    url: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
-    alt: "Midnight navy blue tailored trousers styled with white and pastel shirts",
+    url: "/white-shirt-navy-pants-combination.webp",
+    alt: "White shirt paired with navy trousers",
   },
   "what-color-shirt-goes-with-khaki-pants": {
-    url: "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?auto=format&fit=crop&w=1200&q=80",
-    alt: "Classic tan khaki chinos paired with deep navy and white shirts",
+    url: "/khaki-chinos-white-shirt.webp",
+    alt: "White shirt styled with classic khaki chinos",
   },
   "what-color-shirt-goes-with-olive-green-pants": {
-    url: "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=1200&q=80",
-    alt: "Olive green cotton chinos paired with white, black, and denim shirts",
+    url: "/olive-chinos-cream-shirt-style.webp",
+    alt: "Cream shirt paired with olive green chinos",
   },
-
-  // --- Brand Reviews ---
   "collars-and-co-dress-collar-polo-review": {
-    url: "https://images.unsplash.com/photo-1581655353564-df123a1eb820?auto=format&fit=crop&w=1200&q=80",
-    alt: "Collars and Co dress collar polo layered neatly under a navy sweater",
+    url: "/mens-shirt-fit-style-portrait.webp",
+    alt: "Men's smart shirt styling and collar fit",
   },
   "charles-tyrwhitt-vs-kamakura-dress-shirts": {
-    url: "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=1200&q=80",
-    alt: "Crisp white and light blue business dress shirts folded side by side",
+    url: "/light-blue-shirt-navy-trousers-editorial.webp",
+    alt: "Light blue dress shirt with navy tailored trousers",
   },
   "untuckit-shirts-sizing-and-fit-guide": {
-    url: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1200&q=80",
-    alt: "Casual button down shirt worn untucked with classic chinos",
+    url: "/smart-casual-shirt-trouser-look.webp",
+    alt: "Casual shirt styled with tailored trousers",
   },
   "criquet-shirts-retro-polo-review": {
-    url: "https://images.unsplash.com/photo-1581655353564-df123a1eb820?auto=format&fit=crop&w=1200&q=80",
-    alt: "Vintage retro golf polo shirt laid flat with casual chinos",
+    url: "/forest-green-shirt-chinos-editorial.webp",
+    alt: "Green shirt with chinos in a smart casual outfit",
   },
   "comfort-colors-1717-vs-gildan-5000-review": {
-    url: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1200&q=80",
-    alt: "Heavyweight ringspun cotton t-shirts folded in neutral pastel colors",
+    url: "/beige-chinos-green-shirt.webp",
+    alt: "Casual cotton shirt and chinos outfit",
   },
-
-  // --- Technical Shirt Guides ---
   "mens-shirt-collar-types-guide": {
-    url: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=1200&q=80",
-    alt: "Different men's dress shirt collar styles arranged in studio flat lay",
+    url: "/forest-green-shirt-grey-trousers-outfit.webp",
+    alt: "Men's shirt collar and tailored outfit detail",
   },
   "poplin-vs-twill-vs-oxford-shirt-fabrics": {
-    url: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80",
-    alt: "Close up macro texture of woven poplin, diagonal twill, and Oxford cloth",
+    url: "/navy-shirt-beige-chinos-editorial.webp",
+    alt: "Classic woven shirt styled with beige chinos",
   },
   "how-to-style-cuban-camp-collar-shirts": {
-    url: "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=1200&q=80",
-    alt: "Man wearing a relaxed linen Cuban collar shirt open over a white undershirt",
+    url: "/navy-shirt-khaki-chinos-style.webp",
+    alt: "Relaxed shirt styled with khaki chinos",
   },
   "how-a-dress-shirt-should-fit-guide": {
-    url: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
-    alt: "Tailored slim-fit dress shirt fitting cleanly across shoulders and chest",
+    url: "/mens-shirt-fit-style-portrait.webp",
+    alt: "Well-fitted men's shirt across shoulders and torso",
+  },
+  "interview-outfit-guide": {
+    url: "/white-shirt-navy-pants-editorial.webp",
+    alt: "White dress shirt with navy trousers for an interview",
+  },
+  "what-color-shirt-goes-with-black-pants": {
+    url: "/grey-chinos-black-shirt.webp",
+    alt: "Black shirt paired with grey and dark trousers",
+  },
+  "linen-pants-men-outfit": {
+    url: "/navy-shirt-beige-chinos-outfit.webp",
+    alt: "Lightweight shirt with relaxed beige trousers",
+  },
+  "dress-pants-with-boots": {
+    url: "/forest-green-shirt-grey-trousers-outfit.webp",
+    alt: "Smart casual shirt with tailored trousers",
+  },
+  "best-chinos-and-shirt-combinations-for-men": {
+    url: "/navy-shirt-beige-chinos-outfit.webp",
+    alt: "Navy shirt paired with beige chinos",
+  },
+  "what-color-pants-go-with-grey-shirt": {
+    url: "/white-shirt-olive-trousers-outfit.webp",
+    alt: "White and olive trouser outfit illustrating neutral trouser pairings",
   },
 };
 
