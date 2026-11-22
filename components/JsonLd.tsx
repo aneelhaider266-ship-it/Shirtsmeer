@@ -93,6 +93,8 @@ export function ArticleJsonLd({
   dateModified?: string;
   image: string;
 }) {
+  const absoluteImageUrl = new URL(image, "https://shirtsmeer.com").toString();
+
   const schema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -102,7 +104,7 @@ export function ArticleJsonLd({
       "@type": "WebPage",
       "@id": url,
     },
-    image,
+    image: absoluteImageUrl,
     datePublished,
     dateModified: dateModified || datePublished,
     author: {

@@ -176,7 +176,7 @@ function ArticleCard({ post }: { post: any }) {
 
 export default function HomePage() {
   return (
-    <main className="bg-[#F5F2EB] text-[#252923]">
+    <div className="bg-[#F5F2EB] text-[#252923]">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: structuredDataString }}
@@ -527,6 +527,6 @@ export default function HomePage() {
         </section>
 
       </div>
-    </main>
+    </div>
   );
 }
