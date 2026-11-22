@@ -29,7 +29,7 @@ export default function AneelHaiderAuthorPage() {
   return (
     <>
       <PersonJsonLd />
-      <main className="mx-auto max-w-3xl px-4 py-12 sm:px-6 md:py-16">
+      <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 md:py-16">
         <nav aria-label="Breadcrumb" className="mb-6 text-sm text-slate-500">
           <Link href="/" className="hover:text-blue-600">Home</Link>
           <span className="mx-2">/</span>
@@ -89,7 +89,7 @@ export default function AneelHaiderAuthorPage() {
             ))}
           </ul>
         </section>
-      </main>
+      </div>
     </>
   );
 }
