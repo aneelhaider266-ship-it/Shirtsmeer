@@ -138,6 +138,19 @@ const ARTICLE_IMAGES: Record<string, { url: string; alt: string }> = {
   "what-color-pants-go-with-grey-shirt": {
     url: "/white-shirt-olive-trousers-outfit.webp",
     alt: "White shirt paired with olive green trousers",
+  },,
+
+  "button-up-vs-button-down-shirt": {
+    url: "/forest-green-shirt-grey-trousers-outfit.webp",
+    alt: "Close-up of a dark green button-down shirt collar and placket",
+  },
+  "best-white-dress-shirts-for-men": {
+    url: "/white-shirt-navy-pants-editorial.webp",
+    alt: "White dress shirt paired with navy tailored trousers",
+  },
+  "white-button-down-shirts-for-men": {
+    url: "/smart-casual-shirt-trouser-look.webp",
+    alt: "White casual shirt styled with tailored trousers",
   },
 };
 
