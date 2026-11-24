@@ -518,7 +518,8 @@ export const POSTS: PostMeta[] = [
     updatedDate: "2026-11-24",
     date: "2026-11-24",
     readTime: "8 min read",
-    imageAlt: "Comparison of a men's button-up shirt and a button-down Oxford shirt",
+    image: "/forest-green-shirt-grey-trousers-outfit.webp",
+    imageAlt: "Close-up of a dark green button-down shirt collar and placket",
     related: ["mens-shirt-collar-types-guide", "poplin-vs-twill-vs-oxford-shirt-fabrics", "how-a-dress-shirt-should-fit-guide"]
   },
   {
@@ -535,7 +536,8 @@ export const POSTS: PostMeta[] = [
     updatedDate: "2026-11-24",
     date: "2026-11-24",
     readTime: "9 min read",
-    imageAlt: "Classic white men's dress shirt with a tailored formal outfit",
+    image: "/white-shirt-navy-pants-editorial.webp",
+    imageAlt: "White dress shirt paired with navy tailored trousers",
     related: ["charles-tyrwhitt-vs-kamakura-dress-shirts", "mens-shirt-collar-types-guide", "poplin-vs-twill-vs-oxford-shirt-fabrics"]
   },
   {
@@ -552,7 +554,8 @@ export const POSTS: PostMeta[] = [
     updatedDate: "2026-11-24",
     date: "2026-11-24",
     readTime: "8 min read",
-    imageAlt: "Men's white Oxford button-down shirt styled with chinos",
+    image: "/smart-casual-shirt-trouser-look.webp",
+    imageAlt: "White casual shirt styled with tailored trousers",
     related: ["button-up-vs-button-down-shirt", "best-white-dress-shirts-for-men", "poplin-vs-twill-vs-oxford-shirt-fabrics"]
   },
 ];
