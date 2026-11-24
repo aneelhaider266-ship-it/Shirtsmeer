@@ -502,7 +502,6 @@ export const POSTS: PostMeta[] = [
       "dress-pants-with-boots"
     ],
   },
-,
 
   {
     slug: "button-up-vs-button-down-shirt",
