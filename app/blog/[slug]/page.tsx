@@ -138,7 +138,7 @@ const ARTICLE_IMAGES: Record<string, { url: string; alt: string }> = {
   "what-color-pants-go-with-grey-shirt": {
     url: "/white-shirt-olive-trousers-outfit.webp",
     alt: "White shirt paired with olive green trousers",
-  },,
+  },
 
   "button-up-vs-button-down-shirt": {
     url: "/forest-green-shirt-grey-trousers-outfit.webp",
