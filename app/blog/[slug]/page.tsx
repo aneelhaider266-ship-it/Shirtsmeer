@@ -141,16 +141,16 @@ const ARTICLE_IMAGES: Record<string, { url: string; alt: string }> = {
   },
 
   "button-up-vs-button-down-shirt": {
-    url: "/forest-green-shirt-grey-trousers-outfit.webp",
-    alt: "Close-up of a dark green button-down shirt collar and placket",
+    url: "/Brand%20Logo%20Text%20Update_20261124_144107_0000.png",
+    alt: "Editorial menswear image for the button-up versus button-down shirt guide",
   },
   "best-white-dress-shirts-for-men": {
-    url: "/white-shirt-navy-pants-editorial.webp",
-    alt: "White dress shirt paired with navy tailored trousers",
+    url: "/file_00000000d6d88211ba54e6d0b2c44222.png",
+    alt: "Editorial menswear image for the white dress shirts buying guide",
   },
   "white-button-down-shirts-for-men": {
-    url: "/smart-casual-shirt-trouser-look.webp",
-    alt: "White casual shirt styled with tailored trousers",
+    url: "/file_00000000f28c82119d815539753ea9e8.png",
+    alt: "Editorial menswear image for the white button-down shirt guide",
   },
 };
 
