@@ -502,33 +502,8 @@ export const POSTS: PostMeta[] = [
       "dress-pants-with-boots"
     ],
   },
+,
 
-];
-
-export function getPostSlugs(): string[] {
-  return POSTS.map((post) => post.slug);
-}
-
-export function getPostBySlug(slug: string): PostData | null {
-  const fallback = POSTS.find((p) => p.slug === slug);
-  if (!fallback) return null;
-
-  // 1. Check if .mdx file exists (Grey Pants)
-  const mdxPath = path.join(POSTS_DIRECTORY, `${slug}.mdx`);
-  let mdxContent = "";
-  if (fs.existsSync(mdxPath)) {
-    try {
-      const raw = fs.readFileSync(mdxPath, "utf8");
-      const clean = raw.replace(/^```[a-z]*\r?\n/, "").trimStart();
-      const { content } = matter(clean);
-      mdxContent = content.replace(/^---[\s\S]*?---\r?\n?/, "").trim();
-    } catch (err) {
-      console.error("MDX Read Error:", err);
-    }
-  }
-
-  // 2. Check if .json file exists
-  const jsonFileName = SLUG_TO_JSON[slug
   {
     slug: "button-up-vs-button-down-shirt",
     title: "Button-Up vs Button-Down Shirts: What's the Difference?",
@@ -581,6 +556,31 @@ export function getPostBySlug(slug: string): PostData | null {
     related: ["button-up-vs-button-down-shirt", "best-white-dress-shirts-for-men", "poplin-vs-twill-vs-oxford-shirt-fabrics"]
   },
 ];
+
+export function getPostSlugs(): string[] {
+  return POSTS.map((post) => post.slug);
+}
+
+export function getPostBySlug(slug: string): PostData | null {
+  const fallback = POSTS.find((p) => p.slug === slug);
+  if (!fallback) return null;
+
+  // 1. Check if .mdx file exists (Grey Pants)
+  const mdxPath = path.join(POSTS_DIRECTORY, `${slug}.mdx`);
+  let mdxContent = "";
+  if (fs.existsSync(mdxPath)) {
+    try {
+      const raw = fs.readFileSync(mdxPath, "utf8");
+      const clean = raw.replace(/^```[a-z]*\r?\n/, "").trimStart();
+      const { content } = matter(clean);
+      mdxContent = content.replace(/^---[\s\S]*?---\r?\n?/, "").trim();
+    } catch (err) {
+      console.error("MDX Read Error:", err);
+    }
+  }
+
+  // 2. Check if .json file exists
+  const jsonFileName = SLUG_TO_JSON[slug];
   let contentData: PostContent | null = null;
   if (jsonFileName) {
     const jsonPath = path.join(POSTS_DIRECTORY, jsonFileName);
