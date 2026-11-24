@@ -29,6 +29,9 @@ const SLUG_TO_JSON: Record<string, string> = {
   "dress-pants-with-boots": "dress-pants-with-boots.json",
   "best-chinos-and-shirt-combinations-for-men": "best-chinos-and-shirt-combinations-for-men.json",
   "what-color-pants-go-with-grey-shirt": "what-color-pants-go-with-grey-shirt.json",
+  "button-up-vs-button-down-shirt": "button-up-vs-button-down.json",
+  "best-white-dress-shirts-for-men": "best-white-dress-shirts-for-men.json",
+  "white-button-down-shirts-for-men": "white-button-down-shirts-for-men.json",
 };
 
 
@@ -525,7 +528,59 @@ export function getPostBySlug(slug: string): PostData | null {
   }
 
   // 2. Check if .json file exists
-  const jsonFileName = SLUG_TO_JSON[slug];
+  const jsonFileName = SLUG_TO_JSON[slug
+  {
+    slug: "button-up-vs-button-down-shirt",
+    title: "Button-Up vs Button-Down Shirts: What's the Difference?",
+    metaTitle: "Button-Up vs Button-Down Shirts: Key Differences",
+    metaDescription: "Button-up vs button-down shirts explained. Learn the collar difference, which style is more formal and how to wear each.",
+    description: "Understand the difference between button-up and button-down shirts, including collar construction, formality, fabrics and outfit choices.",
+    excerpt: "The difference is at the collar: every button-down is a button-up, but not every button-up has collar buttons.",
+    leadExcerpt: "The difference is at the collar: every button-down is a button-up, but not every button-up has collar buttons.",
+    shortLabel: "Button-Up vs Button-Down",
+    primaryKeyword: "button up vs button down",
+    publishedDate: "2026-11-24",
+    updatedDate: "2026-11-24",
+    date: "2026-11-24",
+    readTime: "8 min read",
+    imageAlt: "Comparison of a men's button-up shirt and a button-down Oxford shirt",
+    related: ["mens-shirt-collar-types-guide", "poplin-vs-twill-vs-oxford-shirt-fabrics", "how-a-dress-shirt-should-fit-guide"]
+  },
+  {
+    slug: "best-white-dress-shirts-for-men",
+    title: "Best White Dress Shirts for Men: How to Choose the Right One",
+    metaTitle: "Best White Dress Shirts for Men: Buying Guide",
+    metaDescription: "Compare white dress shirt fabrics, collars, fit, opacity and easy-care features before choosing a shirt for work or formal occasions.",
+    description: "A practical buying guide to white dress shirts for men, covering fabric, collar, fit, opacity and care.",
+    excerpt: "Choose a white dress shirt by matching its fabric, collar and fit to your dress code and everyday needs.",
+    leadExcerpt: "Choose a white dress shirt by matching its fabric, collar and fit to your dress code and everyday needs.",
+    shortLabel: "White Dress Shirt Guide",
+    primaryKeyword: "best white dress shirts for men",
+    publishedDate: "2026-11-24",
+    updatedDate: "2026-11-24",
+    date: "2026-11-24",
+    readTime: "9 min read",
+    imageAlt: "Classic white men's dress shirt with a tailored formal outfit",
+    related: ["charles-tyrwhitt-vs-kamakura-dress-shirts", "mens-shirt-collar-types-guide", "poplin-vs-twill-vs-oxford-shirt-fabrics"]
+  },
+  {
+    slug: "white-button-down-shirts-for-men",
+    title: "White Button-Down Shirts for Men: Oxford, Casual and Smart-Casual Guide",
+    metaTitle: "White Button-Down Shirts for Men: Style Guide",
+    metaDescription: "Choose a white button-down shirt for men. Compare Oxford and casual fabrics, collar styles, fit and outfit combinations.",
+    description: "A guide to men's white button-down shirts, including Oxford fabric, fit, styling and buying checks.",
+    excerpt: "Learn how to choose and style a white button-down shirt with chinos, jeans and smart-casual outfits.",
+    leadExcerpt: "Learn how to choose and style a white button-down shirt with chinos, jeans and smart-casual outfits.",
+    shortLabel: "White Button-Down Guide",
+    primaryKeyword: "white button down shirts for men",
+    publishedDate: "2026-11-24",
+    updatedDate: "2026-11-24",
+    date: "2026-11-24",
+    readTime: "8 min read",
+    imageAlt: "Men's white Oxford button-down shirt styled with chinos",
+    related: ["button-up-vs-button-down-shirt", "best-white-dress-shirts-for-men", "poplin-vs-twill-vs-oxford-shirt-fabrics"]
+  },
+];
   let contentData: PostContent | null = null;
   if (jsonFileName) {
     const jsonPath = path.join(POSTS_DIRECTORY, jsonFileName);
